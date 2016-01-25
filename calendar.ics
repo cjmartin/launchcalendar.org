@@ -8,9 +8,9 @@ NAME:Launch Calendar
 X-WR-CALNAME:Launch Calendar
 {% for post in site.posts %}
 BEGIN:VEVENT
-UID:{{ post.created | date: "%Y%m%dT%H%i%sZ" }}@launchcalendar.org
-CREATED:{{ post.created | date: "%Y%m%dT%H%i%sZ" }}
-DTSTART:{{ post.date | date: "%Y%m%dT%H%i%sZ" }}
+UID:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}@launchcalendar.org
+CREATED:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART:{{ post.date | date: "%Y%m%dT%H%M%SZ" }}
 DURATION:P1H
 SUMMARY:{{ post.title }}
 LOCATION:{{ post.location }}
