@@ -11,9 +11,9 @@ BEGIN:VEVENT
 UID:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}@launchcalendar.org
 CREATED:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART:{{ post.date | date: "%Y%m%dT%H%M%SZ" }}
-DURATION:P1H
+DURATION:PT1H
 SUMMARY:{{ post.title }}
-LOCATION:{{ post.location }}
+LOCATION:{{ post.location | replace:',','\,' }}
 END:VEVENT
 {% endfor %}
 END:VCALENDAR
