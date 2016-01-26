@@ -1,7 +1,7 @@
 ---
 title: Ariane 5 | Intelsat 29e
 date: 2016-01-27 23:20 +0000
-Location: ELA-3, Centre Spatial Guyanais, Kourou, French Guiana
+location: ELA-3, Centre Spatial Guyanais, Kourou, French Guiana
 geo-lat: 5.239
 geo-lon: -52.768
 created: 2016-01-26 01:19 +0000
