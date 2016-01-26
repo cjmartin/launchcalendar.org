@@ -14,6 +14,7 @@ DTSTART:{{ post.date | date: "%Y%m%dT%H%M%SZ" }}
 DURATION:PT1H
 SUMMARY:{{ post.title }}
 LOCATION:{{ post.location | replace:',','\,' }}
+GEO:{{ post.geo-lat }};{{ post.geo-lon }}
 END:VEVENT
 {% endfor %}
 END:VCALENDAR
