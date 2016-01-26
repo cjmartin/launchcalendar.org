@@ -12,7 +12,7 @@ UID:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}@launchcalendar.org
 CREATED:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART:{{ post.date | date: "%Y%m%dT%H%M%SZ" }}
 DURATION:PT1H
-SUMMARY:🚀 {{ post.title }}
+SUMMARY:{{ post.title }}
 DESCRIPTION:{{ post.description }}
 LOCATION:{{ post.location | replace:',','\,' }}
 GEO:{{ post.geo-lat }};{{ post.geo-lon }}
