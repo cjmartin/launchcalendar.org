@@ -15,6 +15,11 @@ DURATION:PT1H
 SUMMARY:{{ post.title }}
 LOCATION:{{ post.location | replace:',','\,' }}
 GEO:{{ post.geo-lat }};{{ post.geo-lon }}
+BEGIN:VALARM
+TRIGGER:-PT1H
+DESCRIPTION:{{ post.title }}
+ACTION:DISPLAY
+END:VALARM
 END:VEVENT
 {% endfor %}
 END:VCALENDAR
