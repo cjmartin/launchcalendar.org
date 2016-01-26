@@ -1,5 +1,6 @@
 ---
 title: Ariane 5 | Intelsat 29e
+description: Launch details\: http://www.arianespace.com/mission/ariane-flight-va228/\nWatch live\:http://www.arianespace.tv/
 date: 2016-01-27 23:20 +0000
 location: ELA-3, Centre Spatial Guyanais, Kourou, French Guiana
 geo-lat: 5.239
