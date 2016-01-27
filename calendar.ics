@@ -10,8 +10,7 @@ METHOD:PUBLISH
 X-PUBLISHED-TTL:PT12H
 X-ORIGINAL-URL:https://launchcalendar.org/calendar.ics
 CALSCALE:GREGORIAN
-{% for post in site.posts %}
-BEGIN:VEVENT
+{% for post in site.posts %}BEGIN:VEVENT
 UID:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}@launchcalendar.org
 CREATED:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART:{{ post.date | date: "%Y%m%dT%H%M%SZ" }}
@@ -25,6 +24,5 @@ TRIGGER:-PT1H
 DESCRIPTION:{{ post.title }} is scheduled to 🚀 in one hour!
 ACTION:DISPLAY
 END:VALARM
-END:VEVENT
-{% endfor %}
+END:VEVENT{% endfor %}
 END:VCALENDAR
