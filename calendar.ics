@@ -4,9 +4,10 @@ layout: nil
 BEGIN:VCALENDAR
 PRODID:-//launchcalendar.org//Launch Calendar//EN
 VERSION:2.0
-NAME:🚀 Launch Calendar 🛰
 X-WR-CALNAME:🚀 Launch Calendar 🛰
+X-OWNER;CN="Christopher James Martin":MAILTO:cj@cjmart.in
 METHOD:PUBLISH
+X-PUBLISHED-TTL:PT12H
 X-ORIGINAL-URL:https://launchcalendar.org/calendar.ics
 CALSCALE:GREGORIAN
 {% for post in site.posts %}
