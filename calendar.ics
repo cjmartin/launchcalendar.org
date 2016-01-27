@@ -24,5 +24,6 @@ TRIGGER:-PT1H
 DESCRIPTION:{{ post.title }} is scheduled to 🚀 in one hour!
 ACTION:DISPLAY
 END:VALARM
-END:VEVENT{% endfor %}
+END:VEVENT
+{% endfor %}
 END:VCALENDAR
