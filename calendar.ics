@@ -6,6 +6,9 @@ PRODID:-//launchcalendar.org//Launch Calendar//EN
 VERSION:2.0
 NAME:🚀 Launch Calendar 🛰
 X-WR-CALNAME:🚀 Launch Calendar 🛰
+METHOD:PUBLISH
+X-ORIGINAL-URL:https://launchcalendar.org/calendar.ics
+CALSCALE:GREGORIAN
 {% for post in site.posts %}
 BEGIN:VEVENT
 UID:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}@launchcalendar.org
