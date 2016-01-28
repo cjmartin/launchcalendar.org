@@ -9,7 +9,6 @@ X-PUBLISHED-TTL:PT12H
 X-ORIGINAL-URL:https://launchcalendar.org/calendar.ics
 CALSCALE:GREGORIAN
 X-WR-CALNAME:🚀 Launch Calendar 🛰
-X-OWNER;CN="Christopher James Martin":MAILTO:cj@cjmart.in
 X-WR-RELCALID:launch-calendar-all@launchcalendar.org
 {% for post in site.posts %}BEGIN:VEVENT
 UID:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}@launchcalendar.org
