@@ -26,5 +26,4 @@ DESCRIPTION:{{ post.title }} is scheduled to 🚀 in one hour!
 ACTION:DISPLAY
 END:VALARM
 END:VEVENT
-{% endfor %}
-END:VCALENDAR
+{% endfor %}END:VCALENDAR
