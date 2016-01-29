@@ -8,9 +8,11 @@ geo-lat: 45.965
 geo-lon: 63.305
 created: 2016-01-28 22:01 +0000
 ---
-[International Launch Services](https://en.wikipedia.org/wiki/International_Launch_Services) will launch a [Proton-M rocket](https://en.wikipedia.org/wiki/Proton-M) carrying the Eutelsat 9B communications satellite.
+[International Launch Services](https://en.wikipedia.org/wiki/International_Launch_Services) launched a [Proton-M rocket](https://en.wikipedia.org/wiki/Proton-M) carrying the Eutelsat 9B communications satellite.
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/78L41nqZ_6w" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/N904wpAM2lo?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/78L41nqZ_6w?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Rollout of the Proton-M carrying Eutelsat 9B
 
