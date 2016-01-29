@@ -1,6 +1,5 @@
 ---
 title: 🚀 Atlas V | 🛰 GPS IIF-12
-description: nil
 date: 2016-02-04 13:47 +0000
 location: Launch Complex 41, Cape Canaveral Air Force Station, Florida
 geo-lat: 28.583333
