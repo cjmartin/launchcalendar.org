@@ -5,6 +5,7 @@ location: Xichang Satellite Launch Center, China
 geo-lat: 28.246017
 geo-lon: 102.026556
 created: 2016-01-29 01:05 +0000
+updated: 2016-01-29 01:05 +0000
 ---
 
 A Chinese [Long March 3C rocket](https://en.wikipedia.org/wiki/Long_March_3C) launched the [21st satellite](http://news.xinhuanet.com/english/2016-02/01/c_135064994.htm) of the [BeiDou navigation system](https://en.wikipedia.org/wiki/BeiDou_Navigation_Satellite_System) for the Chinese government.

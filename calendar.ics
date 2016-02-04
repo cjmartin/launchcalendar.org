@@ -13,7 +13,7 @@ X-WR-RELCALID:launch-calendar-all@launchcalendar.org
 {% for post in site.posts %}BEGIN:VEVENT
 UID:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}@launchcalendar.org
 CREATED:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}
-DTSTAMP:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}
+DTSTAMP:{{ post.updated | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART:{{ post.date | date: "%Y%m%dT%H%M%SZ" }}
 DURATION:PT1H
 SUMMARY:{{ post.title }}
