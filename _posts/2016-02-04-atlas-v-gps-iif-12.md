@@ -1,5 +1,5 @@
 ---
-title: 🚀 Atlas V | 🛰 GPS IIF-12
+title: 🚀 Atlas V | 🛰 GPS IIF 12
 description: "Launch details: http://www.ulalaunch.com/atlas-v-to-launch-gps-iif12.aspx\\nWatch live: http://www.ulalaunch.com/nasa.aspx"
 date: 2016-02-05 13:38 +0000
 location: Launch Complex 41, Cape Canaveral Air Force Station, Florida
