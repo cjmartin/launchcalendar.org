@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+PRODID:-//launchcalendar.org//Launch Calendar//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT12H
+X-ORIGINAL-URL:https://launchcalendar.org/calendar.ics
+CALSCALE:GREGORIAN
+X-WR-CALNAME:🚀 Launch Calendar 🛰
+X-WR-RELCALID:launch-calendar-all@launchcalendar.org
+{{ content }}
+END:VCALENDAR
