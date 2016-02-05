@@ -4,9 +4,12 @@ layout: default
 
 <a href="webcal://launchcalendar.org/calendar.ics">Subscribe in your calendar app</a>, or <a href="https://calendar.google.com/calendar/render?cid=http://launchcalendar.org/calendar.ics">add to Google calendar</a>.
 
-Ugly list of launch schedule!
+<p>
+  Ugly list of launch schedule!
+</p>
+
 <ul>
 {% for post in site.posts %}
-  <li>{{ post.date | date: "%Y%m%dT%H%M%SZ" }} - <a href="{{ post.permalink }}">{{ post.title }}</a></li>
+  <li>{{ post.date | date: "%Y%m%dT%H%M%SZ" }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
