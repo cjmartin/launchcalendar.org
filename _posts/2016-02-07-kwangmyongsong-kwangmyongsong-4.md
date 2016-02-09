@@ -9,4 +9,4 @@ created: 2016-02-08 18:19 +0000
 updated: 2016-02-08 18:19 +0000
 ---
 
-A North Korean [Kwangmyongsong(Unha) carrier rocket](https://en.wikipedia.org/wiki/Unha) launched the [Kwangmyŏngsŏng-4](https://en.wikipedia.org/wiki/Kwangmy%C5%8Fngs%C5%8Fng-4) earth observation satellite into geocentric low earth orbit. The launch was internationally condemned as a cover to test an intercontinental ballistic missile.
+A North Korean [Kwangmyongsong (Unha) carrier rocket](https://en.wikipedia.org/wiki/Unha) launched the [Kwangmyŏngsŏng-4](https://en.wikipedia.org/wiki/Kwangmy%C5%8Fngs%C5%8Fng-4) earth observation satellite into geocentric low earth orbit. The launch was internationally condemned as a cover to test an intercontinental ballistic missile.
