@@ -1,29 +1,49 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8' />
-    <title></title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.1/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.1/mapbox-gl.css' rel='stylesheet' />
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+
+    <title>{% if page.title %}{{ page.title }} | {% endif %} Launch Calendar</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.1/mapbox-gl.css' />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
     </style>
-</head>
-<body>
+  </head>
 
-<div id='map'></div>
-<script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiY2ptYXJ0aW4iLCJhIjoiY2lrbmsxanA5MHNvZ3V4a21ucHRremMzMCJ9.BuQ7cMJ0H9h_4yO8LvmKfA';
-var map = new mapboxgl.Map({
-    container: 'map',
-    zoom: 16,
-    center: [{{ page.geo-lon }}, {{ page.geo-lat }}],
-    style: 'mapbox://styles/mapbox/satellite-v8',
-    hash: false
-});
-</script>
+  <body>
+    <div id='map'></div>
+    <div class="container">
 
-</body>
+      {{ content }}
+
+    </div><!-- /.container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.1/mapbox-gl.js'></script>
+    <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiY2ptYXJ0aW4iLCJhIjoiY2lrbmsxanA5MHNvZ3V4a21ucHRremMzMCJ9.BuQ7cMJ0H9h_4yO8LvmKfA';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        zoom: 2.5,
+        center: [{{ page.geo-lon }}, {{ page.geo-lat }}],
+        style: 'mapbox://styles/mapbox/satellite-v8',
+        hash: false
+    });
+    </script>
+  </body>
 </html>
