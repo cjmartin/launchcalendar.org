@@ -11,7 +11,7 @@
 
     <!-- Fonts -->
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:400,600,300,400italic' type='text/css'>
-    
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -34,10 +34,7 @@
   <body>
     <div id='map'></div>
     <div class="container">
-      <h1>
-        {% if page.vehicle-type == 'rocket' %}🚀 {% endif %}{{ page.vehicle }}<br/>
-        {% if page.payload-type == 'satellite' %}🛰 {% endif %}{{ page.payload }}
-      </h1>
+      <h1>{{ page.title }}</h1>
       {{ content }}
 
     </div><!-- /.container -->
