@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: launch
 title: 🚀 Kwangmyongsong | 🛰 Kwangmyongsong-4
 date: 2016-02-07 00:30 +0000
 location: Sohae Satellite Launching Station, North Korea

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: launch
 title: 🚀 Proton M | 🛰 Eutelsat 9B
 description: "Launch details: http://www.ilslaunch.com/mission-control/mission-eutelsat-9b\\nWatch live: http://eutelsat9b.imgondemand.com/"
 date: 2016-01-29 22:20:09 +0000

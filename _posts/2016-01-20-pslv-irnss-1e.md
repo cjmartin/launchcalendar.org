@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: launch
 title: 🚀 PSLV | 🛰 IRNSS 1E
 date: 2016-01-20 04:01 +0000
 location: Satish Dhawan Space Center, Sriharikota, India

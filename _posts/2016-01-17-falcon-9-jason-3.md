@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: launch
 title: 🚀 Falcon 9 | 🛰 Jason 3
 date: 2016-01-17 18:42:18 +0000
 location: SLC-4E, Vandenberg Air Force Base, California

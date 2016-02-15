@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: launch
 title: 🚀 Soyuz | 🛰 Glonass M
 date: 2016-02-07 00:21 +0000
 location: Plesetsk Cosmodrome, Russia
