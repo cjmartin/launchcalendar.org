@@ -34,7 +34,10 @@
   <body>
     <div id='map'></div>
     <div class="container">
-      <h1>{{ page.title }}</h1>
+      <h1>
+        {% if page.vehicle-type == 'rocket' %}🚀 {% endif %}{{ page.vehicle }}<br/>
+        {% if page.payload-type == 'satellite' %}🛰 {% endif %}{{ page.payload }}
+      </h1>
       {{ content }}
 
     </div><!-- /.container -->
