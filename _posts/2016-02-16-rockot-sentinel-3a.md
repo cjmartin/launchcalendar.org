@@ -1,9 +1,10 @@
 ---
 layout: launch
 title: "🚀 Rockot | 🛰 Sentinel 3A"
+description: "Watch live: http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Sentinel-3/Sentinel-3A_launch_event"
 date: 2016-02-16 17:57:31 +0000
 created: 2016-02-16 14:58 +0000
-updated: 2016-02-16 14:58 +0000
+updated: 2016-02-16 17:00 +0000
 tags: [Eurockot, Russia, ESA]
 manned: false
 vehicle: Rockot
