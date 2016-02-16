@@ -38,8 +38,8 @@
         {% if page.vehicle-type == 'rocket' %}🚀 {% endif %}{{ page.vehicle }}<br/>
         {% if page.payload-type == 'satellite' %}🛰 {% endif %}{{ page.payload }}
       </h1>
+      <h2>{{ post.date | date: "%Y%m%dT%H%M%S" }}</h2>
       {{ content }}
-
     </div><!-- /.container -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
