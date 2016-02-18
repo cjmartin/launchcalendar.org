@@ -5,4 +5,29 @@ body{
 	font: 14px/16px 'Open Sans', Verdana, Arial, sans-serif;
 }
 
-#map { position:absolute; top:0; bottom:0; width:100%; z-index:-1; }
+.map-wrapper {
+	position:fixed;
+	top:0;
+	bottom:0;
+	width:100%;
+	z-index:-1;
+	overflow-x: hidden;
+}
+
+#map {
+	position:absolute;
+	top:0;
+	bottom:0;
+	width:100%;
+}
+
+.launch-header {
+	padding: 30px 0;
+	color: #FFFFFF;
+}
+
+.launch-header h1 {
+	font-size: 90px;
+	font-weight: 300;
+	line-height: 100px;
+}

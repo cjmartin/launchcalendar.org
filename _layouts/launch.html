@@ -29,13 +29,20 @@
   </head>
 
   <body>
-    <div id='map'></div>
+    <div class="map-wrapper">
+      <div id='map'></div>
+    </div>
+    {% include navigation.html %}
     <div class="container">
-      <h1>
-        {% if page.vehicle-type == 'rocket' %}🚀 {% endif %}{{ page.vehicle }}<br/>
-        {% if page.payload-type == 'satellite' %}🛰 {% endif %}{{ page.payload }}
-      </h1>
-      <h2>{{ post.date | date: "%Y%m%dT%H%M%S" }}</h2>
+      <div class="row launch-header">
+        <div class="col-md-10 col-md-offset-1">
+          <h1>
+            {% if page.vehicle-type == 'rocket' %}🚀 {% endif %}{{ page.vehicle }}<br/>
+            {% if page.payload-type == 'satellite' %}🛰 {% endif %}{{ page.payload }}
+          </h1>
+          <h2>{{ page.date | date: "%Y%m%dT%H%M%S" }}</h2>
+        </div>
+      </div>
       {{ content }}
     </div><!-- /.container -->
 
@@ -43,14 +50,29 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
     <script>
+    function resizeMap() {
+      var mapElement = document.getElementById('map');
+
+      var windowSize = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+      var containerSize = document.querySelector('.container').clientWidth;
+
+      mapElement.style.width = windowSize + (containerSize/2) + "px";
+    }
+    resizeMap();
+
     mapboxgl.accessToken = 'pk.eyJ1IjoiY2ptYXJ0aW4iLCJhIjoiY2lrbmsxanA5MHNvZ3V4a21ucHRremMzMCJ9.BuQ7cMJ0H9h_4yO8LvmKfA';
     var map = new mapboxgl.Map({
         container: 'map',
         zoom: 2.5,
+        scrollZoom: false,
         center: [{{ page.geo-lon }}, {{ page.geo-lat }}],
         style: 'mapbox://styles/mapbox/satellite-v8',
         hash: false
     });
+
+    setTimeout(function(){
+      map.flyTo({center: [{{ page.geo-lon }}, {{ page.geo-lat }}], zoom: 16, speed: 1});
+    }, 5000);
     </script>
   </body>
 </html>
