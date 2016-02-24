@@ -1,4 +1,8 @@
 permalink: /:year/:month/:day/:title/
 future: true
+collections:
+  launch_sites:
+    output: true
+    permalink: /launch-sites/:path/
 gems:
   - jekyll-redirect-from

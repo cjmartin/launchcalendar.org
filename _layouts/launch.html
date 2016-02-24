@@ -67,18 +67,25 @@
     }
     resizeMap();
 
+    {% for launch_site in site.launch_sites %}
+      {% if launch_site.title == page.location %}
+      var lat = {{ launch_site.geo-lat }};
+      var lon = {{ launch_site.geo-lon }};
+      {% endif %}
+    {% endfor %}
+
     mapboxgl.accessToken = 'pk.eyJ1IjoiY2ptYXJ0aW4iLCJhIjoiY2lrbmsxanA5MHNvZ3V4a21ucHRremMzMCJ9.BuQ7cMJ0H9h_4yO8LvmKfA';
     var map = new mapboxgl.Map({
         container: 'map',
         zoom: 2.5,
         scrollZoom: false,
-        center: [{{ page.geo-lon }}, {{ page.geo-lat }}],
+        center: [lon, lat],
         style: 'mapbox://styles/mapbox/satellite-v8',
         hash: false
     });
 
     setTimeout(function(){
-      map.flyTo({center: [{{ page.geo-lon }}, {{ page.geo-lat }}], zoom: 16, speed: 1});
+      map.flyTo({center: [lon, lat], zoom: 16, speed: 1});
     }, 5000);
     </script>
   </body>
