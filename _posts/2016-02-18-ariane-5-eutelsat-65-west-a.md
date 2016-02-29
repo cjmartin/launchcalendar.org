@@ -12,8 +12,6 @@ vehicle-type: rocket
 payload: Eutelsat 65 West A
 payload-type: satellite
 location: ELA-3, Centre Spatial Guyanais, Kourou, French Guiana
-geo-lat: 5.239
-geo-lon: -52.768
 ---
 
 Arianespace will use an Ariane 5 ECA rocket, designated VA229, to launch the Eutelsat 65 West A communications satellite.

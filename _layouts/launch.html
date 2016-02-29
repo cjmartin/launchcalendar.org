@@ -41,6 +41,7 @@
               {% if page.vehicle-type == 'rocket' %}🚀 {% endif %}{{ page.vehicle }}<br/>
               {% if page.payload-type == 'satellite' %}🛰 {% endif %}{{ page.payload }}
             </h1>
+            <h2>{{ page.date | date: "%A, %B %-d, %Y %H:%M (GMT)" }}</h2>
           </div>
         </div>
       </div>
@@ -48,7 +49,6 @@
 
     <div class="page-section launch-details">
       <div class="container">
-        <h2>{{ page.date | date: "%A, %B %-d, %Y %H:%M (GMT)" }}</h2>
         {{ content }}
       </div>
     </div><!-- /.launch-details -->
