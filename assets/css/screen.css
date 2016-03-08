@@ -51,10 +51,20 @@ img {
 	margin: 0;
 }
 
-.launch-details {
+.launch-details .container {
 	background: #F8F8F8;
 }
 
 .launch-details img {
 	width: 100%;
+}
+
+.launch-video {
+	margin-top: 15px;
+}
+
+.mission-patch {
+	width: 30%;
+	float: right;
+	padding: 30px 0 15px 15px;
 }
