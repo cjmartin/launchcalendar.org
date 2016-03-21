@@ -57,7 +57,13 @@
     {% if launch_site.title == page.location %}
     <div class="page-section launch-site">
       <div class="container">
-        {{ launch_site.content }}
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Launch Site</h1>
+            <h2>{{ launch_site.title }}</h2>
+            {{ launch_site.content }}
+          </div>
+        </div>
       </div>
     </div>
     {% endif %}
