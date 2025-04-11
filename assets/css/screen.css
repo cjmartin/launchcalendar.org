@@ -1,15 +1,11 @@
-/* Ensure the map covers the entire background */
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden;
 }
 
 body {
-	margin: 0px;
-  padding: 0px;
-	color: #333333;
+  color: #333333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,17 +22,8 @@ img {
 	border-radius: 0px;
 }
 
-.map-wrapper {
-	position:fixed;
-	top:0;
-	bottom:0;
-	width:100%;
-	z-index:-1;
-	overflow-x: hidden;
-}
-
 #map {
-  position: absolute;
+  position: fixed; /* Make the map fixed to the viewport */
   top: 0;
   left: 0;
   width: 100%;
@@ -45,42 +32,41 @@ img {
 }
 
 .launch-header {
-	padding: 75px 0;
-	color: #FFFFFF;
+  padding: 75px 0;
+  color: #FFFFFF;
 }
 
 .launch-header h1 {
-	font-size: 90px;
-	font-weight: 300;
-	line-height: 110px;
-	margin: 0;
+  font-size: 90px;
+  font-weight: 300;
+  line-height: 110px;
+  margin: 0;
 }
 
 .launch-header h2 {
-	font-weight: 300;
-	margin: 0;
+  font-weight: 300;
+  margin: 0;
 }
 
 .launch-details .container {
-	background: #F8F8F8;
+  background: #F8F8F8;
 }
 
 .launch-details img {
-	width: 100%;
+  width: 100%;
 }
 
 .launch-video {
-	margin-top: 15px;
+  margin-top: 15px;
 }
 
 img.mission-patch {
-	width: 30%;
-	float: right;
-	padding: 30px 0 15px 15px;
+  width: 30%;
+  float: right;
+  padding: 30px 0 15px 15px;
 }
 
 .content-wrapper {
   position: relative;
-  z-index: 1; /* Ensure content is above the map */
   padding: 20px;
 }
