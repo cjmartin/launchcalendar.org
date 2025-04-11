@@ -26,3 +26,61 @@ _site/
 
 # Environment variables
 .env
+
+# Node.js
+.npm/
+.eslintcache
+.yarn/
+.yarnrc.yml
+.pnpm-debug.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.whl
+.venv/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# General
+*.bak
+*.tmp
+*.swp
+*.lock
+*.log
+*.gz
+*.zip
+*.tar
+*.7z
+*.rar
+*.old
+*.orig
+*.rej
+*.patch
+*.diff
+*.crt
+*.key
+*.pem
+*.pub
+*.pid
+*.seed
+*.pid.lock
+*.pidfile
+*.state
+*.state.lock
+*.statefile
+*.statefile.lock
