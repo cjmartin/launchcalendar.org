@@ -3,8 +3,6 @@ layout: launch
 title: 🚀 Long March 3C | 🛰 Beidou
 date: 2016-02-01 07:45 +0000
 location: Xichang Satellite Launch Center, China
-geo-lat: 28.246017
-geo-lon: 102.026556
 created: 2016-01-29 01:05 +0000
 updated: 2016-01-29 01:05 +0000
 ---

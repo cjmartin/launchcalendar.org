@@ -2,10 +2,13 @@
 layout: launch
 title: "🚀 Soyuz | 🛰 Progress 63P"
 description:
+tags:
+
 date: 2016-03-31 16:20 +0000
 created: 2016-03-21 16:59 +0000
 updated: 2016-03-21 16:59 +0000
-tags:
+
+location: Baikonur Cosmodrome, Kazakhstan
 manned: false
 vehicle: Soyuz
 vehicle-type: rocket

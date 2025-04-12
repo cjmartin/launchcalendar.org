@@ -55,6 +55,7 @@ pip-delete-this-directory.txt
 *.ntvs*
 *.njsproj
 *.sln
+CLAUDE.md
 
 # General
 *.bak
