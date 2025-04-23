@@ -27,9 +27,8 @@ links:
       rideshare
     type:
       - article
-      - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042125/'
 videos: []
 ---
-SpaceX will conduct its third Starlink launch of the week, Group 12-23, on April 28, 2025. The mission departs Cape Canaveral SLC-40, continuing the rapid deployment of Starlink v2-Mini satellites to expand the broadband network. Booster and landing droneship selection are TBA.
+SpaceX will conduct its third Starlink launch of the week, Group 12-23, on Sunday, April 27 at 10:08 PM EDT (April 28, 2025 02:04 UTC). The mission departs Cape Canaveral SLC-40, continuing the rapid deployment of Starlink v2-Mini satellites to expand the broadband network. Booster and landing droneship selection are TBA.
