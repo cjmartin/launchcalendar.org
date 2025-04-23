@@ -21,11 +21,6 @@ vehicle-type: rocket
 payload: GPS 3 Space Vehicle 08 (SV-08) "Katherine Johnson"
 payload-type: satellite
 links:
-  - title: Spaceflight Now article
-    type:
-      - article
-    url: >-
-      http://spaceflightnow.com/wp-content/uploads/2025/04/20250407_LM-GPS-III-SV08-Box-Up.jpg
   - title: SpaceX to launch second accelerated GPS 3 satellite mission in late May
     type:
       - article

@@ -24,21 +24,8 @@ links:
   - title: RFA and SaxaVord target UK’s first vertical orbital launch
     type:
       - article
-      - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/rfa-saxavord-interview/'
-  - title: RFA Tag Archive
-    type:
-      - reference
-    url: 'https://www.nasaspaceflight.com/tag/rfa/'
-  - title: RFA One Tag Archive
-    type:
-      - reference
-    url: 'https://www.nasaspaceflight.com/tag/rfa-one/'
-  - title: SaxaVord Tag Archive
-    type:
-      - reference
-    url: 'https://www.nasaspaceflight.com/tag/saxavord/'
 videos:
   - title: >-
       First Orbital Launch from UK Soil - RFA - NSF Live: Europe's Future in
