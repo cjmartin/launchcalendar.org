@@ -14,7 +14,6 @@ vehicle: Soyuz
 vehicle-type: rocket
 payload: Progress
 payload-type: cargo module
-location: Baikonur Cosmodrome, Kazakhstan
 ---
 
 A Russian government Soyuz rocket will launch the 63rd Progress cargo delivery ship to the International Space Station.
