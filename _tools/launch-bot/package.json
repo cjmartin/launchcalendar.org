@@ -1,0 +1,26 @@
+{
+  "name": "launch-bot",
+  "version": "1.0.0",
+  "main": "build/agent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/turndown": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "gray-matter": "^4.0.3",
+    "openai": "^4.95.1",
+    "rss-parser": "^3.13.0",
+    "slugify": "^1.6.6",
+    "turndown": "^7.2.0"
+  }
+}
