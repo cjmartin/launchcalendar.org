@@ -23,7 +23,6 @@ links:
   - title: D-Orbit sets course to expand beyond space transportation services
     type:
       - article
-      - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/d-orbit-interview/'
 videos:
