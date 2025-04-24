@@ -8,5 +8,5 @@ X-ORIGINAL-URL:https://launchcalendar.org/calendar.ics
 CALSCALE:GREGORIAN
 X-WR-CALNAME:🚀 Launch Calendar 🛰
 X-WR-RELCALID:launch-calendar-all@launchcalendar.org
-{{ content }}
+{{ content -}}
 END:VCALENDAR

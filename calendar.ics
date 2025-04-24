@@ -1,22 +1,33 @@
 ---
 layout: calendar
 ---
-{% for post in site.posts %}
+{% for post in site.posts -%}
 BEGIN:VEVENT
-UID:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}@launchcalendar.org
-CREATED:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}
-DTSTAMP:{{ post.updated | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART:{{ post.date | date: "%Y%m%dT%H%M%SZ" }}
+{% assign uid_value = post.date | date: "%Y%m%dT%H%M%SZ" | append: "-" | append: post.slug | append: "@launchcalendar.org" -%}
+{{ "UID" | ical_property: uid_value }}
+{% assign created_value = post.created | date: "%Y%m%dT%H%M%SZ" -%}
+{{ "CREATED" | ical_property: created_value }}
+{% assign dtstamp_value = post.updated | date: "%Y%m%dT%H%M%SZ" -%}
+{{ "DTSTAMP" | ical_property: dtstamp_value }}
+{% assign dtstart_value = post.date | date: "%Y%m%dT%H%M%SZ" -%}
+{{ "DTSTART" | ical_property: dtstart_value }}
 DURATION:PT1H
-SUMMARY:{{ post.title | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', '\\n' }}
-DESCRIPTION:{{ post.description | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', '\\n' }}
-LOCATION:{{ post.location | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', '\\n' }}
-{% if post.geo-lat and post.geo-lon %}GEO:{{ post.geo-lat }};{{ post.geo-lon }}
-{% endif %}
+{% assign summary_value = post.title -%}
+{{ "SUMMARY" | ical_property: summary_value }}
+{% if post.description -%}
+{% assign description_value = post.description -%}
+{{ "DESCRIPTION" | ical_property: description_value }}
+{% endif -%}
+{% assign location_value = post.location -%}
+{{ "LOCATION" | ical_property: location_value }}
+{% if post.geo-lat and post.geo-lon -%}
+GEO:{{ post.geo-lat }};{{ post.geo-lon }}
+{% endif -%}
 BEGIN:VALARM
 TRIGGER:-PT1H
-DESCRIPTION:{{ post.title | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', '\\n' }} is scheduled to 🚀 in one hour!
+{% assign alarm_desc = post.title | append: " is scheduled to 🚀 in one hour!" -%}
+{{ "DESCRIPTION" | ical_property: alarm_desc }}
 ACTION:DISPLAY
 END:VALARM
 END:VEVENT
-{% endfor %}
+{% endfor -%}
