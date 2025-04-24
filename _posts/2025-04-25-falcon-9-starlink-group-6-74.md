@@ -27,7 +27,6 @@ links:
       rideshare
     type:
       - article
-      - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042125/'
 videos:
