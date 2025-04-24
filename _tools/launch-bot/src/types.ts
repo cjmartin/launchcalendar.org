@@ -21,13 +21,30 @@ export interface LaunchData {
   tags?: string[]; // a list of tags for this launch
   article_summary?: string; // a short summary of the launch details, updates, etc. from this article
   links?: LaunchLink[]; // a list of links to the article, the launch page, and any other relevant pages
-  videos?: { title: string; type: string; url: string }[]; // a list of links to videos related to the launch
+  videos?: LaunchVideo[]; // a list of videos related to the launch
+  images?: LaunchImage[]; // a list of images related to the launch
 }
 
 export interface LaunchLink {
   title: string;
   type: string[];
   url: string;
+}
+
+export interface LaunchVideo {
+  title: string;
+  type: string | string[];
+  url: string;
+}
+
+export interface LaunchImage {
+  title: string;
+  alt: string;
+  type: string[];
+  src: string;
+  source_url: string; // url to link back to the image source
+  credit?: string; // e.g. "NASA"
+  cretit_url?: string; // url to link the credit to
 }
 
 export interface LaunchFrontmatter {
@@ -45,6 +62,33 @@ export interface LaunchFrontmatter {
   payload: string;
   "payload-type": string;
   links: LaunchLink[];
-  videos: { title: string; type: string; url: string }[];
+  videos: LaunchVideo[];
+  images: LaunchImage[];
+}
+
+export const frontMatterKeys = [
+  "layout",
+  "title",
+  "description",
+  "tags",
+  "date",
+  "created",
+  "updated",
+  "location",
+  "manned",
+  "vehicle",
+  "vehicle-type",
+  "payload",
+  "payload-type",
+  "links",
+  "videos",
+  "images"
+] as const;
+
+export interface LaunchMatchResult {
+  matched: boolean;
+  reason: "identity" | "rescheduled" | "none";
+  existingPath?: string;
+  confidence: number;
 }
 

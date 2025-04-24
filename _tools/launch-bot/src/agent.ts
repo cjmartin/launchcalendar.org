@@ -71,15 +71,15 @@ async function main() {
 
     for (const launch of launchData) {
       // 4. Find existing file
-      const existingFilePath = await findExistingLaunch(launch);
-      if (existingFilePath) {
-        console.log(`📂 Found existing file: ${existingFilePath}`);
+      const matchResult = await findExistingLaunch(launch);
+      if (matchResult.existingPath) {
+        console.log(`🔍 Existing launch file found: ${matchResult.existingPath}`);
       } else {
         console.log(`🆕 No existing file found, will create a new one.`);
       }
       // 5. Update or create launch post
-      await updateOrCreateLaunchFile(existingFilePath, launch);
-      console.log(`📝 Launch file updated or created: ${existingFilePath || 'New file created'}`);
+      await updateOrCreateLaunchFile(matchResult, launch);
+      console.log(`📝 Launch file updated or created: ${matchResult.existingPath || 'New file created'}`);
     }
 
     // Mark this article as processed

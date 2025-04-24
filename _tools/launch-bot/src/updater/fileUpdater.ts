@@ -2,11 +2,11 @@ import fs from "fs/promises";
 import path from "path";
 import matter from "gray-matter";
 import slugify from "slugify";
-import { LaunchData, LaunchFrontmatter } from "../types";
+import { frontMatterKeys, LaunchData, LaunchFrontmatter, LaunchMatchResult } from "../types";
 
 // updateOrCreateLaunchFile: Updates or creates a launch file
-export async function updateOrCreateLaunchFile(existingFilePath: string | null, launchData: LaunchData): Promise<void> {
-  const postsDir = path.resolve(__dirname, "../../../../_posts");
+export async function updateOrCreateLaunchFile(matchResult: LaunchMatchResult, launchData: LaunchData): Promise<void> {
+  const existingFilePath = matchResult.existingPath;
   const draftsDir = path.resolve(__dirname, "../../../../_drafts");
 
   const launchDate = launchData.launch_datetime?.slice(0, 10);
@@ -31,7 +31,7 @@ export async function updateOrCreateLaunchFile(existingFilePath: string | null, 
   let content = "";
   if (existingFilePath) {
     // Update existing file
-    content = await fs.readFile(existingFilePath, "utf8");
+    content = await fs.readFile(filePath, "utf8");
     const parsed = matter(content);
     
     // Merge launchData into frontmatter
@@ -54,6 +54,7 @@ export async function updateOrCreateLaunchFile(existingFilePath: string | null, 
       "payload-type": launchData.payload_type || "",
       links: launchData.links || [],
       videos: launchData.videos || [],
+      images: launchData.images || [],
     };
     // Provide a default body for new files
     const body = launchData.article_summary || "\n";
@@ -70,15 +71,16 @@ export async function updateOrCreateLaunchFile(existingFilePath: string | null, 
  * @returns The updated markdown string
  */
 export function updateLaunchFile(parsed: any, launchData: LaunchData): string {
-  const allowedKeys = [
-    "layout", "title", "description", "tags", "date", "created", "updated", "location", "manned", "vehicle", "vehicle-type", "payload", "payload-type"
-  ];
   // Merge and filter only allowed frontmatter keys
   const merged = { ...parsed.data, ...launchData };
   const updatedFrontmatter = Object.fromEntries(
-    allowedKeys.map(key => [key, merged[key]])
+    frontMatterKeys
+      .map(key => (merged[key] ? [key, merged[key]] : undefined))
+      .filter((entry): entry is [string, any] => entry !== undefined)
   );
   // Update the body to article_summary if present, else keep existing
   const updatedBody = launchData.article_summary || parsed.content;
+  console.log("Updated frontmatter:", updatedFrontmatter);
+  console.log("Updated body:", updatedBody);
   return matter.stringify(updatedBody, updatedFrontmatter);
 }
