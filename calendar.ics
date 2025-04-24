@@ -3,7 +3,7 @@ layout: calendar
 ---
 {% for post in site.posts -%}
 BEGIN:VEVENT
-{% assign uid_value = post.date | date: "%Y%m%dT%H%M%SZ" | append: "-" | append: post.slug | append: "@launchcalendar.org" -%}
+{% assign uid_value = post.date | date: "%Y%m%dT%H%M%SZ" | append: "-" | append: post.slug | prepend: "org.launchcalendar." -%}
 {{ "UID" | ical_property: uid_value }}
 {% assign created_value = post.created | date: "%Y%m%dT%H%M%SZ" -%}
 {{ "CREATED" | ical_property: created_value }}
