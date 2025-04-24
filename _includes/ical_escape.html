@@ -1,0 +1,2 @@
+{% assign value = include.value | default: '' %}
+{% assign escaped = value | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', '\\n' %}{{ escaped }}

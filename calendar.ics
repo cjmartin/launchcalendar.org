@@ -8,13 +8,14 @@ CREATED:{{ post.created | date: "%Y%m%dT%H%M%SZ" }}
 DTSTAMP:{{ post.updated | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART:{{ post.date | date: "%Y%m%dT%H%M%SZ" }}
 DURATION:PT1H
-SUMMARY:{{ post.title }}
-DESCRIPTION:{{ post.description }}
-LOCATION:{{ post.location | replace:',','\,' }}
-GEO:{{ post.geo-lat }};{{ post.geo-lon }}
+SUMMARY:{% include ical_escape.html value=post.title %}
+DESCRIPTION:{% include ical_escape.html value=post.description %}
+LOCATION:{% include ical_escape.html value=post.location %}
+{% if post.geo-lat and post.geo-lon %}GEO:{{ post.geo-lat }};{{ post.geo-lon }}
+{% endif %}
 BEGIN:VALARM
 TRIGGER:-PT1H
-DESCRIPTION:{{ post.title }} is scheduled to 🚀 in one hour!
+DESCRIPTION:{% include ical_escape.html value=post.title %} is scheduled to 🚀 in one hour!
 ACTION:DISPLAY
 END:VALARM
 END:VEVENT
