@@ -74,7 +74,7 @@ export function createLaunchFile(filePath: string, launchData: LaunchData): stri
 }
 
 /**
- * Updates the launch data of a parsed markdown file using GPT-4.1.
+ * Updates the launch data of a parsed markdown file using GPT.
  * Passes the existing and new LaunchData to GPT to intelligently merge/update all fields.
  * @param parsed The result of gray-matter(content) for the file
  * @param launchData The new launch data to update with
