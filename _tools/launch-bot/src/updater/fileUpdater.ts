@@ -33,34 +33,43 @@ export async function updateOrCreateLaunchFile(matchResult: LaunchMatchResult, l
     // Update existing file
     content = await fs.readFile(filePath, "utf8");
     const parsed = matter(content);
-    
     // Merge launchData into frontmatter
     content = updateLaunchFile(parsed, launchData);
   } else {
     // Create new file
-    const frontmatter: LaunchFrontmatter = {
-      layout: "launch",
-      title: `🚀 ${launchData.vehicle || ""} | 🛰 ${launchData.payload || ""}`.trim(),
-      description: launchData.description || "",
-      tags: launchData.tags || [],
-      date: launchData.launch_datetime || "",
-      created: new Date().toISOString(),
-      updated: new Date().toISOString(),
-      location: launchData.location || "",
-      manned: launchData.manned || false,
-      vehicle: launchData.vehicle || "",
-      "vehicle-type": launchData.vehicle_type || "",
-      payload: launchData.payload || "",
-      "payload-type": launchData.payload_type || "",
-      links: launchData.links || [],
-      videos: launchData.videos || [],
-      images: launchData.images || [],
-    };
-    // Provide a default body for new files
-    const body = launchData.article_summary || "\n";
-    content = matter.stringify(body, frontmatter);
+    content = createLaunchFile(filePath, launchData);
   }
   await fs.writeFile(filePath, content, "utf8");
+}
+
+/**
+ * Creates a new launch file with the provided launch data.
+ * @param filePath The path where the new file should be created
+ * @param launchData The launch data to use for the file
+ * @returns The markdown string to be written to the file
+ */
+export function createLaunchFile(filePath: string, launchData: LaunchData): string {
+  const frontmatter: LaunchFrontmatter = {
+    layout: "launch",
+    title: `🚀 ${launchData.vehicle || ""} | 🛰 ${launchData.payload || ""}`.trim(),
+    description: launchData.description || "",
+    tags: launchData.tags || [],
+    date: launchData.launch_datetime || "",
+    created: new Date().toISOString(),
+    updated: new Date().toISOString(),
+    location: launchData.location || "",
+    manned: launchData.manned || false,
+    vehicle: launchData.vehicle || "",
+    "vehicle-type": launchData.vehicle_type || "",
+    payload: launchData.payload || "",
+    "payload-type": launchData.payload_type || "",
+    links: launchData.links || [],
+    videos: launchData.videos || [],
+    images: launchData.images || [],
+  };
+  // Provide a default body for new files
+  const body = launchData.article_summary || "\n";
+  return matter.stringify(body, frontmatter);
 }
 
 /**
