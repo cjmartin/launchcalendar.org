@@ -4,7 +4,7 @@ import { detectLaunch } from './analyzer/launchDetector';
 import { extractLaunchData } from './extractor/launchDataExtractor';
 import { fetchRSSFeed } from './fetcher/rssFetcher';
 import { findExistingLaunch } from './matcher/launchFileMatcher';
-import { updateOrCreateLaunchFile } from './updater/fileUpdater';
+import { updateOrCreateLaunchFile } from './updater/launchFileUpdater';
 import { getProcessedArticles, addProcessedArticles } from './fetcher/processedArticles';
 import fs from 'fs/promises';
 import { RSSEntry } from './types';
