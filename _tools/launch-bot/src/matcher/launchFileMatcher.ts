@@ -35,9 +35,15 @@ export async function findExistingLaunch(
   launchData: LaunchData
 ): Promise<LaunchMatchResult> {
   const postsDir = path.resolve(__dirname, "../../../../_posts");
-  let files: string[] = [];
+  const draftsDir = path.resolve(__dirname, "../../../../_drafts");
+  let files: { file: string; dir: string }[] = [];
   try {
-    files = await fs.readdir(postsDir);
+    const postFiles = (await fs.readdir(postsDir)).filter(f => f.endsWith(".md")).map(f => ({ file: f, dir: postsDir }));
+    let draftFiles: { file: string; dir: string }[] = [];
+    try {
+      draftFiles = (await fs.readdir(draftsDir)).filter(f => f.endsWith(".md")).map(f => ({ file: f, dir: draftsDir }));
+    } catch {}
+    files = [...postFiles, ...draftFiles];
   } catch {
     return { matched: false, reason: "none", confidence: 0 };
   }
@@ -46,9 +52,8 @@ export async function findExistingLaunch(
   const normPayload = normalize(launchData.payload || "");
   const normLocation = normalize(launchData.location || "");
 
-  for (const file of files) {
-    if (!file.endsWith(".md")) continue;
-    const filePath = path.join(postsDir, file);
+  for (const { file, dir } of files) {
+    const filePath = path.join(dir, file);
     const content = await fs.readFile(filePath, "utf8");
     const { data, content: oldPostBody } = matter(content);
 
