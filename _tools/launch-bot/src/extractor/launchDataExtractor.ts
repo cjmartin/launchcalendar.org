@@ -3,10 +3,11 @@ import { callOpenAI } from '../utils/openai';
 
 export async function extractLaunchData(entry: RSSEntry): Promise<LaunchData[]> {
   const messages:{ role: 'system' | 'user' | 'assistant'; content: string }[] = [];
+  const currentYear = new Date().getUTCFullYear();
   messages.push({role: 'system', content: 'You are a launch data extractor. Your job is to extract launch data from articles. You will be given an article and you need to analyze it for any mentions of rocket launches. If you find any, extract the relevant data as specified below, paying close attention to the description of each piece of data. Important: Respond only with valid JSON. Do not include any extra text or explanation.'});
   messages.push({role: 'user', content: `Analyze this article and if it mentions one or more launches, extract these pieces of data for each launch, if they are present:
 
-- launch_datetime: The date and time of the scheduled launch in ISO8601 UTC format. This is a very important field and needs to be correct. If there is a day and time but no year, consider the publish date or assume the current year.
+- launch_datetime: The date and time of the scheduled launch in ISO8601 UTC format. This is a very important field and needs to be correct. If there is a day and time but no year, assume the current year: ${currentYear}.
 - location: What is the launch site? (e.g. SLC-40, Cape Canaveral Air Force Station, Florida)
 - manned: Is this a manned mission? (true/false)
 - vehicle: What is the launch vehicle? (e.g. Falcon 9, Atlas V, etc.)
@@ -23,8 +24,6 @@ Return the data as a json object with the keys as the above names. If there are 
 If there are no launches, return an empty array.
 
 Here is the article:
-
-Publish Date: ${entry.pubDate}
 
 Title: ${entry.title}
 
