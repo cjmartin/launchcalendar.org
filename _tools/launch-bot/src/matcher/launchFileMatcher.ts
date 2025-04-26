@@ -1,9 +1,14 @@
+// launchFileMatcher.ts
+// Matches extracted launch data to existing launch files using fuzzy string matching and date proximity.
+// Uses normalization and token set scoring utilities for robust matching.
+
 import { LaunchData, LaunchMatchResult } from "../types";
 import fs from "fs/promises";
 import path from "path";
 import matter from "gray-matter";
 import { normalize, tokenSetScore } from "./matchUtils";
 
+// Checks if two dates are close (same day or within 2 hours)
 function isDateClose(date1?: string, date2?: string): boolean {
   if (!date1 || !date2) return false;
   const d1 = new Date(date1);
@@ -16,6 +21,9 @@ function isDateClose(date1?: string, date2?: string): boolean {
   return Math.abs(d1.getTime() - d2.getTime()) <= 2 * 60 * 60 * 1000;
 }
 
+// Attempts to find an existing launch file that matches the provided launch data.
+// Compares vehicle, payload, and location using token set overlap, and checks date proximity.
+// Returns a match result with confidence score and file path if found.
 export async function findExistingLaunch(
   launchData: LaunchData
 ): Promise<LaunchMatchResult> {
