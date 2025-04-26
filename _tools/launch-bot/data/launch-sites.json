@@ -208,5 +208,19 @@
     "geo": { "latitude": 38.8460, "longitude": 111.6140 },
     "operator": "CASC",
     "launch_vehicles": ["long-march-4c", "long-march-6"]
+  },
+  "sohae-satellite-launching-station-tongchang-ri-north-korea": {
+    "site_name": "Sohae Satellite Launching Station",
+    "location": "Tongchang-ri, North Korea",
+    "geo": { "latitude": 39.6601, "longitude": 124.7053 },
+    "operator": "National Aerospace Development Administration (NADA)",
+    "launch_vehicles": ["unha", "chollima-1"]
+  },
+  "launch-pad-fredo-saxavord-spaceport-shetland-islands-uk": {
+    "site_name": "Launch Pad Fredo",
+    "location": "SaxaVord Spaceport, Shetland Islands, UK",
+    "geo": { "latitude": 60.8184, "longitude": -0.7692 },
+    "operator": "SaxaVord Spaceport",
+    "launch_vehicles": ["rfa-one", "skyrora-xl", "rs1"]
   }
 }

@@ -12,9 +12,11 @@ export interface RSSEntry {
 export interface LaunchData {
   launch_datetime?: string; // the date and time of the scheduled launch in ISO8601 UTC format
   location?: string; // e.g. "SLC-40, Cape Canaveral Air Force Station, Florida"
+  location_slug?: string; // slug for the location, e.g. "cape-canaveral-air-force-station-florida"
   manned?: boolean; // is this a manned mission? (true/false)
   vehicle?: string; // e.g. "Falcon 9, Atlas V, etc."
   vehicle_type?: string; // most likely 'rocket'
+  vehicle_slug?: string; // slug for the vehicle, e.g. "falcon-9"
   payload?: string; // what is being sent to orbit? (e.g. "Cargo Dragon")
   payload_type?: string; // what type of object is being sent to orbit (e.g. "satellite, cargo module, crew capsule")
   description?: string; // a very short description of the launch

@@ -27,7 +27,7 @@ async function getAllFeedEntries(): Promise<RSSEntry[]> {
 async function main() {
   console.log("🚀 LaunchCalendar Agent starting...");
 
-  // 1. Fetch recent posts from all feeds
+  // Fetch recent posts from all feeds
   const entries = await getAllFeedEntries();
 
   // Load processed articles
@@ -47,20 +47,19 @@ async function main() {
     console.log(`🔗 Link: ${entry.link}`);
     console.log(`📝 Content: ${entry.content}`);
 
-    // 2. Analyze whether it's a launch
+    // Analyze whether it's a launch
     const isLaunch = await detectLaunch(entry);
     if (!isLaunch) {
       console.log(`❌ Not a launch: ${entry.title}`);
-
+      
       // Mark this article as processed
       processedLinks.push(entry.link);
-      
       continue;
     }
 
-    console.log(`✅ Launch detected`);
+    console.log(`✅ Launch data likely present`);
 
-    // 3. Extract launch data
+    // Extract launch data
     const launchData = await extractLaunchData(entry);
 
     if (!launchData || !launchData.length) {
@@ -68,20 +67,19 @@ async function main() {
 
       // Mark this article as processed
       processedLinks.push(entry.link);
-
       continue;
     }
     console.log(`🎉 Launch data extracted`);
 
     for (const launch of launchData) {
-      // 4. Find existing file
+      // Find existing file
       const matchResult = await findExistingLaunch(launch);
       if (matchResult.existingPath) {
         console.log(`🔍 Existing launch file found: ${matchResult.existingPath}`);
       } else {
         console.log(`🆕 No existing file found, will create a new one.`);
       }
-      // 5. Update or create launch post
+      // Update or create launch post
       await updateOrCreateLaunchFile(matchResult, launch);
       console.log(`📝 Launch file updated or created: ${matchResult.existingPath || 'New file created'}`);
     }

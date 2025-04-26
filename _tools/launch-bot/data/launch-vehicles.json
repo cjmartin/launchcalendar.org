@@ -1,7 +1,8 @@
 {
   "falcon-9": {
     "vehicle_name": "Falcon 9",
-    "operator": "SpaceX"
+    "operator": "SpaceX",
+    "aliases": ["F9"]
   },
   "falcon-heavy": {
     "vehicle_name": "Falcon Heavy",
@@ -13,7 +14,8 @@
   },
   "atlas-v": {
     "vehicle_name": "Atlas V",
-    "operator": "United Launch Alliance"
+    "operator": "United Launch Alliance",
+    "aliases": ["Atlas 5"]
   },
   "vulcan-centaur": {
     "vehicle_name": "Vulcan Centaur",
@@ -21,7 +23,8 @@
   },
   "delta-iv-heavy": {
     "vehicle_name": "Delta IV Heavy",
-    "operator": "United Launch Alliance"
+    "operator": "United Launch Alliance",
+    "aliases": ["Delta 4 Heavy"]
   },
   "sls": {
     "vehicle_name": "Space Launch System",
@@ -45,11 +48,13 @@
   },
   "ariane-5": {
     "vehicle_name": "Ariane 5",
-    "operator": "Arianespace"
+    "operator": "Arianespace",
+    "aliases": ["Ariane V", "Ariane 5ECA"]
   },
   "ariane-6": {
     "vehicle_name": "Ariane 6",
-    "operator": "Arianespace"
+    "operator": "Arianespace",
+    "aliases": ["Ariane VI", "Ariane 64", "Ariane 62"]
   },
   "vega": {
     "vehicle_name": "Vega",
@@ -57,58 +62,95 @@
   },
   "vega-c": {
     "vehicle_name": "Vega-C",
-    "operator": "Arianespace"
+    "operator": "Arianespace",
+    "aliases": ["Vega C"]
   },
   "soyuz-2": {
     "vehicle_name": "Soyuz-2",
-    "operator": "Roscosmos"
+    "operator": "Roscosmos",
+    "aliases": ["Soyuz", "Soyuz ST-A", "Soyuz ST-B"]
   },
   "minotaur-iv": {
     "vehicle_name": "Minotaur IV",
-    "operator": "Northrop Grumman"
+    "operator": "Northrop Grumman",
+    "aliases": ["Minotaur 4"]
   },
   "h2a": {
     "vehicle_name": "H-IIA",
-    "operator": "JAXA / Mitsubishi"
+    "operator": "JAXA / Mitsubishi",
+    "aliases": ["H2A"]
   },
   "h3": {
     "vehicle_name": "H3",
-    "operator": "JAXA"
+    "operator": "JAXA",
+    "aliases": ["H-III"]
   },
   "pslv": {
-    "vehicle_name": "PSLV",
-    "operator": "ISRO"
+    "vehicle_name": "Polar Satellite Launch Vehicle",
+    "operator": "ISRO",
+    "aliases": ["PSLV"]
   },
   "gslv-mk3": {
     "vehicle_name": "GSLV Mk-III (LVM3)",
-    "operator": "ISRO"
+    "operator": "ISRO",
+    "aliases": ["LVM3"]
   },
   "long-march-2f": {
     "vehicle_name": "Long March 2F",
-    "operator": "CASC"
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 2F", "Chang Zheng 2F/G", "CZ-2F", "CZ-2F/G"]
   },
   "long-march-4c": {
     "vehicle_name": "Long March 4C",
-    "operator": "CASC"
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 4C", "CZ-4C"]
   },
   "long-march-5": {
     "vehicle_name": "Long March 5",
-    "operator": "CASC"
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 5", "CZ-5"]
   },
   "long-march-7": {
     "vehicle_name": "Long March 7",
-    "operator": "CASC"
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 7", "CZ-7"]
   },
   "long-march-3b": {
     "vehicle_name": "Long March 3B",
-    "operator": "CASC"
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 3B", "CZ-3B"]
   },
   "long-march-2c": {
     "vehicle_name": "Long March 2C",
-    "operator": "CASC"
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 2C", "CZ-2C"]
   },
   "long-march-6": {
     "vehicle_name": "Long March 6",
-    "operator": "CASC"
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 6", "Chang Zheng 6A", "CZ-6", "CZ-6A"]
+  },
+  "unha": {
+    "vehicle_name": "Unha",
+    "operator": "NADA",
+    "aliases": ["Kwangmyongsong"]
+  },
+  "chollima-1": {
+    "vehicle_name": "Chollima-1",
+    "operator": "NADA"
+  },
+  "rfa-one": {
+    "vehicle_name": "RFA One",
+    "operator": "Rocket Factory Augsburg",
+    "aliases": ["RFA-1"]
+  },
+  "skyrora-xl": {
+    "vehicle_name": "Skyrora XL",
+    "operator": "Skyrora",
+    "aliases": ["Skyrora XL-1"]
+  },
+  "rs1": {
+    "vehicle_name": "RS1",
+    "operator": "ABL Space Systems"
   }
 }
