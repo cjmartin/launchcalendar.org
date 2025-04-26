@@ -48,6 +48,13 @@
     "operator": "SpaceX",
     "launch_vehicles": ["starship"]
   },
+  "slc-2-vandenberg-space-force-base-california-usa": {
+    "site_name": "SLC-2",
+    "location": "Vandenberg Space Force Base, California, USA",
+    "geo": { "latitude": 34.7440, "longitude": -120.5720 },
+    "operator": "Firefly Aerospace",
+    "launch_vehicles": ["alpha"]
+  },
   "slc-4e-vandenberg-space-force-base-california-usa": {
     "site_name": "SLC-4E",
     "location": "Vandenberg Space Force Base, California, USA",
@@ -62,12 +69,12 @@
     "operator": "United Launch Alliance",
     "launch_vehicles": ["vulcan-centaur"]
   },
-  "slc-2-vandenberg-space-force-base-california-usa": {
-    "site_name": "SLC-2",
+  "slc-8-vandenberg-space-force-base-california-usa": {
+    "site_name": "SLC-8",
     "location": "Vandenberg Space Force Base, California, USA",
-    "geo": { "latitude": 34.7440, "longitude": -120.5720 },
-    "operator": "Firefly Aerospace",
-    "launch_vehicles": ["alpha"]
+    "geo": { "latitude": 34.5765, "longitude": -120.6320 },
+    "operator": "US Space Force",
+    "launch_vehicles": ["minotaur-iv", "minotaur-c"]
   },
   "pad-0a-wallops-island-virginia-usa": {
     "site_name": "Pad 0A",
@@ -145,6 +152,13 @@
     "geo": { "latitude": 45.9960, "longitude": 63.5620 },
     "operator": "Roscosmos",
     "launch_vehicles": ["soyuz-2"]
+  },
+  "site-39-baikonur-cosmodrome-kazakhstan": {
+    "site_name": "Site 39",
+    "location": "Baikonur Cosmodrome, Kazakhstan",
+    "geo": { "latitude": 45.9646, "longitude": 63.3052 },
+    "operator": "Roscosmos",
+    "launch_vehicles": ["proton-m"]
   },
   "site-1s-vostochny-cosmodrome-russia": {
     "site_name": "Site 1S",
