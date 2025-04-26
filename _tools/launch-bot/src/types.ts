@@ -47,6 +47,22 @@ export interface LaunchImage {
   cretit_url?: string; // url to link the credit to
 }
 
+export interface LaunchSite {
+  site_name: string;
+  location: string;
+  geo: {
+    latitude: number;
+    longitude: number;
+  };
+  operator?: string;
+  launch_vehicles?: string[];
+}
+
+export interface LaunchVehicle {
+  vehicle_name: string;
+  operator?: string;
+}
+
 export interface LaunchFrontmatter {
   layout: string;
   title: string;
