@@ -1,0 +1,49 @@
+// matchUtils.ts
+// Generic helpers for fuzzy string matching, normalization, and alias table construction.
+
+// normalize: Lowercases, strips punctuation, collapses spaces, trims.
+export const normalize = (s: string): string =>
+  s
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]+/g, " ") // strip punctuation
+    .replace(/\s+/g, " ")
+    .trim();
+
+/**
+ * tokenSetScore: Computes Jaccard-style token-set overlap between two strings.
+ * Returns a score between 0 and 1 based on the ratio of shared tokens to the max set size.
+ */
+export const tokenSetScore = (a: string, b: string): number => {
+  const A = new Set(normalize(a).split(" "));
+  const B = new Set(normalize(b).split(" "));
+  return A.size && B.size
+    ? [...A].filter((t) => B.has(t)).length / Math.max(A.size, B.size)
+    : 0;
+};
+
+/**
+ * makeAliasTable: Builds a one-way alias-lookup table from canonical items.
+ * @param items   Object keyed by canonical id
+ * @param aliasFn Function (id, data) => string[] to derive aliases for each item
+ * Returns a lookup table mapping normalized aliases to canonical ids.
+ */
+export function makeAliasTable<T>(
+  items: Record<string, T>,
+  aliasFn: (id: string, data: T) => string[]
+): Record<string, string> {
+  const table: Record<string, string> = {};
+  for (const [id, data] of Object.entries(items))
+    for (const alias of aliasFn(id, data)) table[normalize(alias)] = id;
+  return table;
+}
+
+/**
+ * verdictFromScore: Helper to convert a similarity score to a confidence verdict.
+ *   - 'accept' for high confidence (>= 0.85)
+ *   - 'gpt_check' for moderate confidence (>= 0.5)
+ *   - 'no_match' for low confidence (< 0.5)
+ */
+export const verdictFromScore = (
+  sc: number
+): "accept" | "gpt_check" | "no_match" =>
+  sc >= 0.85 ? "accept" : sc >= 0.5 ? "gpt_check" : "no_match";

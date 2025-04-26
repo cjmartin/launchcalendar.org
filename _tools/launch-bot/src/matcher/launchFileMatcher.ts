@@ -2,22 +2,7 @@ import { LaunchData, LaunchMatchResult } from "../types";
 import fs from "fs/promises";
 import path from "path";
 import matter from "gray-matter";
-
-// Token overlap for simple fuzzy match (can be replaced with better scoring later)
-function scoreMatch(a: string, b: string): number {
-  const tokensA = new Set(a.toLowerCase().split(/[\s\-_,.()]+/));
-  const tokensB = new Set(b.toLowerCase().split(/[\s\-_,.()]+/));
-  const intersection = [...tokensA].filter(x => tokensB.has(x));
-  return intersection.length / Math.max(tokensA.size, tokensB.size);
-}
-
-function normalize(str = ""): string {
-  return str
-    .replace(/(group|mission|batch|satellites?|v\d+|mini|optimized|starlink|launch)?/gi, "")
-    .replace(/\s+/g, " ")
-    .trim()
-    .toLowerCase();
-}
+import { normalize, tokenSetScore } from "./matchUtils";
 
 function isDateClose(date1?: string, date2?: string): boolean {
   if (!date1 || !date2) return false;
@@ -61,9 +46,9 @@ export async function findExistingLaunch(
     const filePayload = normalize(data.payload || "");
     const fileLocation = normalize(data.location || "");
 
-    const vehicleScore = scoreMatch(normVehicle, fileVehicle);
-    const payloadScore = scoreMatch(normPayload, filePayload);
-    const locationScore = scoreMatch(normLocation, fileLocation);
+    const vehicleScore = tokenSetScore(normVehicle, fileVehicle);
+    const payloadScore = tokenSetScore(normPayload, filePayload);
+    const locationScore = tokenSetScore(normLocation, fileLocation);
 
     const matchScore = (vehicleScore + payloadScore + locationScore) / 3;
 
