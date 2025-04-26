@@ -50,7 +50,7 @@ OPENAI_API_KEY="your-openai-api-key"
 ```
 
 ### RSS Feeds
-The list of RSS feeds to fetch launch data from is defined in `feeds.json`. You can add or remove feed URLs as needed.
+The list of RSS feeds to fetch launch data from is defined in `data/feeds.json`. You can add or remove feed URLs as needed.
 
 ### Output
 Markdown files for launches are created or updated in the `_posts` directory (for published launches) or `_drafts` (for new/unpublished launches) at the root of the project (not inside this tool directory).

@@ -1,0 +1,114 @@
+{
+  "falcon-9": {
+    "vehicle_name": "Falcon 9",
+    "operator": "SpaceX"
+  },
+  "falcon-heavy": {
+    "vehicle_name": "Falcon Heavy",
+    "operator": "SpaceX"
+  },
+  "starship": {
+    "vehicle_name": "Starship",
+    "operator": "SpaceX"
+  },
+  "atlas-v": {
+    "vehicle_name": "Atlas V",
+    "operator": "United Launch Alliance"
+  },
+  "vulcan-centaur": {
+    "vehicle_name": "Vulcan Centaur",
+    "operator": "United Launch Alliance"
+  },
+  "delta-iv-heavy": {
+    "vehicle_name": "Delta IV Heavy",
+    "operator": "United Launch Alliance"
+  },
+  "sls": {
+    "vehicle_name": "Space Launch System",
+    "operator": "NASA"
+  },
+  "antares": {
+    "vehicle_name": "Antares",
+    "operator": "Northrop Grumman"
+  },
+  "terran-r": {
+    "vehicle_name": "Terran R",
+    "operator": "Relativity Space"
+  },
+  "electron": {
+    "vehicle_name": "Electron",
+    "operator": "Rocket Lab"
+  },
+  "alpha": {
+    "vehicle_name": "Alpha",
+    "operator": "Firefly Aerospace"
+  },
+  "ariane-5": {
+    "vehicle_name": "Ariane 5",
+    "operator": "Arianespace"
+  },
+  "ariane-6": {
+    "vehicle_name": "Ariane 6",
+    "operator": "Arianespace"
+  },
+  "vega": {
+    "vehicle_name": "Vega",
+    "operator": "Arianespace"
+  },
+  "vega-c": {
+    "vehicle_name": "Vega-C",
+    "operator": "Arianespace"
+  },
+  "soyuz-2": {
+    "vehicle_name": "Soyuz-2",
+    "operator": "Roscosmos"
+  },
+  "minotaur-iv": {
+    "vehicle_name": "Minotaur IV",
+    "operator": "Northrop Grumman"
+  },
+  "h2a": {
+    "vehicle_name": "H-IIA",
+    "operator": "JAXA / Mitsubishi"
+  },
+  "h3": {
+    "vehicle_name": "H3",
+    "operator": "JAXA"
+  },
+  "pslv": {
+    "vehicle_name": "PSLV",
+    "operator": "ISRO"
+  },
+  "gslv-mk3": {
+    "vehicle_name": "GSLV Mk-III (LVM3)",
+    "operator": "ISRO"
+  },
+  "long-march-2f": {
+    "vehicle_name": "Long March 2F",
+    "operator": "CASC"
+  },
+  "long-march-4c": {
+    "vehicle_name": "Long March 4C",
+    "operator": "CASC"
+  },
+  "long-march-5": {
+    "vehicle_name": "Long March 5",
+    "operator": "CASC"
+  },
+  "long-march-7": {
+    "vehicle_name": "Long March 7",
+    "operator": "CASC"
+  },
+  "long-march-3b": {
+    "vehicle_name": "Long March 3B",
+    "operator": "CASC"
+  },
+  "long-march-2c": {
+    "vehicle_name": "Long March 2C",
+    "operator": "CASC"
+  },
+  "long-march-6": {
+    "vehicle_name": "Long March 6",
+    "operator": "CASC"
+  }
+}

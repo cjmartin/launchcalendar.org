@@ -3,7 +3,7 @@ import path from 'path';
 
 // Processed articles are currently stored in a JSON file.
 // It might make sense to use a database in the future, but for now, this works.
-const PROCESSED_ARTICLES_PATH = path.resolve(__dirname, '../../processed-articles.json');
+const PROCESSED_ARTICLES_PATH = path.resolve(__dirname, '../../data/processed-articles.json');
 
 export async function getProcessedArticles(): Promise<Set<string>> {
   try {

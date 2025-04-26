@@ -10,7 +10,7 @@ import fs from 'fs/promises';
 import { RSSEntry } from './types';
 
 async function getAllFeedEntries(): Promise<RSSEntry[]> {
-  const feedsPath = require('path').resolve(__dirname, '../feeds.json');
+  const feedsPath = require('path').resolve(__dirname, '../data/feeds.json');
   const feeds: string[] = JSON.parse(await fs.readFile(feedsPath, 'utf8'));
   const allEntries: RSSEntry[] = [];
   for (const feedUrl of feeds) {
@@ -44,8 +44,8 @@ async function main() {
 
   for (const entry of limitedEntries) {
     console.log(`🔍 Checking entry: ${entry.title}`);
-    // console.log(`🔗 Link: ${entry.link}`);
-    // console.log(`📝 Content: ${entry.content}`);
+    console.log(`🔗 Link: ${entry.link}`);
+    console.log(`📝 Content: ${entry.content}`);
 
     // 2. Analyze whether it's a launch
     const isLaunch = await detectLaunch(entry);
@@ -65,6 +65,10 @@ async function main() {
 
     if (!launchData || !launchData.length) {
       console.log(`❌ Failed to extract launch data: ${entry.title}`);
+
+      // Mark this article as processed
+      processedLinks.push(entry.link);
+
       continue;
     }
     console.log(`🎉 Launch data extracted`);
