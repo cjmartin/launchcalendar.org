@@ -29,11 +29,11 @@ export const tokenSetScore = (a: string, b: string): number => {
  */
 export function makeAliasTable<T>(
   items: Record<string, T>,
-  aliasFn: (id: string, data: T) => string[]
+  aliasFn: (data: T) => string[]
 ): Record<string, string> {
   const table: Record<string, string> = {};
   for (const [id, data] of Object.entries(items))
-    for (const alias of aliasFn(id, data)) table[normalize(alias)] = id;
+    for (const alias of aliasFn(data)) table[normalize(alias)] = id;
   return table;
 }
 

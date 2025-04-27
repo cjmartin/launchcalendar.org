@@ -8,6 +8,7 @@ import { updateOrCreateLaunchFile } from './updater/launchFileUpdater';
 import { getProcessedArticles, addProcessedArticles } from './fetcher/processedArticles';
 import fs from 'fs/promises';
 import { RSSEntry } from './types';
+import { normalizeLaunchData } from './normalizer/normalizeLaunchData';
 
 async function getAllFeedEntries(): Promise<RSSEntry[]> {
   const feedsPath = require('path').resolve(__dirname, '../data/feeds.json');
@@ -72,15 +73,18 @@ async function main() {
     console.log(`🎉 Launch data extracted`);
 
     for (const launch of launchData) {
+      // Normalize launch data
+      const normalizedLaunch = await normalizeLaunchData(launch);
+      
       // Find existing file
-      const matchResult = await findExistingLaunch(launch);
+      const matchResult = await findExistingLaunch(normalizedLaunch);
       if (matchResult.existingPath) {
         console.log(`🔍 Existing launch file found: ${matchResult.existingPath}`);
       } else {
         console.log(`🆕 No existing file found, will create a new one.`);
       }
       // Update or create launch post
-      await updateOrCreateLaunchFile(matchResult, launch);
+      await updateOrCreateLaunchFile(matchResult, normalizedLaunch);
       console.log(`📝 Launch file updated or created: ${matchResult.existingPath || 'New file created'}`);
     }
 

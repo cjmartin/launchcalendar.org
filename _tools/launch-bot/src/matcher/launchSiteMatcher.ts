@@ -9,6 +9,7 @@ import {
   makeAliasTable, // Builds a lookup table of aliases to IDs
   verdictFromScore, // Converts a score to a match verdict
 } from "./matchUtils";
+import { LaunchSite, MatchResult } from "../types";
 
 // Interface for the result of a site match attempt
 export interface SiteMatch { site_id?: string; score: number; verdict: ReturnType<typeof verdictFromScore>; }
@@ -21,26 +22,27 @@ export async function loadSiteTable(
   jsonPath = path.resolve("_data/launch-sites.json")
 ) {
   const raw = JSON.parse(await readFile(jsonPath, "utf8"));
-  return makeAliasTable(raw, (_id, entry: any) => {
+  return makeAliasTable(raw, (entry: LaunchSite) => {
+    const sn = entry.site_name;
     const list: string[] = [
-      entry.site_name, // Main site name
-      entry.location, // Location name
-      `${entry.site_name}, ${entry.location}`,
+      `${sn}, ${entry.location}`,
     ];
 
     // algorithmic expansions ----------------------------------
     // Add common variations for SLC and LC site names
-    const sn = entry.site_name as string;
-
-    const slc = sn.match(/^SLC-(\d+)([EW])?$/i);
+    const slc = sn.match(/^(SLC|LC)-(\d+)([A-Z])?$/i);
     if (slc) {
-      const [, num, ew] = slc;
-      const dir = ew === "E" ? "East" : ew === "W" ? "West" : "";
-      list.push(`Space Launch Complex ${num} ${dir}`.trim());
-      list.push(`Launch Complex ${num} ${dir}`.trim());
+      const [, prefix, num, ew] = slc;
+      list.push(`Space Launch Complex ${num}${ew || ""}, ${entry.location}`.trim());
+      list.push(`Launch Complex ${num}${ew || ""}, ${entry.location}`.trim());
+
+      if (ew) {
+        const dir = ew === "E" ? "East" : ew === "W" ? "West" : "";
+        list.push(`${prefix} ${num} ${dir}, ${entry.location}`.trim());
+        list.push(`Space Launch Complex ${num} ${dir}, ${entry.location}`.trim());
+        list.push(`Launch Complex ${num} ${dir}, ${entry.location}`.trim());
+      }
     }
-    const lc = sn.match(/^LC-(\d+[A-Z]?)$/i);
-    if (lc) list.push(`Launch Complex ${lc[1]}`);
 
     return list;
   });
@@ -53,13 +55,13 @@ export async function loadSiteTable(
 export function matchSite(
   raw: string | undefined,
   table: Record<string, string>
-): SiteMatch {
-  if (!raw) return { score: 0, verdict: "no_match" };
+): MatchResult {
+  if (!raw) return { id: "", score: 0, verdict: "no_match" };
 
   const n = normalize(raw);
-  if (table[n]) return { site_id: table[n], score: 1, verdict: "accept" };
+  if (table[n]) return { id: table[n], score: 1, verdict: "accept" };
 
-  let best: { id?: string; score: number } = { score: 0 };
+  let best: { id: string; score: number } = { id: "", score: 0 };
   for (const [alias, id] of Object.entries(table)) {
     const sc = tokenSetScore(n, alias);
     if (sc > best.score) best = { id, score: sc };

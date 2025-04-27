@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
-import matter from "gray-matter";
+import matter, { GrayMatterFile } from "gray-matter";
 import slugify from "slugify";
 import { LaunchData, LaunchFrontmatter, LaunchMatchResult } from "../types";
 import { callOpenAI } from "../utils/openai";
@@ -31,11 +31,8 @@ export async function updateOrCreateLaunchFile(matchResult: LaunchMatchResult, l
 
   let content = "";
   if (existingFilePath) {
-    // Update existing file
-    content = await fs.readFile(filePath, "utf8");
-    const parsed = matter(content);
     // Merge launchData into frontmatter
-    content = await updateLaunchFile(parsed, launchData);
+    content = await updateLaunchFile(existingFilePath, launchData);
   } else {
     // Create new file
     content = createLaunchFile(filePath, launchData);
@@ -59,9 +56,11 @@ export function createLaunchFile(filePath: string, launchData: LaunchData): stri
     created: new Date().toISOString(),
     updated: new Date().toISOString(),
     location: launchData.location || "",
+    "location-slug": launchData.location_slug || "",
     manned: launchData.manned || false,
     vehicle: launchData.vehicle || "",
     "vehicle-type": launchData.vehicle_type || "",
+    "vehicle-slug": launchData.vehicle_slug || "",
     payload: launchData.payload || "",
     "payload-type": launchData.payload_type || "",
     links: launchData.links || [],
@@ -80,11 +79,49 @@ export function createLaunchFile(filePath: string, launchData: LaunchData): stri
  * @param launchData The new launch data to update with
  * @returns The updated markdown string
  */
-export async function updateLaunchFile(parsed: any, launchData: LaunchData): Promise<string> {
+export async function updateLaunchFile(filePath: string, launchData: LaunchData): Promise<string> {
+  const content = await fs.readFile(filePath, "utf8");
+  const parsed = matter(content);
+
   const existingLaunchData = fileDataToLaunchData(parsed);
 
   // Prepare prompt
-  const prompt = `You are a launch data update assistant. Your job is to update and improve launch data for a space launch event.\n\nYou will be given two objects:\n1. The existing launchData (as JSON)\n2. New launchData (as JSON)\n\nUpdate the existing launchData with the new information, merging and deduplicating arrays (tags, links, videos, images), and updating single-value fields (date, time, location, payload, etc.) to the most accurate or recent value.\n\nFor description and article_summary, update the text to reflect any new information, but keep relevant existing details.\n\nReturn a single JSON object with the updated launchData, using the same structure as LaunchData (see below).\n\nLaunchData structure:\n{\n  launch_datetime?: string,\n  location?: string,\n  manned?: boolean,\n  vehicle?: string,\n  vehicle_type?: string,\n  payload?: string,\n  payload_type?: string,\n  description?: string,\n  tags?: string[],\n  article_summary?: string,\n  links?: LaunchLink[],\n  videos?: LaunchVideo[],\n  images?: LaunchImage[]\n}\n\nHere is the existing launchData:\n${JSON.stringify(existingLaunchData, null, 2)}\n\nHere is the new launchData:\n${JSON.stringify(launchData, null, 2)}\n\nReturn only the updated LaunchData as JSON. Do not include any extra text or explanation.`;
+  const prompt = `You are a launch data update assistant. Your job is to update and improve launch data for a space launch event.
+
+You will be given two objects:
+1. The existing launchData (as JSON)
+2. New launchData (as JSON)
+
+Update the existing launchData with the new information, merging and deduplicating arrays (tags, links, videos, images), and updating single-value fields (date, time, location, payload, etc.) to the most accurate or recent value.
+
+For description and article_summary, update the text to reflect any new information, but keep relevant existing details.
+
+Return a single JSON object with the updated launchData, using the same structure as LaunchData (see below).\n\nLaunchData structure:
+{
+  launch_datetime?: string,
+  location?: string,
+  location_slug?: string,
+  manned?: boolean,
+  vehicle?: string,
+  vehicle_type?: string,
+  vehicle_slug?: string,
+  payload?: string,
+  payload_type?: string,
+  description?: string,
+  tags?: string[],
+  article_summary?: string,
+  links?: LaunchLink[],
+  videos?: LaunchVideo[],
+  images?: LaunchImage[]
+}
+
+Here is the existing launchData:
+${JSON.stringify(existingLaunchData, null, 2)}
+
+Here is the new launchData:
+${JSON.stringify(launchData, null, 2)}
+
+Return only the updated LaunchData as JSON. Do not include any extra text or explanation.`;
 
   const gptResponse = await callOpenAI([
     { role: "system", content: "You are a helpful assistant for updating launch data." },
@@ -108,9 +145,11 @@ export async function updateLaunchFile(parsed: any, launchData: LaunchData): Pro
     created: parsed.data.created,
     updated: new Date().toISOString(),
     location: updatedLaunchData.location || parsed.data.location || "",
+    "location-slug": updatedLaunchData.location_slug || parsed.data["location-slug"] || "",
     manned: typeof updatedLaunchData.manned === 'boolean' ? updatedLaunchData.manned : (typeof parsed.data.manned === 'boolean' ? parsed.data.manned : false),
     vehicle: updatedLaunchData.vehicle || parsed.data.vehicle || "",
     "vehicle-type": updatedLaunchData.vehicle_type || parsed.data["vehicle-type"] || "",
+    "vehicle-slug": updatedLaunchData.vehicle_slug || parsed.data["vehicle-slug"] || "",
     payload: updatedLaunchData.payload || parsed.data.payload || "",
     "payload-type": updatedLaunchData.payload_type || parsed.data["payload-type"] || "",
     links: updatedLaunchData.links || parsed.data.links || [],
@@ -127,7 +166,7 @@ export async function updateLaunchFile(parsed: any, launchData: LaunchData): Pro
  * Converts parsed file data (frontmatter + content) to LaunchData.
  * Includes parsed.content as article_summary.
  */
-export function fileDataToLaunchData(parsed: { data: LaunchFrontmatter, content: string }): LaunchData {
+export function fileDataToLaunchData(parsed: GrayMatterFile<string>): LaunchData {
   return {
     launch_datetime: parsed.data.date,
     location: parsed.data.location,

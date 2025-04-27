@@ -63,6 +63,7 @@ export interface LaunchSite {
 export interface LaunchVehicle {
   vehicle_name: string;
   operator?: string;
+  aliases?: string[];
 }
 
 export interface LaunchFrontmatter {
@@ -74,9 +75,11 @@ export interface LaunchFrontmatter {
   created: string;
   updated: string;
   location: string;
+  "location-slug": string;
   manned: boolean;
   vehicle: string;
   "vehicle-type": string;
+  "vehicle-slug": string;
   payload: string;
   "payload-type": string;
   links: LaunchLink[];
@@ -93,15 +96,23 @@ export const frontMatterKeys = [
   "created",
   "updated",
   "location",
+  "location-slug",
   "manned",
   "vehicle",
   "vehicle-type",
+  "vehicle-slug",
   "payload",
   "payload-type",
   "links",
   "videos",
   "images"
 ] as const;
+
+export interface MatchResult {
+  id: string; // usually the slug
+  score: number; // the score of the match
+  verdict: "accept" | "gpt_check" | "no_match"; // the verdict of the match
+}
 
 export interface LaunchMatchResult {
   matched: boolean;
