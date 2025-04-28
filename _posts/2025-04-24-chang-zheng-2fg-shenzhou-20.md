@@ -1,22 +1,33 @@
 ---
 layout: launch
-title: "\U0001F680 Chang Zheng 2F/G | 🇨🇳👨‍🚀👨‍🚀👨‍🚀 Shenzhou 20"
+title: "\U0001F680 Long March 2F | \U0001F6F0 Shenzhou 20"
 description: >-
-  A Chinese Long March 2F/G will launch three taikonauts on the Shenzhou 20
-  mission to the Tiangong space station.
+  China launched the Shenzhou 20 crewed spacecraft to the Tiangong space
+  station, carrying three astronauts—commander Chen Dong (on his third
+  spaceflight), Chen Zhongrui, and Wang Jie, both on their first missions. The
+  mission will relieve the Shenzhou 19 crew and mark the ninth crewed trip to
+  Tiangong and the sixth since the station's completion in 2022. The crew will
+  embark on a six-month expedition, conducting EVAs and scientific experiments,
+  with docking expected about six and a half hours after liftoff. The launch
+  vehicle, Long March 2F (also known as Chang Zheng 2F/G), features recent
+  upgrades including a redesigned capsule interior and increased payload
+  capacity. The mission highlights China’s continued advancement and
+  international collaborations in human space exploration.
 tags:
   - Chang Zheng 2F/G
+  - Long March 2F
   - Shenzhou 20
   - Tiangong
   - manned flight
+  - crewed mission
   - China
 date: '2025-04-24T09:17:00Z'
 created: '2025-04-23T22:05:23.071Z'
-updated: '2025-04-28T03:48:20.761Z'
+updated: '2025-04-28T21:40:32.919Z'
 location: 'Site 901, Jiuquan Satellite Launch Centre, China'
 location-slug: launch-area-4-jiuquan-satellite-launch-center-china
 manned: true
-vehicle: Chang Zheng 2F/G
+vehicle: Long March 2F
 vehicle-type: rocket
 vehicle-slug: long-march-2f
 payload: Shenzhou 20
@@ -40,11 +51,13 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/china-roundup-04242025/'
+  - title: ' China launches Shenzhou 20 astronauts to Tiangong space station (video) '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/watch-live-as-china-launches-shenzhou-20-astronauts-to-tiangong-space-station-on-april-24
 videos: []
 images: []
 ---
-China’s 15th crewed spaceflight, Shenzhou 20, is scheduled to launch on April 24, 2025 at 09:17 UTC from Site 901 at the Jiuquan Satellite Launch Center. The mission will send three taikonauts—commander Chen Dong, mission operator Chen Zhongrui, and science operator Wang Jie—to the Tiangong space station for a six-month expedition.
-
-Led by veteran astronaut Chen Dong, the crew will relieve the Shenzhou 19 team and continue China’s streak of continuous human habitation aboard Tiangong. Docking is expected about six and a half hours after liftoff. During their stay, the crew will carry out EVAs and a range of science experiments.
-
-The launch vehicle, a Chang Zheng 2F/G Y20, features recent upgrades including a redesigned capsule interior and a 20% increase in payload capacity. The mission coincides with the 55th anniversary of Dongfanghong-1 and China’s 10th annual Space Day, underscoring the country’s growing legacy in space exploration.
+China launched the Shenzhou 20 mission to the Tiangong space station on April 24, 2025, at 09:17 UTC from Site 901, Jiuquan Satellite Launch Centre. The three-person crew—commander Chen Dong (on his third spaceflight), Chen Zhongrui, and Wang Jie (both on their first missions)—will relieve the Shenzhou 19 team and begin a six-month stay aboard Tiangong. After docking approximately 6.5 hours after launch, the astronauts are expected to perform EVAs and various science experiments. Shenzhou 20 is the ninth crewed trip to Tiangong, underscoring China's continuous human presence in orbit and expanding international outreach, including planned collaboration with Pakistan. Mission objectives, crew details, and the upcoming Tianzhou 9 cargo launch highlight China's growing ambitions in human spaceflight and station operations.
