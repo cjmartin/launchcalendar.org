@@ -46,7 +46,7 @@ async function main() {
   for (const entry of limitedEntries) {
     console.log(`🔍 Checking entry: ${entry.title}`);
     console.log(`🔗 Link: ${entry.link}`);
-    console.log(`📝 Content: ${entry.content}`);
+    // console.log(`📝 Content: ${entry.content}`);
 
     // Analyze whether it's a launch
     const isLaunch = await detectLaunch(entry);

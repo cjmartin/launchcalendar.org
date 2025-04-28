@@ -7,19 +7,9 @@ import fs from "fs/promises";
 import path from "path";
 import matter from "gray-matter";
 import { normalize, tokenSetScore } from "./matchUtils";
-
-// Checks if two dates are close (same day or within 2 hours)
-function isDateClose(date1?: string, date2?: string): boolean {
-  if (!date1 || !date2) return false;
-  const d1 = new Date(date1);
-  const d2 = new Date(date2);
-  if (
-    d1.getUTCFullYear() === d2.getUTCFullYear() &&
-    d1.getUTCMonth() === d2.getUTCMonth() &&
-    d1.getUTCDate() === d2.getUTCDate()
-  ) return true;
-  return Math.abs(d1.getTime() - d2.getTime()) <= 2 * 60 * 60 * 1000;
-}
+import slugify from "slugify";
+import { isSameDay, isWithinDays } from "../utils/date";
+import { fileDataToLaunchData } from "../updater/launchFileUpdater";
 
 // Attempts to find an existing launch file that matches the provided launch data.
 // Compares vehicle, payload, and location using token set overlap, and checks date proximity.
@@ -37,45 +27,76 @@ export async function findExistingLaunch(
       draftFiles = (await fs.readdir(draftsDir)).filter(f => f.endsWith(".md")).map(f => ({ file: f, dir: draftsDir }));
     } catch {}
     files = [...postFiles, ...draftFiles];
+    console.log(`📄 Found ${files.length} launch files to check for matches.`);
   } catch {
-    return { matched: false, reason: "none", confidence: 0 };
+    console.log("❌ Could not read _posts or _drafts directory.");
+    return { matched: false, reason: "no_match", confidence: 0 };
   }
 
-  const normVehicle = normalize(launchData.vehicle || "");
+  const normVehicle = launchData.vehicle_slug || slugify(normalize(launchData.vehicle || ""));
+  const normLocation = launchData.location_slug || slugify(normalize(launchData.location || ""));
   const normPayload = normalize(launchData.payload || "");
-  const normLocation = normalize(launchData.location || "");
+
+  console.log(`🔍 Normalized vehicle: ${normVehicle}, location: ${normLocation}, payload: ${normPayload}`);
 
   for (const { file, dir } of files) {
     const filePath = path.join(dir, file);
     const content = await fs.readFile(filePath, "utf8");
-    const { data, content: oldPostBody } = matter(content);
+    const parsed = matter(content);
+    const fileLaunchData = fileDataToLaunchData(parsed);
 
-    const fileVehicle = normalize(data.vehicle || "");
-    const filePayload = normalize(data.payload || "");
-    const fileLocation = normalize(data.location || "");
+    const fileVehicle = fileLaunchData.vehicle_slug || slugify(normalize(fileLaunchData.vehicle || ""));
+    const fileLocation = fileLaunchData.location_slug || slugify(normalize(fileLaunchData.location || ""));
+    const filePayload = normalize(fileLaunchData.payload || "");
 
     const vehicleScore = tokenSetScore(normVehicle, fileVehicle);
     const payloadScore = tokenSetScore(normPayload, filePayload);
     const locationScore = tokenSetScore(normLocation, fileLocation);
 
-    const matchScore = (vehicleScore + payloadScore + locationScore) / 3;
+    const locationVehicleScore = (vehicleScore + locationScore) / 2;
+    const fullScore = (vehicleScore + locationScore + payloadScore) / 3;
 
-    const dateClose = isDateClose(launchData.launch_datetime, data.date);
-    if (matchScore >= 0.8 && dateClose) {
+    const sameDay = isSameDay(launchData.launch_datetime, fileLaunchData.launch_datetime);
+    const dateClose = isWithinDays(launchData.launch_datetime, fileLaunchData.launch_datetime, 5);
+
+    // Only log details for files that match or potentially match
+    if (
+      (locationVehicleScore >= 0.8 && sameDay) ||
+      (locationVehicleScore >= 0.8 && dateClose) ||
+      (fullScore >= 0.5)
+    ) {
+      console.log(`📂 Checking file: ${filePath}`);
+      console.log(`   → Normalized vehicle: ${fileVehicle}, location: ${fileLocation}, payload: ${filePayload}`);
+      console.log(`   → Vehicle score: ${vehicleScore.toFixed(2)}, Location score: ${locationScore.toFixed(2)}, Payload score: ${payloadScore.toFixed(2)}`);
+      console.log(`   → Location+Vehicle avg: ${locationVehicleScore.toFixed(2)}, Full score: ${fullScore.toFixed(2)}`);
+    }
+
+    if (locationVehicleScore >= 0.8 && sameDay) {
+      console.log(`✅ Strong match (update): ${filePath}`);
       return {
         matched: true,
-        reason: "identity",
+        reason: "update",
         existingPath: filePath,
-        confidence: matchScore
+        confidence: locationVehicleScore
+      };
+    }
+    
+    if (locationVehicleScore >= 0.8 && dateClose) {
+      console.log(`🔄 Possible reschedule match: ${filePath}`);
+      return {
+        matched: true,
+        reason: "reschedule",
+        existingPath: filePath,
+        confidence: locationVehicleScore
       };
     }
 
-    if (matchScore >= 0.8 && !dateClose) {
-      // This will become the hook for AI-assisted post comparison
-      // For now, we don’t trust it enough without the AI layer
+    if (fullScore >= 0.5) {
+      console.log(`🤔 Potential match (needs AI check): ${filePath}`);
       continue;
     }
   }
 
-  return { matched: false, reason: "none", confidence: 0 };
+  console.log("🆕 No matching launch file found.");
+  return { matched: false, reason: "no_match", confidence: 0 };
 }

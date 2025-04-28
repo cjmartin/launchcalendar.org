@@ -116,7 +116,7 @@ export interface MatchResult {
 
 export interface LaunchMatchResult {
   matched: boolean;
-  reason: "identity" | "rescheduled" | "none";
+  reason: "update" | "reschedule" | "no_match";
   existingPath?: string;
   confidence: number;
 }
