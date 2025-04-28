@@ -60,7 +60,7 @@
     "location": "Vandenberg Space Force Base, California, USA",
     "geo": { "latitude": 34.6321, "longitude": -120.6106 },
     "operator": "SpaceX",
-    "launch_vehicles": ["falcon-9"]
+    "launch_vehicles": ["falcon-9", "falcon-heavy"]
   },
   "slc-6-vandenberg-space-force-base-california-usa": {
     "site_name": "SLC-6",
