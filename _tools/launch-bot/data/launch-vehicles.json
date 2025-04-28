@@ -160,5 +160,9 @@
   "new-glenn": {
     "vehicle_name": "New Glenn",
     "operator": "Blue Origin"
+  },
+  "spectrum": {
+    "vehicle_name": "Spectrum",
+    "operator": "ISAR Aerospace"
   }
 }

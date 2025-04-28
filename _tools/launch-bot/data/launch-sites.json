@@ -243,5 +243,12 @@
     "geo": { "latitude": 31.422927, "longitude": -104.757152 },
     "operator": "Blue Origin",
     "launch-vehicles": ["new-shepard"]
+  },
+  "andoya-spaceport-andoya-norway": {
+    "site_name": "Andøya Spaceport",
+    "location": "Andøya, Norway",
+    "geo": { "latitude": 69.2944, "longitude": 16.0198 },
+    "operator": "Andøya Space",
+    "launch_vehicles": ["spectrum"]
   }
 }
