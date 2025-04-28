@@ -17,11 +17,13 @@ tags:
   - V2 Mini
 date: '2025-04-25T01:52:00Z'
 created: '2025-04-23T22:05:23.077Z'
-updated: '2025-04-25T07:28:16.249Z'
+updated: '2025-04-28T03:48:20.769Z'
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
+location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
 manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
+vehicle-slug: falcon-9
 payload: Starlink 6-74 (28 Starlink V2 Mini satellites)
 payload-type: satellite
 links:

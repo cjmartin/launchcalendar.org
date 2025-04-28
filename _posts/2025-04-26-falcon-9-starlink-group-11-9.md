@@ -10,11 +10,13 @@ tags:
   - SpaceX
 date: '2025-04-26T21:40:00Z'
 created: '2025-04-23T22:05:23.082Z'
-updated: '2025-04-23T22:05:23.082Z'
+updated: '2025-04-28T03:48:20.774Z'
 location: 'SLC-4E, Vandenberg Space Force Base, California'
+location-slug: slc-4e-vandenberg-space-force-base-california-usa
 manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
+vehicle-slug: falcon-9
 payload: Starlink Group 11-9
 payload-type: satellites
 links:
@@ -30,5 +32,6 @@ links:
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042125/'
 videos: []
+images: []
 ---
 The second Starlink mission of the week, Group 11-9, launches April 26, 2025, from Vandenberg's SLC-4E, carrying v2-Mini satellites for internet coverage expansion. The booster will land on the droneship 'Of Course I Still Love You.' Starlink service supports millions globally, with the fleet's growing role in internet access worldwide.

@@ -12,11 +12,13 @@ tags:
   - China
 date: '2025-04-24T09:17:00Z'
 created: '2025-04-23T22:05:23.071Z'
-updated: '2025-04-23T22:05:23.071Z'
+updated: '2025-04-28T03:48:20.761Z'
 location: 'Site 901, Jiuquan Satellite Launch Centre, China'
+location-slug: launch-area-4-jiuquan-satellite-launch-center-china
 manned: true
 vehicle: Chang Zheng 2F/G
 vehicle-type: rocket
+vehicle-slug: long-march-2f
 payload: Shenzhou 20
 payload-type: crew capsule
 links:
@@ -39,6 +41,7 @@ links:
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/china-roundup-04242025/'
 videos: []
+images: []
 ---
 China’s 15th crewed spaceflight, Shenzhou 20, is scheduled to launch on April 24, 2025 at 09:17 UTC from Site 901 at the Jiuquan Satellite Launch Center. The mission will send three taikonauts—commander Chen Dong, mission operator Chen Zhongrui, and science operator Wang Jie—to the Tiangong space station for a six-month expedition.
 

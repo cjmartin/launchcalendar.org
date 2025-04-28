@@ -11,11 +11,13 @@ tags:
   - SpaceX
 date: '2025-04-25T01:52:00Z'
 created: '2025-04-25T22:59:55.359Z'
-updated: '2025-04-25T22:59:55.359Z'
+updated: '2025-04-28T03:48:42.869Z'
 location: 'LC-40, Cape Canaveral Space Force Station, Florida'
+location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
 manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
+vehicle-slug: falcon-9
 payload: Starlink 6-74
 payload-type: satellite
 links:
