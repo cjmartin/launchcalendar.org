@@ -15,8 +15,8 @@ export async function normalizeLaunchData(launch: LaunchData): Promise<LaunchDat
   const normalized = { ...launch };
 
   // Load alias tables
-  const vehicleTable = await loadVehicleTable(path.resolve(__dirname, '../../data/launch-vehicles.json'));
-  const siteTable = await loadSiteTable(path.resolve(__dirname, '../../data/launch-sites.json'));
+  const vehicleTable = await loadVehicleTable();
+  const siteTable = await loadSiteTable();
 
   // Normalize vehicle
   if (launch.vehicle) {
@@ -28,7 +28,7 @@ export async function normalizeLaunchData(launch: LaunchData): Promise<LaunchDat
 
   // Normalize location
   if (launch.location) {
-    const siteMatch = matchSite(launch.location, siteTable);
+    const siteMatch = await matchSite(launch, siteTable);
     if (siteMatch.verdict === 'accept' && siteMatch.id) {
       normalized['location_slug'] = siteMatch.id;
     }

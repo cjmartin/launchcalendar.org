@@ -44,17 +44,19 @@ export async function updateOrCreateLaunchFile(matchResult: LaunchMatchResult, l
  * Creates a new launch file with the provided launch data.
  * @param filePath The path where the new file should be created
  * @param launchData The launch data to use for the file
+ * @param created Optional created date for the file (ISO format, for front matter)
  * @returns The markdown string to be written to the file
  */
-export function createLaunchFile(filePath: string, launchData: LaunchData): string {
+export function createLaunchFile(filePath: string, launchData: LaunchData, created?: string): string {
+  const now = new Date().toISOString();
   const frontmatter: LaunchFrontmatter = {
     layout: "launch",
     title: `🚀 ${launchData.vehicle || ""} | 🛰 ${launchData.payload || ""}`.trim(),
     description: launchData.description || "",
     tags: launchData.tags || [],
     date: launchData.launch_datetime || "",
-    created: new Date().toISOString(),
-    updated: new Date().toISOString(),
+    created: created || now,
+    updated: now,
     location: launchData.location || "",
     "location-slug": launchData.location_slug || "",
     manned: launchData.manned || false,
@@ -170,9 +172,11 @@ export function fileDataToLaunchData(parsed: GrayMatterFile<string>): LaunchData
   return {
     launch_datetime: parsed.data.date,
     location: parsed.data.location,
+    location_slug: parsed.data["location-slug"],
     manned: parsed.data.manned,
     vehicle: parsed.data.vehicle,
     vehicle_type: parsed.data["vehicle-type"],
+    vehicle_slug: parsed.data["vehicle-slug"],
     payload: parsed.data.payload,
     payload_type: parsed.data["payload-type"],
     description: parsed.data.description,

@@ -121,3 +121,21 @@ export interface LaunchMatchResult {
   confidence: number;
 }
 
+// GPT response result types
+
+export interface LaunchSiteGPTMatch {
+  decision: "match" | "new_site" | "no_match";
+  site_id?: string, // required if decision == match
+  proposed?: {
+      site_slug: string; // format: slugified site_name + location
+      site_name: string;
+      location: string;
+      geo: {
+        latitude: number;
+        longitude: number;
+      };
+      operator?: string;
+      launch_vehicles?: string[];
+  },
+  reasoning: string;
+}

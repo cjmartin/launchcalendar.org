@@ -1,11 +1,11 @@
-// normalize-all-launch-files.ts
-// Script to normalize all launch files in _posts and _drafts using normalizeLaunchData
+// check-missing-location-slugs.ts
+// Script to find launch files missing location_slug, match their site, and write results to JSON
 
 import fs from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
-import { fileDataToLaunchData, createLaunchFile } from '../updater/launchFileUpdater';
-import { normalizeLaunchData } from '../normalizer/normalizeLaunchData';
+import { loadSiteTable, matchSite } from '../matcher/launchSiteMatcher';
+import { fileDataToLaunchData } from '../updater/launchFileUpdater';
 
 async function getAllLaunchFiles() {
   const postsDir = path.resolve(__dirname, '../../../../_posts');
@@ -24,32 +24,31 @@ async function getAllLaunchFiles() {
   return files;
 }
 
-async function normalizeAllLaunchFiles() {
+async function checkMissingLaunchSlugs() {
   const files = await getAllLaunchFiles();
+  const siteTable = await loadSiteTable();
+  const results = [];
+
   for (const filePath of files) {
     try {
       const content = await fs.readFile(filePath, 'utf8');
       const parsed = matter(content);
       const launchData = fileDataToLaunchData(parsed);
-      const normalized = await normalizeLaunchData(launchData);
-      
-      // Only update if normalization changed something
-      if (JSON.stringify(launchData) !== JSON.stringify(normalized)) {
-        console.log(`Normalizing: ${filePath}`);
-        const newContent = createLaunchFile(filePath, normalized, parsed.data.created);
-        await fs.writeFile(filePath, newContent, 'utf8');
-        console.log(`✅ Normalized: ${filePath}`);
-      } else {
-        console.log(`➖ No change: ${filePath}`);
+      if (launchData.location && !launchData.location_slug) {
+        const match = matchSite(launchData, siteTable);
+        results.push({ file: filePath, launchData, match });
       }
     } catch (e) {
-      console.error(`❌ Failed to normalize ${filePath}:`, e);
+      console.error(`Failed to process ${filePath}:`, e);
     }
   }
+
+  const outPath = path.resolve(__dirname, './missing-location-slugs.json');
+  console.log(`Writing results to ${outPath}`);
+  await fs.writeFile(outPath, JSON.stringify(results, null, 2), 'utf8');
+  console.log(`Results written to ${outPath}`);
 }
 
 if (require.main === module) {
-  normalizeAllLaunchFiles().then(() => {
-    console.log('🏁 Normalization complete.');
-  });
+  checkMissingLaunchSlugs();
 }

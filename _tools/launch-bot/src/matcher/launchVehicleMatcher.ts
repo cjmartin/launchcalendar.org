@@ -12,13 +12,21 @@ import {
 } from "./matchUtils";
 import { LaunchVehicle, MatchResult } from "../types";
 
+const knownLaunchVehiclesFilePath = path.resolve(__dirname, "../../data/launch-vehicles.json");
+const knownLaunchVehicles = async () => JSON.parse(await readFile(knownLaunchVehiclesFilePath, "utf8"));
+
 // Loads the launch vehicle alias table from a JSON file.
 // Each vehicle entry generates a list of possible aliases, including the main name and any provided aliases.
 export async function loadVehicleTable(
-  jsonPath = path.resolve("_data/launch-vehicles.json")
+  knownVehicles?: Record<string, LaunchVehicle>
 ) {
-  const raw = JSON.parse(await readFile(jsonPath, "utf8"));
-  return makeAliasTable(raw, (entry: LaunchVehicle) => [
+  if (!knownVehicles) {
+    knownVehicles = await knownLaunchVehicles();
+    if (!knownVehicles) throw new Error("Failed to load known launch vehicles");
+    console.log("📄 Loaded known launch vehicles");
+  }
+
+  return makeAliasTable(knownVehicles, (entry: LaunchVehicle) => [
     entry.vehicle_name, // Main vehicle name
     ...(entry.aliases ?? []), // Additional aliases
   ]);

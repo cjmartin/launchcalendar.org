@@ -1,6 +1,8 @@
 // matchUtils.ts
 // Generic helpers for fuzzy string matching, normalization, and alias table construction.
 
+import { MatchResult } from "../types";
+
 // normalize: Lowercases, strips punctuation, collapses spaces, trims.
 export const normalize = (s: string): string =>
   s
@@ -47,3 +49,28 @@ export const verdictFromScore = (
   sc: number
 ): "accept" | "gpt_check" | "no_match" =>
   sc >= 0.85 ? "accept" : sc >= 0.5 ? "gpt_check" : "no_match";
+
+/**
+ * matchStringFuzzy: Attempts to match a raw string to a known entry using the alias table.
+ * Returns the best match with a score and verdict.
+ * Handles exact matches, common configuration suffixes, and fuzzy matches using token set overlap.
+ * @param raw   The raw string to match
+ * @param table The alias table to match against
+ * @returns A MatchResult object containing the best match id, score, and verdict
+ */
+export function matchStringFuzzy(
+  raw: string,
+  table: Record<string, string>
+): MatchResult {
+  if (!raw) return { id: "", score: 0, verdict: "no_match" };
+
+  const n = normalize(raw);
+  if (table[n]) return { id: table[n], score: 1, verdict: "accept" };
+
+  let best: { id: string; score: number } = { id: "", score: 0 };
+  for (const [alias, id] of Object.entries(table)) {
+    const sc = tokenSetScore(n, alias);
+    if (sc > best.score) best = { id, score: sc };
+  }
+  return { ...best, verdict: verdictFromScore(best.score) };
+}
