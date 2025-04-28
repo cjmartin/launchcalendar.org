@@ -4,19 +4,19 @@ title: "\U0001F680 Falcon 9 | \U0001F6F0 CRS-32 Cargo Dragon"
 description: >-
   SpaceX Falcon 9 launched the uncrewed CRS-32 Cargo Dragon mission—its 32nd
   commercial resupply flight—to the International Space Station for NASA from
-  LC-39A, Kennedy Space Center, Florida. The Cargo Dragon delivered over 3 tons
-  (about 6,700 pounds) of supplies, scientific experiments (including
-  free-floating robot maneuvers, atomic clocks for relativity studies, enhanced
-  air quality monitoring hardware, the ACES atomic clock experiment, hardware
-  for air quality monitoring, and robotic demonstrations), food, water, and
-  spare parts. The Falcon 9's first stage produced a striking 'nebula-like' glow
-  in the early morning sky during its boostback burn and was successfully
+  Pad 39A, Kennedy Space Center, Cape Canaveral, Florida. The Cargo Dragon
+  delivered over 3 tons (about 6,700 pounds) of supplies, food, water, and spare
+  parts, as well as scientific experiments. These included refined free-floating
+  robot maneuvers, atomic clocks for physics and relativity studies, and
+  enhanced air quality monitoring systems, some intended for future lunar/Mars
+  missions, along with the ACES atomic clock experiment and robotic
+  demonstrations. The Falcon 9's first stage produced a striking 'nebula-like'
+  glow in the early morning sky during its boostback burn and was successfully
   recovered at Landing Zone-1, Cape Canaveral. This mission marked the fifth
   flight for this particular Dragon capsule and the third for booster B1092,
   showcasing SpaceX's rapid flight cadence and precision in booster recoveries.
-  The CRS Cargo Dragon is unique among current ISS cargo vehicles in its ability
-  to return cargo safely to Earth. The launch was streamed live by NASA and
-  Space.com.
+  CRS-32 highlighted the unique cargo return capability of the Dragon among
+  active vehicles. The launch was streamed live by NASA and Space.com.
 tags:
   - Falcon 9
   - CRS-32
@@ -27,9 +27,11 @@ tags:
   - Kennedy Space Center
   - SpaceX
   - ISS resupply
+  - Dragon
+  - International Space Station
 date: '2025-04-21T08:15:00Z'
 created: '2025-04-23T21:59:34.997Z'
-updated: '2025-04-28T06:17:48.946Z'
+updated: '2025-04-28T20:13:12.215Z'
 location: 'LC-39A, Kennedy Space Center, Florida'
 location-slug: lc-39a-kennedy-space-center-florida-usa
 manned: false
@@ -84,6 +86,17 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/spacex-launching-dragon-cargo-capsule-to-iss-early-april-21-watch-it-live
+  - title: NASA news release on CRS-32 resupply launch
+    type:
+      - official announcement
+    url: >-
+      https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-32nd-resupply-launch-to-space-station/
+  - title: ' SpaceX''s next Dragon cargo ship launch for NASA will lift off on April 21 '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/spacex-next-dragon-cargo-ship-launch-for-nasa-lifts-off-on-april-21
 videos:
   - title: SpaceX launches its 32nd Dragon cargo mission to the ISS for NASA (video)
     type:
@@ -97,4 +110,4 @@ videos:
     url: 'https://www.youtube.com/watch?v=D-_UpmNP844'
 images: []
 ---
-SpaceX launched its 32nd Commercial Resupply Services (CRS-32) mission to the International Space Station on April 21, 2025, at 4:15 a.m. EDT (0815 GMT) using a Falcon 9 rocket and an uncrewed Cargo Dragon capsule from Launch Complex 39A at Kennedy Space Center, Florida. The mission delivered over 3 tons (about 6,700 pounds) of cargo, including food, equipment, new experiments such as free-floating robot maneuvers, atomic clocks for relativity studies, and enhanced air quality monitoring hardware. The Dragon capsule, flying its fifth mission, was boosted by B1092 on its third flight; the first stage was recovered at LZ-1, producing a 'nebula-like' glow in the pre-dawn sky during its boostback burn. Dragon docked with the ISS on April 22 and is expected to remain for about a month before returning to Earth, providing unique cargo return capability among active ISS cargo vehicles. The launch and science highlights were streamed live by NASA and Space.com.
+SpaceX launched its 32nd Commercial Resupply Services (CRS-32) mission to the International Space Station on April 21, 2025, at 08:15 UTC (4:15 a.m. EDT) using a Falcon 9 rocket and an uncrewed Cargo Dragon capsule from Pad 39A, Kennedy Space Center, Cape Canaveral, Florida. The mission delivered over 3 tons (about 6,700 pounds) of cargo, including supplies, food, and a range of scientific experiments: refined free-floating robot maneuvers, two atomic clocks for physics and relativity research, and an enhanced air quality monitoring system for future lunar/Mars missions. The Dragon capsule, on its fifth flight, was boosted by B1092 (its third flight); the first stage produced a 'nebula-like' glow in the predawn sky during its boostback burn and was recovered at LZ-1. Dragon docked with the ISS on April 22 and is expected to remain for about a month before returning to Earth, providing unique cargo return capability among active ISS cargo vehicles. Northrop Grumman's next Cygnus mission was delayed due to spacecraft damage. The launch and science highlights were streamed live by NASA and Space.com.
