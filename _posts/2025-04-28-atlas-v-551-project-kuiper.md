@@ -1,16 +1,17 @@
 ---
 layout: launch
-title: "\U0001F680 Atlas V 551 | \U0001F6F0 Project Kuiper (KA-01)"
+title: "\U0001F680 Atlas V 551 | \U0001F6F0 Project Kuiper (KA01 mission)"
 description: >-
-  Amazon's first production launch of 27 Project Kuiper internet satellites,
-  designated as the Kuiper 1 mission, will lift off aboard United Launch
-  Alliance's Atlas V 551 rocket from SLC-41, Cape Canaveral Space Force Station.
-  This marks the beginning of Amazon's operational deployment for its broadband
-  internet constellation following two prototype launches in 2023. The launch is
-  notable for being the 250th Centaur upper stage mission and initiates Amazon’s
-  planned series of Kuiper launches using multiple providers and rockets,
-  starting with Atlas V before transitioning to Vulcan and others. The launch
-  was delayed from earlier April dates due to weather and range availability.
+  Atlas V 551 launches Amazon's first major operational batch of Project Kuiper
+  internet satellites, designated as the Kuiper 1 mission (KA01), from SLC-41 at
+  Cape Canaveral Space Force Station. This mission marks Amazon’s transition
+  from prototypes to operational deployment for its broadband internet
+  constellation, with a planned fleet of over 3,200 satellites in low Earth
+  orbit. The launch is notable as the 250th Centaur upper stage mission and the
+  first of more than 80 Kuiper launches across multiple providers, beginning
+  with Atlas V's 'Bruiser' configuration with five solid boosters before future
+  moves to Vulcan and others. The mission was previously delayed from earlier
+  April due to weather and range constraints.
 tags:
   - Atlas V 551
   - Atlas V
@@ -20,9 +21,10 @@ tags:
   - Amazon
   - KA-01
   - Kuiper 1
+  - satellite constellation
 date: '2025-04-28T23:00:00Z'
 created: '2025-04-23T22:05:23.094Z'
-updated: '2025-04-28T19:47:28.942Z'
+updated: '2025-04-28T20:51:21.481Z'
 location: 'SLC-41, Cape Canaveral Space Force Station, Florida'
 location-slug: slc-41-cape-canaveral-space-force-station-florida-usa
 manned: false
@@ -30,7 +32,7 @@ vehicle: Atlas V 551
 vehicle-type: rocket
 vehicle-slug: atlas-v
 payload: Project Kuiper (KA-01)
-payload-type: satellites
+payload-type: satellite
 links:
   - title: Atlas V 551 | Project Kuiper (KA-01)
     type:
@@ -95,12 +97,28 @@ links:
       - source
     url: >-
       https://spaceflightnow.com/2025/04/28/live-coverage-ula-to-launch-first-production-amazon-kuiper-satellites-on-atlas-5-rocket-from-cape-canaveral/
+  - title: ' Watch Atlas V rocket launch 1st big batch of Amazon''s Project Kuiper internet satellites today afer delay '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/ula-atlas-v-launch-first-batch-amazon-project-kuiper-internet-satellites-webcast
 videos:
   - title: 'Spaceflight Now Live: ULA Atlas 5 with Project Kuiper Satellites'
     type:
       - live
       - youtube
     url: 'https://www.youtube.com/embed/5cJ21DHYtbQ?si=WeQg7ZcahPhA-xYx'
+  - title: Watch Atlas V launch Amazon's Project Kuiper satellites (official webcast)
+    type:
+      - youtube
+      - webcast
+    url: 'https://www.youtube.com/embed/_nwyv0fPgmc'
+  - title: Watch ULA's Atlas V Kuiper launch (YouTube)
+    type:
+      - youtube
+      - webcast
+    url: 'https://www.youtube.com/watch?v=G8XsTzF90sQ'
 images: []
 ---
-United Launch Alliance (ULA) is scheduled to launch the first production batch of Amazon's Project Kuiper satellites on the Atlas V 551 rocket from SLC-41, Cape Canaveral Space Force Station, targeting April 28, 2025 at 23:00 UTC. The Kuiper 1 mission will place 27 satellites into low Earth orbit, marking the start of Amazon's operational broadband constellation following two prototype launches in 2023. Delayed from earlier April due to weather and range availability, this is the 250th Centaur upper stage mission and marks the beginning of a multi-provider, multi-rocket deployment effort. The weather forecast is 75% favorable for launch, and Amazon will use Atlas V before transitioning to Vulcan and other rockets for future missions.
+United Launch Alliance (ULA) is set to launch Amazon's first major operational batch of Project Kuiper broadband satellites (KA01 mission) on the Atlas V 551 rocket from SLC-41, Cape Canaveral, on April 28, 2025, at 23:00 UTC (7 p.m. EDT). The Kuiper 1 mission will deploy 27 satellites into low Earth orbit, marking the start of Amazon's full-scale constellation, which aims to grow to over 3,200 satellites across 80+ launches. The Atlas V flies in its 'Bruiser' five-solid-booster configuration and this is the 250th Centaur upper stage mission for ULA. The flight was delayed from earlier April due to weather and range constraints and is a pivotal step in building Amazon's global internet network, following two prototype launches in 2023.
