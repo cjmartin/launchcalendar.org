@@ -2,23 +2,22 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 12-23"
 description: >-
-  SpaceX launched 23 Starlink satellites, including 13 with direct-to-cell
-  capability, on a Falcon 9 rocket from Cape Canaveral. This mission, Starlink
-  Group 12-23, marked the third Starlink launch that week, continuing the rapid
-  deployment of Starlink v2-Mini satellites. The 20th flight for the booster
-  concluded with a landing on the 'Just Read the Instructions' droneship, and
-  all satellites were successfully deployed.
+  SpaceX launched 23 Starlink satellites—including 13 with direct-to-cell
+  capability—on a Falcon 9 rocket from Cape Canaveral Space Force Station. This
+  Starlink Group 12-23 mission marked the company's 250th Starlink satellite
+  mission and the 48th Falcon 9 launch of the year. The booster, on its 20th
+  flight, landed on the 'Just Read the Instructions' droneship, and all
+  satellites were successfully deployed.
 tags:
   - Falcon 9
   - Starlink 12-23
   - SpaceX
   - Starlink
+  - direct-to-cell
 date: '2025-04-28T02:09:00Z'
 created: '2025-04-23T22:05:23.090Z'
-updated: '2025-04-28T05:52:38.049Z'
-redirect_from:
-  - /2025/04/28/falcon-9-starlink-group-12-23/
-location: 'SLC-40, Cape Canaveral, Florida'
+updated: '2025-04-28T18:33:09.459Z'
+location: 'Cape Canaveral Space Force Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
 manned: false
 vehicle: Falcon 9
@@ -53,6 +52,26 @@ links:
       - source
     url: >-
       https://spaceflightnow.com/2025/04/26/live-coverage-spacex-to-launch-23-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-10/
+  - title: SpaceX mission description
+    type:
+      - mission info
+    url: 'https://www.spacex.com/launches/mission/?missionId=sl-12-23'
+  - title: SpaceX Starlink mission update on X
+    type:
+      - update
+      - social
+    url: 'https://x.com/SpaceX/status/1916705420112261569'
+  - title: SpaceX Starlink deployment update on X
+    type:
+      - update
+      - social
+    url: 'https://x.com/SpaceX/status/1916693436411027541'
+  - title: ' SpaceX launches 250th Starlink satellite mission, lands rocket at sea (photos) '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-250th-starlink-satellite-mission-lands-rocket-at-sea-photos
 videos:
   - title: Starlink 12-23 Launch - YouTube
     type:
@@ -61,4 +80,4 @@ videos:
     url: 'https://www.youtube.com/embed/SHBl90AK0C4?si=xgngg7f2Y5lq2Mnj'
 images: []
 ---
-On April 27, 2025, SpaceX successfully launched a Falcon 9 rocket from Cape Canaveral's SLC-40, carrying 23 Starlink satellites, 13 of which are capable of direct-to-cell phone service. Liftoff occurred at 10:09 p.m. EDT (0209 UTC). The booster, on its 20th flight, landed on the 'Just Read the Instructions' droneship after launch, and deployment of the satellites was confirmed about an hour later. This was SpaceX’s 48th Falcon 9 mission of 2025. The launch continued the rapid deployment of Starlink v2-Mini satellites, further expanding the Starlink broadband constellation.
+On April 27, 2025, SpaceX launched its 250th Starlink mission, sending 23 Starlink broadband satellites—including 13 with direct-to-cell capability—into low Earth orbit using a Falcon 9 rocket from Cape Canaveral Space Force Station. The booster completed its 20th flight with a successful landing on the drone ship "Just Read the Instructions." This was SpaceX's 48th Falcon 9 launch of the year and the 31st dedicated to the Starlink constellation, further expanding the Starlink v2-Mini broadband network.
