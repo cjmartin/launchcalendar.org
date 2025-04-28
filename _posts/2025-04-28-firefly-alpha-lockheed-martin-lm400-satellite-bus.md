@@ -25,7 +25,7 @@ tags:
 date: '2025-04-28T13:37:00Z'
 created: '2025-04-23T22:05:23.086Z'
 updated: '2025-04-28T05:38:40.199Z'
-redirect-from:
+redirect_from:
   - /2025/04/27/alpha-lockheed-martin-lm400-pathfinder/
 location: 'SLC-2W, Vandenberg Space Force Base, California'
 location-slug: slc-2-vandenberg-space-force-base-california-usa

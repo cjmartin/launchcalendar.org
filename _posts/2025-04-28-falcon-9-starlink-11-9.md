@@ -16,7 +16,7 @@ tags:
 date: '2025-04-28T20:39:00Z'
 created: '2025-04-23T22:05:23.082Z'
 updated: '2025-04-28T05:06:31.706Z'
-redirect-from:
+redirect_from:
   - /2025/04/26/falcon-9-starlink-group-11-9/
 location: 'SLC-4E, Vandenberg Space Force Base, California'
 location-slug: slc-4e-vandenberg-space-force-base-california-usa
