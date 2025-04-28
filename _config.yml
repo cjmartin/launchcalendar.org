@@ -4,5 +4,5 @@ collections:
   launch_sites:
     output: true
     permalink: /launch-sites/:path/
-gems:
+plugins:
   - jekyll-redirect-from
