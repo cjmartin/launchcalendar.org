@@ -1,6 +1,6 @@
 ---
 layout: launch
-title: "\U0001F680 Alpha | \U0001F6F0 Lockheed Martin LM400 Tech Demo (Message In A Booster)"
+title: "\U0001F680 Alpha | \U0001F6F0 Lockheed Martin LM400 Satellite Bus (Message In A Booster)"
 description: >-
   Firefly Aerospace's Alpha rocket (FLTA006) will launch the Lockheed Martin
   LM400 Technology Demonstration (Tech Demo) satellite on the 'Message in a
@@ -31,7 +31,7 @@ manned: false
 vehicle: Firefly Alpha
 vehicle-type: rocket
 vehicle-slug: alpha
-payload: Lockheed Martin LM400 satellite bus (Message In A Booster)
+payload: Lockheed Martin LM400 Satellite Sus (Message In A Booster)
 payload-type: satellite
 links:
   - title: Alpha | Message In A Booster
