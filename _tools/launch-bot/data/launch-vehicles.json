@@ -152,5 +152,13 @@
   "rs1": {
     "vehicle_name": "RS1",
     "operator": "ABL Space Systems"
+  },
+  "new-shepard": {
+    "vehicle_name": "New Shepard",
+    "operator": "Blue Origin"
+  },
+  "new-glenn": {
+    "vehicle_name": "New Glenn",
+    "operator": "Blue Origin"
   }
 }

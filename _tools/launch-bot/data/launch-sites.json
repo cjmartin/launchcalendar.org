@@ -236,5 +236,12 @@
     "geo": { "latitude": 60.8184, "longitude": -0.7692 },
     "operator": "SaxaVord Spaceport",
     "launch_vehicles": ["rfa-one", "skyrora-xl", "rs1"]
+  },
+  "launch-site-one-corn-ranch-texas-usa": {
+    "site_name": "Launch Site One",
+    "location": "Corn Ranch, Texas, USA",
+    "geo": { "latitude": 31.422927, "longitude": -104.757152 },
+    "operator": "Blue Origin",
+    "launch-vehicles": ["new-shepard"]
   }
 }
