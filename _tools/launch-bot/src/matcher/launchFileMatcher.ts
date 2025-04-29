@@ -83,6 +83,7 @@ export async function findExistingLaunch(
     
     if (locationVehicleScore >= 0.8 && dateClose) {
       console.log(`🔄 Possible reschedule match: ${filePath}`);
+      console.log(`   → Launch date: ${launchData.launch_datetime}, File date: ${fileLaunchData.launch_datetime}`);
       return {
         matched: true,
         reason: "reschedule",
