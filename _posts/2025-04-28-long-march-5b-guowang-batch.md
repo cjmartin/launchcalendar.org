@@ -1,6 +1,6 @@
 ---
 layout: launch
-title: "\U0001F680 Long March 5B | \U0001F6F0 Guowang Broadband Megaconstellation Batch"
+title: "\U0001F680 Long March 5B | \U0001F6F0 Guowang Broadband Constellation Batch"
 description: >-
   Long March 5B launches satellites for the Guowang broadband megaconstellation
   to low Earth orbit.
