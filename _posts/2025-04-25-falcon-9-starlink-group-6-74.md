@@ -1,6 +1,6 @@
 ---
 layout: launch
-title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 6-74 (28 Starlink V2 Mini satellites)"
+title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 6-74"
 description: >-
   SpaceX launched 28 Starlink V2 Mini satellites aboard a Falcon 9 rocket from
   SLC-40, Cape Canaveral Space Force Station. The Starlink 6-74 mission is part
@@ -24,7 +24,7 @@ manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
 vehicle-slug: falcon-9
-payload: Starlink 6-74 (28 Starlink V2 Mini satellites)
+payload: Starlink 6-74
 payload-type: satellite
 links:
   - title: Falcon 9 | Starlink Group 6-74
