@@ -91,7 +91,7 @@ export async function findExistingLaunch(
       };
     }
 
-    if (fullScore >= 0.5) {
+    if (fullScore >= 0.75) {
       console.log(`🤔 Potential match (needs AI check): ${filePath}`);
       continue;
     }
