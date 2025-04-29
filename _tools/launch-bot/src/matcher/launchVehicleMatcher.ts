@@ -39,20 +39,30 @@ export function matchVehicle(
   raw: string | undefined,
   table: Record<string, string>
 ): MatchResult {
-  if (!raw) return { id: "", score: 0, verdict: "no_match" };
+  if (!raw) {
+    console.log("❌ No vehicle name provided");
+    return { id: "", score: 0, verdict: "no_match" };
+  }
 
+  console.log(`🔍 Attempting to match vehicle: '${raw}'`);
   const n = normalize(raw);
-  if (table[n]) return { id: table[n], score: 1, verdict: "accept" };
+  if (table[n]) {
+    console.log(`🧐 Exact match found: ${table[n]}`);
+    return { id: table[n], score: 1, verdict: "accept" };
+  }
 
   // strip trailing config block (Atlas V 551 → Atlas V)
   const base = n.replace(/\s+\d+[a-z]*$/i, "");
-  if (base !== n && table[base])
+  if (base !== n && table[base]) {
+    console.log(`🧐 Matched after stripping config: ${table[base]}`);
     return { id: table[base], score: 0.92, verdict: "accept" };
+  }
 
   let best: { id: string; score: number } = {id: "", score: 0 };
   for (const [alias, id] of Object.entries(table)) {
     const sc = tokenSetScore(n, alias);
     if (sc > best.score) best = { id, score: sc };
   }
+  console.log(`🧐 Fuzzy match: id=${best.id}, score=${best.score}`);
   return { ...best, verdict: verdictFromScore(best.score) };
 }

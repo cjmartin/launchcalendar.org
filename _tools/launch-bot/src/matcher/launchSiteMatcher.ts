@@ -11,7 +11,7 @@ import { LaunchData, LaunchSite, LaunchSiteGPTMatch, MatchResult } from "../type
 import { callOpenAI } from "../utils/openai";
 
 const knownSitesFilePath = path.resolve(__dirname, '../../data/launch-sites.json');
-const knownLaunchSites = async () => JSON.parse(await readFile(knownSitesFilePath, "utf8"));
+const knownLaunchSites = async (): Promise<Record<string, LaunchSite>> => JSON.parse(await readFile(knownSitesFilePath, "utf8"));
 
 /* ---------- one-time table build ---------- */
 
@@ -95,21 +95,29 @@ async function gptCheckSiteMatch(launchData: LaunchData, fuzzyMatch: MatchResult
   const siteCandidate = knownSites[fuzzyMatch.id];
   if (!siteCandidate) throw new Error(`Site candidate not found in known sites: ${fuzzyMatch.id}`);
 
+  // Find all other site candidates at the same location
+  const siteCandidates = Object.entries(knownSites).reduce((sites, [id, site]) => {
+    if (site.location === siteCandidate.location) {
+      sites[id] = site;
+    }
+    return sites;
+  }, {} as Record<string, LaunchSite>);
+
   const prompt = `
 Launch data:
 "launchData": ${JSON.stringify(launchData, null, 2)}
 
 Launch site candidate from database of known launch sites:
-${JSON.stringify(siteCandidate, null, 2)}
+${JSON.stringify(siteCandidates, null, 2)}
 
 Instructions:
-1. If the launch location clearly refers to **the candidate site**, reply:
+1. If the launch location clearly refers to **a candidate site**, reply:
     {
       "decision": "match",
-      "slug": string; // Source candidate site id, unchanged
+      "slug": string; // Source candidate key value, unchanged
       "reasoning": string; // brief overview of the reasoning that informed your decision>
     }
-2. If it is a **real launch site that is NOT in the database**, reply:
+2. If it is a **real launch site that is NOT in the candidate set**, reply:
     {
       "decision": "new_site";
       "proposed": {
@@ -183,8 +191,33 @@ JSON schema:
   if (result.decision === "match") {
     return { id: fuzzyMatch.id, score: 1, verdict: "accept" };
   } else if (result.decision === "new_site" && result.proposed) {
-    // TODO: add new site to lainch-sites.json
-    return { id: result.proposed.site_slug, score: 1, verdict: "accept" };
+    
+    // Add new site to lainch-sites.json
+    const newSite = {
+      site_name: result.proposed.site_name,
+      location: result.proposed.location,
+      geo: result.proposed.geo,
+      operator: result.proposed.operator,
+      launch_vehicles: result.proposed.launch_vehicles
+    };
+    const newSiteSlug = result.proposed.slug;
+    const newSiteData = {
+      [newSiteSlug]: newSite
+    };
+
+    // Append new site to the known sites JSON file
+    try {
+      const knownSites = await knownLaunchSites();
+      const updatedSites = { ...knownSites, ...newSiteData };
+      await fs.writeFile(knownSitesFilePath, JSON.stringify(updatedSites, null, 2));
+      console.log(`📝 Added new site to known sites: ${newSiteSlug}`);
+    }
+    catch (err) {
+      console.error("Failed to write new site to known sites file:", err);
+    }
+
+    // Return the new site as the match result
+    return { id: result.proposed.slug, score: 1, verdict: "accept" };
   } else {
     return {...fuzzyMatch, verdict: "no_match" };
   }

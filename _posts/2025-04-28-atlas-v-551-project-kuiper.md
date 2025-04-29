@@ -4,17 +4,19 @@ title: "\U0001F680 Atlas V 551 | \U0001F6F0 Project Kuiper (KA01 mission)"
 description: >-
   Atlas V 551 launches Amazon's first major operational batch of Project Kuiper
   broadband internet satellites, designated Kuiper 1 or KA-01, from SLC-41 at
-  Cape Canaveral Space Force Station. This mission begins Amazon’s transition
-  from prototypes to operational deployment, deploying 27 satellites as the
-  first phase of a constellation planned to number over 3,200 in low Earth
-  orbit, ultimately providing global broadband internet service and competing
-  with SpaceX's Starlink. This flight marks the 250th Centaur upper stage
-  mission and the first of over 80 scheduled Kuiper launches across multiple
-  providers, including future flights on Vulcan, Blue Origin, SpaceX, and
-  Arianespace. The Atlas V 551 'Bruiser' configuration, featuring five solid
-  boosters and a single-engine Centaur, launches the satellites, which will be
-  raised to their operational orbits after deployment. The launch had been
-  delayed from earlier April due to weather and range constraints.
+  Cape Canaveral Space Force Station. This mission begins Amazon’s
+  transition from prototypes to operational deployment, deploying 27 satellites
+  as the first phase of a constellation planned to number over 3,200 in low
+  Earth orbit. Project Kuiper aims to provide global broadband internet service
+  and compete with SpaceX's Starlink. This flight marks the 250th Centaur upper
+  stage mission and is the first of over 80 scheduled Kuiper launches across
+  multiple providers, including future flights on Vulcan, Blue Origin, SpaceX,
+  and Arianespace. The Atlas V 551 'Bruiser' configuration, with five solid
+  rocket boosters and a single-engine Centaur, delivers the satellites, which
+  will be raised to their final operational orbits after deployment. The launch
+  had faced delays due to weather and range constraints, and marked a
+  significant step as ULA launched 27 satellites for Amazon's Project Kuiper
+  broadband constellation.
 tags:
   - Atlas V 551
   - Atlas V
@@ -29,8 +31,8 @@ tags:
   - broadband
 date: '2025-04-28T23:01:00Z'
 created: '2025-04-23T22:05:23.094Z'
-updated: '2025-04-29T02:18:48.241Z'
-location: 'SLC-41, Cape Canaveral Space Force Station, Florida'
+updated: '2025-04-29T19:26:25.739Z'
+location: 'SLC-41, Cape Canaveral Space Force Station, Florida, USA'
 location-slug: slc-41-cape-canaveral-space-force-station-florida-usa
 manned: false
 vehicle: Atlas V 551
@@ -128,6 +130,12 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/amazon-launches-27-satellites-to-begin-building-huge-project-kuiper-internet-constellation
+  - title: ' New record! 6 rockets launch in less than 24 hours '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/new-record-6-rockets-launch-in-less-than-24-hours
 videos:
   - title: 'Spaceflight Now Live: ULA Atlas 5 with Project Kuiper Satellites'
     type:

@@ -38,8 +38,16 @@
     "vehicle_name": "Terran R",
     "operator": "Relativity Space"
   },
+  "terran-1": {
+    "vehicle_name": "Terran 1",
+    "operator": "Relativity Space"
+  },
   "electron": {
     "vehicle_name": "Electron",
+    "operator": "Rocket Lab"
+  },
+  "neutron": {
+    "vehicle_name": "Neutron",
     "operator": "Rocket Lab"
   },
   "alpha": {
@@ -95,10 +103,51 @@
     "operator": "ISRO",
     "aliases": ["LVM3"]
   },
+  "long-march-1": {
+    "vehicle_name": "Long March 1",
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 1", "CZ-1"],
+    "retired": true
+  },
+  "long-march-2c": {
+    "vehicle_name": "Long March 2C",
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 2C", "CZ-2C"]
+  },
+  "long-march-2d": {
+    "vehicle_name": "Long March 2D",
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 2D", "CZ-2D"]
+  },
   "long-march-2f": {
     "vehicle_name": "Long March 2F",
     "operator": "CASC",
     "aliases": ["Chang Zheng 2F", "Chang Zheng 2F/G", "CZ-2F", "CZ-2F/G"]
+  },
+  "long-march-3a": {
+    "vehicle_name": "Long March 3A",
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 3A", "CZ-3A"]
+  },
+  "long-march-3b": {
+    "vehicle_name": "Long March 3B",
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 3B", "CZ-3B", "CZ-3B/E"]
+  },
+  "long-march-3c": {
+    "vehicle_name": "Long March 3C",
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 3C", "CZ-3C"]
+  },
+  "long-march-3d": {
+    "vehicle_name": "Long March 3D",
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 3D", "CZ-3D"]
+  },
+  "long-march-4b": {
+    "vehicle_name": "Long March 4B",
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 4B", "CZ-4B"]
   },
   "long-march-4c": {
     "vehicle_name": "Long March 4C",
@@ -110,25 +159,47 @@
     "operator": "CASC",
     "aliases": ["Chang Zheng 5", "CZ-5"]
   },
+  "long-march-5b": {
+    "vehicle_name": "Long March 5B",
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 5B", "CZ-5B"]
+  },
+  "long-march-6": {
+    "vehicle_name": "Long March 6",
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 6", "CZ-6", "Chang Zheng 6A", "CZ-6A"]
+  },
   "long-march-7": {
     "vehicle_name": "Long March 7",
     "operator": "CASC",
     "aliases": ["Chang Zheng 7", "CZ-7"]
   },
-  "long-march-3b": {
-    "vehicle_name": "Long March 3B",
+  "long-march-7a": {
+    "vehicle_name": "Long March 7A",
     "operator": "CASC",
-    "aliases": ["Chang Zheng 3B", "CZ-3B"]
+    "aliases": ["Chang Zheng 7A", "CZ-7A"]
   },
-  "long-march-2c": {
-    "vehicle_name": "Long March 2C",
+  "long-march-8": {
+    "vehicle_name": "Long March 8",
     "operator": "CASC",
-    "aliases": ["Chang Zheng 2C", "CZ-2C"]
+    "aliases": [
+      "Chang Zheng 8",
+      "CZ-8",
+      "Long March 8A",
+      "Chang Zheng 8A",
+      "CZ-8A"
+    ]
   },
-  "long-march-6": {
-    "vehicle_name": "Long March 6",
+  "long-march-9": {
+    "vehicle_name": "Long March 9",
     "operator": "CASC",
-    "aliases": ["Chang Zheng 6", "Chang Zheng 6A", "CZ-6", "CZ-6A"]
+    "aliases": ["Chang Zheng 9", "CZ-9"],
+    "status": "in-development"
+  },
+  "long-march-11": {
+    "vehicle_name": "Long March 11",
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 11", "CZ-11"]
   },
   "unha": {
     "vehicle_name": "Unha",
@@ -163,6 +234,6 @@
   },
   "spectrum": {
     "vehicle_name": "Spectrum",
-    "operator": "ISAR Aerospace"
+    "operator": "Isar Aerospace"
   }
 }

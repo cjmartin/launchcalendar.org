@@ -2,21 +2,23 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 11-9"
 description: >-
-  SpaceX Falcon 9 launched 27 Starlink V2 Mini satellites on the Starlink 11-9
-  mission from Vandenberg's SLC-4E. The booster, B1063, completed its 25th
-  flight and successfully landed on the droneship 'Of Course I Still Love You'
-  in the Pacific Ocean. This mission continues the expansion of SpaceX's
-  satellite internet constellation, supporting millions of users worldwide and
-  marking another milestone in the Starlink megaconstellation program.
+  SpaceX's Falcon 9 launched 27 Starlink V2 Mini satellites to low Earth orbit
+  on the Starlink 11-9 mission from Vandenberg Space Force Base, California. The
+  Falcon 9 booster B1063 completed its 25th flight and landed successfully on
+  the droneship 'Of Course I Still Love You' in the Pacific Ocean. This launch
+  was one of two Starlink missions that took place within a 24-hour
+  record-setting period, further expanding SpaceX's satellite internet
+  constellation.
 tags:
   - Falcon 9
   - Starlink 11-9
   - SpaceX
   - Starlink
   - Vandenberg
+  - satellite
 date: '2025-04-28T20:42:00Z'
 created: '2025-04-23T22:05:23.082Z'
-updated: '2025-04-28T21:07:10.358Z'
+updated: '2025-04-29T19:26:08.564Z'
 location: 'SLC-4E, Vandenberg Space Force Base, California'
 location-slug: slc-4e-vandenberg-space-force-base-california-usa
 manned: false
@@ -49,6 +51,12 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-11-9-b1063-vsfb
+  - title: ' New record! 6 rockets launch in less than 24 hours '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/new-record-6-rockets-launch-in-less-than-24-hours
 videos:
   - title: YouTube video player
     type:
@@ -56,4 +64,4 @@ videos:
     url: 'https://www.youtube.com/embed/VqcdYjapMA4?si=-SWbdq7K_jZOMpeY'
 images: []
 ---
-On April 28, 2025, SpaceX successfully launched the Starlink 11-9 mission atop a Falcon 9 rocket from SLC-4E at Vandenberg Space Force Base, California. This mission deployed 27 Starlink V2 Mini satellites into low Earth orbit, further expanding the SpaceX internet megaconstellation. The Falcon 9 first stage booster, B1063, completed its 25th flight and landed on the droneship 'Of Course I Still Love You' in the Pacific Ocean. The satellites will now maneuver into their operational orbits. This mission marks the 18th orbital launch of the year from Vandenberg, continuing the Starlink constellation’s global expansion. Live coverage began 30 minutes prior to launch.
+On April 28, 2025, SpaceX successfully launched the Starlink 11-9 mission atop a Falcon 9 rocket from SLC-4E at Vandenberg Space Force Base, California. This mission deployed 27 Starlink V2 Mini satellites into low Earth orbit, further expanding the SpaceX internet megaconstellation. The Falcon 9 first stage booster, B1063, completed its 25th flight and landed on the droneship 'Of Course I Still Love You' in the Pacific Ocean. This mission marked the 18th orbital launch of the year from Vandenberg, continuing the Starlink constellation’s global expansion.

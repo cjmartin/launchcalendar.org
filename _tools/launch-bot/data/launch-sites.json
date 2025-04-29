@@ -2,253 +2,464 @@
   "slc-40-cape-canaveral-space-force-station-florida-usa": {
     "site_name": "SLC-40",
     "location": "Cape Canaveral Space Force Station, Florida, USA",
-    "geo": { "latitude": 28.5619, "longitude": -80.5774 },
+    "geo": {
+      "latitude": 28.5619,
+      "longitude": -80.5774
+    },
     "operator": "SpaceX",
-    "launch_vehicles": ["falcon-9"]
+    "launch_vehicles": [
+      "falcon-9"
+    ]
   },
   "slc-41-cape-canaveral-space-force-station-florida-usa": {
     "site_name": "SLC-41",
     "location": "Cape Canaveral Space Force Station, Florida, USA",
-    "geo": { "latitude": 28.5830, "longitude": -80.5830 },
+    "geo": {
+      "latitude": 28.583,
+      "longitude": -80.583
+    },
     "operator": "United Launch Alliance",
-    "launch_vehicles": ["atlas-v", "vulcan-centaur"]
+    "launch_vehicles": [
+      "atlas-v",
+      "vulcan-centaur"
+    ]
   },
   "slc-37b-cape-canaveral-space-force-station-florida-usa": {
     "site_name": "SLC-37B",
     "location": "Cape Canaveral Space Force Station, Florida, USA",
-    "geo": { "latitude": 28.5320, "longitude": -80.5647 },
+    "geo": {
+      "latitude": 28.532,
+      "longitude": -80.5647
+    },
     "operator": "United Launch Alliance",
-    "launch_vehicles": ["delta-iv-heavy", "vulcan-centaur"]
+    "launch_vehicles": [
+      "delta-iv-heavy",
+      "vulcan-centaur"
+    ]
   },
   "slc-46-cape-canaveral-space-force-station-florida-usa": {
     "site_name": "SLC-46",
     "location": "Cape Canaveral Space Force Station, Florida, USA",
-    "geo": { "latitude": 28.5236, "longitude": -80.5669 },
+    "geo": {
+      "latitude": 28.5236,
+      "longitude": -80.5669
+    },
     "operator": "Space Florida / U.S. Navy",
-    "launch_vehicles": ["minotaur-iv"]
+    "launch_vehicles": [
+      "minotaur-iv"
+    ]
   },
   "lc-39a-kennedy-space-center-florida-usa": {
     "site_name": "LC-39A",
     "location": "Kennedy Space Center, Florida, USA",
-    "geo": { "latitude": 28.6084, "longitude": -80.6043 },
+    "geo": {
+      "latitude": 28.6084,
+      "longitude": -80.6043
+    },
     "operator": "SpaceX (leased from NASA)",
-    "launch_vehicles": ["falcon-9", "falcon-heavy", "starship"]
+    "launch_vehicles": [
+      "falcon-9",
+      "falcon-heavy",
+      "starship"
+    ]
   },
   "lc-39b-kennedy-space-center-florida-usa": {
     "site_name": "LC-39B",
     "location": "Kennedy Space Center, Florida, USA",
-    "geo": { "latitude": 28.6270, "longitude": -80.6206 },
+    "geo": {
+      "latitude": 28.627,
+      "longitude": -80.6206
+    },
     "operator": "NASA",
-    "launch_vehicles": ["sls"]
+    "launch_vehicles": [
+      "sls"
+    ]
   },
   "starbase-boca-chica-texas-usa": {
     "site_name": "Starbase",
     "location": "Boca Chica Beach, Texas, USA",
-    "geo": { "latitude": 25.9970, "longitude": -97.1560 },
+    "geo": {
+      "latitude": 25.997,
+      "longitude": -97.156
+    },
     "operator": "SpaceX",
-    "launch_vehicles": ["starship"]
+    "launch_vehicles": [
+      "starship"
+    ]
   },
   "slc-2-vandenberg-space-force-base-california-usa": {
     "site_name": "SLC-2",
     "location": "Vandenberg Space Force Base, California, USA",
-    "geo": { "latitude": 34.7440, "longitude": -120.5720 },
+    "geo": {
+      "latitude": 34.744,
+      "longitude": -120.572
+    },
     "operator": "Firefly Aerospace",
-    "launch_vehicles": ["alpha"]
+    "launch_vehicles": [
+      "alpha"
+    ]
   },
   "slc-4e-vandenberg-space-force-base-california-usa": {
     "site_name": "SLC-4E",
     "location": "Vandenberg Space Force Base, California, USA",
-    "geo": { "latitude": 34.6321, "longitude": -120.6106 },
+    "geo": {
+      "latitude": 34.6321,
+      "longitude": -120.6106
+    },
     "operator": "SpaceX",
-    "launch_vehicles": ["falcon-9", "falcon-heavy"]
+    "launch_vehicles": [
+      "falcon-9",
+      "falcon-heavy"
+    ]
   },
   "slc-6-vandenberg-space-force-base-california-usa": {
     "site_name": "SLC-6",
     "location": "Vandenberg Space Force Base, California, USA",
-    "geo": { "latitude": 34.5762, "longitude": -120.6294 },
+    "geo": {
+      "latitude": 34.5762,
+      "longitude": -120.6294
+    },
     "operator": "United Launch Alliance",
-    "launch_vehicles": ["vulcan-centaur"]
+    "launch_vehicles": [
+      "vulcan-centaur"
+    ]
   },
   "slc-8-vandenberg-space-force-base-california-usa": {
     "site_name": "SLC-8",
     "location": "Vandenberg Space Force Base, California, USA",
-    "geo": { "latitude": 34.5765, "longitude": -120.6320 },
+    "geo": {
+      "latitude": 34.5765,
+      "longitude": -120.632
+    },
     "operator": "US Space Force",
-    "launch_vehicles": ["minotaur-iv", "minotaur-c"]
+    "launch_vehicles": [
+      "minotaur-iv",
+      "minotaur-c"
+    ]
   },
   "pad-0a-wallops-island-virginia-usa": {
     "site_name": "Pad 0A",
     "location": "Wallops Island, Virginia, USA",
-    "geo": { "latitude": 37.8337, "longitude": -75.4884 },
+    "geo": {
+      "latitude": 37.8337,
+      "longitude": -75.4884
+    },
     "operator": "Virginia Space / NASA",
-    "launch_vehicles": ["antares"]
+    "launch_vehicles": [
+      "antares"
+    ]
   },
   "pad-0b-wallops-island-virginia-usa": {
     "site_name": "Pad 0B",
     "location": "Wallops Island, Virginia, USA",
-    "geo": { "latitude": 37.8333, "longitude": -75.4897 },
+    "geo": {
+      "latitude": 37.8333,
+      "longitude": -75.4897
+    },
     "operator": "Virginia Space / NASA",
-    "launch_vehicles": ["minotaur-iv"]
+    "launch_vehicles": [
+      "minotaur-iv"
+    ]
   },
   "lc-2-wallops-island-virginia-usa": {
     "site_name": "LC-2",
     "location": "Wallops Island, Virginia, USA",
-    "geo": { "latitude": 37.8300, "longitude": -75.4910 },
+    "geo": {
+      "latitude": 37.83,
+      "longitude": -75.491
+    },
     "operator": "Rocket Lab",
-    "launch_vehicles": ["electron"]
+    "launch_vehicles": [
+      "electron"
+    ]
   },
   "lc-1a-mahia-peninsula-new-zealand": {
     "site_name": "LC-1A",
     "location": "Mahia Peninsula, New Zealand",
-    "geo": { "latitude": -39.2620, "longitude": 177.8650 },
+    "geo": {
+      "latitude": -39.262,
+      "longitude": 177.865
+    },
     "operator": "Rocket Lab",
-    "launch_vehicles": ["electron"]
+    "launch_vehicles": [
+      "electron"
+    ]
   },
   "lc-1b-mahia-peninsula-new-zealand": {
     "site_name": "LC-1B",
     "location": "Mahia Peninsula, New Zealand",
-    "geo": { "latitude": -39.2620, "longitude": 177.8740 },
+    "geo": {
+      "latitude": -39.262,
+      "longitude": 177.874
+    },
     "operator": "Rocket Lab",
-    "launch_vehicles": ["electron"]
+    "launch_vehicles": [
+      "electron"
+    ]
   },
   "ela-3-guiana-space-centre-kourou-french-guiana": {
     "site_name": "ELA-3",
     "location": "Guiana Space Centre, Kourou, French Guiana",
-    "geo": { "latitude": 5.2390, "longitude": -52.7680 },
+    "geo": {
+      "latitude": 5.239,
+      "longitude": -52.768
+    },
     "operator": "Arianespace / ESA",
-    "launch_vehicles": ["ariane-5"]
+    "launch_vehicles": [
+      "ariane-5"
+    ]
   },
   "ela-4-guiana-space-centre-kourou-french-guiana": {
     "site_name": "ELA-4",
     "location": "Guiana Space Centre, Kourou, French Guiana",
-    "geo": { "latitude": 5.2360, "longitude": -52.7760 },
+    "geo": {
+      "latitude": 5.236,
+      "longitude": -52.776
+    },
     "operator": "Arianespace / ESA",
-    "launch_vehicles": ["ariane-6"]
+    "launch_vehicles": [
+      "ariane-6"
+    ]
   },
   "els-guiana-space-centre-kourou-french-guiana": {
     "site_name": "ELS",
     "location": "Guiana Space Centre, Kourou, French Guiana",
-    "geo": { "latitude": 5.3040, "longitude": -52.6460 },
+    "geo": {
+      "latitude": 5.304,
+      "longitude": -52.646
+    },
     "operator": "Arianespace / ESA",
-    "launch_vehicles": ["soyuz-2"]
+    "launch_vehicles": [
+      "soyuz-2"
+    ]
   },
   "zlv-guiana-space-centre-kourou-french-guiana": {
     "site_name": "ZLV",
     "location": "Guiana Space Centre, Kourou, French Guiana",
-    "geo": { "latitude": 5.2360, "longitude": -52.7860 },
+    "geo": {
+      "latitude": 5.236,
+      "longitude": -52.786
+    },
     "operator": "Arianespace / ESA",
-    "launch_vehicles": ["vega", "vega-c"]
+    "launch_vehicles": [
+      "vega",
+      "vega-c"
+    ]
   },
   "site-1-baikonur-cosmodrome-kazakhstan": {
     "site_name": "Site 1",
     "location": "Baikonur Cosmodrome, Kazakhstan",
-    "geo": { "latitude": 45.9206, "longitude": 63.3422 },
+    "geo": {
+      "latitude": 45.9206,
+      "longitude": 63.3422
+    },
     "operator": "Roscosmos",
-    "launch_vehicles": ["soyuz-2"]
+    "launch_vehicles": [
+      "soyuz-2"
+    ]
   },
   "site-31-baikonur-cosmodrome-kazakhstan": {
     "site_name": "Site 31",
     "location": "Baikonur Cosmodrome, Kazakhstan",
-    "geo": { "latitude": 45.9960, "longitude": 63.5620 },
+    "geo": {
+      "latitude": 45.996,
+      "longitude": 63.562
+    },
     "operator": "Roscosmos",
-    "launch_vehicles": ["soyuz-2"]
+    "launch_vehicles": [
+      "soyuz-2"
+    ]
   },
   "site-39-baikonur-cosmodrome-kazakhstan": {
     "site_name": "Site 39",
     "location": "Baikonur Cosmodrome, Kazakhstan",
-    "geo": { "latitude": 45.9646, "longitude": 63.3052 },
+    "geo": {
+      "latitude": 45.9646,
+      "longitude": 63.3052
+    },
     "operator": "Roscosmos",
-    "launch_vehicles": ["proton-m"]
+    "launch_vehicles": [
+      "proton-m"
+    ]
   },
   "site-1s-vostochny-cosmodrome-russia": {
     "site_name": "Site 1S",
     "location": "Vostochny Cosmodrome, Russia",
-    "geo": { "latitude": 51.8840, "longitude": 128.3330 },
+    "geo": {
+      "latitude": 51.884,
+      "longitude": 128.333
+    },
     "operator": "Roscosmos",
-    "launch_vehicles": ["soyuz-2"]
+    "launch_vehicles": [
+      "soyuz-2"
+    ]
   },
   "site-43-plesetsk-cosmodrome-russia": {
     "site_name": "Site 43",
     "location": "Plesetsk Cosmodrome, Russia",
-    "geo": { "latitude": 62.9560, "longitude": 40.5060 },
+    "geo": {
+      "latitude": 62.956,
+      "longitude": 40.506
+    },
     "operator": "Russian MoD",
-    "launch_vehicles": ["soyuz-2"]
+    "launch_vehicles": [
+      "soyuz-2"
+    ]
   },
   "pad-1-yoshinobu-tanegashima-space-center-japan": {
     "site_name": "Pad 1 (Yoshinobu)",
     "location": "Tanegashima Space Center, Japan",
-    "geo": { "latitude": 30.4016, "longitude": 130.9720 },
+    "geo": {
+      "latitude": 30.4016,
+      "longitude": 130.972
+    },
     "operator": "JAXA",
-    "launch_vehicles": ["h2a", "h3"]
+    "launch_vehicles": [
+      "h2a",
+      "h3"
+    ]
   },
   "first-launch-pad-satish-dhawan-space-centre-sriharikota-india": {
     "site_name": "First Launch Pad",
     "location": "Satish Dhawan Space Centre, Sriharikota, India",
-    "geo": { "latitude": 13.7199, "longitude": 80.2304 },
+    "geo": {
+      "latitude": 13.7199,
+      "longitude": 80.2304
+    },
     "operator": "ISRO",
-    "launch_vehicles": ["pslv"]
+    "launch_vehicles": [
+      "pslv"
+    ]
   },
   "second-launch-pad-satish-dhawan-space-centre-sriharikota-india": {
     "site_name": "Second Launch Pad",
     "location": "Satish Dhawan Space Centre, Sriharikota, India",
-    "geo": { "latitude": 13.7330, "longitude": 80.2350 },
+    "geo": {
+      "latitude": 13.733,
+      "longitude": 80.235
+    },
     "operator": "ISRO",
-    "launch_vehicles": ["gslv-mk3", "pslv"]
+    "launch_vehicles": [
+      "gslv-mk3",
+      "pslv"
+    ]
   },
   "launch-area-4-jiuquan-satellite-launch-center-china": {
     "site_name": "Launch Area 4",
     "location": "Jiuquan Satellite Launch Center, China",
-    "geo": { "latitude": 40.9606, "longitude": 100.2983 },
+    "geo": {
+      "latitude": 40.9606,
+      "longitude": 100.2983
+    },
     "operator": "CASC",
-    "launch_vehicles": ["long-march-2f", "long-march-4c"]
+    "launch_vehicles": [
+      "long-march-2f",
+      "long-march-4c"
+    ]
   },
   "launch-complex-1-wenchang-space-launch-site-china": {
     "site_name": "Launch Complex 1",
     "location": "Wenchang Space Launch Site, China",
-    "geo": { "latitude": 19.6144, "longitude": 110.9515 },
+    "geo": {
+      "latitude": 19.6144,
+      "longitude": 110.9515
+    },
     "operator": "CASC",
-    "launch_vehicles": ["long-march-5", "long-march-7"]
+    "launch_vehicles": [
+      "long-march-5",
+      "long-march-5b",
+      "long-march-7"
+    ]
+  },
+  "launch-complex-2-wenchang-space-launch-site-china": {
+    "site_name": "Launch Complex 2",
+    "location": "Wenchang Space Launch Site, China",
+    "geo": {
+      "latitude": 19.61836,
+      "longitude": 110.95574
+    },
+    "operator": "CASC",
+    "launch_vehicles": [
+      "long-march-7",
+      "long-march-7a",
+      "long-march-8"
+    ]
   },
   "launch-complex-3-xichang-satellite-launch-center-china": {
     "site_name": "Launch Complex 3",
     "location": "Xichang Satellite Launch Center, China",
-    "geo": { "latitude": 28.2460, "longitude": 102.0270 },
+    "geo": {
+      "latitude": 28.246,
+      "longitude": 102.027
+    },
     "operator": "CASC",
-    "launch_vehicles": ["long-march-3b", "long-march-2c"]
+    "launch_vehicles": [
+      "long-march-3b",
+      "long-march-2c"
+    ]
   },
   "launch-complex-2-taiyuan-satellite-launch-center-china": {
     "site_name": "Launch Complex 2",
     "location": "Taiyuan Satellite Launch Center, China",
-    "geo": { "latitude": 38.8460, "longitude": 111.6140 },
+    "geo": {
+      "latitude": 38.846,
+      "longitude": 111.614
+    },
     "operator": "CASC",
-    "launch_vehicles": ["long-march-4c", "long-march-6"]
+    "launch_vehicles": [
+      "long-march-4c",
+      "long-march-6"
+    ]
   },
   "sohae-satellite-launching-station-tongchang-ri-north-korea": {
     "site_name": "Sohae Satellite Launching Station",
     "location": "Tongchang-ri, North Korea",
-    "geo": { "latitude": 39.6601, "longitude": 124.7053 },
+    "geo": {
+      "latitude": 39.6601,
+      "longitude": 124.7053
+    },
     "operator": "National Aerospace Development Administration (NADA)",
-    "launch_vehicles": ["unha", "chollima-1"]
+    "launch_vehicles": [
+      "unha",
+      "chollima-1"
+    ]
   },
   "launch-pad-fredo-saxavord-spaceport-shetland-islands-uk": {
     "site_name": "Launch Pad Fredo",
     "location": "SaxaVord Spaceport, Shetland Islands, UK",
-    "geo": { "latitude": 60.8184, "longitude": -0.7692 },
+    "geo": {
+      "latitude": 60.8184,
+      "longitude": -0.7692
+    },
     "operator": "SaxaVord Spaceport",
-    "launch_vehicles": ["rfa-one", "skyrora-xl", "rs1"]
+    "launch_vehicles": [
+      "rfa-one",
+      "skyrora-xl",
+      "rs1"
+    ]
   },
   "launch-site-one-corn-ranch-texas-usa": {
     "site_name": "Launch Site One",
     "location": "Corn Ranch, Texas, USA",
-    "geo": { "latitude": 31.422927, "longitude": -104.757152 },
+    "geo": {
+      "latitude": 31.422927,
+      "longitude": -104.757152
+    },
     "operator": "Blue Origin",
-    "launch-vehicles": ["new-shepard"]
+    "launch-vehicles": [
+      "new-shepard"
+    ]
   },
   "andoya-spaceport-andoya-norway": {
     "site_name": "Andøya Spaceport",
     "location": "Andøya, Norway",
-    "geo": { "latitude": 69.2944, "longitude": 16.0198 },
+    "geo": {
+      "latitude": 69.2944,
+      "longitude": 16.0198
+    },
     "operator": "Andøya Space",
-    "launch_vehicles": ["spectrum"]
+    "launch_vehicles": [
+      "spectrum"
+    ]
   }
 }

@@ -74,6 +74,7 @@ export interface LaunchFrontmatter {
   date: string;
   created: string;
   updated: string;
+  redirect_from: string[];
   location: string;
   "location-slug": string;
   manned: boolean;
@@ -95,6 +96,7 @@ export const frontMatterKeys = [
   "date",
   "created",
   "updated",
+  "redirect_from",
   "location",
   "location-slug",
   "manned",
@@ -127,7 +129,7 @@ export interface LaunchSiteGPTMatch {
   decision: "match" | "new_site" | "no_match";
   site_id?: string, // required if decision == match
   proposed?: {
-      site_slug: string; // format: slugified site_name + location
+      slug: string; // format: slugified site_name + location
       site_name: string;
       location: string;
       geo: {
