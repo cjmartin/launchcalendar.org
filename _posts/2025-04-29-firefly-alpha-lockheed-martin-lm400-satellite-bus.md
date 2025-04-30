@@ -1,20 +1,22 @@
 ---
 layout: launch
-title: "\U0001F680 Alpha | \U0001F6F0 Lockheed Martin LM400 Satellite Bus (Message In A Booster)"
+title: "\U0001F680 Alpha | \U0001F6F0 LM400 Pathfinder - Message In A Booster"
 description: >-
-  Firefly Aerospace's Alpha rocket launched Lockheed Martin's LM 400 technology
-  demonstrator satellite on the 'Message in a Booster' mission on April 29,
-  2025, from Vandenberg Space Force Base, California, USA. The sixth flight of
-  the Alpha vehicle, this mission was intended to showcase the LM 400 mid-sized
-  satellite bus's operational capabilities for commercial, civil, and military
-  applications such as remote sensing and communications. However, a separation
-  mishap occurred during the upper stage—roughly 12 minutes after
-  launch—resulting in the loss of the payload, which impacted the Pacific Ocean
-  near Antarctica. The mission experienced previous delays due to weather and
-  range restrictions, and was part of a multi-launch deal to validate the
-  flexible LM400 satellite platform. Firefly Aerospace and its partners are
-  actively investigating the cause of the anomaly, with more Alpha launches
-  planned as part of the expanding rapid launch services portfolio.
+  Firefly Aerospace launched the FLTA006 Alpha rocket on the 'Message In A
+  Booster' mission from SLC-2W, Vandenberg Space Force Base, California, USA, on
+  April 29, 2025. The vehicle carried Lockheed Martin's LM400 Pathfinder
+  technology demonstrator (alternatively referenced as LM 400) to showcase its
+  mid-sized satellite bus capabilities for commercial, civil, and military use
+  such as remote sensing and communications. This sixth flight of Alpha
+  encountered a separation mishap during the upper stage—approximately 12
+  minutes after launch—which prevented orbit insertion, resulting in the second
+  stage and payload safely impacting the Pacific Ocean near Antarctica. The
+  mission, which followed delays due to weather and range restrictions, was part
+  of Lockheed Martin's multi-launch agreement, validating the LM400 platform
+  with up to 25 future launches planned. Firefly Aerospace and partners are
+  actively investigating the cause of the anomaly, with additional Alpha
+  launches expected as part of Firefly's expanding rapid launch services
+  portfolio.
 tags:
   - Alpha
   - Firefly
@@ -30,9 +32,10 @@ tags:
   - Vandenberg
   - technology demonstrator
   - Firefly Alpha
+  - LM400 Pathfinder
 date: '2025-04-29T13:37:00Z'
 created: '2025-04-23T22:05:23.086Z'
-updated: '2025-04-29T21:12:52.007Z'
+updated: '2025-04-30T00:10:26.156Z'
 redirect_from:
   - 2025/04/28/firefly-alpha-lockheed-martin-lm400-satellite-bus/
 location: 'SLC-2W, Vandenberg Space Force Base, California'
@@ -41,7 +44,7 @@ manned: false
 vehicle: Alpha
 vehicle-type: rocket
 vehicle-slug: alpha
-payload: Lockheed Martin LM400 Satellite Bus (Message In A Booster)
+payload: LM400 Pathfinder - 'Message In A Booster'
 payload-type: satellite
 links:
   - title: Alpha | Message In A Booster
@@ -112,6 +115,13 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/new-record-6-rockets-launch-in-less-than-24-hours
+  - title: >-
+      Launch Roundup: Starlink missions fill launch manifest, Biomass and Alpha
+      launch
+    type:
+      - article
+      - source
+    url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/'
 videos:
   - title: Firefly Aerospace Launches Alpha FLTA006 'Message In A Booster'
     type:
@@ -128,6 +138,11 @@ videos:
       - video
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/firefly-aerospace-alpha-rocket-launch-lm-400-lockheed-martin
+  - title: Firefly Aerospace Launches Alpha FLTA006 "Message In A Booster"
+    type:
+      - youtube
+      - launch webcast
+    url: 'https://www.youtube.com/embed/o35dNjHwWuc?feature=oembed'
 images: []
 ---
-On April 29, 2025, Firefly Aerospace's Alpha rocket undertook its sixth flight from Vandenberg Space Force Base, California, carrying Lockheed Martin's LM 400 satellite technology demonstrator as part of the 'Message in a Booster' mission. After previous delays due to weather and range restrictions, the mission suffered a failure during upper stage separation, resulting in the loss of the payload, which impacted the Pacific Ocean near Antarctica. The launch was intended to demonstrate the operational capabilities of the LM 400 mid-sized satellite bus for commercial, civil, and military applications. Firefly and its partners are investigating the anomaly, with further details and updates expected through official channels. Additional Alpha launches are planned as Firefly expands rapid launch services in 2025.
+Firefly Aerospace launched the FLTA006 'Message In A Booster' mission aboard Alpha from SLC-2W at Vandenberg on April 29, 2025 at 13:37 UTC. The mission, carrying Lockheed Martin's LM400 Pathfinder tech demonstrator, suffered a mishap during stage separation, preventing orbit insertion; the second stage and payload safely impacted the Pacific Ocean. The launch, which experienced delays due to weather and range restrictions, represented the sixth flight of Alpha and was part of a larger agreement for up to 25 missions for Lockheed Martin. Firefly and its partners are investigating the anomaly, with additional Alpha launches planned as part of their rapid launch services expansion.
