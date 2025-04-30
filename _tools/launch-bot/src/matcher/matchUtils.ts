@@ -47,8 +47,8 @@ export function makeAliasTable<T>(
  */
 export const verdictFromScore = (
   sc: number
-): "accept" | "gpt_check" | "no_match" =>
-  sc >= 0.85 ? "accept" : sc >= 0.5 ? "gpt_check" : "no_match";
+): "match" | "gpt_check" | "no_match" =>
+  sc >= 0.85 ? "match" : sc >= 0.5 ? "gpt_check" : "no_match";
 
 /**
  * matchStringFuzzy: Attempts to match a raw string to a known entry using the alias table.
@@ -65,7 +65,7 @@ export function matchStringFuzzy(
   if (!raw) return { id: "", score: 0, verdict: "no_match" };
 
   const n = normalize(raw);
-  if (table[n]) return { id: table[n], score: 1, verdict: "accept" };
+  if (table[n]) return { id: table[n], score: 1, verdict: "match" };
 
   let best: { id: string; score: number } = { id: "", score: 0 };
   for (const [alias, id] of Object.entries(table)) {

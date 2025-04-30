@@ -116,7 +116,7 @@ export const frontMatterKeys = [
 export interface MatchResult {
   id: string; // usually the slug
   score: number; // the score of the match
-  verdict: "accept" | "gpt_check" | "no_match"; // the verdict of the match
+  verdict: "match" | "no_match" | "gpt_check"; // the verdict of the match
 }
 
 export interface LaunchMatchResult {

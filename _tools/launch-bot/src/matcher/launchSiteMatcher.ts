@@ -9,6 +9,7 @@ import {
 } from "./matchUtils";
 import { LaunchData, LaunchSite, LaunchSiteGPTMatch, MatchResult } from "../types";
 import { callOpenAI } from "../utils/openai";
+import { createLaunchSiteFile } from "../updater/launchSiteFileUpdater";
 
 const knownSitesFilePath = path.resolve(__dirname, '../../data/launch-sites.json');
 const knownLaunchSites = async (): Promise<Record<string, LaunchSite>> => JSON.parse(await readFile(knownSitesFilePath, "utf8"));
@@ -189,11 +190,11 @@ JSON schema:
   // --- End log ---
 
   if (result.decision === "match") {
-    return { id: fuzzyMatch.id, score: 1, verdict: "accept" };
+    return { id: fuzzyMatch.id, score: 1, verdict: "match" };
   } else if (result.decision === "new_site" && result.proposed) {
     
     // Add new site to lainch-sites.json
-    const newSite = {
+    const newSite: LaunchSite = {
       site_name: result.proposed.site_name,
       location: result.proposed.location,
       geo: result.proposed.geo,
@@ -205,19 +206,24 @@ JSON schema:
       [newSiteSlug]: newSite
     };
 
-    // Append new site to the known sites JSON file
+    // Append new site to the known sites JSON file and create a new launch site entry
     try {
       const knownSites = await knownLaunchSites();
       const updatedSites = { ...knownSites, ...newSiteData };
       await fs.writeFile(knownSitesFilePath, JSON.stringify(updatedSites, null, 2));
-      console.log(`📝 Added new site to known sites: ${newSiteSlug}`);
+      console.log(`📝 Added new site to known sites list: ${newSiteSlug}`);
+
+      // Add a new launch site file for the new site.
+      await createLaunchSiteFile(newSiteSlug, newSite);
+      console.log(`📝 Created new launch site file for ${newSite.site_name}, ${newSite.location}`);
+
+      // Return the new site as the match result
+      return { id: result.proposed.slug, score: 1, verdict: "match" };
     }
     catch (err) {
       console.error("Failed to write new site to known sites file:", err);
+      return {...fuzzyMatch, verdict: "no_match" };
     }
-
-    // Return the new site as the match result
-    return { id: result.proposed.slug, score: 1, verdict: "accept" };
   } else {
     return {...fuzzyMatch, verdict: "no_match" };
   }

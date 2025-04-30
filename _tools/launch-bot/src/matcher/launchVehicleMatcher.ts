@@ -48,14 +48,14 @@ export function matchVehicle(
   const n = normalize(raw);
   if (table[n]) {
     console.log(`🧐 Exact match found: ${table[n]}`);
-    return { id: table[n], score: 1, verdict: "accept" };
+    return { id: table[n], score: 1, verdict: "match" };
   }
 
   // strip trailing config block (Atlas V 551 → Atlas V)
   const base = n.replace(/\s+\d+[a-z]*$/i, "");
   if (base !== n && table[base]) {
     console.log(`🧐 Matched after stripping config: ${table[base]}`);
-    return { id: table[base], score: 0.92, verdict: "accept" };
+    return { id: table[base], score: 0.92, verdict: "match" };
   }
 
   let best: { id: string; score: number } = {id: "", score: 0 };

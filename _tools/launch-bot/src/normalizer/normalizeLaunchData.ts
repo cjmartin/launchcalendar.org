@@ -21,7 +21,7 @@ export async function normalizeLaunchData(launch: LaunchData): Promise<LaunchDat
   // Normalize vehicle
   if (launch.vehicle) {
     const vehicleMatch = matchVehicle(launch.vehicle, vehicleTable);
-    if (vehicleMatch.verdict === 'accept' && vehicleMatch.id) {
+    if (vehicleMatch.verdict === 'match' && vehicleMatch.id) {
       normalized['vehicle_slug'] = vehicleMatch.id;
     }
   }
@@ -29,7 +29,7 @@ export async function normalizeLaunchData(launch: LaunchData): Promise<LaunchDat
   // Normalize location
   if (launch.location) {
     const siteMatch = await matchSite(launch, siteTable);
-    if (siteMatch.verdict === 'accept' && siteMatch.id) {
+    if (siteMatch.verdict === 'match' && siteMatch.id) {
       normalized['location_slug'] = siteMatch.id;
     }
   }
