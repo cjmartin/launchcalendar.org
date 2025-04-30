@@ -19,6 +19,7 @@ export interface LaunchData {
   vehicle_slug?: string; // slug for the vehicle, e.g. "falcon-9"
   payload?: string; // what is being sent to orbit? (e.g. "Cargo Dragon")
   payload_type?: string; // what type of object is being sent to orbit (e.g. "satellite, cargo module, crew capsule")
+  payload_description?: string; // a short description of the payload
   description?: string; // a very short description of the launch
   tags?: string[]; // a list of tags for this launch
   article_summary?: string; // a short summary of the launch details, updates, etc. from this article
@@ -83,6 +84,7 @@ export interface LaunchFrontmatter {
   "vehicle-slug": string;
   payload: string;
   "payload-type": string;
+  "payload-description": string;
   links: LaunchLink[];
   videos: LaunchVideo[];
   images: LaunchImage[];
@@ -105,6 +107,7 @@ export const frontMatterKeys = [
   "vehicle-slug",
   "payload",
   "payload-type",
+  "payload-description",
   "links",
   "videos",
   "images"

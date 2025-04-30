@@ -66,6 +66,7 @@ export function createLaunchFile(filePath: string, launchData: LaunchData, creat
     "vehicle-slug": launchData.vehicle_slug || "",
     payload: launchData.payload || "",
     "payload-type": launchData.payload_type || "",
+    "payload-description": launchData.payload_description || "",
     links: launchData.links || [],
     videos: launchData.videos || [],
     images: launchData.images || [],
@@ -101,21 +102,22 @@ For description and article_summary, update the text to reflect any new informat
 
 Return a single JSON object with the updated launchData, using the same structure as LaunchData (see below).\n\nLaunchData structure:
 {
-  launch_datetime?: string,
-  location?: string,
-  location_slug?: string,
-  manned?: boolean,
-  vehicle?: string,
-  vehicle_type?: string,
-  vehicle_slug?: string,
-  payload?: string,
-  payload_type?: string,
-  description?: string,
-  tags?: string[],
-  article_summary?: string,
-  links?: LaunchLink[],
-  videos?: LaunchVideo[],
-  images?: LaunchImage[]
+  launch_datetime?: string, // the date and time of the scheduled launch in ISO8601 UTC format
+  location?: string, // should not be changed from existing
+  location_slug?: string, // should not be changed from existing
+  manned?: boolean, // is this a manned mission? (true/false)
+  vehicle?: string, // should not be changed from existing
+  vehicle_type?: string, // most likely 'rocket', but might be missle or other
+  vehicle_slug?: string, // should not be changed from existing
+  payload?: string, // what is being sent to orbit? (e.g. "Cargo Dragon")
+  payload_type?: string, // what type of object is being sent to orbit (e.g. "satellite, cargo module, crew capsule, rideshare")
+  payload_description?: string, // a short description of the payload
+  description?: string, // a very short description of the launch
+  tags?: string[], // a list of tags for this launch, new merged with existing
+  article_summary?: string, // a short summary of the launch details, updates, etc.
+  links?: LaunchLink[], // links relevant to this launch, new merged with existing
+  videos?: LaunchVideo[], // a list of videos related to the launch, new merged with existing
+  images?: LaunchImage[] // a list of images related to the launch, new merged with existing
 }
 
 Here is the existing launchData:
@@ -156,6 +158,7 @@ Return only the updated LaunchData as JSON. Do not include any extra text or exp
     "vehicle-slug": updatedLaunchData.vehicle_slug || parsed.data["vehicle-slug"] || "",
     payload: updatedLaunchData.payload || parsed.data.payload || "",
     "payload-type": updatedLaunchData.payload_type || parsed.data["payload-type"] || "",
+    "payload-description": updatedLaunchData.payload_description || parsed.data["payload-description"] || "",
     links: updatedLaunchData.links || parsed.data.links || [],
     videos: updatedLaunchData.videos || parsed.data.videos || [],
     images: updatedLaunchData.images || parsed.data.images || [],
@@ -181,6 +184,7 @@ export function fileDataToLaunchData(parsed: GrayMatterFile<string>): LaunchData
     vehicle_slug: parsed.data["vehicle-slug"],
     payload: parsed.data.payload,
     payload_type: parsed.data["payload-type"],
+    payload_description: parsed.data["payload-description"],
     description: parsed.data.description,
     tags: parsed.data.tags,
     links: parsed.data.links,
