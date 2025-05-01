@@ -5,10 +5,10 @@ layout: calendar
 BEGIN:VEVENT
 {% assign uid_value = post.date | date: "%Y%m%dT%H%M%SZ" | append: "-" | append: post.slug | prepend: "org.launchcalendar." -%}
 {{ "UID" | ical_property: uid_value }}
-{% assign created_value = post.created | date: "%Y%m%dT%H%M%SZ" -%}
-{{ "CREATED" | ical_property: created_value }}
-{% assign dtstamp_value = post.updated | date: "%Y%m%dT%H%M%SZ" -%}
-{{ "DTSTAMP" | ical_property: dtstamp_value }}
+{% assign dtstamp_value = post.created | date: "%Y%m%dT%H%M%SZ" -%}
+{{ "DTSTAMP" | ical_property: created_value }}
+{% assign updated_value = post.updated | date: "%Y%m%dT%H%M%SZ" -%}
+{{ "LAST-MODIFIED" | ical_property: updated_value }}
 {% assign dtstart_value = post.date | date: "%Y%m%dT%H%M%SZ" -%}
 {{ "DTSTART" | ical_property: dtstart_value }}
 DURATION:PT1H
@@ -23,7 +23,8 @@ DURATION:PT1H
 {% if post.geo-lat and post.geo-lon -%}
 GEO:{{ post.geo-lat }};{{ post.geo-lon }}
 {% endif -%}
-URL:{{ site.url }}{{ post.url }}
+{% assign url_value = site.url | append: post.url -%}
+{{ "URL" | ical_property: url_value }}
 BEGIN:VALARM
 TRIGGER:-PT1H
 {% assign alarm_desc = post.title | append: " is scheduled to 🚀 in one hour!" -%}
