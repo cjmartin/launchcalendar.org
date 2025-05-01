@@ -23,6 +23,7 @@ DURATION:PT1H
 {% if post.geo-lat and post.geo-lon -%}
 GEO:{{ post.geo-lat }};{{ post.geo-lon }}
 {% endif -%}
+URL:{{ site.url }}{{ post.url }}
 BEGIN:VALARM
 TRIGGER:-PT1H
 {% assign alarm_desc = post.title | append: " is scheduled to 🚀 in one hour!" -%}
