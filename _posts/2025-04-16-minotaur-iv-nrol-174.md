@@ -52,15 +52,7 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/rocket-repurposed-from-intercontinental-ballistic-missile-launches-secret-us-spy-satellites-to-orbit-from-california
-videos:
-  - title: >-
-      Minotaur 4 rocket, repurposed from intercontinental ballistic missile,
-      launches secret US spy satellites to orbit from California (video)
-    type:
-      - launch
-      - news
-      - video
-    url: 'https://www.space.com/minotaur-4-rocket-nrol-174-launch-video'
+videos: []
 images: []
 ---
 On April 16, 2025, a Northrop Grumman Minotaur IV rocket, repurposed from a former Peacekeeper ICBM, lifted off from SLC-8 at Vandenberg Space Force Base in California. This marked the first Minotaur launch from Vandenberg since 2011. The mission, conducted for the U.S. National Reconnaissance Office (NRO), launched the secretive NROL-174 payload—a classified national security mission. Few details were released regarding the nature of the payloads, which is typical for NRO launches. The launch was managed through the US Space Force's Rocket Systems Launch Program and is noted as a return-to-flight for the Minotaur IV, which last flew in July 2020 from Virginia.

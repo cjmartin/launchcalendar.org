@@ -19,4 +19,20 @@ layout: default
   {% endif %}
 
   {{ content }}
+
+  {% if page.videos and page.videos.size > 0 %}
+    <section class="launch-videos">
+      <h2>Videos</h2>
+      <div class="video-embeds">
+        {% for video in page.videos %}
+          {% if video.source == 'youtube' and video.video_id %}
+            <div class="launch-video">
+              {% include youtube.liquid id=video.video_id width=560 height=315 %}
+              {% if video.title %}<p>{{ video.title }}</p>{% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
 </main>
