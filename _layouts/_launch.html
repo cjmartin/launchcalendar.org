@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
+    <link
+      rel="icon"
+      href="/assets/images/favicon.ico"
+      type="image/x-icon">
+
+    <title>
+      {% if page.title %}
+        {{ page.title }} |
+      {% endif %}
+      Launch Calendar</title>
+
+    <!-- Fonts -->
+    <link
+      rel='stylesheet'
+      href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600'
+      type='text/css'>
+
+      <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+      crossorigin="anonymous">
+
+      <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Styles -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/assets/css/style.css"
+      media="screen">
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <div class="content-wrapper">
+      {% include navigation.html %}
+      <div class="page-section launch-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <h1>
+                {% if page.vehicle-type == 'rocket' %}🚀
+                {% endif %}
+                {{ page.vehicle }}<br/>
+                {% if page.payload-type == 'satellite' %}🛰
+                {% endif %}
+                {{ page.payload }}</h1>
+              <h2>{{ page.date | date: "%A, %B %-d, %Y %H:%M (GMT)" }}</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.launch-header -->
+
+      <div class="page-section launch-details">
+        <div class="container">
+          {{ content }}
+        </div>
+      </div>
+      <!-- /.launch-details -->
+
+      {% for launch_site in site.launch_sites %}
+        {% if launch_site.slug == page.location-slug %}
+          <div class="page-section launch-site">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1>Launch Site</h1>
+                  <h2>{{ launch_site.title }}</h2>
+                  {{ launch_site.content }}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <script>
+          {% for launch_site in site.launch_sites %}
+      {% if launch_site.slug == page.location-slug %}
+      var lat = {{ launch_site.geo-lat }};
+      var lon = {{ launch_site.geo-lon }};
+      {% endif %}
+          {% endfor %}
+
+          // Initialize Leaflet map without zoom buttons
+          var map = L.map('map', {
+      zoomControl: false
+          }).setView([lat, lon], 2.5);
+
+          // Add Esri World Imagery tile layer
+          L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 18,
+      minZoom: 2,
+      attribution: 'Tiles © Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community'
+          }).addTo(map);
+
+          // Fly to the launch site after a delay
+          setTimeout(function() {
+      map.flyTo([lat, lon], 16, { duration: 5 }); // Slower zoom with 5-second duration
+          }, 5000);
+    </script>
+  </body>
+</html>
