@@ -38,11 +38,11 @@ Content: ${entry.content}`});
     // Add or update the article link in 'links' for each launch
     launches.forEach(launch => {
       if (!launch.links) launch.links = [];
-      const existingIdx = launch.links.findIndex((l) => l.url === entry.link);
+      const existingIdx = launch.links.findIndex((l) => l.url === entry.link);    
       if (existingIdx !== -1) {
-        // Update the title if the link exists
-        launch.links[existingIdx].title = entry.title;
-        launch.links[existingIdx].type = [...launch.links[existingIdx].type, ...["article", "source"]];
+        // Merge and deduplicate types
+        const currentTypes = launch.links[existingIdx].type || [];
+        launch.links[existingIdx].type = Array.from(new Set([...currentTypes, "article", "source"]));
       } else {
         // Add the article link
         launch.links.push({ title: entry.title, type: ["article", "source"], url: entry.link });
