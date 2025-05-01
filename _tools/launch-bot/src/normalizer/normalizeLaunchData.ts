@@ -1,10 +1,11 @@
 // normalizeLaunchData.ts
 // Normalizes the vehicle and location fields in LaunchData using matchers.
 
-import { LaunchData } from '../types';
+import { LaunchData, LaunchVideo } from '../types';
 import { loadVehicleTable, matchVehicle } from '../matcher/launchVehicleMatcher';
 import { loadSiteTable, matchSite } from '../matcher/launchSiteMatcher';
 import path from 'path';
+import { normalizeLaunchVideo } from './normalizeLaunchVideo';
 
 /**
  * Normalizes the vehicle and location fields in LaunchData to canonical values if a confident match is found.
@@ -33,5 +34,11 @@ export async function normalizeLaunchData(launch: LaunchData): Promise<LaunchDat
       normalized['location_slug'] = siteMatch.id;
     }
   }
+
+  // Normalize youtube link data
+  if (launch.videos) {
+    launch.videos = launch.videos.map(video => normalizeLaunchVideo(video));
+  }
+
   return normalized;
 }

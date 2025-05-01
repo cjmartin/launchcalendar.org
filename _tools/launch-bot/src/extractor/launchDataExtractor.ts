@@ -18,7 +18,7 @@ export async function extractLaunchData(entry: RSSEntry): Promise<LaunchData[]> 
 - tags: A list of tags for this launch. These should be relevant to the launch and could include things like the vehicle name, payload name, etc.
 - article_summary: A summary of the launch details, updates, interesting information, etc. from this article, to be used as the body of the launch file. This shoud be plain text or markdown, if there are relevant links in the article. This should be a summary of the article, not a copy of the article.
 - links: A list of links to other RELEVANT pages or articles, not images or other media, with urls about the launch from the article (e.g. the launch page, or any other relevant pages). These should be in the format [{title:string,type:string[],url:string}].
-- videos: A list of links with urls to videos related to the launch. Look for youtube embeds, etc. These should be in the format [{title:string,type:string,url:string}].
+- videos: A list of links with urls to videos related to the launch. Look for youtube embeds, etc. These should be in the format [{title:string,type:string[],source:string,url:string,video_id?:string}]. If the video is from youtube (or another well known service), please return the "watch" url, not the embed url, and include the video_id. 
 
 Return the data as a json object with the keys as the above names. If there are multiple launches, return an array of objects.
 If there are no launches, return an empty array.
@@ -33,10 +33,13 @@ Content: ${entry.content}`});
   try {
     // Try to parse the response as JSON
     const parsed = JSON.parse(response);
+    
     // Ensure parsed is always an array
     const launches: LaunchData[] = Array.isArray(parsed) ? parsed : [parsed];
-    // Add or update the article link in 'links' for each launch
+
+    // Post processing
     launches.forEach(launch => {
+      // Add or update the article link in 'links' for each launch
       if (!launch.links) launch.links = [];
       const existingIdx = launch.links.findIndex((l) => l.url === entry.link);    
       if (existingIdx !== -1) {
@@ -48,6 +51,7 @@ Content: ${entry.content}`});
         launch.links.push({ title: entry.title, type: ["article", "source"], url: entry.link });
       }
     });
+    
     return launches;
   }
   catch (error) {

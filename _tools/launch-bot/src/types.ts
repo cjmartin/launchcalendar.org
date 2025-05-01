@@ -37,7 +37,9 @@ export interface LaunchLink {
 export interface LaunchVideo {
   title: string;
   type: string | string[];
+  source?: string; // e.g. "YouTube"
   url: string;
+  video_id?: string; // e.g. "dQw4w9WgXcQ"
 }
 
 export interface LaunchImage {
