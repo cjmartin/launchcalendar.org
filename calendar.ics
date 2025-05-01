@@ -6,7 +6,7 @@ BEGIN:VEVENT
 {% assign uid_value = post.date | date: "%Y%m%dT%H%M%SZ" | append: "-" | append: post.slug | prepend: "org.launchcalendar." -%}
 {{ "UID" | ical_property: uid_value }}
 {% assign dtstamp_value = post.created | date: "%Y%m%dT%H%M%SZ" -%}
-{{ "DTSTAMP" | ical_property: created_value }}
+{{ "DTSTAMP" | ical_property: dtstamp_value }}
 {% assign updated_value = post.updated | date: "%Y%m%dT%H%M%SZ" -%}
 {{ "LAST-MODIFIED" | ical_property: updated_value }}
 {% assign dtstart_value = post.date | date: "%Y%m%dT%H%M%SZ" -%}
