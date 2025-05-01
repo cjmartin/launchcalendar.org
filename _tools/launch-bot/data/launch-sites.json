@@ -446,7 +446,7 @@
       "longitude": -104.757152
     },
     "operator": "Blue Origin",
-    "launch-vehicles": [
+    "launch_vehicles": [
       "new-shepard"
     ]
   },
