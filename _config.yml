@@ -1,9 +1,23 @@
+# Site title, shown in the browser and site header
 title: 🚀 Launch Calendar 🛰
-permalink: /:year/:month/:day/:title/
+
+# The main URL of the site
+url: "https://launchcalendar.org"
+# The base URL for the site (empty means root)
+baseurl: ""
+
+# URL structure for posts (year/month/day/slug)
+permalink: /:year/:month/:day/:slug/
+
+# Allow posts with future dates to be published
 future: true
+
+# Custom collections and their output settings
 collections:
   launch_sites:
-    output: true
-    permalink: /launch-sites/:path/
+    output: true  # Output collection as individual pages
+    permalink: /launch-sites/:path/  # URL structure for launch site pages
+
+# Plugins to use
 plugins:
   - jekyll-redirect-from
