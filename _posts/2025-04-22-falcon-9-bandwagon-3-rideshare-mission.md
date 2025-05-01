@@ -27,7 +27,7 @@ tags:
   - Atmos Space Cargo
 date: '2025-04-22T00:48:00Z'
 created: '2025-04-23T22:05:23.063Z'
-updated: '2025-04-30T16:12:36.299Z'
+updated: '2025-05-01T20:14:49.520Z'
 redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
@@ -112,16 +112,22 @@ videos:
   - title: SpaceX Falcon 9 Launches Bandwagon-3 Satellite Rideshare Mission
     type:
       - youtube
-    url: 'https://www.youtube.com/embed/WLO7_BYDqms?feature=oembed'
+    url: 'https://www.youtube.com/watch?v=WLO7_BYDqms'
+    source: youtube
+    video_id: WLO7_BYDqms
   - title: The Race to Replace the ISS | VAST's American-Made Space Station
     type:
       - youtube
-    url: 'https://www.youtube.com/embed/us_V_e0-NVs?feature=oembed'
+    url: 'https://www.youtube.com/watch?v=us_V_e0-NVs'
+    source: youtube
+    video_id: us_V_e0-NVs
   - title: Bandwagon-3 Mission Launch - YouTube
     type:
       - launch
       - replay
-    url: 'https://www.youtube.com/embed/V4aafKN8p3o?si=iwWmgyR8Nu0CQtcR'
+    url: 'https://www.youtube.com/watch?v=V4aafKN8p3o'
+    source: youtube
+    video_id: V4aafKN8p3o
 images: []
 ---
 On April 21, 2025 at 8:48 p.m. EDT (April 22, 0048 UTC), SpaceX launched the Bandwagon-3 rideshare mission from SLC-40, Cape Canaveral Space Force Station, marking the 300th orbital flight from the pad. The Falcon 9 carried a diverse set of payloads, including South Korea's fourth synthetic aperture radar (SAR) satellite for the Korea 425 Project constellation, Tomorrow.io's Tomorrow-S7 weather monitoring satellite, and Atmos Space Cargo’s Phoenix 1 capsule—the first private European reentry capsule. Phoenix 1 demonstrated reentry technology, including an inflatable heat shield, and supported scientific experiments before reentering Earth's atmosphere and splashing down in the Atlantic Ocean, though it was not recovered. Atmos plans a follow-on Phoenix 2 for 2026. The booster B1090 successfully landed at Landing Zone 2. The flight expands SpaceX's rideshare program and advances satellite and reentry technologies for a range of government and commercial customers.

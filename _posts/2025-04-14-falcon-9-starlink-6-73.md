@@ -18,7 +18,8 @@ tags:
   - reusable booster
 date: '2025-04-14T04:00:00Z'
 created: '2025-04-23T22:00:12.074Z'
-updated: '2025-04-28T19:48:28.742Z'
+updated: '2025-05-01T20:14:49.510Z'
+redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
 manned: false
@@ -27,6 +28,7 @@ vehicle-type: rocket
 vehicle-slug: falcon-9
 payload: Starlink 6-73
 payload-type: satellite
+payload-description: ''
 links:
   - title: >-
       SpaceX launches Falcon 9 rocket booster on record-setting 27th time on
@@ -58,7 +60,9 @@ videos:
     type:
       - video
       - youtube
-    url: 'https://www.youtube.com/embed/2u4cmabpcpo?si=t18qEYIuzOVcMWsL'
+    url: 'https://www.youtube.com/watch?v=2u4cmabpcpo'
+    source: youtube
+    video_id: 2u4cmabpcpo
 images: []
 ---
 On April 14, 2025, at 12 a.m. EDT (0400 UTC), SpaceX launched a Falcon 9 rocket carrying 27 Starlink internet satellites from SLC-40 at Cape Canaveral Space Force Station. This flight used booster B1067 for its 27th flight, setting a new record for orbital-class rocket reuse. The booster landed successfully on the droneship 'Just Read the Instructions,' which marked its 115th recovery and contributed to SpaceX’s total of 431 booster landings. The upper stage deployed the satellites about 65 minutes post-launch. The mission highlights SpaceX's rapid 2025 launch cadence and continued expansion of the Starlink network, with favorable weather helping enable the successful 460th Falcon 9 mission.

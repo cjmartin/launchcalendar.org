@@ -18,7 +18,8 @@ tags:
   - satellite
 date: '2025-04-28T20:42:00Z'
 created: '2025-04-23T22:05:23.082Z'
-updated: '2025-04-29T19:26:08.564Z'
+updated: '2025-05-01T20:14:49.526Z'
+redirect_from: []
 location: 'SLC-4E, Vandenberg Space Force Base, California'
 location-slug: slc-4e-vandenberg-space-force-base-california-usa
 manned: false
@@ -27,6 +28,7 @@ vehicle-type: rocket
 vehicle-slug: falcon-9
 payload: Starlink 11-9
 payload-type: satellite
+payload-description: ''
 links:
   - title: Falcon 9 | Starlink Group 11-9
     type:
@@ -61,7 +63,9 @@ videos:
   - title: YouTube video player
     type:
       - youtube
-    url: 'https://www.youtube.com/embed/VqcdYjapMA4?si=-SWbdq7K_jZOMpeY'
+    url: 'https://www.youtube.com/watch?v=VqcdYjapMA4'
+    source: youtube
+    video_id: VqcdYjapMA4
 images: []
 ---
 On April 28, 2025, SpaceX successfully launched the Starlink 11-9 mission atop a Falcon 9 rocket from SLC-4E at Vandenberg Space Force Base, California. This mission deployed 27 Starlink V2 Mini satellites into low Earth orbit, further expanding the SpaceX internet megaconstellation. The Falcon 9 first stage booster, B1063, completed its 25th flight and landed on the droneship 'Of Course I Still Love You' in the Pacific Ocean. This mission marked the 18th orbital launch of the year from Vandenberg, continuing the Starlink constellation’s global expansion.

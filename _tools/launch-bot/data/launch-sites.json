@@ -306,6 +306,18 @@
       "soyuz-2"
     ]
   },
+  "site-133-plesetsk-cosmodrome-russia": {
+    "site_name": "Site 133",
+    "location": "Plesetsk Cosmodrome, Russia",
+    "geo": {
+      "latitude": 62.8981,
+      "longitude": 40.7052
+    },
+    "operator": "Russian MoD",
+    "launch_vehicles": [
+      "rockot"
+    ]
+  },
   "pad-1-yoshinobu-tanegashima-space-center-japan": {
     "site_name": "Pad 1 (Yoshinobu)",
     "location": "Tanegashima Space Center, Japan",

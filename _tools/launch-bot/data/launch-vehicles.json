@@ -235,5 +235,10 @@
   "spectrum": {
     "vehicle_name": "Spectrum",
     "operator": "Isar Aerospace"
+  },
+  "rockot": {
+    "vehicle_name": "Rockot",
+    "operator": "Eurockot Launch Services",
+    "aliases": ["Rokot", "Rokot/Briz-KM"]
   }
 }

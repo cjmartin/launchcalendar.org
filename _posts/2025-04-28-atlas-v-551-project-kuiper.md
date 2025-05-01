@@ -31,7 +31,8 @@ tags:
   - broadband
 date: '2025-04-28T23:01:00Z'
 created: '2025-04-23T22:05:23.094Z'
-updated: '2025-04-29T19:26:25.739Z'
+updated: '2025-05-01T20:14:49.525Z'
+redirect_from: []
 location: 'SLC-41, Cape Canaveral Space Force Station, Florida, USA'
 location-slug: slc-41-cape-canaveral-space-force-station-florida-usa
 manned: false
@@ -40,6 +41,7 @@ vehicle-type: rocket
 vehicle-slug: atlas-v
 payload: Project Kuiper (KA-01)
 payload-type: satellite
+payload-description: ''
 links:
   - title: Atlas V 551 | Project Kuiper (KA-01)
     type:
@@ -141,17 +143,23 @@ videos:
     type:
       - live
       - youtube
-    url: 'https://www.youtube.com/embed/5cJ21DHYtbQ?si=WeQg7ZcahPhA-xYx'
+    url: 'https://www.youtube.com/watch?v=5cJ21DHYtbQ'
+    source: youtube
+    video_id: 5cJ21DHYtbQ
   - title: Watch Atlas V launch Amazon's Project Kuiper satellites (official webcast)
     type:
       - youtube
       - webcast
-    url: 'https://www.youtube.com/embed/_nwyv0fPgmc'
+    url: 'https://www.youtube.com/watch?v=_nwyv0fPgmc'
+    source: youtube
+    video_id: _nwyv0fPgmc
   - title: Watch ULA's Atlas V Kuiper launch (YouTube)
     type:
       - youtube
       - webcast
     url: 'https://www.youtube.com/watch?v=G8XsTzF90sQ'
+    source: youtube
+    video_id: G8XsTzF90sQ
 images: []
 ---
 United Launch Alliance's Atlas V 551 launched Amazon's first major operational batch of 27 Project Kuiper broadband satellites from SLC-41, Cape Canaveral Space Force Station, on April 28, 2025, at 23:01 UTC. This Kuiper 1 mission marks the start of Amazon's full-scale deployment of a planned 3,200+ satellite constellation aimed at providing global internet coverage and competing with SpaceX's Starlink. The satellites will be elevated to their operational orbits after deployment. The Atlas V flew in its 'Bruiser' five-solid-booster configuration, marking the 250th Centaur upper stage mission for ULA. The launch, previously postponed due to weather and range issues, is a pivotal step toward Amazon’s global network. Future launches will use ULA’s Vulcan and other providers including Blue Origin, SpaceX, and Arianespace.

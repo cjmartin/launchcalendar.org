@@ -35,7 +35,7 @@ tags:
   - LM400 Pathfinder
 date: '2025-04-29T13:37:00Z'
 created: '2025-04-23T22:05:23.086Z'
-updated: '2025-04-30T00:10:26.156Z'
+updated: '2025-05-01T20:14:49.531Z'
 redirect_from:
   - 2025/04/28/firefly-alpha-lockheed-martin-lm400-satellite-bus/
 location: 'SLC-2W, Vandenberg Space Force Base, California'
@@ -46,6 +46,7 @@ vehicle-type: rocket
 vehicle-slug: alpha
 payload: LM400 Pathfinder - 'Message In A Booster'
 payload-type: satellite
+payload-description: ''
 links:
   - title: Alpha | Message In A Booster
     type:
@@ -126,23 +127,23 @@ videos:
   - title: Firefly Aerospace Launches Alpha FLTA006 'Message In A Booster'
     type:
       - youtube
-    url: 'https://www.youtube.com/embed/FftDi8tHNwY?feature=oembed'
+    url: 'https://www.youtube.com/watch?v=FftDi8tHNwY'
+    source: youtube
+    video_id: FftDi8tHNwY
   - title: Firefly Alpha FLTA006 'Message in a Booster' Launch
     type:
       - video
       - livestream
-    url: 'https://www.youtube.com/embed/P4wYA10FzI8?si=q3c4iyiCJ9rFWOBG'
-  - title: Firefly Aerospace Alpha rocket launch mishap (video)
-    type:
-      - launch
-      - video
-    url: >-
-      https://www.space.com/space-exploration/launches-spacecraft/firefly-aerospace-alpha-rocket-launch-lm-400-lockheed-martin
+    url: 'https://www.youtube.com/watch?v=P4wYA10FzI8'
+    source: youtube
+    video_id: P4wYA10FzI8
   - title: Firefly Aerospace Launches Alpha FLTA006 "Message In A Booster"
     type:
       - youtube
       - launch webcast
-    url: 'https://www.youtube.com/embed/o35dNjHwWuc?feature=oembed'
+    url: 'https://www.youtube.com/watch?v=o35dNjHwWuc'
+    source: youtube
+    video_id: o35dNjHwWuc
 images: []
 ---
 Firefly Aerospace launched the FLTA006 'Message In A Booster' mission aboard Alpha from SLC-2W at Vandenberg on April 29, 2025 at 13:37 UTC. The mission, carrying Lockheed Martin's LM400 Pathfinder tech demonstrator, suffered a mishap during stage separation, preventing orbit insertion; the second stage and payload safely impacted the Pacific Ocean. The launch, which experienced delays due to weather and range restrictions, represented the sixth flight of Alpha and was part of a larger agreement for up to 25 missions for Lockheed Martin. Firefly and its partners are investigating the anomaly, with additional Alpha launches planned as part of their rapid launch services expansion.

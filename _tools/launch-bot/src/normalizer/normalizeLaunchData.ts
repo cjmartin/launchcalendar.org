@@ -20,7 +20,7 @@ export async function normalizeLaunchData(launch: LaunchData): Promise<LaunchDat
   const siteTable = await loadSiteTable();
 
   // Normalize vehicle
-  if (launch.vehicle) {
+  if (launch.vehicle && !launch.vehicle_slug) {
     const vehicleMatch = matchVehicle(launch.vehicle, vehicleTable);
     if (vehicleMatch.verdict === 'match' && vehicleMatch.id) {
       normalized['vehicle_slug'] = vehicleMatch.id;
@@ -28,7 +28,7 @@ export async function normalizeLaunchData(launch: LaunchData): Promise<LaunchDat
   }
 
   // Normalize location
-  if (launch.location) {
+  if (launch.location && !launch.location_slug) {
     const siteMatch = await matchSite(launch, siteTable);
     if (siteMatch.verdict === 'match' && siteMatch.id) {
       normalized['location_slug'] = siteMatch.id;
@@ -37,7 +37,7 @@ export async function normalizeLaunchData(launch: LaunchData): Promise<LaunchDat
 
   // Normalize youtube link data
   if (launch.videos) {
-    launch.videos = launch.videos.map(video => normalizeLaunchVideo(video));
+    normalized.videos = launch.videos.map(video => normalizeLaunchVideo(video));
   }
 
   return normalized;

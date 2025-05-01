@@ -15,7 +15,8 @@ tags:
   - Alexey Zubritsky
 date: '2025-04-08T05:57:00Z'
 created: '2025-04-28T20:56:46.571Z'
-updated: '2025-04-28T20:56:46.571Z'
+updated: '2025-05-01T20:14:49.505Z'
+redirect_from: []
 location: 'Baikonur Cosmodrome, Kazakhstan'
 location-slug: site-1-baikonur-cosmodrome-kazakhstan
 manned: true
@@ -24,6 +25,7 @@ vehicle-type: rocket
 vehicle-slug: soyuz-2
 payload: Soyuz MS-27
 payload-type: crew capsule
+payload-description: ''
 links:
   - title: NASA astronaut Jonny Kim bio
     type:
@@ -47,12 +49,16 @@ videos:
     type:
       - livestream
       - launch
-    url: 'https://www.youtube.com/embed/b7Kk4r9DomA'
+    url: 'https://www.youtube.com/watch?v=b7Kk4r9DomA'
+    source: youtube
+    video_id: b7Kk4r9DomA
   - title: Coverage via NASA YouTube
     type:
       - livestream
       - launch
     url: 'https://www.youtube.com/watch?v=dC807gzD9l8'
+    source: youtube
+    video_id: dC807gzD9l8
 images: []
 ---
 A Russian Soyuz rocket will launch NASA astronaut Jonny Kim and Roscosmos cosmonauts Sergey Ryzhikov and Alexey Zubritsky aboard the Soyuz MS-27 spacecraft from Baikonur Cosmodrome, Kazakhstan, to the International Space Station on April 8, 2025 at 1:47 a.m. EDT (0557 GMT). The mission is crewed and the crew is set for about an eight-month stay aboard the ISS, joining Expeditions 72 and 73. Live coverage will be available from NASA and Space.com, with docking expected a few hours after launch. This will be the first spaceflight for Kim and Zubritsky and the third for Ryzhikov.

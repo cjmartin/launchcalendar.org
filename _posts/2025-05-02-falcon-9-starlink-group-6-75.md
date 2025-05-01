@@ -14,7 +14,7 @@ tags:
   - SpaceX
 date: '2025-05-02T01:51:00Z'
 created: '2025-04-30T00:10:26.187Z'
-updated: '2025-05-01T16:13:23.013Z'
+updated: '2025-05-01T20:14:49.535Z'
 redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
@@ -53,12 +53,16 @@ videos:
     type:
       - youtube
       - launch webcast
-    url: 'https://www.youtube.com/embed/3ZTSgzbej9w?feature=oembed'
+    url: 'https://www.youtube.com/watch?v=3ZTSgzbej9w'
+    source: youtube
+    video_id: 3ZTSgzbej9w
   - title: YouTube video player
     type:
       - livestream
       - launch
-    url: 'https://www.youtube.com/embed/pRj2EY5dly4?si=TOO2DDde_YThC9Rc'
+    url: 'https://www.youtube.com/watch?v=pRj2EY5dly4'
+    source: youtube
+    video_id: pRj2EY5dly4
 images: []
 ---
 SpaceX will launch the Starlink 6-75 mission aboard a Falcon 9 rocket from SLC-40 at Cape Canaveral, carrying 28 Starlink V2 Mini satellites to a 43-degree, 530 km low-Earth orbit. The launch is scheduled for May 1 at 9:51 p.m. EDT (May 2, 01:51 UTC). Booster B1080 will make its 18th flight, targeting a landing on the droneship 'Just Read the Instructions'. This marks the 248th Falcon 9 launch from SLC-40. Weather conditions are highly favorable, with over a 95% chance of acceptable conditions. Over 7,300 Starlink satellites are already on orbit.

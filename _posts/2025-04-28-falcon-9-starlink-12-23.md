@@ -16,7 +16,8 @@ tags:
   - direct-to-cell
 date: '2025-04-28T02:09:00Z'
 created: '2025-04-23T22:05:23.090Z'
-updated: '2025-04-28T18:33:09.459Z'
+updated: '2025-05-01T20:14:49.528Z'
+redirect_from: []
 location: 'Cape Canaveral Space Force Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
 manned: false
@@ -25,6 +26,7 @@ vehicle-type: rocket
 vehicle-slug: falcon-9
 payload: Starlink 12-23
 payload-type: satellite
+payload-description: ''
 links:
   - title: Falcon 9 | Starlink Group 12-23
     type:
@@ -77,7 +79,9 @@ videos:
     type:
       - video
       - youtube
-    url: 'https://www.youtube.com/embed/SHBl90AK0C4?si=xgngg7f2Y5lq2Mnj'
+    url: 'https://www.youtube.com/watch?v=SHBl90AK0C4'
+    source: youtube
+    video_id: SHBl90AK0C4
 images: []
 ---
 On April 27, 2025, SpaceX launched its 250th Starlink mission, sending 23 Starlink broadband satellites—including 13 with direct-to-cell capability—into low Earth orbit using a Falcon 9 rocket from Cape Canaveral Space Force Station. The booster completed its 20th flight with a successful landing on the drone ship "Just Read the Instructions." This was SpaceX's 48th Falcon 9 launch of the year and the 31st dedicated to the Starlink constellation, further expanding the Starlink v2-Mini broadband network.

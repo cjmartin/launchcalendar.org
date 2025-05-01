@@ -16,16 +16,17 @@ tags:
   - crew capsule
 date: '2025-04-14T13:30:00Z'
 created: '2025-04-28T20:12:26.308Z'
-updated: '2025-04-28T20:12:26.308Z'
+updated: '2025-05-01T20:14:49.513Z'
+redirect_from: []
 location: 'Launch Site One, Corn Ranch, Texas'
-location-slug: 'launch-site-one-corn-ranch-texas-usa'
+location-slug: launch-site-one-corn-ranch-texas-usa
 manned: true
 vehicle: New Shepard
 vehicle-type: rocket
-vehicle-slug: 'new-shepard'
-payload: >-
-  NS-31
+vehicle-slug: new-shepard
+payload: NS-31
 payload-type: crew capsule
+payload-description: ''
 links:
   - title: ' What time is Blue Origin''s New Shepard launch with Katy Perry and Gayle King today? '
     type:
@@ -33,17 +34,19 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/what-time-is-blue-origins-new-shepard-launch-with-katy-perry-and-gayle-king-on-april-14
-videos:
   - title: Blue Origin New Shepard NS-31 Launch Livestream (official)
     type:
       - livestream
       - youtube
     url: 'https://www.youtube.com/@blueorigin'
-  - title: Embedded YouTube Video - Blue Origin NS-31 Preview
+videos:
+  - title: Blue Origin NS-31 Preview
     type:
       - youtube
       - embed
-    url: 'https://www.youtube.com/embed/B5ozKoAipnM'
+    url: 'https://www.youtube.com/watch?v=B5ozKoAipnM'
+    source: youtube
+    video_id: B5ozKoAipnM
 images: []
 ---
 Blue Origin's New Shepard rocket is set to launch the NS-31 mission on April 14, 2025, at 9:30 a.m. EDT (1330 GMT) from Launch Site One in West Texas. The flight features a historic all-female crew: Lauren Sánchez, Katy Perry, Amanda Nguyen, Aisha Bowe, Kerianne Flynn, and Gayle King. The suborbital mission will take them above the Kármán line for several minutes of weightlessness before returning to Earth. The launch will be livestreamed on Blue Origin's website, Space.com, and YouTube. The mission continues Blue Origin's space tourism flights and marks the first such launch with an all-woman crew.

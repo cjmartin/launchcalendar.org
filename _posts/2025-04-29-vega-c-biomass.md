@@ -29,7 +29,7 @@ tags:
   - Kourou
 date: '2025-04-29T09:15:00Z'
 created: '2025-04-28T21:06:53.555Z'
-updated: '2025-04-30T00:10:08.468Z'
+updated: '2025-05-01T20:14:49.533Z'
 redirect_from: []
 location: 'ZLV, Centre Spatial Guyanais (CSG), Kourou, French Guiana'
 location-slug: zlv-guiana-space-centre-kourou-french-guiana
@@ -39,6 +39,7 @@ vehicle-type: rocket
 vehicle-slug: vega-c
 payload: Biomass forest-monitoring satellite
 payload-type: satellite
+payload-description: ''
 links:
   - title: ESA’s Biomass mission to launch aboard Vega-C
     type:
@@ -93,25 +94,16 @@ videos:
       - video
       - youtube
       - webcast
-    url: 'https://www.youtube.com/embed/EEhmFO_Y_WE?feature=oembed'
-  - title: Watch Vega-C launch ESA's Biomass forest-monitoring satellite live
-    type:
-      - livestream
-      - YouTube
-    url: 'https://www.youtube.com/embed/g0UP77VUpqE'
+    url: 'https://www.youtube.com/watch?v=EEhmFO_Y_WE'
+    source: youtube
+    video_id: EEhmFO_Y_WE
   - title: Arianespace's Vega-C Flight - ESA Biomass Launch
     type:
       - livestream
       - YouTube
     url: 'https://www.youtube.com/watch?v=g0UP77VUpqE'
-  - title: >-
-      Vega-C rocket launches European forest-monitoring 'Biomass' satellite to
-      orbit (video)
-    type:
-      - launch
-      - video
-    url: >-
-      https://www.space.com/space-exploration/launches-spacecraft/vega-c-rocket-launch-esa-biomass-forest-monitoring-satellite
+    source: youtube
+    video_id: g0UP77VUpqE
 images: []
 ---
 Arianespace successfully launched the ESA Biomass satellite aboard Vega C from Kourou on 29 April 2025 at 09:15 UTC. Biomass, weighing approximately 1,170 kg and built by Airbus Defence and Space, deployed into a 660–666 km sun-synchronous orbit 57 minutes after liftoff. As ESA's seventh Earth Explorer mission, Biomass features the first spaceborne P-band synthetic aperture radar and a large mesh antenna, advancing climate and environmental research by measuring global forest structure and carbon stocks. The mission is planned for at least five years. This was Vega C’s fourth flight and second since its 2022 anomaly, maintaining a 100% post-return success rate. The launch was one of a record-setting six space launches globally in less than 24 hours. Coverage and mission updates were available from multiple sources.

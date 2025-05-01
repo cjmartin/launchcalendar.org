@@ -17,7 +17,8 @@ tags:
   - V2 Mini
 date: '2025-04-25T01:52:00Z'
 created: '2025-04-23T22:05:23.077Z'
-updated: '2025-04-28T03:48:20.769Z'
+updated: '2025-05-01T20:14:49.522Z'
+redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
 manned: false
@@ -26,6 +27,7 @@ vehicle-type: rocket
 vehicle-slug: falcon-9
 payload: Starlink 6-74
 payload-type: satellite
+payload-description: ''
 links:
   - title: Falcon 9 | Starlink Group 6-74
     type:
@@ -50,12 +52,16 @@ videos:
   - title: SpaceX Falcon 9 Launches Starlink 6-74 Mission
     type:
       - youtube
-    url: 'https://www.youtube.com/embed/BQVCKbDTKr8?feature=oembed'
+    url: 'https://www.youtube.com/watch?v=BQVCKbDTKr8'
+    source: youtube
+    video_id: BQVCKbDTKr8
   - title: Starlink 6-74 Launch (YouTube)
     type:
       - video
       - youtube
-    url: 'https://www.youtube.com/embed/D863hGDym6w'
+    url: 'https://www.youtube.com/watch?v=D863hGDym6w'
+    source: youtube
+    video_id: D863hGDym6w
 images: []
 ---
 SpaceX successfully launched a batch of 28 Starlink V2 Mini satellites on the Starlink 6-74 mission using a Falcon 9 rocket from SLC-40 at Cape Canaveral Space Force Station on April 24, 2025 at 9:52 p.m. EDT (01:52 UTC on April 25). The first stage booster B1069 completed its 23rd flight and landed on the droneship 'A Shortfall of Gravitas' in the Atlantic. Satellite deployment occurred approximately one hour and five minutes after liftoff. This mission supports SpaceX’s continued global expansion of Starlink internet services.
