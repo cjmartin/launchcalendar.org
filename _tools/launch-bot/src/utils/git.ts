@@ -30,9 +30,13 @@ export class Git {
    * Creates or checks out a branch for a launch file. If the branch doesn't exist,
    * creates it from the main branch.
    * @param launchFilename The filename of the launch file (can include .md extension, which will be removed)
-   * @returns The branch name
+   * @returns The branch name or null if the filename is invalid
    */
-  async ensureLaunchBranch(launchFilename: string): Promise<string> {
+  async ensureLaunchBranch(launchFilename: string): Promise<string | null> {
+    if (!launchFilename || launchFilename === 'undefined') {
+      return null;
+    }
+
     const baseName = launchFilename.replace(/\.md$/, '');
     const branchName = `launch/${baseName}`;
     
@@ -56,13 +60,16 @@ export class Git {
   /**
    * Commits changes in the current branch
    * @param message Commit message
+   * @returns true if changes were committed, false if no changes to commit
    */
-  async commitChanges(message: string): Promise<void> {
+  async commitChanges(message: string): Promise<boolean> {
     await this.git.add('.');
     const status = await this.git.status();
     if (status.modified.length > 0 || status.not_added.length > 0) {
       await this.git.commit(message);
+      return true;
     }
+    return false;
   }
 
   /**
@@ -100,10 +107,15 @@ export class Git {
     const remotes = await this.git.getRemotes(true);
     const originUrl = remotes.find(remote => remote.name === 'origin')?.refs.fetch || '';
     
-    // Extract owner and repo from URL (handles both HTTPS and SSH formats)
-    const match = originUrl.match(/[:/]([^/]+)\/([^.]+)(?:\.git)?$/);
+    // Handle both HTTPS and SSH formats
+    // HTTPS: https://github.com/owner/repo.git
+    // SSH: git@github.com:owner/repo.git
+    const httpsMatch = originUrl.match(/github\.com[/:]([^/]+)\/([^.]+)(?:\.git)?$/);
+    const sshMatch = originUrl.match(/git@github\.com:([^/]+)\/([^.]+)(?:\.git)?$/);
+    const match = httpsMatch || sshMatch;
+
     if (!match) {
-      throw new Error('Could not parse repository info from remote URL');
+      throw new Error(`Could not parse repository info from remote URL: ${originUrl}`);
     }
     
     return {

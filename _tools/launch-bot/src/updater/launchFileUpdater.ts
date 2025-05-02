@@ -12,8 +12,7 @@ export async function updateOrCreateLaunchFile(matchResult: LaunchMatchResult, l
 
   // Prevent file creation if required fields are missing
   if (!launchData.launch_datetime || !launchData.vehicle || !launchData.payload) {
-    console.error("🚫 Missing required fields for file creation:", { date: launchData.launch_datetime, vehicle: launchData.vehicle, payload: launchData.payload });
-    return;
+    console.error("🚫 Missing required field(s) for launch, will continue anyway:", { date: launchData.launch_datetime, vehicle: launchData.vehicle, payload: launchData.payload });
   }
   const filename = filenameFromLaunchData(launchData);
   const filePath = existingFilePath || path.join(draftsDir, filename);
@@ -36,9 +35,9 @@ export function filenameFromLaunchData(launchData: LaunchData): string {
       return match ? match[0].trim() : str;
     }
 
-    const launchDate = launchData.launch_datetime?.slice(0, 10);
-    const vehicleSlug = slugify(simplifySlug(launchData.vehicle || ""), { lower: true });
-    const payloadSlug = slugify(simplifySlug(launchData.payload || ""), { lower: true });
+    const launchDate = launchData.launch_datetime?.slice(0, 10) || "unknown-date";
+    const vehicleSlug = slugify(simplifySlug(launchData.vehicle || "unknown-vehicle"), { lower: true });
+    const payloadSlug = slugify(simplifySlug(launchData.payload || "unknown-payload"), { lower: true });
 
     const filename = `${launchDate}-${vehicleSlug}-${payloadSlug}.md`;
     return filename;

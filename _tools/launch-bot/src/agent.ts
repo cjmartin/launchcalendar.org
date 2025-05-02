@@ -95,6 +95,10 @@ async function main() {
         filenameFromLaunchData(normalizedLaunch);
       
       const branchName = await git.ensureLaunchBranch(filename);
+      if (!branchName) {
+        console.log('❌ Could not create branch due to invalid filename, skipping launch');
+        continue;
+      }
       console.log(`🌿 Using branch: ${branchName}`);
 
       if (matchResult.existingPath) {
@@ -103,26 +107,38 @@ async function main() {
         console.log(`🆕 No existing file found, will create a new one.`);
       }
 
-      // Update or create launch post
-      await updateOrCreateLaunchFile(matchResult, normalizedLaunch);
-      console.log(`📝 Launch file updated or created: ${matchResult.existingPath || 'New file created'}`);
+      try {
+        // Update or create launch post
+        await updateOrCreateLaunchFile(matchResult, normalizedLaunch);
+        console.log(`📝 Launch file updated or created: ${matchResult.existingPath || `_drafts/${filename}`}`);
 
-      // Commit changes
-      await git.commitChanges(`Update launch data for ${normalizedLaunch.vehicle} | ${normalizedLaunch.payload}`);
-      updatedBranches.add(branchName);
+        // Only commit changes and track the branch if file update succeeded
+        const didCommit = await git.commitChanges(`Update launch data for ${normalizedLaunch.vehicle} | ${normalizedLaunch.payload}`);
+        if (didCommit) {
+          updatedBranches.add(branchName);
+        }
+      } catch (e: any) {
+        console.log(`❌ Failed to update/create launch file: ${e.message}`);
+      }
     }
 
     // Mark this article as processed
     processedLinks.push(entry.link);
   }
 
-  // Push all branches and create PRs
-  for (const branch of updatedBranches) {
-    await git.pushCurrentBranch();
-    await git.createPullRequest(
-      `Launch update: ${branch.replace('launch/', '')}`,
-      'Automated launch data update by launch-bot'
-    );
+  // Push all branches and create PRs only if we have successful updates
+  if (updatedBranches.size > 0) {
+    for (const branch of updatedBranches) {
+      try {
+        await git.pushCurrentBranch();
+        await git.createPullRequest(
+          `Launch update: ${branch.replace('launch/', '')}`,
+          'Automated launch data update by launch-bot'
+        );
+      } catch (e: any) {
+        console.error(`❌ Failed to push branch or create PR for ${branch}: ${e.message}`);
+      }
+    }
   }
 
   // Switch back to main for processed-articles.json update
@@ -132,8 +148,10 @@ async function main() {
   await addProcessedArticles(processedLinks);
   
   // Commit and push processed-articles.json update
-  await git.commitChanges('Update processed articles list');
-  await git.pushCurrentBranch();
+  const didCommit = await git.commitChanges('Update processed articles list');
+  if (didCommit) {
+    await git.pushCurrentBranch();
+  }
 
   console.log("🏁 Agent run complete.");
 }
