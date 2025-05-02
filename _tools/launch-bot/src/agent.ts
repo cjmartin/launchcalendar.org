@@ -1,18 +1,30 @@
 // agent.ts
 
-import { detectLaunch } from './analyzer/launchDetector';
-import { extractLaunchData } from './extractor/launchDataExtractor';
-import { fetchRSSFeed } from './fetcher/rssFetcher';
-import { findExistingLaunch } from './matcher/launchFileMatcher';
-import { updateOrCreateLaunchFile } from './updater/launchFileUpdater';
-import { getProcessedArticles, addProcessedArticles } from './fetcher/processedArticles';
-import fs from 'fs/promises';
-import { RSSEntry } from './types';
-import { normalizeLaunchData } from './normalizer/normalizeLaunchData';
+import { detectLaunch } from "./analyzer/launchDetector";
+import { extractLaunchData } from "./extractor/launchDataExtractor";
+import { fetchRSSFeed } from "./fetcher/rssFetcher";
+import { findExistingLaunch } from "./matcher/launchFileMatcher";
+import { updateOrCreateLaunchFile } from "./updater/launchFileUpdater";
+import {
+  getProcessedArticles,
+  addProcessedArticles,
+} from "./fetcher/processedArticles";
+import fs from "fs/promises";
+import { RSSEntry } from "./types";
+import { normalizeLaunchData } from "./normalizer/normalizeLaunchData";
+import path from "path";
+import { filenameFromLaunchData } from "./updater/launchFileUpdater";
+import {
+  checkoutOrCreateBranch,
+  commitLaunchChanges,
+  pushAllLaunchBranches,
+  openPullRequestsForLaunchBranches,
+  commitAndPushGlobalChanges,
+} from "./utils/git";
 
 async function getAllFeedEntries(): Promise<RSSEntry[]> {
-  const feedsPath = require('path').resolve(__dirname, '../data/feeds.json');
-  const feeds: string[] = JSON.parse(await fs.readFile(feedsPath, 'utf8'));
+  const feedsPath = require("path").resolve(__dirname, "../data/feeds.json");
+  const feeds: string[] = JSON.parse(await fs.readFile(feedsPath, "utf8"));
   const allEntries: RSSEntry[] = [];
   for (const feedUrl of feeds) {
     try {
@@ -35,7 +47,7 @@ async function main() {
   const processed = await getProcessedArticles();
 
   // Filter out already-processed articles
-  const newEntries = entries.filter(entry => !processed.has(entry.link));
+  const newEntries = entries.filter((entry) => !processed.has(entry.link));
 
   // limit entries to 5 for testing
   const limitedEntries = newEntries.slice(0, 5);
@@ -46,13 +58,13 @@ async function main() {
   for (const entry of limitedEntries) {
     console.log(`🔍 Checking entry: ${entry.title}`);
     console.log(`🔗 Link: ${entry.link}`);
-    // console.log(`📝 Content: ${entry.content}`);
+    // console.log(`📝 Content: ${entry.content`);
 
     // Analyze whether it's a launch
     const isLaunch = await detectLaunch(entry);
     if (!isLaunch) {
       console.log(`❌ Not a launch: ${entry.title}`);
-      
+
       // Mark this article as processed
       processedLinks.push(entry.link);
       continue;
@@ -75,22 +87,45 @@ async function main() {
     for (const launch of launchData) {
       // Normalize launch data
       const normalizedLaunch = await normalizeLaunchData(launch);
-      
+
       // Find existing file
       const matchResult = await findExistingLaunch(normalizedLaunch);
+      let branchBaseName: string;
       if (matchResult.existingPath) {
-        console.log(`🔍 Existing launch file found: ${matchResult.existingPath}`);
+        branchBaseName = path.basename(matchResult.existingPath, ".md");
+      } else {
+        const newFilename = filenameFromLaunchData(normalizedLaunch);
+        branchBaseName = newFilename.replace(/\.md$/, "");
+      }
+      const branchName = `launch/${branchBaseName}`;
+      console.log(`🌿 [GIT] Preparing branch: ${branchName}`);
+      await checkoutOrCreateBranch(branchName);
+
+      if (matchResult.existingPath) {
+        console.log(
+          `🔍 Existing launch file found: ${matchResult.existingPath}`
+        );
       } else {
         console.log(`🆕 No existing file found, will create a new one.`);
       }
-      // Update or create launch post
       await updateOrCreateLaunchFile(matchResult, normalizedLaunch);
-      console.log(`📝 Launch file updated or created: ${matchResult.existingPath || 'New file created'}`);
+      console.log(
+        `📝 Launch file updated or created: ${
+          matchResult.existingPath || "New file created"
+        }`
+      );
+
+      await commitLaunchChanges(branchName, normalizedLaunch);
     }
 
     // Mark this article as processed
     processedLinks.push(entry.link);
   }
+
+  // --- GIT WORKFLOW: After all launches ---
+  await pushAllLaunchBranches();
+  await openPullRequestsForLaunchBranches();
+  await commitAndPushGlobalChanges();
 
   // Add processed links to the record
   await addProcessedArticles(processedLinks);
