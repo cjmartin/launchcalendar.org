@@ -10,11 +10,11 @@ export async function updateOrCreateLaunchFile(matchResult: LaunchMatchResult, l
   const existingFilePath = matchResult.existingPath;
   const draftsDir = path.resolve(__dirname, "../../../../_drafts");
 
-  // Prevent file creation if required fields are missing
+  // Log missing fields but continue anyway
   if (!launchData.launch_datetime || !launchData.vehicle || !launchData.payload) {
-    console.error("🚫 Missing required fields for file creation:", { date: launchData.launch_datetime, vehicle: launchData.vehicle, payload: launchData.payload });
-    return;
+    console.log("⚠️ Missing one or more fields for launch, will continue anyway:", { date: launchData.launch_datetime, vehicle: launchData.vehicle, payload: launchData.payload });
   }
+
   const filename = filenameFromLaunchData(launchData);
   const filePath = existingFilePath || path.join(draftsDir, filename);
 
@@ -30,18 +30,18 @@ export async function updateOrCreateLaunchFile(matchResult: LaunchMatchResult, l
 }
 
 export function filenameFromLaunchData(launchData: LaunchData): string {
-    // Helper to simplify slug: use only up to first '(' or '"'
-    function simplifySlug(str: string) {
-      const match = str.match(/^[^("']+/);
-      return match ? match[0].trim() : str;
-    }
+  // Helper to simplify slug: use only up to first '(' or '"'
+  function simplifySlug(str: string) {
+    const match = str.match(/^[^("']+/);
+    return match ? match[0].trim() : str;
+  }
 
-    const launchDate = launchData.launch_datetime?.slice(0, 10);
-    const vehicleSlug = slugify(simplifySlug(launchData.vehicle || ""), { lower: true });
-    const payloadSlug = slugify(simplifySlug(launchData.payload || ""), { lower: true });
+  const launchDate = launchData.launch_datetime?.slice(0, 10) || "unknown-date";
+  const vehicleSlug = slugify(simplifySlug(launchData.vehicle || "unknown-vehicle"), { lower: true });
+  const payloadSlug = slugify(simplifySlug(launchData.payload || "unknown-payload"), { lower: true });
 
-    const filename = `${launchDate}-${vehicleSlug}-${payloadSlug}.md`;
-    return filename;
+  const filename = `${launchDate}-${vehicleSlug}-${payloadSlug}.md`;
+  return filename;
 }
 
 /**
