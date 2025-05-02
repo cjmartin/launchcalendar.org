@@ -2,14 +2,7 @@
 // Generic helpers for fuzzy string matching, normalization, and alias table construction.
 
 import { MatchResult } from "../types";
-
-// normalize: Lowercases, strips punctuation, collapses spaces, trims.
-export const normalize = (s: string): string =>
-  s
-    .toLowerCase()
-    .replace(/[^a-z0-9 ]+/g, " ") // strip punctuation
-    .replace(/\s+/g, " ")
-    .trim();
+import { normalize } from "../utils/string";
 
 /**
  * tokenSetScore: Computes Jaccard-style token-set overlap between two strings.

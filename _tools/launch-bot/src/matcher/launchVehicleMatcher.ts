@@ -5,12 +5,12 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import {
-  normalize, // Normalizes strings for comparison
   tokenSetScore, // Computes similarity score between two strings
   makeAliasTable, // Builds a lookup table of aliases to IDs
   verdictFromScore, // Converts a score to a match verdict
 } from "./matchUtils";
 import { LaunchVehicle, MatchResult } from "../types";
+import { normalize } from "../utils/string";
 
 const knownLaunchVehiclesFilePath = path.resolve(__dirname, "../../data/launch-vehicles.json");
 const knownLaunchVehicles = async () => JSON.parse(await readFile(knownLaunchVehiclesFilePath, "utf8"));

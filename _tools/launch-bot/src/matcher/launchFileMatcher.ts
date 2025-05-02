@@ -6,10 +6,11 @@ import { LaunchData, LaunchMatchResult } from "../types";
 import fs from "fs/promises";
 import path from "path";
 import matter from "gray-matter";
-import { normalize, tokenSetScore } from "./matchUtils";
+import { tokenSetScore } from "./matchUtils";
 import slugify from "slugify";
 import { isSameDay, isWithinDays } from "../utils/date";
 import { fileDataToLaunchData } from "../updater/launchFileUpdater";
+import { normalize } from "../utils/string";
 
 // Attempts to find an existing launch file that matches the provided launch data.
 // Compares vehicle, payload, and location using token set overlap, and checks date proximity.
