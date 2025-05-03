@@ -2,7 +2,6 @@
 // Stubs for git and GitHub workflow integration using simple-git and octokit
 
 import simpleGit, { SimpleGit } from 'simple-git';
-import type { Octokit } from '@octokit/rest';
 import path from 'path';
 
 // Find the repo root (parent of _tools)
@@ -10,12 +9,11 @@ const repoRoot = path.resolve(__dirname, '../../../../');
 const git: SimpleGit = simpleGit(repoRoot);
 
 // Initialize octokit lazily to handle ESM import
-let _octokit: Octokit | null = null;
+let _octokit: any = null;
 async function getOctokit() {
   if (!_octokit) {
-    // Dynamic import for ESM compatibility
     const { Octokit } = await import('@octokit/rest');
-    _octokit = new Octokit();
+    _octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
   }
   return _octokit;
 }
