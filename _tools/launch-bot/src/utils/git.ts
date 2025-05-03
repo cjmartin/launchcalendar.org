@@ -22,15 +22,27 @@ async function getOctokit() {
  */
 export async function checkoutOrCreateBranch(branchName: string) {
   try {
-    // First try to checkout the branch in case it exists
+    // Try to checkout the branch in case it exists
     try {
       await git.checkout(branchName);
-      console.log(`[GIT] ✓ Checked out existing branch: ${branchName}`);
+      // Pull latest changes from remote for this branch
+      try {
+        await git.pull('origin', branchName);
+        console.log(`[GIT] ✓ Checked out and updated existing branch from its remote: ${branchName}`);
+      } catch (pullErr) {
+        console.log(`[GIT] Checked out existing branch but could not pull remote (may not exist yet): ${branchName}`);
+      }
+      // Also pull latest main into this branch
+      try {
+        await git.pull('origin', 'main');
+        console.log(`[GIT] ✓ Pulled latest main into branch: ${branchName}`);
+      } catch (mergeErr) {
+        console.log(`[GIT] Could not pull main into branch: ${branchName}`);
+      }
       return;
     } catch (error) {
       // Branch doesn't exist, we'll create it
     }
-
     // Make sure we're on main first
     await git.checkout('main');
     // Pull latest changes
