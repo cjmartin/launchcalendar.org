@@ -1,6 +1,6 @@
 ---
 layout: launch
-title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 6-84"
+title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-84"
 description: >-
   SpaceX Falcon 9 launches 29 Starlink V2 Mini Optimized satellites from LC-39A
   at Kennedy Space Centre. This mission is the final Starlink mission of the
@@ -21,7 +21,7 @@ manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
 vehicle-slug: falcon-9
-payload: Starlink 6-84
+payload: Starlink Group 6-84
 payload-type: satellite
 payload-description: 29 Starlink V2 Mini Optimized satellites to low Earth orbit.
 links:
@@ -53,7 +53,7 @@ links:
     url: >-
       https://spaceflightnow.com/2025/05/03/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-cente/
 videos:
-  - title: YouTube video player
+  - title: Spaceflight Now Launch Coverage
     type:
       - livestream
     source: youtube
