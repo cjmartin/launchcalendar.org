@@ -153,8 +153,8 @@ export async function openPullRequestsForLaunchBranches() {
     console.error('[GITHUB] Could not determine origin remote URL.');
     return;
   }
-  // Parse owner/repo from remote URL
-  const match = origin.refs.fetch.match(/[:/]([^/]+)\/([^/.]+)(\.git)?$/);
+  // Parse owner/repo from remote URL (supports SSH and HTTPS)
+  const match = origin.refs.fetch.match(/[:/]([^/]+)\/([^.\/]+)(?:\.git)?$/);
   if (!match) {
     console.error('[GITHUB] Could not parse owner/repo from remote URL:', origin.refs.fetch);
     return;
