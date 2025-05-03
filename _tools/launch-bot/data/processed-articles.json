@@ -1,145 +1,574 @@
 [
-  { "link": "https://spaceflightnow.com/2025/04/21/live-coverage-spacex-to-launch-bandwagon-3-rideshare-mission-on-falcon-9-rocket-from-cape-canaveral/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/20/live-coverage-spacex-to-launch-32nd-resupply-mission-for-nasa-to-the-international-space-station/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/19/live-coverage-spacex-to-launch-third-nro-mission-in-eight-days/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/16/northrop-grumman-to-launch-first-minotaur-4-rocket-from-vandenberg-in-14-years/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/13/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/12/live-coverage-spacex-to-launch-starshield-satellites-for-the-nro-on-falcon-9-rocket-from-vandenberg/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/10/live-coverage-spacex-to-launch-21-starlink-satellites-on-falcon-9-rocket-from-the-kennedy-space-center-4/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/09/live-coverage-ula-to-launch-27-amazon-project-kuiper-satellites-on-atlas-5-rocket-from-cape-canaveral/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/08/spacex-to-launch-second-accelerated-gps-3-satellite-mission-in-late-may/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/06/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-2/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/china-roundup-04242025/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/launch-roundup-042125/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/cape-flyover-041625/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/d-orbit-interview/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/launch-roundup-041425/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/spacex-roundup-q12025/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/rfa-saxavord-interview/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/fram2-interview/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/starship-groundwork-facilities-texas-florida/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/kuiper-ka01/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/23/live-coverage-spacex-to-launch-28-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-2/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/curiosity-carbonate-atmosphere/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/25/axiom-spaces-chief-revenue-officer-tapped-as-new-ceo/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/rocket-report-the-pitfalls-of-rideshare-china-launches-next-tiangong-crew/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/republican-space-officials-criticize-mindless-nasa-science-cuts/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/tuesday-telescope-hera-today-gone-to-deimos/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/a-chinese-born-crypto-tycoon-of-all-people-changed-the-way-i-think-of-space/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/blue-origin-gs2-test/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/so-is-katy-perry-now-an-astronaut-or-what/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/theres-a-secret-reason-the-space-force-is-delaying-the-next-atlas-v-launch/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/why-are-two-texas-senators-trying-to-wrest-a-space-shuttle-from-the-smithsonian/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/science/2025/04/heres-how-a-satellite-ended-up-as-a-ghostly-apparition-on-google-earth/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/tuesday-telescope-is-the-james-webb-space-telescope-worth-10-billion/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/should-the-us-prioritize-settling-mars/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/trump-white-house-budget-proposal-eviscerates-science-funding-at-nasa/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/private-jets-awkward-convos-and-kazakh-vodka-my-most-memorable-interviews/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/reusable-rockets-are-here-so-why-is-nasa-paying-more-to-launch-stuff-to-space/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/rocket-report-daytona-rocket-delayed-again-bahamas-tells-spacex-to-hold-up/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/heres-the-latest-on-nasas-lunar-gateway-a-program-many-people-want-to-cancel/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/rocket-report-no-mans-land-in-rocket-wars-isaacman-lukewarm-on-sls/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/a-key-spacex-competitor-says-he-has-not-been-impacted-by-musks-ties-to-trump/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/isaacman-sls-and-orion-are-not-a-long-term-solution-for-nasa/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/tuesday-telescope-the-heart-of-the-galaxy-revealed-in-two-kinds-of-light/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/a-military-satellite-waiting-to-launch-with-ula-will-now-fly-with-spacex/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-6-74-b1069-ccsfs", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/watch-live-as-china-launches-shenzhou-20-astronauts-to-tiangong-space-station-on-april-24", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/nasas-spherex-team-rings-bell-at-new-york-stock-exchange-space-picture-of-the-day-for-april-23-2025", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-3-rockets-from-3-pads-in-less-than-37-hours-photos", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-european-reentry-capsule-on-bandwagon-3-rideshare-mission", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/26/live-coverage-spacex-to-launch-23-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-10/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/26/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-3/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/26/firefly-aerospace-to-launch-lockheed-martin-lm400-tech-demo-satellite-on-alpha-rocket-from-vandenberg/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/firefly-flta006/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launch-creates-a-nebula-space-picture-of-the-day-for-april-21-2025", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-250th-starlink-satellite-mission-lands-rocket-at-sea-photos", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/amazons-kuiper-1-internet-satellites-get-new-april-28-launch-date-on-atlas-v-rocket-after-delay", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-its-32nd-dragon-cargo-mission-to-the-iss-for-nasa", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launching-dragon-cargo-capsule-to-iss-early-april-21-watch-it-live", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-10th-batch-of-proliferated-architecture-spy-satellites-for-us-government-video", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/a-failed-soviet-venus-lander-will-fall-back-to-earth-after-being-stranded-for-53-years", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/28/live-coverage-ula-to-launch-first-production-amazon-kuiper-satellites-on-atlas-5-rocket-from-cape-canaveral/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/bahamas-puts-spacex-rocket-landings-on-hold-pending-review-report", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/china-rolls-out-rocket-for-shenzhou-20-astronaut-launch-to-its-tiangong-space-station-video", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/rocket-repurposed-from-intercontinental-ballistic-missile-launches-secret-us-spy-satellites-to-orbit-from-california", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-rocket-launches-27-starlink-satellites-to-orbit-on-record-breaking-27th-flight-photos", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-12-17-b1083-kennedy-space-center", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-9th-batch-of-proliferated-architecture-spy-satellites-for-us-government", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/what-time-is-blue-origins-new-shepard-launch-with-katy-perry-and-gayle-king-on-april-14", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/amazon-kuiper-internet-satellites-launch-ula-atlas-v-rocket-delayed", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-next-dragon-cargo-ship-launch-for-nasa-lifts-off-on-april-21", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/keeping-space-safe-is-the-ultimate-team-sport-and-the-us-space-force-has-a-new-playbook", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/conservationists-raise-alarm-over-air-force-plan-to-land-spacex-starships-on-bird-sanctuary-atoll", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/ula-atlas-v-launch-first-batch-amazon-project-kuiper-internet-satellites-webcast", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/us-needs-orbital-interceptors-to-win-a-war-in-space-space-command-chief-says", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/us-space-force-awards-usd13-7-billion-in-launch-contracts-to-spacex-ula-and-blue-origin", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/soyuz-rocket-launch-ms-27-astronaut-mission-iss-webcast", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-28-starlink-satellites-to-orbit-from-floridas-space-coast-photos", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/vanguard-1-is-the-oldest-satellite-orbiting-earth-scientists-want-to-bring-it-home-after-67-years", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/biomass-vega-c/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-11-9-b1063-vsfb", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-11-11-b1091-satellite-launch-vandenberg", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-27-starlink-satellites-to-orbit-from-california", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spinlaunch-wants-to-send-250-broadband-microsatellites-to-orbit-with-a-single-launch", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-used-super-heavy-booster-ahead-of-9th-starship-test-flight-photos-videos", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/atlas-v-rocket-will-launch-amazons-1st-big-batch-of-project-kuiper-internet-satellites-on-april-9", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/us-space-force-picks-rocket-lab-and-stoke-space-to-compete-for-national-security-launches", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/drone-pilot-who-flew-over-vandenberg-space-force-base-sentenced-to-4-months-in-jail", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/nasas-new-spherex-space-telescope-takes-its-1st-cosmic-images-the-instrument-team-nailed-it", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/private-fram2-astronauts-watched-spacex-rocket-launch-ahead-of-their-own-launch", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-private-fram2-astronauts-on-historic-spaceflight-over-earths-poles", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/watch-a-private-german-rocket-explode-during-1st-orbital-launch-attempt-from-european-soil-video", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/faa-closes-investigation-into-spacex-starship-flight-7-explosion", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-28-starlink-satellites-to-orbit-on-1st-half-of-spaceflight-doubleheader-photos", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/vega-c-rocket-launch-esa-biomass-forest-monitoring-satellite", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/nasa-adds-spacex-starship-largest-rocket-on-earth-to-launch-roster", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/us-space-force-orbital-carrier-spacecraft-launch-pad-in-space", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/missions/spacex-fram2-astronaut-mission-over-earths-poles-launch-webcast", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/european-space-agency-launches-competition-to-find-its-next-commercial-rocket-by-2028", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/1st-ever-orbital-rocket-launch-from-european-soil-falls-to-earth-and-explodes-seconds-into-flight", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/us-space-force-certifies-new-vulcan-centaur-rocket-to-launch-national-security-missions", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/amazon-launches-27-satellites-to-begin-building-huge-project-kuiper-internet-constellation", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/29/live-coverage-spacex-to-launch-23-starlink-satellites-on-falcon-9-rocket-from-the-kennedy-space-center-2/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/brand-new-falcon-9-rocket-sends-23-starlink-satellites-to-orbit-on-spacexs-2nd-launch-of-the-day", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/meet-the-astronaut-who-celebrated-his-70th-birthday-by-thudding-into-the-planet/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/weapons-of-war-are-launching-from-cape-canaveral-for-the-first-time-since-1988/", "hash": "PLACEHOLDER" },
-  { "link": "https://europeanspaceflight.com/czechia-selects-experiments-for-private-astronaut-mission-to-the-iss/", "hash": "PLACEHOLDER" },
-  { "link": "https://europeanspaceflight.com/maiaspace-selects-lukasiewicz-ilot-to-develop-kick-stage-engine/", "hash": "PLACEHOLDER" },
-  { "link": "https://europeanspaceflight.com/ariane-6-booster-upgrade-test-set-for-24-april/", "hash": "PLACEHOLDER" },
-  { "link": "https://europeanspaceflight.com/atmos-space-cargo-tentatively-declares-phoenix-1-flight-a-success/", "hash": "PLACEHOLDER" },
-  { "link": "https://europeanspaceflight.com/atmos-raises-e1m-in-new-funding-as-it-prepares-for-inaugural-flight/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/us-army-launches-dark-eagle-hypersonic-missile-from-cape-canaveral-space-force-station", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/a-rocket-launch-monday-night-may-finally-jumpstart-amazons-answer-to-starlink/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/tuesday-telescope-yes-you-can-see-stars-in-space-and-theyre-spectacular/", "hash": "PLACEHOLDER" },
-  { "link": "https://europeanspaceflight.com/successful-vega-c-launch-delivers-esa-biomass-satellite-to-orbit/", "hash": "PLACEHOLDER" },
-  { "link": "https://europeanspaceflight.com/spain-approves-e1-billion-loan-to-hisdesat-for-paz-2-satellites/", "hash": "PLACEHOLDER" },
-  { "link": "https://europeanspaceflight.com/giant-dome-door-fitted-to-europes-extremely-large-telescope/", "hash": "PLACEHOLDER" },
-  { "link": "https://europeanspaceflight.com/poland-green-lights-e52m-earth-observation-constellation/", "hash": "PLACEHOLDER" },
-  { "link": "https://europeanspaceflight.com/latitude-secures-france-2030-funding-to-build-reims-factory/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/firefly-aerospaces-alpha-rocket-fails-during-6th-ever-launch-falls-into-the-sea-near-antarctica", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/new-record-6-rockets-launch-in-less-than-24-hours", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/science/2025/04/fireflys-rocket-suffers-one-of-the-strangest-launch-failures-weve-ever-seen/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/see-photos-snapped-in-space-by-europes-1st-private-reentry-capsule", "hash": "PLACEHOLDER" },
-  { "link": "https://europeanspaceflight.com/dlr-wraps-up-qualification-of-key-callisto-rocket-element/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/after-his-support-for-artemis-senate-committee-advances-isaacman-nomination/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/04/30/u-s-senate-commerce-committee-advances-isaacmans-nomination-for-nasa-administrator-to-full-senate/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/nasa-just-swapped-a-10-year-old-artemis-ii-engine-with-one-nearly-twice-its-age/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/04/juno-io-jupiter-cyclones/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/04/engineers-probe-pressure-drop-in-psyche-spacecrafts-propulsion-system/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/05/01/live-coverage-spacex-to-launch-28-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-3/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/faa-grounds-firefly-aerospaces-alpha-rocket-until-failure-investigation-is-complete", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/new-images-of-soviet-venus-lander-falling-to-earth-suggest-its-parachute-may-be-out", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/05/eric-schmidt-apparently-bought-relativity-space-to-put-data-centers-in-orbit/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/05/rocket-report-starbase-the-city-is-coming-soon-alpha-remains-in-beta/", "hash": "PLACEHOLDER" },
-  { "link": "https://europeanspaceflight.com/new-polish-space-agency-chief-named-after-abrupt-exit-of-predecessor/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-starship-spacecraft-ahead-of-9th-test-flight-photo", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/05/white-house-budget-seeks-to-end-sls-orion-and-lunar-gateway-programs/", "hash": "PLACEHOLDER" },
-  { "link": "https://arstechnica.com/space/2025/05/we-finally-know-a-little-more-about-amazons-super-secret-satellites/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.nasaspaceflight.com/2025/05/iss-eva-93-expedition-73/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/05/03/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-cente/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/05/03/live-coverage-spacex-to-launch-26-starlink-satellites-on-falcon-9-rocket-from-vandenberg/", "hash": "PLACEHOLDER" },
-  { "link": "https://spaceflightnow.com/2025/05/03/proposed-24-percent-cut-to-nasa-budget-eliminates-key-artemis-architecture-climate-research/", "hash": "PLACEHOLDER" },
-  { "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-6-75-b1080-ccsfs", "hash": "PLACEHOLDER" }
+  {
+    "link": "https://spaceflightnow.com/2025/04/21/live-coverage-spacex-to-launch-bandwagon-3-rideshare-mission-on-falcon-9-rocket-from-cape-canaveral/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/20/live-coverage-spacex-to-launch-32nd-resupply-mission-for-nasa-to-the-international-space-station/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/19/live-coverage-spacex-to-launch-third-nro-mission-in-eight-days/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/16/northrop-grumman-to-launch-first-minotaur-4-rocket-from-vandenberg-in-14-years/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/13/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/12/live-coverage-spacex-to-launch-starshield-satellites-for-the-nro-on-falcon-9-rocket-from-vandenberg/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/10/live-coverage-spacex-to-launch-21-starlink-satellites-on-falcon-9-rocket-from-the-kennedy-space-center-4/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/09/live-coverage-ula-to-launch-27-amazon-project-kuiper-satellites-on-atlas-5-rocket-from-cape-canaveral/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/08/spacex-to-launch-second-accelerated-gps-3-satellite-mission-in-late-may/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/06/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-2/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/china-roundup-04242025/",
+    "hash": "0f0771d590c35425549f6bbe07a5c5b889ee24a051a764cf8a27bca60b192e47"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/launch-roundup-042125/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/cape-flyover-041625/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/d-orbit-interview/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/launch-roundup-041425/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/spacex-roundup-q12025/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/rfa-saxavord-interview/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/fram2-interview/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/starship-groundwork-facilities-texas-florida/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/kuiper-ka01/",
+    "hash": "a4bb93bd00d7d96e15c872fde77a4259d8b5bbf95f8fcd9cb7dfd8ecc21fe033"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/23/live-coverage-spacex-to-launch-28-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-2/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/curiosity-carbonate-atmosphere/",
+    "hash": "9aa1c136f52b5746ce67e131c2022bd1b20ffd88041fbfd6d49dc2fd4849beef"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/25/axiom-spaces-chief-revenue-officer-tapped-as-new-ceo/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/rocket-report-the-pitfalls-of-rideshare-china-launches-next-tiangong-crew/",
+    "hash": "97bdf1db861fd35fafe265be169417358526bf2376504e472d0922a981b39481"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/republican-space-officials-criticize-mindless-nasa-science-cuts/",
+    "hash": "c9ffd9ae0648f7bf971d49a93898d20b96fc778ff7ce38a720401cf847e00cc6"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/tuesday-telescope-hera-today-gone-to-deimos/",
+    "hash": "a87966826ded53e701c1e5cf2b43a26717d2622dfcbdef423d49f71163a3b9af"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/a-chinese-born-crypto-tycoon-of-all-people-changed-the-way-i-think-of-space/",
+    "hash": "27e9073fc345caabbb4b9539c125b9ea25ff622654faaf06df88493fbd53dd70"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/blue-origin-gs2-test/",
+    "hash": "0ee52b4df37d32adf7209922fb991ed2fb9889220f686bbea75964020a268fb7"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/so-is-katy-perry-now-an-astronaut-or-what/",
+    "hash": "6830cac2a3b8e3d30c706ed1c1daa02d50bda6fb6a13bac03dd28d9bc2db82a7"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/theres-a-secret-reason-the-space-force-is-delaying-the-next-atlas-v-launch/",
+    "hash": "05a37867887a989769a4e7d7d3077ce562f1a6583aef803b6caebf52e9ee7bb0"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/why-are-two-texas-senators-trying-to-wrest-a-space-shuttle-from-the-smithsonian/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://arstechnica.com/science/2025/04/heres-how-a-satellite-ended-up-as-a-ghostly-apparition-on-google-earth/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/tuesday-telescope-is-the-james-webb-space-telescope-worth-10-billion/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/should-the-us-prioritize-settling-mars/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/trump-white-house-budget-proposal-eviscerates-science-funding-at-nasa/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/private-jets-awkward-convos-and-kazakh-vodka-my-most-memorable-interviews/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/reusable-rockets-are-here-so-why-is-nasa-paying-more-to-launch-stuff-to-space/",
+    "hash": "f5fd7b3a0db6ceb78c532c69fb16cc000dd03a884c1d8daef441c87af047b09c"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/rocket-report-daytona-rocket-delayed-again-bahamas-tells-spacex-to-hold-up/",
+    "hash": "8dc69fa5504c9903672d1a53229afa127f6f5684d4014708071453534ecb8054"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/heres-the-latest-on-nasas-lunar-gateway-a-program-many-people-want-to-cancel/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/rocket-report-no-mans-land-in-rocket-wars-isaacman-lukewarm-on-sls/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/a-key-spacex-competitor-says-he-has-not-been-impacted-by-musks-ties-to-trump/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/isaacman-sls-and-orion-are-not-a-long-term-solution-for-nasa/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/tuesday-telescope-the-heart-of-the-galaxy-revealed-in-two-kinds-of-light/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/a-military-satellite-waiting-to-launch-with-ula-will-now-fly-with-spacex/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-6-74-b1069-ccsfs",
+    "hash": "99cdfc84f1981cdc19b495da431e19f5df98b5909151fcfe36a57a4bca331ef7"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/watch-live-as-china-launches-shenzhou-20-astronauts-to-tiangong-space-station-on-april-24",
+    "hash": "cf04b26b3ef25087f851c46474bad7d5a55d44d3c78ad08ae6dae13b3f60f16a"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/nasas-spherex-team-rings-bell-at-new-york-stock-exchange-space-picture-of-the-day-for-april-23-2025",
+    "hash": "1ed804700185678a1e152a06fb85dcfabbb34c115be4cc699d97249b0d474134"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-3-rockets-from-3-pads-in-less-than-37-hours-photos",
+    "hash": "bfcaf30352893365bd3be6ee327bb90f17fbd91ca86818a6e561f9d61294c458"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-european-reentry-capsule-on-bandwagon-3-rideshare-mission",
+    "hash": "1d32126f076b90fd441f4d155e99b40849bb24c5e66591cb95ea9974c09d989e"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/26/live-coverage-spacex-to-launch-23-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-10/",
+    "hash": "a0b15fb9730d13f3c59342618ce1efe3022b5c08392b09896e36ba7824f5b275"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/26/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-3/",
+    "hash": "6e9f602a9166a6c61d3f9cc9bbe31e779ae73a7c8012b270bbf8531078b0241c"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/26/firefly-aerospace-to-launch-lockheed-martin-lm400-tech-demo-satellite-on-alpha-rocket-from-vandenberg/",
+    "hash": "74ecce6c5c7b756a562583771f841fa7a0ee7682a8cb4c527cbf62f1c181a738"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/firefly-flta006/",
+    "hash": "e7f844af1c3c3c571f4057202656c7b8a750096e9d1bca188a6cd721f4a1642c"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launch-creates-a-nebula-space-picture-of-the-day-for-april-21-2025",
+    "hash": "1defc965b1e63f886fa5f56733967897a51f4cf80554aef51c47870872617346"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-250th-starlink-satellite-mission-lands-rocket-at-sea-photos",
+    "hash": "a4955af6598ad5692024d5c2a92f8843092375489317311220cd8fc19a887dc1"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/amazons-kuiper-1-internet-satellites-get-new-april-28-launch-date-on-atlas-v-rocket-after-delay",
+    "hash": "e3d1052689cdd2f677a00e5b8edaab49f8a7f4134ddff8bda51da17a0a84fb9a"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-its-32nd-dragon-cargo-mission-to-the-iss-for-nasa",
+    "hash": "918a0af316205e7e50bcb28772bc4242bd60f14fbc7bd5b3df845c3800afa0d1"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launching-dragon-cargo-capsule-to-iss-early-april-21-watch-it-live",
+    "hash": "cc10cb959aae4609db0195fa171c97d94fd3b7b1427f7f75ce8634c4f09edbba"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-10th-batch-of-proliferated-architecture-spy-satellites-for-us-government-video",
+    "hash": "c4f53d71a7e98fee156502955a6e87ba77845b7e4da6357976b172802a8dea30"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/a-failed-soviet-venus-lander-will-fall-back-to-earth-after-being-stranded-for-53-years",
+    "hash": "4c3092cee9df57dd86f045741328b208a7bca871af82d841e0074a377d7a5c56"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/28/live-coverage-ula-to-launch-first-production-amazon-kuiper-satellites-on-atlas-5-rocket-from-cape-canaveral/",
+    "hash": "07a8e82ab7c1c9d8a9df2b018ef564d1ccba1fcea8fc66528eb279cd1c4c74e5"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/bahamas-puts-spacex-rocket-landings-on-hold-pending-review-report",
+    "hash": "7e7be177897564e1a2f5becbe9639ce4048d4f47b9950f907f7fbb115f5d7117"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/china-rolls-out-rocket-for-shenzhou-20-astronaut-launch-to-its-tiangong-space-station-video",
+    "hash": "cadda9b74023e066d9ef1b6215609103e7d4fb5722ec55d8e285efec6bdc6f9c"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/rocket-repurposed-from-intercontinental-ballistic-missile-launches-secret-us-spy-satellites-to-orbit-from-california",
+    "hash": "4ffe9e9c1d7b6412cab90cf9a39c028d2d1bcc4fcf91ec3e608ab7cc33b9f555"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-rocket-launches-27-starlink-satellites-to-orbit-on-record-breaking-27th-flight-photos",
+    "hash": "ef382881874a53df1c1ac3c4042ffecd8c4f812409a9967ca3c147d0902e91f5"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-12-17-b1083-kennedy-space-center",
+    "hash": "3dd2ac71f8e3c0d4e866ee6f62fb93d6c02eab7652564e85cfbd06fade872b25"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-9th-batch-of-proliferated-architecture-spy-satellites-for-us-government",
+    "hash": "ed24a734d68a69ccbcd15d0ce52d603f8e1580703543ae936b3f6bc3735cfa47"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/what-time-is-blue-origins-new-shepard-launch-with-katy-perry-and-gayle-king-on-april-14",
+    "hash": "ac929f41c4b8716f16485f10df81eff0fa7bb7b7327293ac0007ff10b6dd2aae"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/amazon-kuiper-internet-satellites-launch-ula-atlas-v-rocket-delayed",
+    "hash": "b5d59c911b60880b013b2fde3710045dfb245e66164b50077a72db9a67415492"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-next-dragon-cargo-ship-launch-for-nasa-lifts-off-on-april-21",
+    "hash": "360ae2a9b48c3798ce5a4cd10ed94663acd6623c51abb9a63e0fbf37d281399c"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/keeping-space-safe-is-the-ultimate-team-sport-and-the-us-space-force-has-a-new-playbook",
+    "hash": "bc020fbfe04ab8dbdab0f6d497a8bdd425dcc72b08b7f6d2fafbe80cfc0610f9"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/conservationists-raise-alarm-over-air-force-plan-to-land-spacex-starships-on-bird-sanctuary-atoll",
+    "hash": "c43a9bb6a365f8c999f431d31f4774ac133a5856fdc3ac8871e2c9da4a2be951"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/ula-atlas-v-launch-first-batch-amazon-project-kuiper-internet-satellites-webcast",
+    "hash": "e018ea6294f913a41d5858661f526e2b267083647f3e7852171070059278b90d"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/us-needs-orbital-interceptors-to-win-a-war-in-space-space-command-chief-says",
+    "hash": "feaeabda76c309aa4ea9c066148ad84dbfbb2cf3bef8bea1338a3d7937a9bb85"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/us-space-force-awards-usd13-7-billion-in-launch-contracts-to-spacex-ula-and-blue-origin",
+    "hash": "0b41dd08ab885bc6c8f24f816387292680a89556166757a726b04b8cbf51d0aa"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/soyuz-rocket-launch-ms-27-astronaut-mission-iss-webcast",
+    "hash": "08730adc852a7fb02f3651abca82d999234f72b23c619e6e8141b42ebaa59148"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-28-starlink-satellites-to-orbit-from-floridas-space-coast-photos",
+    "hash": "4ecda9ecfb4808f3d7bd0ffd05360fe68a1741c46ae9e8b0a3aad909a43b8a29"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/vanguard-1-is-the-oldest-satellite-orbiting-earth-scientists-want-to-bring-it-home-after-67-years",
+    "hash": "a1afac9884e6007556b124bffbc2e7b01e4d52ac6a65fbe0a3192091940065ed"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/biomass-vega-c/",
+    "hash": "35c32e7b57d7644cf6861cd01a9b427c89018a571ea58e3b48685ab21d646a7b"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-11-9-b1063-vsfb",
+    "hash": "7af1aeea78350312c8bc69bb5e343d1cd6d8e4b337d1e4e9d0de2a46899b70ff"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-11-11-b1091-satellite-launch-vandenberg",
+    "hash": "727b4bdceec1046902cd918807cbb50e4326215f9e417a38caee8a330ae0c8e7"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-27-starlink-satellites-to-orbit-from-california",
+    "hash": "9678e8b0ecbf9ed24b13f66d9d4b611a7962b10e1d064e93e09bc0cbcbda273b"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spinlaunch-wants-to-send-250-broadband-microsatellites-to-orbit-with-a-single-launch",
+    "hash": "8e884c934325f3fa055d580d8038dcf5dd53c4527aa5ad21a044e301da0fc7be"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-used-super-heavy-booster-ahead-of-9th-starship-test-flight-photos-videos",
+    "hash": "b7f6a6cd2b98a515c685ca7c3709a9cfdc1e7d98a019a557e546a2a10b6a0817"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/atlas-v-rocket-will-launch-amazons-1st-big-batch-of-project-kuiper-internet-satellites-on-april-9",
+    "hash": "1163beffd328b6ec953898e48ec05afe9cf55bbdc0d6c00ad3e8a8c6132428fb"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/us-space-force-picks-rocket-lab-and-stoke-space-to-compete-for-national-security-launches",
+    "hash": "4e79d1a75686516a95be232b1caf3a5a0837a7b902a765cc7801e81dfba51eeb"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/drone-pilot-who-flew-over-vandenberg-space-force-base-sentenced-to-4-months-in-jail",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/nasas-new-spherex-space-telescope-takes-its-1st-cosmic-images-the-instrument-team-nailed-it",
+    "hash": "c01c1d59bd07a4187fb18b75bfe2b26e9029562a86e531db611e0d2bc91c35bc"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/private-fram2-astronauts-watched-spacex-rocket-launch-ahead-of-their-own-launch",
+    "hash": "a36228362d77b3abdd554342356578366126d2969077ad4d5535ec44c063d9b7"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-private-fram2-astronauts-on-historic-spaceflight-over-earths-poles",
+    "hash": "7f643c8150da61171ed20e661eac92b637a2e81c0bf4322f986392d8bb3363e2"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/watch-a-private-german-rocket-explode-during-1st-orbital-launch-attempt-from-european-soil-video",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/faa-closes-investigation-into-spacex-starship-flight-7-explosion",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-28-starlink-satellites-to-orbit-on-1st-half-of-spaceflight-doubleheader-photos",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/vega-c-rocket-launch-esa-biomass-forest-monitoring-satellite",
+    "hash": "fb9e6f59732eb93fe00f558c2b13a5b78984308c2eaffa1adc21ae8839b6d42b"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/nasa-adds-spacex-starship-largest-rocket-on-earth-to-launch-roster",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.space.com/us-space-force-orbital-carrier-spacecraft-launch-pad-in-space",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/missions/spacex-fram2-astronaut-mission-over-earths-poles-launch-webcast",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/european-space-agency-launches-competition-to-find-its-next-commercial-rocket-by-2028",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/1st-ever-orbital-rocket-launch-from-european-soil-falls-to-earth-and-explodes-seconds-into-flight",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/us-space-force-certifies-new-vulcan-centaur-rocket-to-launch-national-security-missions",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/amazon-launches-27-satellites-to-begin-building-huge-project-kuiper-internet-constellation",
+    "hash": "38ed44f3dfbce3c105cf394a9c8df038873c52d007f7e4d252fb29e67ea51463"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/29/live-coverage-spacex-to-launch-23-starlink-satellites-on-falcon-9-rocket-from-the-kennedy-space-center-2/",
+    "hash": "6fa33b5edccc77069e5f18e233a18a916d58f124a3a742ee5c7f076e481a720a"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/brand-new-falcon-9-rocket-sends-23-starlink-satellites-to-orbit-on-spacexs-2nd-launch-of-the-day",
+    "hash": "55ff0ce6f998eeca61ce493921c242efb8b2bf84fa326af9ceba64fb0a55dd31"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/meet-the-astronaut-who-celebrated-his-70th-birthday-by-thudding-into-the-planet/",
+    "hash": "35c073426156122bec5e4e9da33ac3a4182dd7e733958c3525f2f1cb2f438eb7"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/weapons-of-war-are-launching-from-cape-canaveral-for-the-first-time-since-1988/",
+    "hash": "3ceace576dbcee44e4ffc22fea87103c68b9e9cc157ba0669c6cbd00ac75e84a"
+  },
+  {
+    "link": "https://europeanspaceflight.com/czechia-selects-experiments-for-private-astronaut-mission-to-the-iss/",
+    "hash": "4914e0e42afda31e08650a21c25df304365566dadce7aa73396a2d3129460c16"
+  },
+  {
+    "link": "https://europeanspaceflight.com/maiaspace-selects-lukasiewicz-ilot-to-develop-kick-stage-engine/",
+    "hash": "8a3069392588e075aa1616480ae2fc9b0f239d236bcdf59ebe838993d1395903"
+  },
+  {
+    "link": "https://europeanspaceflight.com/ariane-6-booster-upgrade-test-set-for-24-april/",
+    "hash": "1aca730e7e2b2278a6351cddf88bbe15133f620c1d50377ba4d3177b03aff3e7"
+  },
+  {
+    "link": "https://europeanspaceflight.com/atmos-space-cargo-tentatively-declares-phoenix-1-flight-a-success/",
+    "hash": "7d245a294b660e18d0f720bce6f860238c2b83cdcf87ac46fedfe526754ecfb5"
+  },
+  {
+    "link": "https://europeanspaceflight.com/atmos-raises-e1m-in-new-funding-as-it-prepares-for-inaugural-flight/",
+    "hash": "2b415a85223ea5fd743247db564b04ba0f171828ff6ce9e7206bfb3fbd2a117d"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/us-army-launches-dark-eagle-hypersonic-missile-from-cape-canaveral-space-force-station",
+    "hash": "b44c6124094a128a9f35b1a79d2d4a147e0a90240cb69da6313ae4bcd0409aaa"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/a-rocket-launch-monday-night-may-finally-jumpstart-amazons-answer-to-starlink/",
+    "hash": "b96b1d0de339433d0d89469baeabe6413c3342db6a4ca8123b2f4f80d116d273"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/tuesday-telescope-yes-you-can-see-stars-in-space-and-theyre-spectacular/",
+    "hash": "d6b4bff22a9420cc44894f4c9a8f65a7a60171f2c7073cba369552c626f73600"
+  },
+  {
+    "link": "https://europeanspaceflight.com/successful-vega-c-launch-delivers-esa-biomass-satellite-to-orbit/",
+    "hash": "b1e6f26152b103ad258016abc56579b043d77d7f49a7ddf892938b37abc4df97"
+  },
+  {
+    "link": "https://europeanspaceflight.com/spain-approves-e1-billion-loan-to-hisdesat-for-paz-2-satellites/",
+    "hash": "5352ffe1f65f92f34b8b5c55bb8881889e71153cf4c866c4cc5adab7313fce92"
+  },
+  {
+    "link": "https://europeanspaceflight.com/giant-dome-door-fitted-to-europes-extremely-large-telescope/",
+    "hash": "88a51a799bd1e45891e202e0187ce41d8b9ab253cf909014d20be0873563ac96"
+  },
+  {
+    "link": "https://europeanspaceflight.com/poland-green-lights-e52m-earth-observation-constellation/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://europeanspaceflight.com/latitude-secures-france-2030-funding-to-build-reims-factory/",
+    "hash": "PLACEHOLDER"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/firefly-aerospaces-alpha-rocket-fails-during-6th-ever-launch-falls-into-the-sea-near-antarctica",
+    "hash": "4a6d69d8f9b55b353e7ca2c01718362946ef55c48b92db089a153ecac31485bc"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/new-record-6-rockets-launch-in-less-than-24-hours",
+    "hash": "5750ca2646cb63b7c4630690ed6a1a3af2d12d36b296782120d7d3c3d00b43c8"
+  },
+  {
+    "link": "https://arstechnica.com/science/2025/04/fireflys-rocket-suffers-one-of-the-strangest-launch-failures-weve-ever-seen/",
+    "hash": "2d2d049c1983d85cbb956a110de84762fc16fd118fad9ddb6f1d0c0273e38957"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/",
+    "hash": "c317ebf62e4cc729d80e9bbfc09ec938b02950e4d2e7128709ce78949609ae4b"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/see-photos-snapped-in-space-by-europes-1st-private-reentry-capsule",
+    "hash": "1a31926c35b96ad14eb82904e055c4ea2deb4eff6a659fd5af5dd2177fb659e8"
+  },
+  {
+    "link": "https://europeanspaceflight.com/dlr-wraps-up-qualification-of-key-callisto-rocket-element/",
+    "hash": "8b6d6f73548c6a9e1ef120a2070efc573ea87b8d45258d3b8322cba1d55e2358"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/after-his-support-for-artemis-senate-committee-advances-isaacman-nomination/",
+    "hash": "133b49ffd99908eeed57f82d51186c45af6b4f1cb3eca321b97acaf0a997adfe"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/04/30/u-s-senate-commerce-committee-advances-isaacmans-nomination-for-nasa-administrator-to-full-senate/",
+    "hash": "be89b379b0533bc226865fe522f6bb7a1a7c9610056668c5101e56bdf24f5509"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/nasa-just-swapped-a-10-year-old-artemis-ii-engine-with-one-nearly-twice-its-age/",
+    "hash": "35b47ca3d9630b580b073e967cfaa14c1fa6e9590c20878abf4e7a433275b563"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/04/juno-io-jupiter-cyclones/",
+    "hash": "b6c025992628e7f9e99f021edd492f1d2a56b4524afce55a7d0dbd13942a975f"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/04/engineers-probe-pressure-drop-in-psyche-spacecrafts-propulsion-system/",
+    "hash": "e479b85d3004ff2700a2940aadd56bfd785a81b23a009f32c5165bd26877c68e"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/01/live-coverage-spacex-to-launch-28-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-3/",
+    "hash": "195094d1269fa52c5ee2473548a3cf89c51d32a684590551ac8003e73eddc8ab"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/faa-grounds-firefly-aerospaces-alpha-rocket-until-failure-investigation-is-complete",
+    "hash": "dfe1e31bdcd493d7826c1aab4d278c8950fb89b6a086851f81e8bd2943f3bd09"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/new-images-of-soviet-venus-lander-falling-to-earth-suggest-its-parachute-may-be-out",
+    "hash": "74c6edf002665fd7ad0a09d61674cfa93c3375ec15aa4b8ac2a757babf785673"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/05/eric-schmidt-apparently-bought-relativity-space-to-put-data-centers-in-orbit/",
+    "hash": "4e209891bb1b98170568795267f9b384e861876946ee1be268ddc301653eac9a"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/05/rocket-report-starbase-the-city-is-coming-soon-alpha-remains-in-beta/",
+    "hash": "e1b0b7123bb5188a629faa278db9a081f605ff428824fdfad74c04736dcb6787"
+  },
+  {
+    "link": "https://europeanspaceflight.com/new-polish-space-agency-chief-named-after-abrupt-exit-of-predecessor/",
+    "hash": "dbf765f2ce82644a931b15c0ff6a06739efe09a0086f785ddd3b99e3ee122adc"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-starship-spacecraft-ahead-of-9th-test-flight-photo",
+    "hash": "5e6e7e7b66f2d2c385ea7a138e76d7488b305b53993287912920b6c5ec607f8d"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/05/white-house-budget-seeks-to-end-sls-orion-and-lunar-gateway-programs/",
+    "hash": "14ae9f9f3b6fc0a5625829a8ac69ad005c4001f5bf0eacb18b0fc42a8d5014c6"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/05/we-finally-know-a-little-more-about-amazons-super-secret-satellites/",
+    "hash": "7358d7738d76f13e7c1f1123ddf8292626c7d705527a0b783e574253d1d30505"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/iss-eva-93-expedition-73/",
+    "hash": "39774b9bcdb5b3ee84b2af84d4c13bfa8cbc75a861fc674c7fcb4b02109a9f97"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/03/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-cente/",
+    "hash": "9232cf47a37e2b277d818abf9a8b8cf595940fbb1545f9f10bf33d317e39185c"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/03/live-coverage-spacex-to-launch-26-starlink-satellites-on-falcon-9-rocket-from-vandenberg/",
+    "hash": "906bf2f6d157cb985d40ec56ac1e144ad085c064a6442bd4e09ff42a9faaa10f"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/03/proposed-24-percent-cut-to-nasa-budget-eliminates-key-artemis-architecture-climate-research/",
+    "hash": "89d0921655e09588241af0d09258ca5aa5f18921f2e579b88f96fed6b5ad3a69"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-6-75-b1080-ccsfs",
+    "hash": "bffcb4720d547ae43274d37cd9d47bc05a10ec083c1917fdeb1cdcfd83ff95f7"
+  }
 ]
