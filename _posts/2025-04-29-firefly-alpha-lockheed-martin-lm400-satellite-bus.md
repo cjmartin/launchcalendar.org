@@ -1,14 +1,15 @@
 ---
 layout: launch
-title: "\U0001F680 Alpha | \U0001F6F0 LM400 Pathfinder - Message In A Booster"
+title: "\U0001F680 Alpha | \U0001F6F0 FLTA006 Message In A Booster (LM400 Pathfinder)"
 description: >-
-  Firefly Aerospace's Alpha rocket launched the 'Message in a Booster' mission
-  from SLC-2W, Vandenberg Space Force Base, California, on April 29, 2025,
-  carrying a prototype Lockheed Martin LM 400 technology demonstrator. The
-  launch suffered a failure in the upper stage Lightning engine nozzle after
-  separation, causing a loss of thrust and preventing orbit insertion. Both the
-  upper stage and payload safely impacted the Pacific Ocean near Antarctica. The
-  FAA has grounded Alpha pending the results of the formal mishap investigation.
+  Firefly Aerospace's Alpha rocket launched the FLTA006 'Message In A Booster'
+  mission carrying Lockheed Martin's LM400 Pathfinder satellite from SLC-2W,
+  Vandenberg Space Force Base, California, on April 29, 2025. Despite a
+  successful liftoff and ascent, a failure in the upper stage Lightning engine
+  nozzle after separation caused a loss of thrust, preventing orbital insertion.
+  Both the upper stage and the payload safely impacted the Pacific Ocean near
+  Antarctica. The FAA subsequently grounded Alpha pending a formal mishap
+  investigation.
 tags:
   - Alpha
   - Firefly
@@ -27,7 +28,7 @@ tags:
   - LM400 Pathfinder
 date: '2025-04-29T13:37:00Z'
 created: '2025-04-23T22:05:23.086Z'
-updated: '2025-05-01T21:57:54.334Z'
+updated: '2025-05-03T20:49:07.887Z'
 redirect_from:
   - 2025/04/28/firefly-alpha-lockheed-martin-lm400-satellite-bus/
 location: 'SLC-2W, Vandenberg Space Force Base, California'
@@ -36,14 +37,15 @@ manned: false
 vehicle: Alpha
 vehicle-type: rocket
 vehicle-slug: alpha
-payload: LM400 Pathfinder - 'Message In A Booster'
+payload: FLTA006 Message In A Booster (LM400 Pathfinder)
 payload-type: satellite
 payload-description: >-
-  The prototype Lockheed Martin LM 400 multi-mission satellite bus served as a
-  technology demonstrator for a range of commercial, civil, and military uses,
-  including remote sensing and communications. This mission, called 'Message in
-  a Booster,' marked part of a multi-launch partnership between Lockheed Martin
-  and Firefly Aerospace.
+  The Lockheed Martin LM400 Pathfinder, a prototype of the LM400 multi-mission
+  satellite bus, was launched as the largest payload yet for Firefly's Alpha
+  rocket. Serving as a technology demonstrator, it supported commercial, civil,
+  and military applications including remote sensing and communications. This
+  'Message in a Booster' mission was part of a multi-launch partnership between
+  Lockheed Martin and Firefly Aerospace.
 links:
   - title: Alpha | Message In A Booster
     type:
@@ -156,9 +158,10 @@ videos:
     type:
       - youtube
       - launch webcast
+      - launch
     url: 'https://www.youtube.com/watch?v=o35dNjHwWuc'
     source: youtube
     video_id: o35dNjHwWuc
 images: []
 ---
-On April 29, 2025, Firefly Aerospace launched its sixth Alpha rocket from SLC-2W at Vandenberg Space Force Base on the 'Message in a Booster' mission, carrying a prototype LM 400 satellite bus from Lockheed Martin. Despite delays due to weather and range restrictions, the mission lifted off at 13:37 UTC; however, after stage separation, a failure of the upper stage Lightning engine nozzle resulted in a loss of thrust and prevented orbital insertion. Both the upper stage and payload safely impacted the Pacific Ocean near Antarctica. The FAA has since grounded Alpha pending the outcome of a mishap investigation, with future launches contingent on corrective actions. Firefly and Lockheed Martin remain committed to advancing rapid launch capability, with up to 25 LM 400 launches planned.
+Firefly Aerospace launched its sixth Alpha rocket on the FLTA006 'Message In A Booster' mission for Lockheed Martin from Vandenberg SFB on April 29, 2025. The launch carried the largest Alpha payload yet, the LM400 Pathfinder. Despite weather and range delays, the mission lifted off at 13:37 UTC and progressed through stage separation, but a nozzle failure on the upper stage Lightning engine led to a loss of thrust. As a result, the stage and payload impacted the Pacific Ocean near Antarctica, failing to reach orbit. The FAA has grounded Alpha pending the mishap investigation, while Firefly and Lockheed Martin remain committed to advancing rapid launch capability.
