@@ -43,6 +43,9 @@ async function getAllFeedEntries(): Promise<RSSEntry[]> {
 async function main() {
   console.log("🚀 LaunchCalendar Agent starting...");
 
+  // Ensure we are on an up-to-date main branch before starting
+  await checkoutOrCreateBranch('main');
+
   // Fetch recent posts from all feeds
   const entries = await getAllFeedEntries();
 
