@@ -1,11 +1,21 @@
 // git.ts
 // Stubs for git and GitHub workflow integration using simple-git and octokit
 
-import simpleGit from 'simple-git';
-import { Octokit } from '@octokit/rest';
+import simpleGit, { SimpleGit } from 'simple-git';
+import type { Octokit } from '@octokit/rest';
 
-const git = simpleGit();
-const octokit = new Octokit(); // You will need to configure authentication for real use
+const git: SimpleGit = simpleGit();
+
+// Initialize octokit lazily to handle ESM import
+let _octokit: Octokit | null = null;
+async function getOctokit() {
+  if (!_octokit) {
+    // Dynamic import for ESM compatibility
+    const { Octokit } = await import('@octokit/rest');
+    _octokit = new Octokit();
+  }
+  return _octokit;
+}
 
 /**
  * Checks out the given branch, creating it from main if it doesn't exist.
