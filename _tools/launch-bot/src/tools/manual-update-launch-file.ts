@@ -3,6 +3,9 @@
 import fs from "fs/promises";
 import matter from "gray-matter";
 import { fileDataToLaunchData, updateLaunchFile } from "../updater/launchFileUpdater";
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 async function main() {
   const [,, targetPath, sourcePath] = process.argv;
