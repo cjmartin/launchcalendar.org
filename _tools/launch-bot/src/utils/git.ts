@@ -6,7 +6,7 @@ import type { Octokit } from '@octokit/rest';
 import path from 'path';
 
 // Find the repo root (parent of _tools)
-const repoRoot = path.resolve(__dirname, '../../../');
+const repoRoot = path.resolve(__dirname, '../../../../');
 const git: SimpleGit = simpleGit(repoRoot);
 
 // Initialize octokit lazily to handle ESM import
