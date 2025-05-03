@@ -172,21 +172,25 @@ JSON schema:
 
   console.log(`🤖 Launch site GPT response: ${JSON.stringify(result, null, 2)}`);
 
+  // This breaks the GIT workflow, because it writes something about a launch
+  // outside of the launch branch checkout/commit loop. Needs to be updated to
+  // track launch log data separately and write it to a PR message rather than
+  // file.
   // --- Log GPT match to file ---
-  const logEntry = {
-    timestamp: new Date().toISOString(),
-    launchData,
-    fuzzyMatch,
-    gptResponse: result
-  };
-  try {
-    await fs.appendFile(
-      path.resolve(__dirname, '../../log/launch-site-gpt-log.json'),
-      JSON.stringify(logEntry) + "\n"
-    );
-  } catch (err) {
-    console.error("Failed to write GPT site match log:", err);
-  }
+  // const logEntry = {
+  //   timestamp: new Date().toISOString(),
+  //   launchData,
+  //   fuzzyMatch,
+  //   gptResponse: result
+  // };
+  // try {
+  //   await fs.appendFile(
+  //     path.resolve(__dirname, '../../log/launch-site-gpt-log.json'),
+  //     JSON.stringify(logEntry) + "\n"
+  //   );
+  // } catch (err) {
+  //   console.error("Failed to write GPT site match log:", err);
+  // }
   // --- End log ---
 
   if (result.decision === "match") {
