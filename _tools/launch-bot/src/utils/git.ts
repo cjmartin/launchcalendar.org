@@ -154,13 +154,19 @@ export async function openPullRequestsForLaunchBranches() {
     return;
   }
   // Parse owner/repo from remote URL (supports SSH and HTTPS)
-  const match = origin.refs.fetch.match(/[:/]([^/]+)\/([^.\/]+)(?:\.git)?$/);
-  if (!match) {
+  let owner: string | undefined, repo: string | undefined;
+  const sshMatch = origin.refs.fetch.match(/git@[^:]+:([^/]+)\/([^.\/]+)(?:\.git)?$/);
+  const httpsMatch = origin.refs.fetch.match(/https?:\/\/[^/]+\/([^/]+)\/([^.\/]+)(?:\.git)?$/);
+  if (sshMatch) {
+    owner = sshMatch[1];
+    repo = sshMatch[2];
+  } else if (httpsMatch) {
+    owner = httpsMatch[1];
+    repo = httpsMatch[2];
+  } else {
     console.error('[GITHUB] Could not parse owner/repo from remote URL:', origin.refs.fetch);
     return;
   }
-  const owner = match[1];
-  const repo = match[2];
 
   for (const branch of branches) {
     // Check if a PR already exists from this branch to main
