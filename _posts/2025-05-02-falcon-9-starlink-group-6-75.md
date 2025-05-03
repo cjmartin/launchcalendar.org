@@ -63,26 +63,6 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-6-75-b1080-ccsfs
-  - title: Falcon 9 overview
-    type:
-      - reference
-    url: 'https://www.space.com/18962-spacex-falcon-9.html'
-  - title: SpaceX company page
-    type:
-      - reference
-    url: 'https://www.space.com/18853-spacex.html'
-  - title: Cape Canaveral Space Force Station
-    type:
-      - location
-    url: 'https://www.space.com/33926-cape-canaveral.html'
-  - title: Low Earth Orbit (LEO)
-    type:
-      - reference
-    url: 'https://www.space.com/low-earth-orbit'
-  - title: 'Starlink satellites: Facts, tracking and impact on astronomy'
-    type:
-      - reference
-    url: 'https://www.space.com/spacex-starlink-satellites.html'
   - title: Starlink 6-75 deployment video post
     type:
       - social
