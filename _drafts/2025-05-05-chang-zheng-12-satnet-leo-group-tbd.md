@@ -1,8 +1,8 @@
 ---
 layout: launch
-title: "\U0001F680 Chang Zheng 12 | \U0001F6F0 SatNet LEO Group TBD"
+title: "\U0001F680 Long March 12 | \U0001F6F0 SatNet LEO Group TBD"
 description: >-
-  Chang Zheng 12 rocket will launch a batch of SatNet LEO communications
+  Chang Zheng 12 (Long March) rocket will launch a batch of SatNet LEO communications
   satellites from Wenchang.
 tags:
   - Chang Zheng 12
@@ -15,9 +15,9 @@ redirect_from: []
 location: 'LC-2, Wenchang Space Launch Site, China'
 location-slug: launch-complex-2-wenchang-space-launch-site-china
 manned: false
-vehicle: Chang Zheng 12
+vehicle: Long March 12
 vehicle-type: rocket
-vehicle-slug: ''
+vehicle-slug: 'long-march-12'
 payload: SatNet LEO Group TBD
 payload-type: satellite
 payload-description: ''
