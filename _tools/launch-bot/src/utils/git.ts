@@ -3,16 +3,18 @@
 
 import simpleGit, { SimpleGit } from 'simple-git';
 import path from 'path';
+import { Octokit } from '@octokit/rest';
 
 // Find the repo root (parent of _tools)
 const repoRoot = path.resolve(__dirname, '../../../../');
 const git: SimpleGit = simpleGit(repoRoot);
 
 // Initialize octokit lazily to handle ESM import
-let _octokit: any = null;
-async function getOctokit() {
+// Not needed with downgraded octokit version, but keeping
+// the loader fuction in case I try and upgrade again later.
+let _octokit: Octokit | null = null;
+function getOctokit() {
   if (!_octokit) {
-    const { Octokit } = await import('@octokit/rest');
     _octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
   }
   return _octokit;
