@@ -63,7 +63,7 @@ export async function checkoutOrCreateBranch(branchName: string) {
       }
       // Also pull latest main into this branch
       try {
-        await git.pull('origin', 'main');
+        await git.pull('origin', 'main', ['--rebase']);
         console.log(`[GIT] ✓ Pulled latest main into branch: ${branchName}`);
       } catch (mergeErr) {
         console.log(`[GIT] Could not pull main into branch: ${branchName}`);
@@ -141,10 +141,52 @@ export async function pushAllLaunchBranches() {
  */
 export async function openPullRequestsForLaunchBranches() {
   const branches = getPushedBranches();
-  console.log(`[GITHUB] Would open pull requests for these launch branches:`, branches);
+  if (!process.env.GITHUB_TOKEN) {
+    console.error('[GITHUB] GITHUB_TOKEN not set in environment. Skipping PR creation.');
+    return;
+  }
+  const octokit = await getOctokit();
+  // Get repo info from git remote
+  const remotes = await git.getRemotes(true);
+  const origin = remotes.find(r => r.name === 'origin');
+  if (!origin || !origin.refs.fetch) {
+    console.error('[GITHUB] Could not determine origin remote URL.');
+    return;
+  }
+  // Parse owner/repo from remote URL
+  const match = origin.refs.fetch.match(/[:/]([^/]+)\/([^/.]+)(\.git)?$/);
+  if (!match) {
+    console.error('[GITHUB] Could not parse owner/repo from remote URL:', origin.refs.fetch);
+    return;
+  }
+  const owner = match[1];
+  const repo = match[2];
+
+  for (const branch of branches) {
+    // Check if a PR already exists from this branch to main
+    const prs = await octokit.pulls.list({ owner, repo, head: `${owner}:${branch}`, base: 'main', state: 'open' });
+    if (prs.data.length > 0) {
+      console.log(`[GITHUB] PR already exists for branch: ${branch}`);
+      continue;
+    }
+    // Create a new PR
+    const title = `Update for launch: ${branch.replace('launch/', '')}`;
+    const body = 'Automated update for launch data.';
+    try {
+      const pr = await octokit.pulls.create({
+        owner,
+        repo,
+        head: branch,
+        base: 'main',
+        title,
+        body,
+      });
+      console.log(`[GITHUB] Opened PR #${pr.data.number} for branch: ${branch}`);
+    } catch (err) {
+      console.error(`[GITHUB] Failed to open PR for branch: ${branch}`, err);
+    }
+  }
   resetPushedBranches();
-  resetCommittedBranches();
-  // TODO: Implement using octokit.pulls.create
 }
 
 /**

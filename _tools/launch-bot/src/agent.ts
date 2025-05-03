@@ -21,6 +21,9 @@ import {
   openPullRequestsForLaunchBranches,
   commitAndPushGlobalChanges,
 } from "./utils/git";
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 async function getAllFeedEntries(): Promise<RSSEntry[]> {
   const feedsPath = require("path").resolve(__dirname, "../data/feeds.json");

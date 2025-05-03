@@ -1,6 +1,4 @@
 import OpenAI from 'openai';
-import dotenv from 'dotenv';
-dotenv.config();
 
 // Change these to run against different (OpenAI compatible) APIs/midels, like ollama.
 let baseURL = 'https://api.openai.com/v1/'; // 'http://127.0.0.1:11434/v1' 'https://api.openai.com/v1/'
