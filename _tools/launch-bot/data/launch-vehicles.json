@@ -201,6 +201,15 @@
     "operator": "CASC",
     "aliases": ["Chang Zheng 11", "CZ-11"]
   },
+  "long-march-12": {
+    "vehicle_name": "Long March 12",
+    "operator": "CASC",
+    "aliases": [
+      "CZ-12",
+      "Chang Zheng 12",
+      "LM-12"
+    ]
+  },
   "unha": {
     "vehicle_name": "Unha",
     "operator": "NADA",
