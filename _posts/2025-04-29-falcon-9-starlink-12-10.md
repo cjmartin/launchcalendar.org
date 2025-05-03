@@ -1,6 +1,6 @@
 ---
 layout: launch
-title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 12-10"
+title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 12-10"
 description: >-
   SpaceX Falcon 9 launched 23 Starlink satellites—including v2 Mini and 13 with
   direct-to-cell capability—on the Starlink Group 12-10 mission from Launch
@@ -22,7 +22,7 @@ tags:
   - Kennedy Space Center
 date: '2025-04-29T02:34:00Z'
 created: '2025-04-29T03:22:29.708Z'
-updated: '2025-05-01T20:14:49.529Z'
+updated: '2025-05-03T20:48:29.037Z'
 redirect_from: []
 location: 'Launch Complex 39A (LC-39A), Kennedy Space Center, Florida'
 location-slug: lc-39a-kennedy-space-center-florida-usa
@@ -30,9 +30,12 @@ manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
 vehicle-slug: falcon-9
-payload: Starlink 12-10
+payload: Starlink Group 12-10
 payload-type: satellite
-payload-description: ''
+payload-description: >-
+  A mix of 23 Starlink satellites, including v2 Mini and 13 with Direct-to-Cell
+  capability, launched to expand the Starlink broadband constellation in low
+  Earth orbit.
 links:
   - title: SpaceX launches 23 Starlink satellites on 50th Falcon 9 rocket of 2025
     type:
@@ -56,6 +59,7 @@ links:
     type:
       - forum
       - launch page
+      - discussion
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62604.0'
   - title: >-
       Launch Roundup: Starlink missions fill launch manifest, Biomass and Alpha
@@ -72,12 +76,12 @@ videos:
     url: 'https://www.youtube.com/watch?v=7gwj-qGRu5s'
     source: youtube
     video_id: 7gwj-qGRu5s
-  - title: SpaceX Falcon 9 Launches Starlink 12-10 Mission
+  - title: "\U0001F680 SpaceX Falcon 9 Launches Starlink 12-10 Mission"
     type:
+      - launch
       - youtube
-      - launch webcast
-    url: 'https://www.youtube.com/watch?v=A0sKkcvjmYs'
     source: youtube
+    url: 'https://www.youtube.com/watch?v=A0sKkcvjmYs'
     video_id: A0sKkcvjmYs
 images: []
 ---
