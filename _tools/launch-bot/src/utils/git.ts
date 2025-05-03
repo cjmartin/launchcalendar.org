@@ -3,8 +3,11 @@
 
 import simpleGit, { SimpleGit } from 'simple-git';
 import type { Octokit } from '@octokit/rest';
+import path from 'path';
 
-const git: SimpleGit = simpleGit();
+// Find the repo root (parent of _tools)
+const repoRoot = path.resolve(__dirname, '../../../');
+const git: SimpleGit = simpleGit(repoRoot);
 
 // Initialize octokit lazily to handle ESM import
 let _octokit: Octokit | null = null;
