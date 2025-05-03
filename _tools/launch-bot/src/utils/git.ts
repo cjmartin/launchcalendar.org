@@ -21,8 +21,27 @@ async function getOctokit() {
  * Checks out the given branch, creating it from main if it doesn't exist.
  */
 export async function checkoutOrCreateBranch(branchName: string) {
-  console.log(`[GIT] Would check out or create branch: ${branchName}`);
-  // TODO: Implement using git.checkoutLocalBranch or git.checkout
+  try {
+    // First try to checkout the branch in case it exists
+    try {
+      await git.checkout(branchName);
+      console.log(`[GIT] ✓ Checked out existing branch: ${branchName}`);
+      return;
+    } catch (error) {
+      // Branch doesn't exist, we'll create it
+    }
+
+    // Make sure we're on main first
+    await git.checkout('main');
+    // Pull latest changes
+    await git.pull('origin', 'main');
+    // Create and checkout the new branch
+    await git.checkoutLocalBranch(branchName);
+    console.log(`[GIT] ✓ Created and checked out new branch: ${branchName}`);
+  } catch (error) {
+    console.error(`[GIT] ✗ Failed to checkout/create branch ${branchName}:`, error);
+    throw error;
+  }
 }
 
 /**

@@ -125,11 +125,11 @@ async function main() {
   // --- GIT WORKFLOW: After all launches ---
   await pushAllLaunchBranches();
   await openPullRequestsForLaunchBranches();
-  await commitAndPushGlobalChanges();
 
   // Add processed links to the record
   await addProcessedArticles(processedLinks);
-
+  
+  await commitAndPushGlobalChanges();
   console.log("🏁 Agent run complete.");
 }
 
