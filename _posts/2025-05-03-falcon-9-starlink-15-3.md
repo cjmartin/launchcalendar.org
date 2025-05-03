@@ -1,6 +1,6 @@
 ---
 layout: launch
-title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 15-3 (26 Starlink V2 Mini satellites)"
+title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 15-3"
 description: >-
   Falcon 9 launches 26 Starlink V2 Mini satellites (mission 15-3) into low Earth
   orbit from Vandenberg.
@@ -20,17 +20,10 @@ manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
 vehicle-slug: falcon-9
-payload: Starlink 15-3 (26 Starlink V2 Mini satellites)
+payload: Starlink 15-3
 payload-type: satellite
 payload-description: ''
 links:
-  - title: >-
-      Live coverage: SpaceX to launch 26 Starlink satellites on Falcon 9 rocket
-      from Vandenberg
-    type:
-      - article
-    url: >-
-      http://spaceflightnow.com/wp-content/uploads/2024/02/20240214_Starlink_7-14_prelaunch_small.jpg
   - title: >-
       Live coverage: SpaceX to launch 26 Starlink satellites on Falcon 9 rocket
       from Vandenberg
@@ -40,7 +33,7 @@ links:
     url: >-
       https://spaceflightnow.com/2025/05/03/live-coverage-spacex-to-launch-26-starlink-satellites-on-falcon-9-rocket-from-vandenberg/
 videos:
-  - title: SpaceX Starlink 15-3 Launch Live
+  - title: Spaceflight Now Starlink 15-3 Launch Coverage
     type:
       - youtube
       - livestream
