@@ -145,32 +145,15 @@ export async function openPullRequestsForLaunchBranches() {
     console.error('[GITHUB] GITHUB_TOKEN not set in environment. Skipping PR creation.');
     return;
   }
-  const octokit = await getOctokit();
-  // Get repo info from git remote
-  const remotes = await git.getRemotes(true);
-  const origin = remotes.find(r => r.name === 'origin');
-  if (!origin || !origin.refs.fetch) {
-    console.error('[GITHUB] Could not determine origin remote URL.');
-    return;
-  }
-  // Parse owner/repo from remote URL (supports SSH and HTTPS)
-  let owner: string | undefined, repo: string | undefined;
-  const sshMatch = origin.refs.fetch.match(/git@[^:]+:([^/]+)\/([^.\/]+)(?:\.git)?$/);
-  const httpsMatch = origin.refs.fetch.match(/https?:\/\/[^/]+\/([^/]+)\/([^.\/]+)(?:\.git)?$/);
-  if (sshMatch) {
-    owner = sshMatch[1];
-    repo = sshMatch[2];
-  } else if (httpsMatch) {
-    owner = httpsMatch[1];
-    repo = httpsMatch[2];
-  } else {
-    console.error('[GITHUB] Could not parse owner/repo from remote URL:', origin.refs.fetch);
-    return;
-  }
+  const octokit = getOctokit();
+
+  // Use environment variables or fallback to hardcoded values
+  const owner = process.env.GITHUB_OWNER || 'cjmartin';
+  const repo = process.env.GITHUB_REPO || 'launchcalendar.org';
 
   for (const branch of branches) {
     // Check if a PR already exists from this branch to main
-    const prs = await octokit.pulls.list({ owner, repo, head: `${owner}:${branch}`, base: 'main', state: 'open' });
+    const prs = await (await octokit).pulls.list({ owner, repo, head: `${owner}:${branch}`, base: 'main', state: 'open' });
     if (prs.data.length > 0) {
       console.log(`[GITHUB] PR already exists for branch: ${branch}`);
       continue;
@@ -179,7 +162,7 @@ export async function openPullRequestsForLaunchBranches() {
     const title = `Update for launch: ${branch.replace('launch/', '')}`;
     const body = 'Automated update for launch data.';
     try {
-      const pr = await octokit.pulls.create({
+      const pr = await (await octokit).pulls.create({
         owner,
         repo,
         head: branch,
