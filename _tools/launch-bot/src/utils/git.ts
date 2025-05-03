@@ -182,6 +182,21 @@ export async function openPullRequestsForLaunchBranches() {
  * Commits and pushes global file changes (like processed-articles.json) to main.
  */
 export async function commitAndPushGlobalChanges() {
-  console.log(`[GIT] Would commit and push global changes to main.`);
-  // TODO: Implement using git.checkout('main'), git.add, git.commit, git.push
+  try {
+    await git.checkout('main');
+    await git.pull('origin', 'main');
+    await git.add('.');
+    const status = await git.status();
+    if (status.staged.length > 0) {
+      const message = `Update global files (${new Date().toISOString()})`;
+      await git.commit(message);
+      await git.push('origin', 'main');
+      console.log('[GIT] ✓ Committed and pushed global changes to main.');
+    } else {
+      console.log('[GIT] No global changes to commit.');
+    }
+  } catch (error) {
+    console.error('[GIT] ✗ Failed to commit/push global changes:', error);
+    throw error;
+  }
 }
