@@ -2,10 +2,12 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-75"
 description: >-
-  SpaceX Falcon 9 launched 28 Starlink V2 Mini satellites—including
-  Direct-to-Cell units—into a 43-degree, 530 km orbit from SLC-40 at Cape
-  Canaveral on May 1/2, 2025. Booster B1080 flew for its 18th time, landing on
-  the droneship 'Just Read the Instructions'.
+  SpaceX launched 28 Starlink V2 Mini satellites—including Direct-to-Cell
+  units—into a 43-degree, 530 km low Earth orbit as part of the Starlink Group
+  6-75 mission. The Falcon 9 lifted off from SLC-40 at Cape Canaveral on May 1,
+  2025 (May 2, 01:51 UTC). Booster B1080 made its 18th flight and landed on the
+  droneship 'Just Read the Instructions'. This marked SpaceX's 51st Falcon 9
+  mission and 34th dedicated Starlink launch of 2025.
 tags:
   - Falcon 9
   - Starlink Group 6-75
@@ -14,9 +16,10 @@ tags:
   - SpaceX
   - satellites
   - LEO
+  - satellite
 date: '2025-05-02T01:51:00Z'
 created: '2025-04-30T00:10:26.187Z'
-updated: '2025-05-02T14:22:50.401Z'
+updated: '2025-05-03T16:55:58.021Z'
 redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
@@ -60,6 +63,11 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-6-75-b1080-ccsfs
+  - title: Starlink 6-75 deployment video post
+    type:
+      - social
+      - update
+    url: 'https://x.com/SpaceX/status/1918138225031561728'
 videos:
   - title: SpaceX Falcon 9 Launches Starlink 6-75 Mission
     type:
@@ -77,4 +85,4 @@ videos:
     video_id: pRj2EY5dly4
 images: []
 ---
-SpaceX successfully launched its Starlink 6-75 mission on May 1, 2025, at 9:51 p.m. EDT (May 2, 01:51 UTC) from SLC-40 (Launch Complex-40) at Cape Canaveral Space Force Station, Florida. The Falcon 9 rocket delivered 28 Starlink V2 Mini satellites, including Direct-to-Cell units, to a 43-degree, 530 km low Earth orbit, further expanding the broadband constellation to over 7,300 satellites. Booster B1080 made its 18th flight and 12th Starlink mission, landing on the 'Just Read the Instructions' droneship. The satellites will maneuver into their designated orbits over the coming days. Weather conditions at launch were highly favorable, with over a 95% chance of acceptable conditions.
+On May 1, 2025, SpaceX successfully launched its Starlink 6-75 mission from SLC-40 (Launch Complex-40) at Cape Canaveral Space Force Station. The Falcon 9 delivered 28 Starlink V2 Mini satellites, including Direct-to-Cell units, into a 43-degree, 530 km low Earth orbit at 9:51 p.m. EDT (May 2, 01:51 UTC). Booster B1080 flew for the 18th time and safely landed on the droneship 'Just Read the Instructions.' With this flight—the 51st Falcon 9 mission and 34th dedicated Starlink launch of 2025—the Starlink constellation grew to over 7,300 satellites. Favorable weather supported mission success, and the satellites will maneuver into their final orbits over the coming days.
