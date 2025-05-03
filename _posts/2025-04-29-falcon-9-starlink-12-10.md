@@ -2,13 +2,16 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 12-10"
 description: >-
-  SpaceX Falcon 9 launched Starlink Group 12-10—23 Starlink satellites,
-  including v2 Mini and 13 with Direct-to-Cell capability—from Launch Complex
-  39A at Kennedy Space Center. The mission delivered the satellites into
-  low-Earth orbit inclined at 43 degrees, using a new Falcon 9 booster (believed
-  to be B1094) that landed successfully on 'A Shortfall of Gravitas.' This was
-  SpaceX's 50th Falcon 9 launch of the year, part of a rapid launch cadence
-  contributing to a Starlink total surpassing 7,260 satellites in orbit.
+  SpaceX Falcon 9 launched 23 Starlink satellites—including v2 Mini and 13 with
+  direct-to-cell capability—on the Starlink Group 12-10 mission from Launch
+  Complex 39A at Kennedy Space Center. This was SpaceX's second Starlink launch
+  of the day as part of its rapid launch cadence, delivering satellites into
+  low-Earth orbit inclined at 43 degrees to further expand the Starlink
+  broadband constellation. The mission featured a new Falcon 9 booster, widely
+  believed to be B1094, which landed safely on the droneship 'A Shortfall of
+  Gravitas.' This was the 50th Falcon 9 launch of the year, and contributed to a
+  record-setting period that included multiple launches within hours of each
+  other.
 tags:
   - Falcon 9
   - Starlink
@@ -73,13 +76,6 @@ videos:
     url: 'https://www.youtube.com/watch?v=7gwj-qGRu5s'
     source: youtube
     video_id: 7gwj-qGRu5s
-  - title: SpaceX Falcon 9 Launches Starlink 12-10 Mission
-    type:
-      - youtube
-      - launch webcast
-    url: 'https://www.youtube.com/watch?v=A0sKkcvjmYs'
-    source: youtube
-    video_id: A0sKkcvjmYs
   - title: "\U0001F680 SpaceX Falcon 9 Launches Starlink 12-10 Mission"
     type:
       - launch
@@ -89,4 +85,4 @@ videos:
     video_id: A0sKkcvjmYs
 images: []
 ---
-On April 29, 2025, SpaceX launched Starlink Group 12-10 atop a Falcon 9 rocket from Launch Complex 39A at Kennedy Space Center. The mission delivered 23 Starlink satellites—including v2 Mini and 13 with Direct-to-Cell capability—into low-Earth orbit inclined at 43 degrees, increasing the total number of Starlink satellites in orbit to more than 7,260. The booster, believed to be B1094 on its maiden flight, landed on 'A Shortfall of Gravitas.' This marked SpaceX's 50th Falcon 9 launch of the year, reflecting the company's rapid launch cadence with several launches in quick succession.
+On April 29, 2025 at 02:34 UTC, SpaceX launched the Starlink Group 12-10 mission using a brand-new Falcon 9 rocket from Launch Complex 39A at Kennedy Space Center. The mission delivered 23 Starlink satellites—including v2 Mini and 13 with Direct-to-Cell capability—into a low-Earth orbit inclined at 43 degrees. The booster, believed to be B1094, made a successful droneship landing on 'A Shortfall of Gravitas.' This marked SpaceX's 50th Falcon 9 launch of the year, with rapid successive launches including another Starlink mission just hours earlier. Of the 50 Falcon 9 flights in 2025, 33 supported Starlink launches. Weather conditions were generally favorable, with only minor concerns regarding clouds.
