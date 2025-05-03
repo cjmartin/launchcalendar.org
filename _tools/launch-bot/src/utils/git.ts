@@ -48,8 +48,26 @@ export async function checkoutOrCreateBranch(branchName: string) {
  * Commits all changes related to a launch in the current branch.
  */
 export async function commitLaunchChanges(branchName: string, launchData: any) {
-  console.log(`[GIT] Would commit changes for branch: ${branchName}`);
-  // TODO: Implement using git.add and git.commit
+  try {
+    // Stage all changes (or specify file(s) if you want to be more specific)
+    await git.add('.');
+    // Prepare a commit message
+    const date = launchData.launch_datetime ? ` (${launchData.launch_datetime})` : '';
+    const vehicle = launchData.vehicle ? ` ${launchData.vehicle}` : '';
+    const payload = launchData.payload ? ` - ${launchData.payload}` : '';
+    const message = `Update launch:${vehicle}${payload}${date}`.trim();
+    // Only commit if there are staged changes
+    const status = await git.status();
+    if (status.staged.length > 0) {
+      await git.commit(message);
+      console.log(`[GIT] ✓ Committed changes for branch: ${branchName}`);
+    } else {
+      console.log(`[GIT] No changes to commit for branch: ${branchName}`);
+    }
+  } catch (error) {
+    console.error(`[GIT] ✗ Failed to commit changes for branch ${branchName}:`, error);
+    throw error;
+  }
 }
 
 /**
