@@ -1,6 +1,9 @@
 import dotenv from 'dotenv';
 dotenv.config();
 
+import fs from 'fs/promises';
+import path from 'path';
+
 import {
   openPullRequestsForLaunchBranches,
   pushAllLaunchBranches,
@@ -13,10 +16,15 @@ async function main() {
   const testBranch = 'launch/test-pr-branch';
   await checkoutOrCreateBranch(testBranch);
 
-  // Simulate a file change and commit (optional, for a real test)
-  await commitLaunchChanges(testBranch, { vehicle: 'Test', payload: 'Test', launch_datetime: '2025-05-03' });
+  // Actually make a file change so there is something to commit
+  const testFilePath = path.resolve(__dirname, '../../../../_drafts/test-git-pr.md');
+  const testContent = `---\ntitle: Test PR\ndate: ${new Date().toISOString()}\n---\n\nThis is a test file for PR automation.\n`;
+  await fs.writeFile(testFilePath, testContent, 'utf8');
 
-  // Simulate pushing the branch (if not already pushed)
+  // Commit the change
+  await commitLaunchChanges(testBranch, { vehicle: 'Test', payload: 'Test', launch_datetime: new Date().toISOString() });
+
+  // Push the branch
   await pushAllLaunchBranches();
 
   // Now test PR creation
