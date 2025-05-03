@@ -20,6 +20,28 @@ async function getOctokit() {
   return _octokit;
 }
 
+// Track which branches had changes committed
+const committedBranches = new Set<string>();
+
+export function getCommittedBranches(): string[] {
+  return Array.from(committedBranches);
+}
+
+export function resetCommittedBranches() {
+  committedBranches.clear();
+}
+
+// Track which branches were pushed
+const pushedBranches = new Set<string>();
+
+export function getPushedBranches(): string[] {
+  return Array.from(pushedBranches);
+}
+
+export function resetPushedBranches() {
+  pushedBranches.clear();
+}
+
 /**
  * Checks out the given branch, creating it from main if it doesn't exist.
  */
@@ -68,7 +90,7 @@ export async function checkoutOrCreateBranch(branchName: string) {
 /**
  * Commits all changes related to a launch in the current branch.
  */
-export async function commitLaunchChanges(branchName: string, launchData: any) {
+export async function commitLaunchChanges(branchName: string, launchData: any): Promise<boolean> {
   try {
     // Stage all changes (or specify file(s) if you want to be more specific)
     await git.add('.');
@@ -81,9 +103,12 @@ export async function commitLaunchChanges(branchName: string, launchData: any) {
     const status = await git.status();
     if (status.staged.length > 0) {
       await git.commit(message);
+      committedBranches.add(branchName);
       console.log(`[GIT] ✓ Committed changes for branch: ${branchName}`);
+      return true;
     } else {
       console.log(`[GIT] No changes to commit for branch: ${branchName}`);
+      return false;
     }
   } catch (error) {
     console.error(`[GIT] ✗ Failed to commit changes for branch ${branchName}:`, error);
@@ -95,15 +120,30 @@ export async function commitLaunchChanges(branchName: string, launchData: any) {
  * Pushes all launch branches to the remote repository.
  */
 export async function pushAllLaunchBranches() {
-  console.log(`[GIT] Would push all launch branches to remote.`);
-  // TODO: Implement using git.push
+  try {
+    const branches = getCommittedBranches();
+    for (const branch of branches) {
+      await git.checkout(branch);
+      // Push local branch to remote
+      await git.push('origin', branch);
+      pushedBranches.add(branch);
+      console.log(`[GIT] ✓ Pushed branch: ${branch}`);
+    }
+    // Do not reset committedBranches here; let PR step use it if needed
+  } catch (error) {
+    console.error('[GIT] ✗ Failed to push launch branches:', error);
+    throw error;
+  }
 }
 
 /**
  * Opens pull requests for each launch branch into main.
  */
 export async function openPullRequestsForLaunchBranches() {
-  console.log(`[GITHUB] Would open pull requests for each launch branch.`);
+  const branches = getPushedBranches();
+  console.log(`[GITHUB] Would open pull requests for these launch branches:`, branches);
+  resetPushedBranches();
+  resetCommittedBranches();
   // TODO: Implement using octokit.pulls.create
 }
 
