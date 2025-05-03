@@ -2,16 +2,18 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-84"
 description: >-
-  SpaceX's final Starlink mission of the week is set to launch from LC-39A at
-  Kennedy Space Centre.
+  SpaceX Falcon 9 launches 29 Starlink V2 Mini Optimized satellites from LC-39A
+  at Kennedy Space Centre. This mission is the final Starlink mission of the
+  week and targets a 43-degree, 530 km orbit similar to recent launches.
 tags:
   - Falcon 9
   - Starlink Group 6-84
   - Starlink
   - SpaceX
-date: '2025-05-04T08:48:00Z'
+  - Starlink 6-84
+date: '2025-05-04T08:53:00Z'
 created: '2025-04-30T00:10:28.659Z'
-updated: '2025-04-30T00:10:28.659Z'
+updated: '2025-05-03T16:55:01.857Z'
 redirect_from: []
 location: 'LC-39A, Kennedy Space Centre, Florida'
 location-slug: lc-39a-kennedy-space-center-florida-usa
@@ -21,6 +23,7 @@ vehicle-type: rocket
 vehicle-slug: falcon-9
 payload: Starlink Group 6-84
 payload-type: satellite
+payload-description: 29 Starlink V2 Mini Optimized satellites to low Earth orbit.
 links:
   - title: Falcon 9 | Starlink Group 6-84
     type:
@@ -34,7 +37,28 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/'
-videos: []
+  - title: >-
+      Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket
+      from NASA’s Kennedy Space Center
+    type:
+      - article
+    url: >-
+      http://spaceflightnow.com/2025/04/11/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-center/
+  - title: >-
+      Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket
+      from NASA’s Kennedy Space Center
+    type:
+      - article
+      - source
+    url: >-
+      https://spaceflightnow.com/2025/05/03/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-cente/
+videos:
+  - title: Spaceflight Now Launch Coverage
+    type:
+      - livestream
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=nm1F8jBu3FM'
+    video_id: nm1F8jBu3FM
 images: []
 ---
-The Starlink Group 6-84 launch is scheduled from LC-39A at Kennedy Space Centre on May 4, 2025 at 08:48 UTC. This Falcon 9 mission targets a similar 43-degree, 530 km orbit as earlier Starlink launches in the week. It is the 95th global orbital launch of 2025 and SpaceX's 53rd Falcon 9 flight of the year.
+SpaceX is set to launch 29 Starlink V2 Mini Optimized satellites on the Starlink 6-84 mission using a Falcon 9 rocket from Launch Complex 39A at Kennedy Space Centre. Liftoff is scheduled for Sunday, May 4, 2025, at 4:53 a.m. EDT (08:53 UTC). The booster for this mission, B1078, has previously supported flights including NASA Crew-6, USSF-124, Bluebird 1-5, and 15 other Starlink batches. Weather conditions are moderately favorable with some cloud concerns, and the booster will attempt to land on the droneship 'A Shortfall of Gravitas.' This Falcon 9 mission marks the 95th global orbital launch of 2025 and SpaceX's 53rd Falcon 9 flight of the year. Spaceflight Now will provide live coverage prior to launch.
