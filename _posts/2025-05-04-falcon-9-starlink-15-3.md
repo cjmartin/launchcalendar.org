@@ -43,14 +43,6 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/'
-  - title: >-
-      Live coverage: SpaceX to launch 26 Starlink satellites on Falcon 9 rocket
-      from Vandenberg
-    type:
-      - article
-      - source
-    url: >-
-      https://spaceflightnow.com/2025/05/03/live-coverage-spacex-to-launch-26-starlink-satellites-on-falcon-9-rocket-from-vandenberg/
   - title: SpaceX puts Vandenberg launch on hold
     type:
       - article
@@ -67,4 +59,4 @@ videos:
     video_id: 3atVfcbnKJA
 images: []
 ---
-SpaceX's third Falcon 9 launch of the month, scheduled to send 26 Starlink V2 Mini satellites into low Earth orbit from SLC-4E at Vandenberg Space Force Base, has been put on hold with no new launch date announced. The launch was originally targeted for May 4, 2025, at 17:59 UTC using booster B1081 on its 14th flight, aiming for a southeastern trajectory with a droneship landing. The FAA's recent acceptance of a new environmental assessment may allow for increased launch rates from SLC-4E, supporting SpaceX's rapid launch cadence.
+SpaceX scheduled the Starlink Group 15-3 mission to launch 26 Starlink V2 Mini satellites on Falcon 9 booster B1081's 14th flight from SLC-4E at Vandenberg Space Force Base on May 4, 2025, at 17:59 UTC. The launch was scrubbed on May 3 and rescheduled for May 4, but has since been put on hold with no new date announced. The flight aims for a southeastern trajectory, targeting a droneship landing. The FAA recently increased Falcon 9's permitted annual launch frequency at Vandenberg, enabling SpaceX's rapid cadence.
