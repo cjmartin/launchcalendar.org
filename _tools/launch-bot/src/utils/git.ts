@@ -63,6 +63,9 @@ export async function checkoutOrCreateBranch(branchName: string) {
   try {
     // Fetch all remotes to ensure we see remote branches
     await git.fetch();
+
+    // Checkout main and pull latest changes before switching branches
+    await checkoutMainBranch();
     
     // Check if the branch already exists locally
     const branches = await git.branchLocal();
@@ -107,9 +110,6 @@ export async function checkoutOrCreateBranch(branchName: string) {
 
     // Branch does not exist, create it from main
     console.log(`[GIT] Branch does not exist, creating: ${branchName}`);
-
-    // Checkout main and pull latest changes
-    await checkoutMainBranch();
 
     // Create and checkout the new branch
     await git.checkoutLocalBranch(branchName);
@@ -162,9 +162,12 @@ export async function pushAllLaunchBranches() {
       pushedBranches.add(branch);
       console.log(`[GIT] ✓ Pushed branch: ${branch}`);
     }
-    // Do not reset committedBranches here; let PR step use it if needed
+    // Switch back to main branch after pushing
+    await checkoutMainBranch();
   } catch (error) {
     console.error('[GIT] ✗ Failed to push launch branches:', error);
+    // Ensure we return to the main branch even if pushing fails
+    await checkoutMainBranch();
     throw error;
   }
 }
@@ -216,6 +219,9 @@ export async function openPullRequestsForLaunchBranches() {
  */
 export async function commitAndPushGlobalChanges() {
   try {
+    // Ensure we're on the main branch.
+    // This shouldn't be called if we're on a launch branch, but just in case.
+    // Better to have an issue switching back to main than to push a launch branch to main.
     await checkoutMainBranch();
     await git.add('.');
     const status = await git.status();

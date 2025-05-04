@@ -100,6 +100,9 @@ async function main() {
   // --- GIT WORKFLOW: After all launches ---
   await pushAllLaunchBranches();
   await openPullRequestsForLaunchBranches();
+  console.log("🌍 [GIT] All launch branches pushed and PRs opened.");
+
+  await checkoutMainBranch(); // Make sure wefinish up on the main branch
 
   // Add processed articles (with hashes) to the record
   await addProcessedArticles(processedArticles);
