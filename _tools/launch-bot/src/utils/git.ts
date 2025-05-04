@@ -56,7 +56,7 @@ export async function checkoutOrCreateBranch(branchName: string) {
       console.log(`[GIT] Branch already exists, checking out: ${branchName}`);
       await git.checkout(branchName);
       try {
-        await git.pull('origin', 'main', ['--rebase']);
+        await git.pull('origin', 'main');
         console.log(`[GIT] ✓ Pulled latest main into branch: ${branchName}`);
       } catch (mergeErr) {
         console.log(`[GIT] Could not pull main into branch: ${branchName}`);
@@ -77,7 +77,7 @@ export async function checkoutOrCreateBranch(branchName: string) {
       console.log(`[GIT] Remote branch exists, checking out tracking branch: ${branchName}`);
       await git.checkout(['-b', branchName, '--track', remoteBranchName]);
       try {
-        await git.pull('origin', 'main', ['--rebase']);
+        await git.pull('origin', 'main');
         console.log(`[GIT] ✓ Pulled latest main into branch: ${branchName}`);
       } catch (mergeErr) {
         console.log(`[GIT] Could not pull main into branch: ${branchName}`);
