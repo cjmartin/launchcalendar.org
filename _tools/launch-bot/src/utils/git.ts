@@ -47,6 +47,16 @@ export function resetPushedBranches() {
  */
 export async function checkoutMainBranch() {
   try {
+    const status = await git.status();
+    const currentBranch = status.current;
+    // Check if already on main
+    if (currentBranch === 'main') {
+      // Check if up to date with origin/main
+      if (!status.behind && !status.ahead) {
+        console.log('[GIT] Already on main and up to date with origin/main.');
+        return;
+      }
+    }
     await git.checkout('main');
     await git.pull('origin', 'main');
     console.log('[GIT] ✓ Checked out and updated main branch.');
