@@ -46,9 +46,7 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/'
-  - title: >-
-      Live coverage: SpaceX to launch 26 Starlink satellites on Falcon 9 rocket
-      from Vandenberg
+  - title: SpaceX puts Vandenberg launch on hold
     type:
       - article
       - source
