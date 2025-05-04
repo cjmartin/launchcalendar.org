@@ -2,9 +2,9 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-93"
 description: >-
-  Falcon 9 will launch the Starlink Group 6-93 batch from Cape Canaveral SFS to
-  low Earth orbit, delivering more satellites for the expanding Starlink
-  constellation.
+  Falcon 9 is scheduled to launch another batch of Starlink satellites (Group
+  6-93) from SLC-40, Cape Canaveral SFS to low Earth orbit, deploying additional
+  satellites for the expanding Starlink constellation.
 tags:
   - Falcon 9
   - Starlink Group 6-93
@@ -12,7 +12,7 @@ tags:
   - SpaceX
 date: '2025-05-06T00:48:00Z'
 created: '2025-04-30T00:10:26.204Z'
-updated: '2025-05-03T20:53:13.862Z'
+updated: '2025-05-04T15:16:12.258Z'
 redirect_from:
   - 2025/05/04/falcon-9-starlink-group-6-93/
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
@@ -38,7 +38,12 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/'
+  - title: Falcon 9 | Starlink Group 6-93
+    type:
+      - forum
+      - discussion
+    url: 'https://forum.nasaspaceflight.com/index.php?topic=62799.0'
 videos: []
 images: []
 ---
-Another Starlink launch, the Group 6-93 mission, is scheduled for May 6, 2025 at 00:48 UTC from SLC-40 at Cape Canaveral SFS. Falcon 9 will deploy additional Starlink satellites into the Group 6 orbit shell. Booster and recovery details remain unconfirmed at this time.
+Falcon 9 is scheduled to launch the Starlink Group 6-93 mission from SLC-40, Cape Canaveral, at 00:48 UTC on May 6, 2025. Details of the booster and recovery operations are not yet available, but the mission targets another batch delivery to the Starlink Group 6 shell. The launch will add more satellites to the expanding Starlink constellation.
