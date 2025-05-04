@@ -55,10 +55,6 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/biomass-vega-c/'
-  - title: Biomass/VV26 Updates
-    type:
-      - forum
-    url: 'https://forum.nasaspaceflight.com/index.php?topic=49364.0'
   - title: Vega-C | Biomass
     type:
       - forum
@@ -102,26 +98,6 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/'
-  - title: Vega-C Coverage on NASASpaceFlight
-    type:
-      - article
-      - tag
-    url: 'https://www.nasaspaceflight.com/tag/vega-c/'
-  - title: Vega Coverage on NASASpaceFlight
-    type:
-      - article
-      - tag
-    url: 'https://www.nasaspaceflight.com/tag/vega/'
-  - title: Vega-C
-    type:
-      - tag
-      - vehicle
-    url: 'https://www.nasaspaceflight.com/tag/vega-c/'
-  - title: Vega
-    type:
-      - tag
-      - vehicle
-    url: 'https://www.nasaspaceflight.com/tag/vega/'
 videos:
   - title: Flight VV26 | Biomass | Vega C | Arianespace
     type:
