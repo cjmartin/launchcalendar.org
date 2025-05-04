@@ -2,11 +2,13 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-84"
 description: >-
-  On May 4, 2025, SpaceX Falcon 9 launched a record 29 Starlink V2 Mini
-  Optimized satellites to low Earth orbit from Kennedy Space Centre LC-39A. This
-  mission set a new record for the largest batch of V2 Mini satellites to date.
-  The booster B1078 flew and landed successfully on 'A Shortfall of Gravitas'
-  for its 20th flight. Despite challenging weather, the launch was a success.
+  On May 4, 2025, Falcon 9 launched a record 29 Starlink V2 Mini Optimized
+  satellites (V2 Mini) to low Earth orbit from Kennedy Space Centre LC-39A. This
+  set a new record for the largest batch of V2 Mini satellites on a single
+  Starlink mission. The booster B1078 flew and landed successfully on 'A
+  Shortfall of Gravitas' for its 20th flight. The mission targeted a 43-degree
+  inclined, 530 km orbit, similar to other recent launches. Despite challenging
+  weather, the launch was a success.
 tags:
   - Falcon 9
   - Starlink Group 6-84
@@ -16,9 +18,9 @@ tags:
   - Starlink V2 Mini
   - satellites
   - Kennedy Space Center
-date: '2025-05-04T08:54:00Z'
+date: '2025-05-04T08:53:00Z'
 created: '2025-04-30T00:10:28.659Z'
-updated: '2025-05-04T15:17:03.119Z'
+updated: '2025-05-04T21:20:19.802Z'
 redirect_from: []
 location: 'LC-39A, Kennedy Space Centre, Florida'
 location-slug: lc-39a-kennedy-space-center-florida-usa
@@ -35,6 +37,7 @@ links:
       - forum
       - launch page
       - discussion
+      - thread
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62796.new#new'
   - title: >-
       Launch Roundup: Starlink missions fill launch manifest, Biomass and Alpha
@@ -84,9 +87,11 @@ videos:
   - title: SpaceX Falcon 9 Launches Starlink 6-84 Mission
     type:
       - launch video
+      - launch
+      - youtube
     source: youtube
     url: 'https://www.youtube.com/watch?v=ezJKsMirQ8k'
     video_id: ezJKsMirQ8k
 images: []
 ---
-On May 4, 2025 (Star Wars Day), SpaceX successfully launched the Starlink Group 6-84 mission with a record 29 Starlink V2 Mini Optimized satellites on Falcon 9 from Kennedy Space Centre LC-39A. Liftoff occurred at 08:54 UTC (4:54 a.m. EDT). Booster B1078 made its 20th flight and landed successfully on 'A Shortfall of Gravitas.' Weather conditions were marginal prior to launch. With this mission, SpaceX has now launched nearly 8,500 Starlink satellites, with over 7,300 currently operational in LEO. This was the 95th orbital launch globally in 2025 and SpaceX’s 53rd Falcon 9 of the year.
+At 08:53 UTC on May 4, 2025 (Star Wars Day), SpaceX launched the Starlink Group 6-84 mission, sending a record 29 Starlink V2 Mini Optimized satellites to a 43-degree inclined, 530 km low Earth orbit from LC-39A at Kennedy Space Centre. The booster B1078 completed its 20th flight, landing successfully on the droneship 'A Shortfall of Gravitas.' The launch faced marginal weather conditions but proceeded without issue. This mission marked a new record for Starlink launches, with SpaceX approaching 8,500 Starlink satellites launched and over 7,300 operational. It was the 95th orbital launch of 2025 worldwide and SpaceX’s 53rd Falcon 9 launch of the year.
