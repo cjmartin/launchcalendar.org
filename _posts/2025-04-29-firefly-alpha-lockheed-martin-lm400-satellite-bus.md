@@ -1,6 +1,6 @@
 ---
 layout: launch
-title: "\U0001F680 Alpha | \U0001F6F0 FLTA006 Message In A Booster (LM400 Pathfinder Tech Demo)"
+title: "\U0001F680 Alpha | \U0001F6F0 LM400 Pathfinder - Message In A Booster"
 description: >-
   Firefly Aerospace's Alpha rocket launched the FLTA006 'Message In A Booster'
   mission carrying Lockheed Martin's LM400 Pathfinder tech demo satellite from
@@ -37,7 +37,7 @@ manned: false
 vehicle: Alpha
 vehicle-type: rocket
 vehicle-slug: alpha
-payload: FLTA006 Message In A Booster (LM400 Pathfinder Tech Demo)
+payload: LM400 Pathfinder - 'Message In A Booster'
 payload-type: satellite
 payload-description: >-
   The Lockheed Martin LM400 Pathfinder, a technology demonstration satellite and
@@ -158,9 +158,6 @@ videos:
   - title: Firefly Aerospace Launches Alpha FLTA006 "Message In A Booster"
     type:
       - youtube
-      - launch webcast
-      - launch
-      - video
       - launch video
     url: 'https://www.youtube.com/watch?v=o35dNjHwWuc'
     source: youtube
