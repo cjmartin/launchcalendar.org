@@ -58,9 +58,8 @@ export async function checkoutMainBranch() {
       if (isBehind(status)) {
         await git.pull('origin', 'main');
         console.log('[GIT] ✓ Pulled latest changes for main branch.');
-      } else {
-        console.log('[GIT] Already on main and up to date with origin/main.');
       }
+      // Noop if already on main and up to date.
       return;
     }
 
@@ -73,7 +72,7 @@ export async function checkoutMainBranch() {
     } else {
       console.log('[GIT] Checked out main and it is up to date with origin/main.');
     }
-    
+
   } catch (error) {
     console.error('[GIT] ✗ Failed to checkout/pull main branch:', error);
     throw error;
