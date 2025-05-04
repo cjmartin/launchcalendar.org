@@ -56,16 +56,16 @@ export async function checkoutOrCreateBranch(branchName: string) {
       console.log(`[GIT] Branch already exists, checking out: ${branchName}`);
       await git.checkout(branchName);
       try {
-        await git.pull('origin', branchName);
-        console.log(`[GIT] ✓ Checked out and updated existing branch from its remote: ${branchName}`);
-      } catch (pullErr) {
-        console.log(`[GIT] Checked out existing branch but could not pull remote (may not exist yet): ${branchName}`);
-      }
-      try {
         await git.pull('origin', 'main', ['--rebase']);
         console.log(`[GIT] ✓ Pulled latest main into branch: ${branchName}`);
       } catch (mergeErr) {
         console.log(`[GIT] Could not pull main into branch: ${branchName}`);
+      }
+      try {
+        await git.pull('origin', branchName, ['--rebase']);
+        console.log(`[GIT] ✓ Checked out and updated existing branch from its remote: ${branchName}`);
+      } catch (pullErr) {
+        console.log(`[GIT] Checked out existing branch but could not pull remote (may not exist yet): ${branchName}`);
       }
       return;
     }
@@ -77,16 +77,16 @@ export async function checkoutOrCreateBranch(branchName: string) {
       console.log(`[GIT] Remote branch exists, checking out tracking branch: ${branchName}`);
       await git.checkout(['-b', branchName, '--track', remoteBranchName]);
       try {
-        await git.pull('origin', branchName);
-        console.log(`[GIT] ✓ Checked out and updated tracking branch from remote: ${branchName}`);
-      } catch (pullErr) {
-        console.log(`[GIT] Checked out tracking branch but could not pull remote: ${branchName}`);
-      }
-      try {
         await git.pull('origin', 'main', ['--rebase']);
         console.log(`[GIT] ✓ Pulled latest main into branch: ${branchName}`);
       } catch (mergeErr) {
         console.log(`[GIT] Could not pull main into branch: ${branchName}`);
+      }
+      try {
+        await git.pull('origin', branchName, ['--rebase']);
+        console.log(`[GIT] ✓ Checked out and updated tracking branch from remote: ${branchName}`);
+      } catch (pullErr) {
+        console.log(`[GIT] Checked out tracking branch but could not pull remote: ${branchName}`);
       }
       return;
     }
