@@ -1,6 +1,6 @@
 ---
 layout: launch
-title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 6-84 (29 Starlink V2 Mini Optimized satellites)"
+title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-84"
 description: >-
   On May 4, 2025, SpaceX Falcon 9 launched a record 29 Starlink V2 Mini
   Optimized satellites to low Earth orbit from Kennedy Space Centre LC-39A. This
@@ -26,7 +26,7 @@ manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
 vehicle-slug: falcon-9
-payload: Starlink 6-84 (29 Starlink V2 Mini Optimized satellites)
+payload: Starlink Group 6-84
 payload-type: satellite
 payload-description: 29 Starlink V2 Mini Optimized satellites to low Earth orbit.
 links:
@@ -68,15 +68,6 @@ links:
       - official
       - mission
     url: 'https://www.spacex.com/launches/mission/?missionId=sl-6-84'
-  - title: Jonathan McDowell - Starlink statistics
-    type:
-      - reference
-      - statistics
-    url: 'https://planet4589.org/space/con/star/stats.html'
-  - title: SpaceX company page
-    type:
-      - company
-    url: 'https://www.space.com/18853-spacex.html'
   - title: ' ''Falcon'' flies on Star Wars Day: SpaceX launches Starlink satellites from Florida (photos) '
     type:
       - article
@@ -84,22 +75,14 @@ links:
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/falcon-flies-on-star-wars-day-spacex-launches-starlink-satellites-from-florida-photos
 videos:
-  - title: Spaceflight Now Launch Coverage
-    type:
-      - livestream
-    source: youtube
-    url: 'https://www.youtube.com/watch?v=nm1F8jBu3FM'
-    video_id: nm1F8jBu3FM
   - title: Starlink 6-84 Launch - SpaceX
     type:
-      - launch
       - livestream
     source: youtube
     url: 'https://www.youtube.com/watch?v=nm1F8jBu3FM'
     video_id: nm1F8jBu3FM
   - title: SpaceX Falcon 9 Launches Starlink 6-84 Mission
     type:
-      - video
       - launch video
     source: youtube
     url: 'https://www.youtube.com/watch?v=ezJKsMirQ8k'
