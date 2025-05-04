@@ -47,21 +47,41 @@ export function resetPushedBranches() {
  */
 export async function checkoutOrCreateBranch(branchName: string) {
   try {
-    // Check if the branch already exists
-    const branches = await git.branchLocal();
+    // Fetch all remotes to ensure we see remote branches
+    await git.fetch();
     
+    // Check if the branch already exists locally
+    const branches = await git.branchLocal();
     if (branches.all.includes(branchName)) {
       console.log(`[GIT] Branch already exists, checking out: ${branchName}`);
-      // Checkout the existing branch
       await git.checkout(branchName);
-      // Pull latest changes from remote for this branch
       try {
         await git.pull('origin', branchName);
         console.log(`[GIT] ✓ Checked out and updated existing branch from its remote: ${branchName}`);
       } catch (pullErr) {
         console.log(`[GIT] Checked out existing branch but could not pull remote (may not exist yet): ${branchName}`);
       }
-      // Also pull latest main into this branch
+      try {
+        await git.pull('origin', 'main', ['--rebase']);
+        console.log(`[GIT] ✓ Pulled latest main into branch: ${branchName}`);
+      } catch (mergeErr) {
+        console.log(`[GIT] Could not pull main into branch: ${branchName}`);
+      }
+      return;
+    }
+
+    // Check if the branch exists on the remote
+    const remoteBranches = await git.branch(['-r']);
+    const remoteBranchName = `origin/${branchName}`;
+    if (remoteBranches.all.includes(remoteBranchName)) {
+      console.log(`[GIT] Remote branch exists, checking out tracking branch: ${branchName}`);
+      await git.checkout(['-b', branchName, '--track', remoteBranchName]);
+      try {
+        await git.pull('origin', branchName);
+        console.log(`[GIT] ✓ Checked out and updated tracking branch from remote: ${branchName}`);
+      } catch (pullErr) {
+        console.log(`[GIT] Checked out tracking branch but could not pull remote: ${branchName}`);
+      }
       try {
         await git.pull('origin', 'main', ['--rebase']);
         console.log(`[GIT] ✓ Pulled latest main into branch: ${branchName}`);
