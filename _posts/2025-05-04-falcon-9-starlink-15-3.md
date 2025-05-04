@@ -2,11 +2,12 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 15-3"
 description: >-
-  SpaceX Falcon 9 will launch Starlink Group 15-3, carrying 26 Starlink V2 Mini
-  satellites to a 70° inclination low Earth orbit from SLC-4E at Vandenberg
-  Space Force Base. The launch, originally set for May 3, 2025, was rescheduled
-  for May 4 after a scrub, using Falcon 9 booster B1081 on its 14th flight. The
-  booster is expected to land on the 'Of Course I Still Love You' droneship.
+  SpaceX Falcon 9 will launch 26 Starlink V2 Mini satellites to a 70°
+  inclination low Earth orbit from SLC-4E at Vandenberg Space Force Base. The
+  launch, originally set for May 3, 2025, was rescheduled for May 4 after a
+  scrub and is using Falcon 9 booster B1081, which has previously supported
+  multiple missions and will be on its 14th flight. The booster is expected to
+  land on the 'Of Course I Still Love You' droneship.
 tags:
   - Falcon 9
   - Starlink
@@ -16,7 +17,7 @@ tags:
   - SLC-4E
 date: '2025-05-04T17:59:00Z'
 created: '2025-05-03T16:55:12.049Z'
-updated: '2025-05-04T03:05:49.114Z'
+updated: '2025-05-04T15:14:05.073Z'
 redirect_from:
   - 2025/05/03/falcon-9-starlink-15-3/
   - 2025/05/02/falcon-9-starlink-group-15-3/
@@ -42,9 +43,7 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/'
-  - title: >-
-      Live coverage: SpaceX to launch 26 Starlink satellites on Falcon 9 rocket
-      from Vandenberg
+  - title: SpaceX puts Vandenberg launch on hold
     type:
       - article
       - source
