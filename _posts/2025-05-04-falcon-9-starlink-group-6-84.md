@@ -1,19 +1,21 @@
 ---
 layout: launch
-title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-84"
+title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 6-84 (29 Starlink V2 Mini Optimized satellites)"
 description: >-
-  SpaceX Falcon 9 launches 29 Starlink V2 Mini Optimized satellites from LC-39A
-  at Kennedy Space Centre. This mission is the final Starlink mission of the
-  week and targets a 43-degree, 530 km orbit similar to recent launches.
+  SpaceX launched 29 Starlink V2 Mini Optimized satellites aboard Falcon 9 from
+  Kennedy Space Centre LC-39A. This mission marks the largest batch of V2 Mini
+  satellites to date and the final Starlink mission of the week, targeting a
+  43-degree, 530 km orbit.
 tags:
   - Falcon 9
   - Starlink Group 6-84
   - Starlink
   - SpaceX
   - Starlink 6-84
-date: '2025-05-04T08:53:00Z'
+  - Starlink V2 Mini
+date: '2025-05-04T08:54:00Z'
 created: '2025-04-30T00:10:28.659Z'
-updated: '2025-05-03T16:55:01.857Z'
+updated: '2025-05-04T15:13:49.817Z'
 redirect_from: []
 location: 'LC-39A, Kennedy Space Centre, Florida'
 location-slug: lc-39a-kennedy-space-center-florida-usa
@@ -21,7 +23,7 @@ manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
 vehicle-slug: falcon-9
-payload: Starlink Group 6-84
+payload: Starlink 6-84 (29 Starlink V2 Mini Optimized satellites)
 payload-type: satellite
 payload-description: 29 Starlink V2 Mini Optimized satellites to low Earth orbit.
 links:
@@ -52,6 +54,11 @@ links:
       - source
     url: >-
       https://spaceflightnow.com/2025/05/03/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-cente/
+  - title: SpaceX launches largest batch of Starlink V2 Mini satellites to date
+    type:
+      - article
+    url: >-
+      http://spaceflightnow.com/2025/05/04/spacex-launches-largest-batch-of-starlink-v2-mini-satellites-to-date/
 videos:
   - title: Spaceflight Now Launch Coverage
     type:
@@ -59,6 +66,13 @@ videos:
     source: youtube
     url: 'https://www.youtube.com/watch?v=nm1F8jBu3FM'
     video_id: nm1F8jBu3FM
+  - title: Starlink 6-84 Launch - SpaceX
+    type:
+      - launch
+      - livestream
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=nm1F8jBu3FM'
+    video_id: nm1F8jBu3FM
 images: []
 ---
-SpaceX is set to launch 29 Starlink V2 Mini Optimized satellites on the Starlink 6-84 mission using a Falcon 9 rocket from Launch Complex 39A at Kennedy Space Centre. Liftoff is scheduled for Sunday, May 4, 2025, at 4:53 a.m. EDT (08:53 UTC). The booster for this mission, B1078, has previously supported flights including NASA Crew-6, USSF-124, Bluebird 1-5, and 15 other Starlink batches. Weather conditions are moderately favorable with some cloud concerns, and the booster will attempt to land on the droneship 'A Shortfall of Gravitas.' This Falcon 9 mission marks the 95th global orbital launch of 2025 and SpaceX's 53rd Falcon 9 flight of the year. Spaceflight Now will provide live coverage prior to launch.
+SpaceX launched the Starlink 6-84 mission, carrying 29 Starlink V2 Mini Optimized satellites, from Launch Complex 39A at Kennedy Space Centre on May 4, 2025, at 4:54 a.m. EDT (08:54 UTC). This was the largest batch of the new, lighter V2 Mini satellites to date. The Falcon 9 first stage booster (B1078), which has supported multiple previous missions including NASA Crew-6 and 15 earlier Starlink batches, successfully landed on the droneship 'A Shortfall of Gravitas' eight minutes after liftoff. Weather conditions were challenging, with a 55 percent chance of favorable weather predicted prior to launch. This Falcon 9 mission marks the 95th global orbital launch of 2025 and SpaceX's 53rd Falcon 9 flight of the year.
