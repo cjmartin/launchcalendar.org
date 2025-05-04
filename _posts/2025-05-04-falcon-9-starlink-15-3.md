@@ -1,32 +1,35 @@
 ---
 layout: launch
-title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 15-3"
+title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 15-3"
 description: >-
   SpaceX Falcon 9 will launch Starlink Group 15-3, carrying 26 Starlink V2 Mini
   satellites to a 70° inclination low Earth orbit from SLC-4E at Vandenberg
-  Space Force Base. The launch, originally set for May 3, 2025, was rescheduled
-  for May 4 after a scrub, using Falcon 9 booster B1081 on its 14th flight. The
-  booster is expected to land on the 'Of Course I Still Love You' droneship.
+  Space Force Base. The mission uses Falcon 9 booster B1081 on its 14th flight,
+  with a landing attempt on the 'Of Course I Still Love You' droneship. The
+  launch, previously scheduled for May 4, 2025, was rescheduled for May 6 at
+  17:31 UTC after a scrub and subsequent delay.
 tags:
   - Falcon 9
   - Starlink
   - Starlink 15-3
+  - Starlink Group 15-3
   - Vandenberg
   - SpaceX
   - SLC-4E
-date: '2025-05-04T17:59:00Z'
+date: '2025-05-06T17:31:00Z'
 created: '2025-05-03T16:55:12.049Z'
-updated: '2025-05-04T03:05:49.114Z'
+updated: '2025-05-04T20:51:55.833Z'
 redirect_from:
-  - 2025/05/03/falcon-9-starlink-15-3/
   - 2025/05/02/falcon-9-starlink-group-15-3/
+  - 2025/05/03/falcon-9-starlink-15-3/
+  - 2025/05/04/falcon-9-starlink-15-3/
 location: 'SLC-4E, Vandenberg Space Force Base, California'
 location-slug: slc-4e-vandenberg-space-force-base-california-usa
 manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
 vehicle-slug: falcon-9
-payload: Starlink 15-3
+payload: Starlink Group 15-3
 payload-type: satellite
 payload-description: ''
 links:
@@ -34,6 +37,7 @@ links:
     type:
       - forum
       - launch page
+      - discussion
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62751.0'
   - title: >-
       Launch Roundup: Starlink missions fill launch manifest, Biomass and Alpha
@@ -60,4 +64,4 @@ videos:
     video_id: 3atVfcbnKJA
 images: []
 ---
-SpaceX scheduled the Starlink Group 15-3 mission to launch 26 Starlink V2 Mini satellites on Falcon 9 booster B1081's 14th flight from SLC-4E at Vandenberg Space Force Base on May 4, 2025, at 17:59 UTC. The launch was scrubbed on May 3 and rescheduled for May 4, but has since been put on hold with no new date announced. The flight aims for a southeastern trajectory, targeting a droneship landing. The FAA recently increased Falcon 9's permitted annual launch frequency at Vandenberg, enabling SpaceX's rapid cadence.
+The Starlink Group 15-3 mission is now scheduled to launch from SLC-4E, Vandenberg Space Force Base, California, on May 6, 2025, at 17:31 UTC, after an earlier scrub and delay from May 4. Using Falcon 9 booster B1081 for its 14th flight, SpaceX will deploy 26 Starlink V2 Mini satellites to a 70° inclined low Earth orbit. The booster will attempt a landing on the droneship 'Of Course I Still Love You'. The increased FAA permit for Falcon 9 launches at Vandenberg supports SpaceX’s rapid launch cadence.
