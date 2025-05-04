@@ -43,6 +43,20 @@ export function resetPushedBranches() {
 }
 
 /**
+ * Checks out the main branch and pulls the latest changes.
+ */
+export async function checkoutMainBranch() {
+  try {
+    await git.checkout('main');
+    await git.pull('origin', 'main');
+    console.log('[GIT] ✓ Checked out and updated main branch.');
+  } catch (error) {
+    console.error('[GIT] ✗ Failed to checkout/pull main branch:', error);
+    throw error;
+  }
+}
+
+/**
  * Checks out the given branch, creating it from main if it doesn't exist.
  */
 export async function checkoutOrCreateBranch(branchName: string) {
@@ -95,8 +109,7 @@ export async function checkoutOrCreateBranch(branchName: string) {
     console.log(`[GIT] Branch does not exist, creating: ${branchName}`);
 
     // Checkout main and pull latest changes
-    await git.checkout('main');
-    await git.pull('origin', 'main');
+    await checkoutMainBranch();
 
     // Create and checkout the new branch
     await git.checkoutLocalBranch(branchName);
@@ -203,8 +216,7 @@ export async function openPullRequestsForLaunchBranches() {
  */
 export async function commitAndPushGlobalChanges() {
   try {
-    await git.checkout('main');
-    await git.pull('origin', 'main');
+    await checkoutMainBranch();
     await git.add('.');
     const status = await git.status();
     if (status.staged.length > 0) {

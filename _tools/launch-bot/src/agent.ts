@@ -9,8 +9,6 @@ import {
   getNewOrUpdatedArticles,
   ProcessedArticle,
 } from "./fetcher/processedArticles";
-import fs from "fs/promises";
-import { RSSEntry } from "./types";
 import { normalizeLaunchData } from "./normalizer/normalizeLaunchData";
 import path from "path";
 import { filenameFromLaunchData } from "./updater/launchFileUpdater";
@@ -20,6 +18,7 @@ import {
   pushAllLaunchBranches,
   openPullRequestsForLaunchBranches,
   commitAndPushGlobalChanges,
+  checkoutMainBranch,
 } from "./utils/git";
 import dotenv from 'dotenv';
 
@@ -27,7 +26,7 @@ dotenv.config();
 
 async function main() {
   console.log("🚀 LaunchCalendar Agent starting...");
-  await checkoutOrCreateBranch('main');
+  await checkoutMainBranch();
 
   // Use consolidated logic to get new or updated articles (fetches feeds internally)
   const newOrUpdatedArticles = await getNewOrUpdatedArticles();
