@@ -1,7 +1,7 @@
 // git.ts
 // Stubs for git and GitHub workflow integration using simple-git and octokit
 
-import simpleGit, { SimpleGit } from 'simple-git';
+import simpleGit, { SimpleGit, StatusResult } from 'simple-git';
 import path from 'path';
 import { Octokit } from '@octokit/rest';
 
@@ -46,20 +46,34 @@ export function resetPushedBranches() {
  * Checks out the main branch and pulls the latest changes.
  */
 export async function checkoutMainBranch() {
+  const isBehind = (status: StatusResult) => status.behind && status.behind > 0;
+
   try {
     const status = await git.status();
     const currentBranch = status.current;
+
     // Check if already on main
     if (currentBranch === 'main') {
-      // Check if up to date with origin/main
-      if (!status.behind && !status.ahead) {
+      // Only pull if local main is behind origin/main
+      if (isBehind(status)) {
+        await git.pull('origin', 'main');
+        console.log('[GIT] ✓ Pulled latest changes for main branch.');
+      } else {
         console.log('[GIT] Already on main and up to date with origin/main.');
-        return;
       }
+      return;
     }
+
     await git.checkout('main');
-    await git.pull('origin', 'main');
-    console.log('[GIT] ✓ Checked out and updated main branch.');
+    // After checkout, check if main is behind
+    const postCheckoutStatus = await git.status();
+    if (isBehind(postCheckoutStatus)) {
+      await git.pull('origin', 'main');
+      console.log('[GIT] ✓ Checked out and pulled latest changes for main branch.');
+    } else {
+      console.log('[GIT] Checked out main and it is up to date with origin/main.');
+    }
+    
   } catch (error) {
     console.error('[GIT] ✗ Failed to checkout/pull main branch:', error);
     throw error;
