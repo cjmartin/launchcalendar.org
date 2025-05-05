@@ -18,7 +18,7 @@ tags:
   - LEO
 date: '2025-05-02T01:51:00Z'
 created: '2025-04-30T00:10:26.187Z'
-updated: '2025-05-04T21:20:08.608Z'
+updated: '2025-05-05T14:06:51.710Z'
 redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
@@ -29,7 +29,7 @@ vehicle-slug: falcon-9
 payload: Starlink Group 6-75
 payload-type: satellite
 payload-description: >-
-  28 Starlink V2 Mini satellites for SpaceX’s broadband constellation, including
+  28 Starlink v2 Mini satellites for SpaceX’s broadband constellation, including
   Direct-to-Cell units, launched to a ~530 km, 43-degree low Earth orbit.
 links:
   - title: Falcon 9 | Starlink Group 6-75
@@ -38,6 +38,11 @@ links:
       - launch page
       - discussion
       - thread
+    url: 'https://forum.nasaspaceflight.com/index.php?topic=62770.0'
+  - title: Falcon 9 | Starlink Group 6-75 forum thread
+    type:
+      - forum
+      - discussion
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62770.0'
   - title: >-
       Launch Roundup: Starlink missions fill launch manifest, Biomass and Alpha
@@ -77,6 +82,14 @@ videos:
     url: 'https://www.youtube.com/watch?v=3ZTSgzbej9w'
     source: youtube
     video_id: 3ZTSgzbej9w
+  - title: "\U0001F680 DOUBLE HEADER: Ship 35 Static Fire and Falcon 9 Launches Starlink 6-75"
+    type:
+      - youtube
+      - launch
+      - livestream
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=3ZTSgzbej9w'
+    video_id: 3ZTSgzbej9w
   - title: YouTube video player
     type:
       - livestream
@@ -86,4 +99,4 @@ videos:
     video_id: pRj2EY5dly4
 images: []
 ---
-On May 2, 2025 at 01:51 UTC, SpaceX launched the Starlink Group 6-75 mission from SLC-40 at Cape Canaveral Space Force Station. The proven Falcon 9 booster B1080 lifted a payload of 28 Starlink v2 Mini satellites—including Direct-to-Cell units—matching a record for the heaviest Starlink payload. The mission achieved a 43-degree inclination at 530 km and saw the booster successfully land on the droneship 'Just Read The Instructions.' This marked one of SpaceX's highest-mass Starlink payloads, and was the 51st Falcon 9 launch and 34th dedicated Starlink flight of 2025, as well as the 248th Falcon 9 launch from SLC-40 and 469th overall. Favorable weather supported mission success, and the satellites will maneuver into their final orbits in the coming days.
+The Starlink Group 6-75 mission lifted off on May 2, 2025 at 01:51 UTC from SLC-40, Cape Canaveral. Falcon 9 booster B1080 flew for its 18th time, landing successfully on the droneship 'Just Read The Instructions.' The mission delivered 28 v2 Mini Starlink satellites—including Direct-to-Cell units—to a 530 km, 43-degree orbit, matching the record for highest-mass Starlink launch. This was the 51st Falcon 9 launch and 34th dedicated Starlink flight of 2025, as well as the 248th Falcon 9 launch from SLC-40 and 469th overall. Favorable weather supported mission success, and the satellites will maneuver into their final orbits in the coming days.
