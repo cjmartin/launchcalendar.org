@@ -485,7 +485,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/",
-    "hash": "443347959536cff82f3e5812d6ce4dc7627de1d7dbdf7cc2b93270333c3cd19a"
+    "hash": "85a7fec2d41a79477b97683b7b2866ba5d12dfb085bc1611deab50719e973b02"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/see-photos-snapped-in-space-by-europes-1st-private-reentry-capsule",
@@ -549,7 +549,7 @@
   },
   {
     "link": "https://arstechnica.com/space/2025/05/we-finally-know-a-little-more-about-amazons-super-secret-satellites/",
-    "hash": "7358d7738d76f13e7c1f1123ddf8292626c7d705527a0b783e574253d1d30505"
+    "hash": "0f8ec0cd3953fb5d887e22c5f1c4ce6d197b759e8ddb3a8654ecaf002675fcef"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/iss-eva-93-expedition-73/",
@@ -598,5 +598,17 @@
   {
     "link": "https://news.satnews.com/2025/05/04/spacex-delays-sunday-starlink-launch-of-group-15-3-smallsats-to-friday/",
     "hash": "2188b0049bd57778f1f4b42b5ae96e288a348b7013337513c5047717b1407c13"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/05/spacex-pushed-sniper-theory-with-the-feds-far-more-than-is-publicly-known/",
+    "hash": "35c02c80a7b65e543f472b885fa095b0ce07d479f1693f1efbc319c74a00126a"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/04/spacex-on-sunday-sends-29-smallsats-of-starlink-group-6-84-from-the-foggy-cape/",
+    "hash": "fab04b368bb7632dc87d8b59277c17f0d20574d3738dda9d8704504f6dd480eb"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/04/new-novaspace-report-inside-the-320-billion-opportunity-to-connect-the-unconnected/",
+    "hash": "32982bbf7b4689444cac540ff3ffb03cd3c97e6400860dc537dd958197f559ef"
   }
 ]
