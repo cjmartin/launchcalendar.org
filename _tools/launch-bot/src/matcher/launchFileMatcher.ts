@@ -57,8 +57,8 @@ export async function findExistingLaunch(
     const locationVehicleScore = (vehicleScore + locationScore) / 2;
     const fullScore = (vehicleScore + locationScore + payloadScore) / 3;
 
-    const sameDay = isSameDay(launchData.launch_datetime, fileLaunchData.launch_datetime);
-    const dateClose = isWithinDays(launchData.launch_datetime, fileLaunchData.launch_datetime, 5);
+    const sameDay = isSameDay(fileLaunchData.launch_datetime, launchData.launch_datetime);
+    const dateClose = isWithinDays(fileLaunchData.launch_datetime, launchData.launch_datetime, 5);
 
     // Only log details for files that match or potentially match
     if (
