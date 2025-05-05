@@ -19,7 +19,8 @@ tags:
 date: '2025-05-05T11:05:00Z'
 created: '2025-05-03T20:49:33.096Z'
 updated: '2025-05-05T02:46:26.211Z'
-redirect_from: []
+redirect_from:
+  - 2025/05/05/chang-zheng-12-satnet-leo-group-tbd/
 location: 'LC-2, Wenchang Space Launch Site, China'
 location-slug: launch-complex-2-wenchang-space-launch-site-china
 manned: false
