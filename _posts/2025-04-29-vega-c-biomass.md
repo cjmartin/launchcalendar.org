@@ -14,7 +14,10 @@ description: >-
   monitoring. The mission was Vega-C's fourth overall flight and its second
   since a 2022 anomaly, maintaining a 100% post-return success rate. This launch
   was one of a record six rocket launches to occur globally within a 24-hour
-  period. Biomass aims for at least five years of operations.
+  period. Biomass aims for at least five years of operations. The launch
+  highlighted the upgraded Vega-C stages and fairing, with the P120C first stage
+  also common to Ariane 6 boosters. The Biomass satellite will help track carbon
+  stored in forests and provide topographic and subsurface mapping worldwide.
 tags:
   - Vega C
   - Vega-C
@@ -30,7 +33,7 @@ tags:
   - Earth observation
 date: '2025-04-29T09:15:00Z'
 created: '2025-04-28T21:06:53.555Z'
-updated: '2025-05-04T15:15:05.506Z'
+updated: '2025-05-05T14:06:13.006Z'
 redirect_from: []
 location: 'ZLV, Centre Spatial Guyanais (CSG), Kourou, French Guiana'
 location-slug: zlv-guiana-space-centre-kourou-french-guiana
@@ -56,6 +59,11 @@ links:
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/biomass-vega-c/'
   - title: Vega-C | Biomass
+    type:
+      - forum
+      - discussion
+    url: 'https://forum.nasaspaceflight.com/index.php?topic=49364.0'
+  - title: Vega-C | Biomass forum thread
     type:
       - forum
       - discussion
@@ -98,6 +106,10 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/'
+  - title: 'Vega-C launches Biomass from Guiana Space Center (Credit: Arianespace)'
+    type:
+      - article
+    url: 'https://www.nasaspaceflight.com/tag/vega-c/'
 videos:
   - title: Flight VV26 | Biomass | Vega C | Arianespace
     type:
@@ -116,4 +128,4 @@ videos:
     video_id: g0UP77VUpqE
 images: []
 ---
-Arianespace successfully conducted the first Vega-C rocket launch of 2025 on April 29, deploying ESA's Biomass satellite into a sun-synchronous orbit from Kourou, French Guiana. Biomass, weighing about 1,170 kg and built by Airbus Defence and Space, is part of the ESA Earth Explorer program and features the first spaceborne P-band synthetic aperture radar for high-resolution forest and terrain mapping, as well as a large mesh antenna. The launch successfully delivered the satellite, with the mission planned for at least five years of operations. This was Vega-C’s fourth flight, its second since a 2022 anomaly, maintaining post-return success. The mission was one of a record-setting six launches globally within a 24-hour period.
+Arianespace successfully conducted the first Vega-C rocket launch of 2025 on April 29 at 09:15 UTC, deploying ESA's Biomass satellite into a 660 km sun-synchronous orbit from Kourou, French Guiana. Biomass, weighing about 1,170 kg and built by Airbus Defence and Space, is part of the ESA Earth Explorer program and features the first satellite-mounted P-band synthetic aperture radar for high-resolution mapping of forests, topography, subsurface geology, and ice fields, with a large mesh antenna. The launch highlighted upgraded rocket stages and the shared P120C first stage with Ariane 6. Biomass is designed for a minimum five-year operational life to support advanced climate research, tracking carbon stored in forests and contributing to environmental monitoring. The mission was one of a record-setting six launches globally within a 24-hour period.
