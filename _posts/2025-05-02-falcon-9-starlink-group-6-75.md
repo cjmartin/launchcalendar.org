@@ -70,10 +70,10 @@ links:
       - update
     url: 'https://x.com/SpaceX/status/1918138225031561728'
 videos:
-  - title: SpaceX Falcon 9 Launches Starlink 6-75 Mission
+  - title: 'DOUBLE HEADER: Ship 35 Static Fire and Falcon 9 Launches Starlink 6-75'
     type:
       - youtube
-      - launch webcast
+      - launch video
     url: 'https://www.youtube.com/watch?v=3ZTSgzbej9w'
     source: youtube
     video_id: 3ZTSgzbej9w
@@ -84,15 +84,6 @@ videos:
     url: 'https://www.youtube.com/watch?v=pRj2EY5dly4'
     source: youtube
     video_id: pRj2EY5dly4
-  - title: 'DOUBLE HEADER: Ship 35 Static Fire and Falcon 9 Launches Starlink 6-75'
-    type:
-      - video
-      - launch video
-      - launch
-      - youtube
-    source: youtube
-    url: 'https://www.youtube.com/watch?v=3ZTSgzbej9w'
-    video_id: 3ZTSgzbej9w
 images: []
 ---
 On May 2, 2025 at 01:51 UTC, SpaceX launched the Starlink Group 6-75 mission from SLC-40 at Cape Canaveral Space Force Station. The proven Falcon 9 booster B1080 lifted a payload of 28 Starlink v2 Mini satellites—including Direct-to-Cell units—matching a record for the heaviest Starlink payload. The mission achieved a 43-degree inclination at 530 km and saw the booster successfully land on the droneship 'Just Read The Instructions.' This marked one of SpaceX's highest-mass Starlink payloads, and was the 51st Falcon 9 launch and 34th dedicated Starlink flight of 2025, as well as the 248th Falcon 9 launch from SLC-40 and 469th overall. Favorable weather supported mission success, and the satellites will maneuver into their final orbits in the coming days.
