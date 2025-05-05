@@ -1,14 +1,14 @@
 ---
 layout: launch
-title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-84"
+title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-84 (29 smallsats)"
 description: >-
-  On May 4, 2025, SpaceX Falcon 9 launched a record 29 Starlink V2 Mini
-  Optimized satellites to low Earth orbit from Kennedy Space Centre LC-39A. This
-  mission set a new record for the largest batch of V2 Mini satellites to date.
-  The booster B1078 flew and landed successfully on 'A Shortfall of Gravitas'
-  for its 20th flight. Despite a lower weather probability and marginal
-  conditions, the launch was a success, delivering the satellites to a 530 km,
-  43-degree inclination orbit.
+  On May 4, 2025, SpaceX Falcon 9 launched 29 Starlink V2 Mini Optimized
+  smallsats (Group 6-84) to low-Earth orbit from Kennedy Space Centre LC-39A at
+  08:54 UTC. The launch set a new record for the largest V2 Mini batch, and
+  booster B1078 completed its 20th successful flight, landing on 'A Shortfall of
+  Gravitas.' The mission took place in foggy, marginal weather with a 60% chance
+  of favorable conditions, but was a success—delivering the satellites to a 530
+  km, 43° inclination orbit.
 tags:
   - Falcon 9
   - Starlink Group 6-84
@@ -18,9 +18,9 @@ tags:
   - Starlink V2 Mini
   - satellites
   - Kennedy Space Center
-date: '2025-05-04T08:53:00Z'
+date: '2025-05-04T08:54:00Z'
 created: '2025-04-30T00:10:28.659Z'
-updated: '2025-05-05T14:07:05.122Z'
+updated: '2025-05-05T14:07:41.886Z'
 redirect_from: []
 location: 'LC-39A, Kennedy Space Centre, Florida'
 location-slug: lc-39a-kennedy-space-center-florida-usa
@@ -28,9 +28,12 @@ manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
 vehicle-slug: falcon-9
-payload: Starlink Group 6-84
+payload: Starlink Group 6-84 (29 smallsats)
 payload-type: satellite
-payload-description: 29 Starlink V2 Mini Optimized satellites to low Earth orbit.
+payload-description: >-
+  29 Starlink V2 Mini Optimized satellites (smallsats) delivered to low Earth
+  orbit. This batch represents the largest group of V2 Mini satellites launched
+  to date.
 links:
   - title: Falcon 9 | Starlink Group 6-84
     type:
@@ -81,6 +84,19 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/falcon-flies-on-star-wars-day-spacex-launches-starlink-satellites-from-florida-photos
+  - title: >-
+      SpaceX on Sunday sends 29 smallsats of Starlink Group 6-84 from the foggy
+      Cape
+    type:
+      - article
+      - source
+    url: >-
+      https://news.satnews.com/2025/05/04/spacex-on-sunday-sends-29-smallsats-of-starlink-group-6-84-from-the-foggy-cape/
+  - title: Starlink
+    type:
+      - mission
+      - official
+    url: 'https://www.starlink.com/'
 videos:
   - title: Starlink 6-84 Launch - SpaceX
     type:
@@ -104,4 +120,4 @@ videos:
     video_id: ezJKsMirQ8k
 images: []
 ---
-On May 4, 2025 at 08:53 UTC (4:53 a.m. EDT), SpaceX successfully launched the Starlink Group 6-84 mission from LC-39A, delivering 29 v2 Mini satellites — a record for any Starlink launch — to a 530 km, 43-degree inclination orbit. Booster B1078 made its 20th flight and landed on 'A Shortfall of Gravitas.' Despite lower weather probability, the mission was a success. With this launch, SpaceX has flown nearly 8,500 Starlink satellites, with over 7,300 operational in LEO. This was the 95th orbital launch globally of 2025 and SpaceX’s 52nd Falcon 9 launch of the year.
+SpaceX launched 29 Starlink satellites (Group 6-84) aboard a Falcon 9 rocket from LC-39A at Kennedy Space Center, Florida, on May 4, 2025, at 08:54 UTC (4:54 a.m. EDT), in foggy weather and with a 60% chance of favorable conditions. This marked the 20th flight for booster B1078, which previously supported Crew-6, SES O3b mPOWER-B, USSF-124, and multiple Starlink launches. The mission successfully delivered the largest batch of V2 Mini satellites to a 530 km, 43-degree inclination orbit. SpaceX has now flown nearly 8,500 Starlink satellites, with over 7,300 operational in LEO. This was the 95th orbital launch globally of 2025 and SpaceX’s 52nd Falcon 9 launch of the year.
