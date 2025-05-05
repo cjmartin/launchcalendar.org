@@ -25,12 +25,6 @@ payload: Starlink Group 6-93
 payload-type: satellite
 payload-description: ''
 links:
-  - title: Falcon 9 | Starlink Group 6-93
-    type:
-      - forum
-      - launch page
-      - discussion
-    url: 'https://forum.nasaspaceflight.com/index.php?board=55.50'
   - title: >-
       Launch Roundup: Starlink missions fill launch manifest, Biomass and Alpha
       launch
