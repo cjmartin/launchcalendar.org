@@ -3,8 +3,9 @@ layout: launch
 title: "\U0001F680 Long March 12 | \U0001F6F0 SatNet LEO Group"
 description: >-
   Long March 12 (Chang Zheng 12) will launch a batch of SatNet LEO
-  communications satellites for China's GuoWang broadband constellation (China
-  Satellite Network Group) from LC-2 at Wenchang.
+  communications satellites for China's GuoWang (SatNet) broadband constellation
+  from LC-2 at Wenchang, delivering another group of LEO satellites as part of
+  the ambitious project to establish global internet coverage.
 tags:
   - Chang Zheng 12
   - Long March 12
@@ -16,9 +17,10 @@ tags:
   - LEO
   - broadband
   - China
+  - satellite
 date: '2025-05-05T11:05:00Z'
 created: '2025-05-03T20:49:33.096Z'
-updated: '2025-05-05T02:46:26.211Z'
+updated: '2025-05-06T04:49:54.554Z'
 redirect_from:
   - 2025/05/05/chang-zheng-12-satnet-leo-group-tbd/
 location: 'LC-2, Wenchang Space Launch Site, China'
@@ -31,9 +33,9 @@ payload: SatNet LEO Group
 payload-type: satellite
 payload-description: >-
   A batch of low Earth orbit (LEO) communications satellites for China's
-  national SatNet constellation, part of the GuoWang broadband internet program
-  aiming to establish a global network of nearly 13,000 satellites to compete
-  with Starlink and Project Kuiper.
+  national SatNet (GuoWang) broadband internet constellation, part of the
+  GuoWang program aiming to establish a global network of nearly 13,000
+  satellites to compete with Starlink and Project Kuiper.
 links:
   - title: >-
       Launch Roundup: Starlink missions fill launch manifest, Biomass and Alpha
@@ -58,4 +60,4 @@ links:
 videos: []
 images: []
 ---
-On May 5, 2025, at 11:05 UTC, China's Chang Zheng 12 (Long March 12) is scheduled to launch a batch of LEO communications satellites for the SatNet (GuoWang) constellation from LC-2 at Wenchang. This mission is part of China's ambitious effort to build a global broadband internet constellation of nearly 13,000 satellites, supporting the China Satellite Network Group's (GuoWang) growing LEO constellation to compete with Starlink and Project Kuiper. The Wenchang launch site offers strategic advantages for such large missions, and this flight will further demonstrate the capabilities of the new Long March 12 rocket.
+China is scheduled to launch a Long March 12 rocket (Chang Zheng 12) from LC-2 at Wenchang Space Launch Site on May 5, 2025, at 11:05 UTC. This mission will deploy a batch of SatNet LEO Group satellites for China's GuoWang (SatNet) broadband internet constellation, part of an ambitious plan to build a global network of nearly 13,000 satellites in competition with mega-constellations like SpaceX's Starlink and Amazon's Project Kuiper. The Long March 12, a medium-lift launch vehicle from CASC, began operations in late 2024. The Wenchang site offers strategic advantages due to its southern location and seaport delivery capabilities. This mission demonstrates the growing capacity of China Satellite Network Group's constellation to provide global broadband coverage.
