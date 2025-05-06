@@ -437,7 +437,7 @@
   },
   {
     "link": "https://europeanspaceflight.com/atmos-raises-e1m-in-new-funding-as-it-prepares-for-inaugural-flight/",
-    "hash": "2b415a85223ea5fd743247db564b04ba0f171828ff6ce9e7206bfb3fbd2a117d"
+    "hash": "59cd3efe38ff9fb9b2a83d159b6c19349257439bd9453fc920ccd7b0016cf275"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/us-army-launches-dark-eagle-hypersonic-missile-from-cape-canaveral-space-force-station",
@@ -682,5 +682,21 @@
   {
     "link": "https://europeanspaceflight.com/esa-chief-responds-to-proposed-nasa-budget-cuts/",
     "hash": "ff0177f7aa8e5af307b3829c23e832a78fb7654a6d9ee8bd541e16e48a885ae1"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/06/rocket-lab-schedules-next-mission-for-multi-launch-customer-iqps/",
+    "hash": "f7e54ca79330f1de3c0fd20cd7c661887ad1cd735d45be59471091d94ab80ccd"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/06/forresters-digest-europe-sets-deadline-for-ses-intelsat-deal/",
+    "hash": "6d02504da2ba0e77b9c09f344563ba28658dbbca37468fdf4b83b652a90736a5"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/06/engage-communication-enhances-starlink-network-performance/",
+    "hash": "e2b3355f8ffe03e3f762a6c355a45eaf145def38c97804f2cebcaae38b0c0c48"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/05/japan-creating-battery-that-can-run-for-100-years-in-outer-space/",
+    "hash": "340b4f93f2f9ee19b2c5be4faf98b3554e451bea6b9a8b1e24926e5029b1589c"
   }
 ]
