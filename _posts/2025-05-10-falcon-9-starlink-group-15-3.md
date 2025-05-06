@@ -22,6 +22,7 @@ redirect_from:
   - 2025/05/02/falcon-9-starlink-group-15-3/
   - 2025/05/03/falcon-9-starlink-15-3/
   - 2025/05/04/falcon-9-starlink-15-3/
+  - 2025/05/06/falcon-9-starlink-group-15-3/
 location: 'SLC-4E, Vandenberg Space Force Base, California'
 location-slug: slc-4e-vandenberg-space-force-base-california-usa
 manned: false
@@ -40,9 +41,7 @@ links:
   - title: Falcon 9 | Starlink Group 15-3
     type:
       - forum
-      - launch page
       - discussion
-      - mission-page
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62751.0'
   - title: >-
       Launch Roundup: Starlink missions fill launch manifest, Biomass and Alpha
@@ -63,14 +62,8 @@ links:
       - source
     url: >-
       https://news.satnews.com/2025/05/03/spacex-weather-delays-starlink-launch-of-group-15-3-smallsats/
-  - title: X @SpaceX
-    type:
-      - social
-      - webcast
-    url: 'https://twitter.com/SpaceX'
   - title: 'Launch Roundup: SpaceX to launch 250th mission from SLC-40'
     type:
-      - news
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/05/launch-roundup-050525/'
