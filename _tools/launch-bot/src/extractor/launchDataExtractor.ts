@@ -7,7 +7,7 @@ export async function extractLaunchData(entry: RSSEntry): Promise<LaunchData[]> 
   messages.push({role: 'system', content: 'You are a launch data extractor. Your job is to extract launch data from articles. You will be given an article and you need to analyze it for any mentions of rocket launches. If you find any, extract the relevant data as specified below, paying close attention to the description of each piece of data. Important: Respond only with valid JSON. Do not include any extra text or explanation.'});
   messages.push({role: 'user', content: `Analyze this article and if it mentions one or more launches, extract these pieces of data for each launch, if they are present:
 
-- launch_datetime: The date and time of the scheduled launch in ISO8601 UTC format. This is a very important field and needs to be correct. If there is a day and time but no year, assume the current year: ${currentYear}.
+- launch_datetime: The date and time of the scheduled launch in ISO8601 UTC format. This is a very important field and needs to be correct.
 - location: What is the launch site? (e.g. SLC-40, Cape Canaveral Air Force Station, Florida)
 - manned: Is this a manned mission? (true/false)
 - vehicle: What is the launch vehicle? (e.g. Falcon 9, Atlas V, etc.)
@@ -21,12 +21,20 @@ export async function extractLaunchData(entry: RSSEntry): Promise<LaunchData[]> 
 - links: A list of links to other RELEVANT pages or articles, not images or other media, with urls about the launch from the article (e.g. the launch page, or any other relevant pages). These should be in the format [{title:string,type:string[],url:string}].
 - videos: A list of links with urls to videos related to the launch. Look for youtube embeds, etc. These should be in the format [{title:string,type:string[],source:string,url:string,video_id?:string}]. If the video is from youtube (or another well known service), please return the "watch" url, not the embed url, and include the video_id. 
 
+A few extra details about launch_datetime:
+- If there is a day and time but no year, assume the current year: ${currentYear}.
+- If the article says something vague like "Tuesday night" but includes a publication date, prefer using that date to resolve the weekday.
+- Do not infer the launch date from image filenames unless explicitly stated in the text.
+- Ignore any filename-derived dates unless directly referenced in the article body.
+
 Return the data as a json object with the keys as the above names. If there are multiple launches, return an array of objects.
 If there are no launches, return an empty array.
 
 Here is the article:
 
 Title: ${entry.title}
+
+Publication Date: ${entry.pubDate}
 
 Content: ${entry.content}`});
 
@@ -52,7 +60,7 @@ Content: ${entry.content}`});
         launch.links.push({ title: entry.title, type: ["article", "source"], url: entry.link });
       }
     });
-    
+    console.log(JSON.stringify(launches, null, 2));
     return launches;
   }
   catch (error) {
