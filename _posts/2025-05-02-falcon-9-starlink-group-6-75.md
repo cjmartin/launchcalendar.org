@@ -1,24 +1,23 @@
 ---
 layout: launch
-title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-75"
+title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-93"
 description: >-
-  SpaceX Falcon 9 launched 28 Starlink v2 Mini satellites—including
-  Direct-to-Cell units—into a 43-degree, 530 km low Earth orbit as part of the
-  Starlink Group 6-75 mission. Booster B1080 made its 18th flight and landed on
-  the droneship 'Just Read the Instructions'. This marked one of SpaceX's record
-  Starlink payloads.
+  Falcon 9 launches 28 Starlink v2 Mini satellites to the Group 6 shell from
+  Florida as part of Starlink Group 6-93. This mission employs booster B1085 on
+  its seventh flight, aiming for a droneship recovery. The satellites are part
+  of SpaceX’s broadband constellation and include advanced Direct-to-Cell
+  technology.
 tags:
   - Falcon 9
   - Starlink
-  - Starlink Group 6-75
-  - Starlink 6-75
+  - Starlink Group 6-93
   - SpaceX
   - satellites
   - satellite
   - LEO
-date: '2025-05-02T01:51:00Z'
+date: '2025-05-07T00:22:00Z'
 created: '2025-04-30T00:10:26.187Z'
-updated: '2025-05-05T14:06:51.710Z'
+updated: '2025-05-06T01:17:33.025Z'
 redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
@@ -26,77 +25,33 @@ manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
 vehicle-slug: falcon-9
-payload: Starlink Group 6-75
+payload: Starlink Group 6-93
 payload-type: satellite
 payload-description: >-
-  28 Starlink v2 Mini satellites for SpaceX’s broadband constellation, including
-  Direct-to-Cell units, launched to a ~530 km, 43-degree low Earth orbit.
+  28 Starlink v2 Mini satellites for SpaceX’s broadband constellation will be
+  launched to the Group 6 shell, targeting a ~530 km orbit. The mission will
+  utilize Falcon 9 booster B1085 for its seventh flight, with a planned landing
+  on the droneship 'Just Read The Instructions.'
 links:
-  - title: Falcon 9 | Starlink Group 6-75
+  - title: Falcon 9 | Starlink Group 6-93
     type:
       - forum
-      - launch page
-      - discussion
-      - thread
-    url: 'https://forum.nasaspaceflight.com/index.php?topic=62770.0'
-  - title: Falcon 9 | Starlink Group 6-75 forum thread
+      - mission-page
+    url: 'https://forum.nasaspaceflight.com/index.php?topic=62799.0'
+  - title: 'Launch Roundup: SpaceX to launch 250th mission from SLC-40'
     type:
-      - forum
-      - discussion
-    url: 'https://forum.nasaspaceflight.com/index.php?topic=62770.0'
-  - title: >-
-      Launch Roundup: Starlink missions fill launch manifest, Biomass and Alpha
-      launch
-    type:
+      - news
       - article
       - source
-    url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/'
-  - title: >-
-      Live coverage: SpaceX to launch 28 Starlink satellites on Falcon 9 rocket
-      from Cape Canaveral
-    type:
-      - article
-      - source
-    url: >-
-      https://spaceflightnow.com/2025/05/01/live-coverage-spacex-to-launch-28-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-3/
-  - title: Starlink 6-75 satellite deployment update
-    type:
-      - update
-    url: 'https://x.com/SpaceX/status/1918138225031561728'
-  - title: ' SpaceX Falcon 9 rocket launches 28 Starlink satellites to orbit from Florida (photos) '
-    type:
-      - article
-      - source
-    url: >-
-      https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-6-75-b1080-ccsfs
-  - title: Starlink 6-75 deployment video post
-    type:
-      - social
-      - update
-    url: 'https://x.com/SpaceX/status/1918138225031561728'
+    url: 'https://www.nasaspaceflight.com/2025/05/launch-roundup-050525/'
 videos:
-  - title: 'DOUBLE HEADER: Ship 35 Static Fire and Falcon 9 Launches Starlink 6-75'
+  - title: The "STRANDED" Astronauts You WEREN’T Told About
     type:
       - youtube
-      - launch video
-    url: 'https://www.youtube.com/watch?v=3ZTSgzbej9w'
+      - related
     source: youtube
-    video_id: 3ZTSgzbej9w
-  - title: "\U0001F680 DOUBLE HEADER: Ship 35 Static Fire and Falcon 9 Launches Starlink 6-75"
-    type:
-      - youtube
-      - launch
-      - livestream
-    source: youtube
-    url: 'https://www.youtube.com/watch?v=3ZTSgzbej9w'
-    video_id: 3ZTSgzbej9w
-  - title: YouTube video player
-    type:
-      - livestream
-      - launch
-    url: 'https://www.youtube.com/watch?v=pRj2EY5dly4'
-    source: youtube
-    video_id: pRj2EY5dly4
+    url: 'https://www.youtube.com/watch?v=G1Ti0qKv02w'
+    video_id: G1Ti0qKv02w
 images: []
 ---
-The Starlink Group 6-75 mission lifted off on May 2, 2025 at 01:51 UTC from SLC-40, Cape Canaveral. Falcon 9 booster B1080 flew for its 18th time, landing successfully on the droneship 'Just Read The Instructions.' The mission delivered 28 v2 Mini Starlink satellites—including Direct-to-Cell units—to a 530 km, 43-degree orbit, matching the record for highest-mass Starlink launch. This was the 51st Falcon 9 launch and 34th dedicated Starlink flight of 2025, as well as the 248th Falcon 9 launch from SLC-40 and 469th overall. Favorable weather supported mission success, and the satellites will maneuver into their final orbits in the coming days.
+SpaceX will launch the first Starlink mission of the week, Starlink Group 6-93, from SLC-40 at Cape Canaveral on May 6, with the launch window opening at 8:22 PM EDT (00:22 UTC on May 7). The Falcon 9 will carry 28 Starlink v2 Mini satellites to the Group 6 shell, continuing the expansion of the broadband constellation with advanced Direct-to-Cell capabilities. Booster B1085 will fly for the seventh time and attempt a landing on the droneship 'Just Read The Instructions'. This launch follows a previous Starlink mission from SLC-40, supporting SpaceX's record Starlink deployment pace in 2025.
