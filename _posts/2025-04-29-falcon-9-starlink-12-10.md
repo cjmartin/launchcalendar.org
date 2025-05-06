@@ -1,17 +1,13 @@
 ---
 layout: launch
-title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 12-10"
+title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 6-84 (29 Starlink V2 Mini Optimized satellites)"
 description: >-
-  SpaceX Falcon 9 launched 23 Starlink satellites—including v2 Mini and 13 with
-  direct-to-cell capability—on the Starlink Group 12-10 mission from Launch
-  Complex 39A at Kennedy Space Center. This was SpaceX's second Starlink launch
-  of the day as part of its rapid launch cadence, delivering satellites into
-  low-Earth orbit inclined at 43 degrees to further expand the Starlink
-  broadband constellation. The mission featured a new Falcon 9 booster, widely
-  believed to be B1094, which landed safely on the droneship 'A Shortfall of
-  Gravitas.' This was the 50th Falcon 9 launch of the year, and contributed to a
-  record-setting period that included multiple launches within hours of each
-  other.
+  SpaceX Falcon 9 launched 29 Starlink V2 Mini Optimized satellites for the
+  Starlink 6-84 mission from Launch Complex 39A at NASA's Kennedy Space Center,
+  Florida. The first stage booster (B1078), which had previously supported
+  Crew-6 and USSF-124, landed successfully on the droneship 'A Shortfall of
+  Gravitas.' This mission marked the largest V2 Mini batch to date, highlighting
+  SpaceX's rapid Starlink deployment cadence.
 tags:
   - Falcon 9
   - Starlink
@@ -20,9 +16,11 @@ tags:
   - SpaceX
   - satellite
   - Kennedy Space Center
-date: '2025-04-29T02:34:00Z'
+  - Starlink 6-84
+  - Starlink V2 Mini
+date: '2025-05-04T08:54:00Z'
 created: '2025-04-29T03:22:29.708Z'
-updated: '2025-05-03T20:48:29.037Z'
+updated: '2025-05-06T01:17:03.526Z'
 redirect_from: []
 location: 'Launch Complex 39A (LC-39A), Kennedy Space Center, Florida'
 location-slug: lc-39a-kennedy-space-center-florida-usa
@@ -30,12 +28,13 @@ manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
 vehicle-slug: falcon-9
-payload: Starlink Group 12-10
+payload: Starlink 6-84 (29 Starlink V2 Mini Optimized satellites)
 payload-type: satellite
 payload-description: >-
-  A mix of 23 Starlink satellites, including v2 Mini and 13 with Direct-to-Cell
-  capability, launched to expand the Starlink broadband constellation in low
-  Earth orbit.
+  A batch of 29 Starlink V2 Mini Optimized satellites, approximately 225 kg
+  lighter than previous versions, launched to further expand the Starlink
+  broadband constellation in low Earth orbit. The new V2 Mini Optimized
+  satellites are designed for increased performance and efficient deployment.
 links:
   - title: SpaceX launches 23 Starlink satellites on 50th Falcon 9 rocket of 2025
     type:
@@ -68,6 +67,17 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/'
+  - title: SpaceX launches largest batch of Starlink V2 Mini satellites to date
+    type:
+      - article
+    url: >-
+      https://spaceflightnow.com/2025/05/04/spacex-launches-largest-batch-of-starlink-v2-mini-satellites-to-date/
+  - title: SpaceX launches largest batch of Starlink V2 Mini satellites to date
+    type:
+      - article
+      - source
+    url: >-
+      https://spaceflightnow.com/2025/05/03/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-cente/
 videos:
   - title: Starlink 12-10 Falcon 9 Launch
     type:
@@ -83,6 +93,13 @@ videos:
     source: youtube
     url: 'https://www.youtube.com/watch?v=A0sKkcvjmYs'
     video_id: A0sKkcvjmYs
+  - title: SpaceX Starlink 6-84 Launch
+    type:
+      - video
+      - youtube
+    url: 'https://www.youtube.com/watch?v=nm1F8jBu3FM'
+    source: youtube
+    video_id: nm1F8jBu3FM
 images: []
 ---
-On April 29, 2025 at 02:34 UTC, SpaceX launched the Starlink Group 12-10 mission using a brand-new Falcon 9 rocket from Launch Complex 39A at Kennedy Space Center. The mission delivered 23 Starlink satellites—including v2 Mini and 13 with Direct-to-Cell capability—into a low-Earth orbit inclined at 43 degrees. The booster, believed to be B1094, made a successful droneship landing on 'A Shortfall of Gravitas.' This marked SpaceX's 50th Falcon 9 launch of the year, with rapid successive launches including another Starlink mission just hours earlier. Of the 50 Falcon 9 flights in 2025, 33 supported Starlink launches. Weather conditions were generally favorable, with only minor concerns regarding clouds.
+On May 4, 2025 at 08:54 UTC, SpaceX launched its largest batch of Starlink V2 Mini Optimized satellites to date, sending 29 satellites into orbit aboard a Falcon 9 rocket from Launch Complex 39A (LC-39A) at NASA's Kennedy Space Center, Florida. The Starlink 6-84 mission featured the new, lighter V2 Mini Optimized satellites. The first stage booster (B1078), which previously flew missions including NASA's Crew-6 and USSF-124, made a successful landing on the droneship 'A Shortfall of Gravitas,' which marked the 107th landing on that droneship. This mission continued SpaceX's unprecedented launch cadence in 2025 and demonstrated the company's ongoing evolution of the Starlink network.
