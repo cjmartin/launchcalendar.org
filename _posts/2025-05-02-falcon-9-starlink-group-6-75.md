@@ -1,23 +1,24 @@
 ---
 layout: launch
-title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-91"
+title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-92"
 description: >-
-  Falcon 9 launches an unspecified number of Starlink v2 Mini satellites to the
-  Group 6 shell as Starlink Group 6-91, marking the 250th Falcon mission from
-  SLC-40. The flight continues SpaceX’s broadband constellation build-up.
+  Falcon 9 launch of 28 Starlink smallsats to low-Earth orbit for the Starlink
+  constellation. This mission uses a booster making its seventh flight and will
+  attempt a droneship landing.
 tags:
   - Falcon 9
   - Starlink
-  - 250th Falcon mission
-  - Starlink Group 6-93
-  - Starlink Group 6-91
-  - SpaceX
-  - satellites
   - satellite
+  - SpaceX
+  - Starlink Group 6-92
+  - Starlink Group 6-91
+  - Starlink Group 6-93
+  - 250th Falcon mission
+  - satellites
   - LEO
-date: '2025-05-09T06:54:00Z'
+date: '2025-05-06T00:22:00Z'
 created: '2025-04-30T00:10:26.187Z'
-updated: '2025-05-06T01:17:48.802Z'
+updated: '2025-05-06T04:44:11.847Z'
 redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
@@ -25,15 +26,15 @@ manned: false
 vehicle: Falcon 9
 vehicle-type: rocket
 vehicle-slug: falcon-9
-payload: Starlink Group 6-91
+payload: Starlink Group 6-92
 payload-type: satellite
 payload-description: >-
-  An unspecified number of Starlink v2 Mini satellites for SpaceX’s broadband
-  constellation will be launched to the Group 6 shell. This mission is the 250th
-  Falcon mission from SLC-40, marking a significant milestone for SpaceX and the
-  launch pad. Details on the booster and exact satellite quantity are pending.
-  Previous Starlink launches from SLC-40 have included deployments of advanced
-  Direct-to-Cell satellites and continued expansion of SpaceX's constellation.
+  28 Starlink smallsats will be deployed into low-Earth orbit as part of
+  SpaceX's Starlink constellation. This Starlink Group 6-92 mission continues
+  SpaceX’s rapid Starlink deployment, with the booster attempting a landing on
+  Just Read the Instructions after its seventh flight. Previously, SLC-40
+  supported milestone launches such as the 250th Falcon mission and the
+  deployment of Starlink v2 Mini and Direct-to-Cell satellites.
 links:
   - title: Falcon 9 | Starlink Group 6-93
     type:
@@ -51,6 +52,21 @@ links:
       - forum
       - mission-page
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62825.0'
+  - title: SpaceX plans Tuesday Starlink Group 6-92 launch of 28 smallsats
+    type:
+      - article
+      - source
+    url: >-
+      https://news.satnews.com/2025/05/05/spacex-plans-tuesday-starlink-group-6-92-launch-of-28-smallsats/
+  - title: Starlink
+    type:
+      - info
+    url: 'https://www.starlink.com/'
+  - title: SpaceX on X (Twitter)
+    type:
+      - social
+      - webcast
+    url: 'https://twitter.com/SpaceX'
 videos:
   - title: The "STRANDED" Astronauts You WEREN’T Told About
     type:
@@ -68,4 +84,4 @@ videos:
     video_id: HCYaW6q_u-Q
 images: []
 ---
-The 250th Falcon 9 mission from SLC-40 is scheduled for May 9 and will launch Starlink Group 6-91 to the Group 6 shell. The exact satellite quantity and booster ID remain unknown. This flight marks a major milestone for SpaceX and the SLC-40 launch pad, underscoring its pivotal role in Starlink’s rapid expansion and ongoing development of advanced Direct-to-Cell capabilities. Previously, SLC-40 supported missions such as Starlink Group 6-93 as SpaceX continues its record Starlink deployment pace in 2025.
+SpaceX is scheduled to launch Starlink Group 6-92 on May 6, 2025, deploying 28 Starlink small satellites into low-Earth orbit from SLC-40 at Cape Canaveral Space Force Station. Liftoff is set for 8:22 p.m. ET (00:22 UTC on May 6), with backup windows into May 7. The mission uses a Falcon 9 booster on its seventh flight, targeting a droneship landing on Just Read the Instructions in the Atlantic Ocean. This launch continues SpaceX's record-setting pace from SLC-40—site of past milestones like the 250th Falcon mission and the ongoing expansion of advanced Starlink capabilities. The launch will be streamed live on SpaceX’s Twitter/X account and the X TV app.
