@@ -4,6 +4,10 @@
 import simpleGit, { SimpleGit, StatusResult } from 'simple-git';
 import path from 'path';
 import { Octokit } from '@octokit/rest';
+import dotenv from 'dotenv';
+dotenv.config();
+
+const NO_GIT_OPS = process.env.NO_GIT_OPS === 'true';
 
 // Find the repo root (parent of _tools)
 const repoRoot = path.resolve(__dirname, '../../../../');
@@ -46,6 +50,11 @@ export function resetPushedBranches() {
  * Checks out the main branch and pulls the latest changes.
  */
 export async function checkoutMainBranch() {
+  if (NO_GIT_OPS) {
+    console.log('[NO_GIT_OPS] Skipping checkoutMainBranch');
+    return;
+  }
+
   const isBehind = (status: StatusResult) => status.behind && status.behind > 0;
 
   try {
@@ -83,6 +92,11 @@ export async function checkoutMainBranch() {
  * Checks out the given branch, creating it from main if it doesn't exist.
  */
 export async function checkoutOrCreateBranch(branchName: string) {
+  if (NO_GIT_OPS) {
+    console.log(`[NO_GIT_OPS] Skipping checkoutOrCreateBranch for ${branchName}`);
+    return;
+  }
+
   try {
     // Fetch all remotes to ensure we see remote branches
     await git.fetch();
@@ -147,6 +161,11 @@ export async function checkoutOrCreateBranch(branchName: string) {
  * Commits all changes related to a launch in the current branch.
  */
 export async function commitLaunchChanges(branchName: string, launchData: any): Promise<boolean> {
+  if (NO_GIT_OPS) {
+    console.log(`[NO_GIT_OPS] Skipping commitLaunchChanges for ${branchName}`);
+    return false;
+  }
+
   try {
     // Stage all changes (or specify file(s) if you want to be more specific)
     await git.add('.');
@@ -176,6 +195,11 @@ export async function commitLaunchChanges(branchName: string, launchData: any): 
  * Pushes all launch branches to the remote repository.
  */
 export async function pushAllLaunchBranches() {
+  if (NO_GIT_OPS) {
+    console.log('[NO_GIT_OPS] Skipping pushAllLaunchBranches');
+    return;
+  }
+
   try {
     const branches = getCommittedBranches();
     for (const branch of branches) {
@@ -199,6 +223,11 @@ export async function pushAllLaunchBranches() {
  * Opens pull requests for each launch branch into main.
  */
 export async function openPullRequestsForLaunchBranches() {
+  if (NO_GIT_OPS) {
+    console.log('[NO_GIT_OPS] Skipping openPullRequestsForLaunchBranches');
+    return;
+  }
+
   const branches = getPushedBranches();
   if (!process.env.GITHUB_TOKEN) {
     console.error('[GITHUB] GITHUB_TOKEN not set in environment. Skipping PR creation.');
@@ -241,6 +270,11 @@ export async function openPullRequestsForLaunchBranches() {
  * Commits and pushes global file changes (like processed-articles.json) to main.
  */
 export async function commitAndPushGlobalChanges() {
+  if (NO_GIT_OPS) {
+    console.log('[NO_GIT_OPS] Skipping commitAndPushGlobalChanges');
+    return;
+  }
+
   try {
     // Ensure we're on the main branch.
     // This shouldn't be called if we're on a launch branch, but just in case.
