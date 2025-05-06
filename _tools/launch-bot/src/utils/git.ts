@@ -4,8 +4,6 @@
 import simpleGit, { SimpleGit, StatusResult } from 'simple-git';
 import path from 'path';
 import { Octokit } from '@octokit/rest';
-import dotenv from 'dotenv';
-dotenv.config();
 
 const NO_GIT_OPS = process.env.NO_GIT_OPS === 'true';
 
