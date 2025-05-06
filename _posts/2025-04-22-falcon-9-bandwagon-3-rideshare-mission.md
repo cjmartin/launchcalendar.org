@@ -1,19 +1,24 @@
 ---
 layout: launch
-title: "\U0001F680 Falcon 9 | \U0001F6F0 Bandwagon-3"
+title: "\U0001F680 Falcon 9 | \U0001F6F0 PHOENIX 1"
 description: >-
-  SpaceX Falcon 9 launched the Bandwagon-3 rideshare mission from Cape Canaveral
-  Space Force Station, carrying South Korea's Korea 425 Project SAR satellite,
-  Tomorrow-S7 weather monitoring satellite, and Atmos Space Cargo's Phoenix 1
-  re-entry capsule to a mid-inclination orbit. The Bandwagon-3 flight
-  demonstrated new satellite and re-entry capabilities: Phoenix 1, Europe's
-  first private reentry capsule, tested an inflatable heat shield and conducted
-  scientific experiments before reentering and splashing down in the Atlantic
-  Ocean, though not recovered. The Falcon 9 booster B1090 landed back at LZ-2.
+  Falcon 9 launched the Bandwagon-3 rideshare mission from SLC-40, Cape
+  Canaveral Space Force Station, carrying South Korea's Korea 425 Project SAR
+  satellite, Tomorrow.io's Tomorrow-S7 weather monitoring satellite, and ATMOS
+  Space Cargo's PHOENIX 1 re-entry capsule to a mid-inclination orbit. PHOENIX
+  1, the first private European reentry capsule, tested an inflatable heat
+  shield and conducted multiple scientific experiments. The capsule reentered
+  and splashed down in the Atlantic, after transmitting data from four
+  commercial payloads. Although not recovered, ATMOS achieved primary objectives
+  on heat shield data and in-orbit payload operations, informing the development
+  of the more advanced PHOENIX 2 for 2026. The Falcon 9 booster B1090 landed at
+  LZ-2.
 tags:
   - Falcon 9
   - Bandwagon-3
   - Phoenix-1
+  - PHOENIX 1
+  - ATMOS Space Cargo
   - 425Sat-3
   - Tomorrow-S7
   - SpaceX
@@ -22,12 +27,11 @@ tags:
   - payload adapter
   - Tomorrow.io
   - HawkEye 360
-  - Phoenix 1
   - Korea 425 Project
   - Atmos Space Cargo
 date: '2025-04-22T00:48:00Z'
 created: '2025-04-23T22:05:23.063Z'
-updated: '2025-05-01T20:14:49.520Z'
+updated: '2025-05-06T19:19:13.252Z'
 redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
@@ -108,6 +112,12 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/see-photos-snapped-in-space-by-europes-1st-private-reentry-capsule
+  - title: ATMOS Space Cargo Tentatively Declares PHOENIX 1 Flight a Success
+    type:
+      - article
+      - source
+    url: >-
+      https://europeanspaceflight.com/atmos-space-cargo-tentatively-declares-phoenix-1-flight-a-success/
 videos:
   - title: SpaceX Falcon 9 Launches Bandwagon-3 Satellite Rideshare Mission
     type:
