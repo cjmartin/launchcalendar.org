@@ -1,6 +1,6 @@
 ---
 layout: launch
-title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-84 (29 smallsats)"
+title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-84"
 description: >-
   On May 4, 2025, SpaceX Falcon 9 launched 29 Starlink V2 Mini Optimized
   smallsats (Group 6-84) to low-Earth orbit from Kennedy Space Centre LC-39A at
@@ -39,11 +39,6 @@ links:
     type:
       - forum
       - launch page
-      - discussion
-    url: 'https://forum.nasaspaceflight.com/index.php?topic=62796.new#new'
-  - title: Falcon 9 | Starlink Group 6-84 forum thread
-    type:
-      - forum
       - discussion
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62796.new#new'
   - title: >-
@@ -92,11 +87,6 @@ links:
       - source
     url: >-
       https://news.satnews.com/2025/05/04/spacex-on-sunday-sends-29-smallsats-of-starlink-group-6-84-from-the-foggy-cape/
-  - title: Starlink
-    type:
-      - mission
-      - official
-    url: 'https://www.starlink.com/'
 videos:
   - title: Starlink 6-84 Launch - SpaceX
     type:
@@ -107,14 +97,6 @@ videos:
   - title: SpaceX Falcon 9 Launches Starlink 6-84 Mission
     type:
       - launch video
-    source: youtube
-    url: 'https://www.youtube.com/watch?v=ezJKsMirQ8k'
-    video_id: ezJKsMirQ8k
-  - title: "\U0001F680 SpaceX Falcon 9 Launches Starlink 6-84 Mission"
-    type:
-      - youtube
-      - launch
-      - livestream
     source: youtube
     url: 'https://www.youtube.com/watch?v=ezJKsMirQ8k'
     video_id: ezJKsMirQ8k
