@@ -11,9 +11,10 @@ export async function extractLaunchData(entry: RSSEntry): Promise<LaunchData[]> 
 - location: What is the launch site? (e.g. SLC-40, Cape Canaveral Air Force Station, Florida)
 - manned: Is this a manned mission? (true/false)
 - vehicle: What is the launch vehicle? (e.g. Falcon 9, Atlas V, etc.)
-- vehicle_type: Most likely 'rocket'
+- vehicle_type: Most likely 'rocket', but might be missle or other
 - payload: What is being sent to orbit? This will be the name of the payload or mission. (e.g. Bandwagon-3, CRS-32 Cargo Dragon, NROL-145, NROL-174, Starlink 6-73, etc.) If a name is not determined, use "unknown" as the value.
 - payload_type: What type of object is being sent to orbit? (e.g. satellite, cargo module, crew capsule, classified, etc.) If the payload is classified, use "classified" as the value.
+- payload_description: A short description of the payload
 - description: A very short description of the launch
 - tags: A list of tags for this launch. These should be relevant to the launch and could include things like the vehicle name, payload name, etc.
 - article_summary: A summary of the launch details, updates, interesting information, etc. from this article, to be used as the body of the launch file. This shoud be plain text or markdown, if there are relevant links in the article. This should be a summary of the article, not a copy of the article.
