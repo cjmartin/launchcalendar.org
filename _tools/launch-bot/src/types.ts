@@ -122,8 +122,8 @@ export interface MatchResult {
 }
 
 export interface LaunchMatchResult {
-  matched: boolean;
-  reason: "update" | "reschedule" | "no_match";
+  match: boolean;
+  type: "update" | "reschedule" | "no_match";
   existingPath?: string;
   confidence: number;
 }
@@ -145,4 +145,10 @@ export interface LaunchSiteGPTMatch {
       launch_vehicles?: string[];
   },
   reasoning: string;
+}
+
+export interface launchFileGPTMatch {
+  match: boolean,
+  type: "update" | "reschedule" | "no_match",
+  reasoning: string
 }

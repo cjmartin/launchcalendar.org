@@ -78,8 +78,8 @@ export async function matchSite(
   const fuzzyMatch = matchStringFuzzy(raw, table);
   console.log(`🧐 Fuzzy match verdict: ${fuzzyMatch.verdict}, id: ${fuzzyMatch.id}`);
 
-  // If the match verdict is "gpt_check", construct a prompt and send it off to GPT for verification.
-  if (fuzzyMatch.verdict === "gpt_check") {
+  // If the match verdict is "gpt_check" or "no_match", construct a prompt and send it off to GPT for verification.
+  if (fuzzyMatch.verdict !== "match") {
     console.log("🤖 Sending to GPT for site match verification...");
     return await gptCheckSiteMatch(launchData, fuzzyMatch);
   }
@@ -89,26 +89,30 @@ export async function matchSite(
 
 async function gptCheckSiteMatch(launchData: LaunchData, fuzzyMatch: MatchResult): Promise<MatchResult> {
   // Load the known launch sites from the JSON file
-  const knownSites = await knownLaunchSites();
-  if (!knownSites) throw new Error("Failed to load known launch sites");
+  let siteCandidates = await knownLaunchSites();
+  if (!siteCandidates) throw new Error("Failed to load known launch sites");
 
-  // Find the site candidate in the known sites
-  const siteCandidate = knownSites[fuzzyMatch.id];
-  if (!siteCandidate) throw new Error(`Site candidate not found in known sites: ${fuzzyMatch.id}`);
+  // If the fuzzy match is a "gpt_check", let's limit the candidates to those at the same location.
+  // This is to avoid sending a huge list of sites to GPT, which may not be necessary.
+  if (fuzzyMatch.verdict === "gpt_check") {
+    // Find the site candidate in the known sites
+    const siteCandidate = siteCandidates[fuzzyMatch.id];
+    if (!siteCandidate) throw new Error(`Site candidate not found in known sites: ${fuzzyMatch.id}`);
 
-  // Find all other site candidates at the same location
-  const siteCandidates = Object.entries(knownSites).reduce((sites, [id, site]) => {
-    if (site.location === siteCandidate.location) {
-      sites[id] = site;
-    }
-    return sites;
-  }, {} as Record<string, LaunchSite>);
-
+    // Find all other site candidates at the same location
+    siteCandidates = Object.entries(siteCandidates).reduce((sites, [id, site]) => {
+      if (site.location === siteCandidate.location) {
+        sites[id] = site;
+      }
+      return sites;
+    }, {} as Record<string, LaunchSite>);
+  }
+  
   const prompt = `
 Launch data:
 "launchData": ${JSON.stringify(launchData, null, 2)}
 
-Launch site candidate from database of known launch sites:
+Launch site candidates from database of known launch sites:
 ${JSON.stringify(siteCandidates, null, 2)}
 
 Instructions:

@@ -1,8 +1,9 @@
 import { RSSEntry } from "../types";
 import { callOpenAI } from "../utils/openai";
+import { DETECT_LAUNCH_PROMPT } from "../prompts";
 
 export async function detectLaunch(entry: RSSEntry) {
-  const prompt = `Based on the title and description of this article, could the article include information about a rocket launch (flight, mission, etc.)? Reply "yes" or "no".\n\nTitle: ${entry.title}\n\nDescription: ${entry.description}\n\nContent Snippet: ${entry.contentSnippet}`;
+  const prompt = DETECT_LAUNCH_PROMPT(entry);
   const result = await callOpenAI([{role: 'user', content: prompt}]);
   return result.trim().toLowerCase() === 'yes';
 }
