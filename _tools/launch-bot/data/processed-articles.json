@@ -577,7 +577,7 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/falcon-flies-on-star-wars-day-spacex-launches-starlink-satellites-from-florida-photos",
-    "hash": "7bca7b5300291fa892a9b6cb062f591ec9de015f9d068b591862bc7eddb709cf"
+    "hash": "70fbb1cdfa5a27a262eb9c2c82e6d343d2fe25c61c312446b505c59083a94935"
   },
   {
     "link": "https://news.satnews.com/2025/05/04/chinas-monday-launch-of-another-satnet-leo-group-adding-to-broadband-internet-constellation/",
@@ -629,7 +629,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/06/live-coverage-spacex-to-launch-28-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-4/",
-    "hash": "73a9118bf30449d7e46997e7820c507f2343d47f56c1241c2573ad37f72b14bd"
+    "hash": "6a10c36841a8b232a853637e638f5ca6c181a559b0cee1e1140365d71d428353"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-050525/",
@@ -666,5 +666,17 @@
   {
     "link": "https://news.satnews.com/2025/05/05/aac-clyde-space-wins-570000-euros-order-for-power-systems/",
     "hash": "c01d44b878105c3f22ee1fb3c5644876e578adb67218d704e836b10d0fac3d42"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/right-now-we-are-in-what-has-to-be-a-golden-age-of-asteroid-exploration-scientists-celebrate-nasas-latest-space-rock-flyby",
+    "hash": "1a03530aeaa71b762631fca8fcbe9ee01307fc09233494699f3ab155cd56655a"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/05/faa-clears-spacex-for-25-launches-a-year-from-its-texas-launch-site/",
+    "hash": "a56d7966ced3a6442ef3beab38f7e0252bc3f5eaf45ecd48606c399547900eca"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/05/tuesday-telescope-its-not-space-weather-but-weather-from-space/",
+    "hash": "6d824dfd45d17dd095b53186819d8db4ab4473c3592750c2ae6b1d77eb07782b"
   }
 ]
