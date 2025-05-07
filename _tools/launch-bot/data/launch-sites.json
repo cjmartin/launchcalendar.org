@@ -474,5 +474,18 @@
     "launch_vehicles": [
       "spectrum"
     ]
+  },
+  "stratolaunch-air-launch-pacific-ocean": {
+    "site_name": "Stratolaunch Air Launch",
+    "location": "Pacific Ocean (launched from Stratolaunch ROC carrier aircraft)",
+    "geo": {
+      "latitude": 32,
+      "longitude": -125
+    },
+    "operator": "Stratolaunch",
+    "launch_vehicles": [
+      "Stratolaunch ROC",
+      "Talon-A"
+    ]
   }
 }

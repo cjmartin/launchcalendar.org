@@ -557,7 +557,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/03/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-cente/",
-    "hash": "fa5dd71a870b300bb25d86c9bf3fb2ce2b6f30668e489d01be6ba7c585b5238e"
+    "hash": "7fc2e6fe31c4dc42ae6bb117f04cce4279f7a3a2bce793c94c8fdf69d3257328"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/03/live-coverage-spacex-to-launch-26-starlink-satellites-on-falcon-9-rocket-from-vandenberg/",
@@ -629,7 +629,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/06/live-coverage-spacex-to-launch-28-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-4/",
-    "hash": "a68e82091f5fbe2f47aee87d8cf00bd35552cc010ce779cfdf8939a1c5505690"
+    "hash": "e1fe8eec8ea6077b5766147c9a5030c29c33e0c458720ca436f23c78dcd79819"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-050525/",
@@ -726,5 +726,17 @@
   {
     "link": "https://news.satnews.com/2025/05/06/eshailsat-incorporates-syrias-al-ikhbariya-tv-channel-into-video-hotspot-on-eshail-2-satellite/",
     "hash": "742c6c1fcaf3555cf2603148bb5a0b8b1168c5d4809df6b9f11435b9e33c49e4"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/07/vast-to-complete-haven-1-primary-structure-in-july-2025-ahead-of-target-may-2026-launch-date/",
+    "hash": "dfe031389e13371c9b8b0289567bb8b333bf16845a30e2c62d5d05d3a74100ad"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/06/ussf-strengthens-missile-warning-mmission-with-forge-enterprise-opir-solution-effort-award/",
+    "hash": "0764d2f4f363b3f147051f0872d3d77fef94f8780c423ba108aff0650025fb67"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/06/leidos-team-completes-reusable-hypersonic-test-launches-for-mach-tb-program-dod-reusability-demo-of-hypersonic-test-vehicle/",
+    "hash": "0738b150cf71a43b94419fc9dd67a6b4c4d5955c429fa2b1f6794597c4245cbd"
   }
 ]
