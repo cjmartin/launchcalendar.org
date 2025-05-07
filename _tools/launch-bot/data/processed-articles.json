@@ -537,7 +537,7 @@
   },
   {
     "link": "https://europeanspaceflight.com/new-polish-space-agency-chief-named-after-abrupt-exit-of-predecessor/",
-    "hash": "130e681c2b06c45129340ad0e9b82a0a0ffa3e79e33fd4f31e8df1ef65ae3427"
+    "hash": "dbf765f2ce82644a931b15c0ff6a06739efe09a0086f785ddd3b99e3ee122adc"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-starship-spacecraft-ahead-of-9th-test-flight-photo",
@@ -613,7 +613,7 @@
   },
   {
     "link": "https://europeanspaceflight.com/polaris-spaceplanes-prepares-for-key-in-flight-refuelling-milestone/",
-    "hash": "1cd4ee965910703757e316a1b1ae5f38a75dbd83651d14c4e50fd08533da9e3c"
+    "hash": "92327afaff40e4cc837d84ca9e0fed4389d5cf239551551849cf2f67bb78485b"
   },
   {
     "link": "https://news.satnews.com/2025/05/04/terran-orbital-selected-by-ussf-for-237-million-step-2-0-smallsat-buses-contract/",
@@ -629,7 +629,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/06/live-coverage-spacex-to-launch-28-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-4/",
-    "hash": "6a10c36841a8b232a853637e638f5ca6c181a559b0cee1e1140365d71d428353"
+    "hash": "a68e82091f5fbe2f47aee87d8cf00bd35552cc010ce779cfdf8939a1c5505690"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-050525/",
@@ -681,7 +681,7 @@
   },
   {
     "link": "https://europeanspaceflight.com/esa-chief-responds-to-proposed-nasa-budget-cuts/",
-    "hash": "ff0177f7aa8e5af307b3829c23e832a78fb7654a6d9ee8bd541e16e48a885ae1"
+    "hash": "35267c33e7d90e170d9096d8af52f7401df12537dbfb8ddc126ba6046240cdc7"
   },
   {
     "link": "https://news.satnews.com/2025/05/06/rocket-lab-schedules-next-mission-for-multi-launch-customer-iqps/",
@@ -702,5 +702,9 @@
   {
     "link": "https://arstechnica.com/space/2025/05/stratolaunch-successfully-flies-a-modern-replacement-for-the-x-15-rocket-plane/",
     "hash": "e4aaba5f41c152211f63edeb004ee84b0c878e712f22ca20add4b44f01236cbc"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-6-93-b1085-ccsfs",
+    "hash": "e85c39d12d12b4c8b36609eb0473319faedc8f0a572007220d9cb172606974e7"
   }
 ]
