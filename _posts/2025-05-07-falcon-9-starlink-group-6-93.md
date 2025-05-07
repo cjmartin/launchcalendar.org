@@ -6,7 +6,8 @@ description: >-
   Earth orbit from SLC-40, Cape Canaveral SFS. This mission marked another step
   in expanding the Starlink broadband constellation, with the reusable booster
   B1085 completing its seventh flight and landing on the droneship 'Just Read
-  the Instructions'.
+  the Instructions'. The launch was originally scheduled for May 3, 2025, and
+  was rescheduled to May 6, with backup windows extending into May 7.
 tags:
   - Falcon 9
   - Starlink Group 6-93
@@ -15,9 +16,11 @@ tags:
   - SLC-40
   - satellite
   - Cape Canaveral
+  - SpaceX
+  - LEO
 date: '2025-05-07T01:17:00Z'
 created: '2025-04-30T00:10:26.204Z'
-updated: '2025-05-07T16:19:54.135Z'
+updated: '2025-05-07T16:36:57.619Z'
 redirect_from:
   - 2025/05/04/falcon-9-starlink-group-6-93/
   - 2025/05/06/falcon-9-starlink-group-6-93/
@@ -31,7 +34,9 @@ payload: Starlink Group 6-93
 payload-type: satellite
 payload-description: >-
   28 Starlink V2 Mini internet satellites were launched to low Earth orbit to
-  join and expand SpaceX's broadband internet megaconstellation.
+  join and expand SpaceX's broadband internet megaconstellation. The mission
+  used a booster that had previously supported six launches and aimed for a
+  droneship landing.
 links:
   - title: >-
       Launch Roundup: Starlink missions fill launch manifest, Biomass and Alpha
@@ -69,6 +74,12 @@ links:
       - social
       - update
     url: 'https://x.com/SpaceX/status/1919940943366574275'
+  - title: SpaceX’s successful Tuesday Starlink Group 6-92 launch of 28 smallsats
+    type:
+      - article
+      - source
+    url: >-
+      https://news.satnews.com/2025/05/06/spacexs-successful-tuesday-starlink-group-6-92-launch-of-28-smallsats/
 videos:
   - title: Starlink 6-93 Launch
     type:
@@ -79,4 +90,4 @@ videos:
     video_id: vaMbulnCjcY
 images: []
 ---
-On May 6, 2025, a SpaceX Falcon 9 rocket launched 28 Starlink V2 Mini satellites (the Starlink 6-93 mission) from SLC-40 at Cape Canaveral Space Force Station, Florida, at 9:17 p.m. EDT (0117 UTC, May 7). This marked the Falcon 9's 470th launch and SpaceX's 53rd Falcon 9 mission and 36th Starlink launch of 2025. The reusable booster B1085 completed its seventh flight, successfully landing on the droneship 'Just Read the Instructions' about eight minutes after liftoff in the Atlantic Ocean. This mission increased the Starlink constellation to more than 7,300 satellites, supporting SpaceX's global broadband internet service. Despite minor weather concerns, liftoff occurred without delay, continuing the rapid expansion of the Starlink network.
+Starlink Group 6-93 was originally planned for May 3, 2025, but the launch was rescheduled to May 6, targeting liftoff at 9:17 p.m. EDT (0117 UTC, May 7) from SLC-40 at Cape Canaveral Space Force Station, Florida. Falcon 9 launched 28 Starlink V2 Mini satellites into low Earth orbit, marking the rocket’s 470th launch and SpaceX's 53rd Falcon 9 mission and 36th Starlink launch of 2025. Booster B1085 completed its seventh flight, landing on the droneship 'Just Read the Instructions.' This mission increased the Starlink constellation to more than 7,300 satellites to support global broadband service. Despite minor weather concerns, liftoff occurred without delay, and the mission cost was reported at $52 million.

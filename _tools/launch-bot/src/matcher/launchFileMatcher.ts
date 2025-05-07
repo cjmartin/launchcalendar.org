@@ -28,7 +28,16 @@ export async function findExistingLaunch(
     try {
       draftFiles = (await fs.readdir(draftsDir)).filter(f => f.endsWith(".md")).map(f => ({ file: f, dir: draftsDir }));
     } catch {}
-    files = [...postFiles, ...draftFiles];
+    // Sort files in reverse chronological order based on filename (assumes YYYY-MM-DD at start)
+    files = [...postFiles, ...draftFiles].sort((a, b) => {
+      // Extract date part (first 10 chars)
+      const dateA = a.file.substring(0, 10);
+      const dateB = b.file.substring(0, 10);
+      // Compare as strings (lexicographical, so YYYY-MM-DD works)
+      if (dateA < dateB) return 1;
+      if (dateA > dateB) return -1;
+      return 0;
+    });
     console.log(`📄 Found ${files.length} launch files to check for matches.`);
   } catch {
     console.log("❌ Could not read _posts or _drafts directory.");

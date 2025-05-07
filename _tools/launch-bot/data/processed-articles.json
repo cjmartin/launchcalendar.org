@@ -437,7 +437,7 @@
   },
   {
     "link": "https://europeanspaceflight.com/atmos-raises-e1m-in-new-funding-as-it-prepares-for-inaugural-flight/",
-    "hash": "59cd3efe38ff9fb9b2a83d159b6c19349257439bd9453fc920ccd7b0016cf275"
+    "hash": "2b415a85223ea5fd743247db564b04ba0f171828ff6ce9e7206bfb3fbd2a117d"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/us-army-launches-dark-eagle-hypersonic-missile-from-cape-canaveral-space-force-station",
@@ -710,5 +710,21 @@
   {
     "link": "https://arstechnica.com/space/2025/05/nasa-scrambles-to-cut-iss-activity-after-trump-budget-its-options-are-not-great/",
     "hash": "964a68487c2c85b656e556393315be2f6c674fe4fa9fa4f7241aecda8922523a"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/06/spacex-finally-receives-faa-approval-for-up-to-25-starship-launches-annually/",
+    "hash": "8f0fb564983c1fdb9eac9b39dd57a6edb689ca911cb27ea52fb9a0e1c4a31746"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/06/oracle-m-hot-fire-test-is-ssc-and-afrl-milestone-in-cislunar-space-situational-awareness-and-national-security/",
+    "hash": "036d93ec809a9cd07b9c795aca9a7b19da2d30ba8d57aa131f849403e2d139af"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/06/spacexs-successful-tuesday-starlink-group-6-92-launch-of-28-smallsats/",
+    "hash": "ec52e657ed96c7c341f01e9bb1143fa461c3fa8fa2b81555c66c9bbdb066e142"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/06/eshailsat-incorporates-syrias-al-ikhbariya-tv-channel-into-video-hotspot-on-eshail-2-satellite/",
+    "hash": "742c6c1fcaf3555cf2603148bb5a0b8b1168c5d4809df6b9f11435b9e33c49e4"
   }
 ]
