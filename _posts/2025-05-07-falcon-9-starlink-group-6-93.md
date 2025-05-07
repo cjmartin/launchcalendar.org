@@ -12,14 +12,12 @@ tags:
   - Starlink Group 6-93
   - Starlink 6-93
   - Starlink
-  - SpaceX
   - SLC-40
   - satellite
-  - LC-40
   - Cape Canaveral
 date: '2025-05-07T01:17:00Z'
 created: '2025-04-30T00:10:26.204Z'
-updated: '2025-05-07T05:23:09.316Z'
+updated: '2025-05-07T16:19:54.135Z'
 redirect_from:
   - 2025/05/04/falcon-9-starlink-group-6-93/
   - 2025/05/06/falcon-9-starlink-group-6-93/
@@ -61,6 +59,16 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-6-93-b1085-ccsfs
+  - title: 'Launch Roundup: SpaceX to launch 250th mission from SLC-40'
+    type:
+      - article
+      - source
+    url: 'https://www.nasaspaceflight.com/2025/05/launch-roundup-050525/'
+  - title: Deployment update on X (Twitter)
+    type:
+      - social
+      - update
+    url: 'https://x.com/SpaceX/status/1919940943366574275'
 videos:
   - title: Starlink 6-93 Launch
     type:

@@ -9,15 +9,15 @@ description: >-
 tags:
   - Falcon 9
   - Starlink
+  - SLC-4E
+  - satellite
   - Starlink 15-3
   - Starlink Group 15-3
   - Vandenberg
   - SpaceX
-  - SLC-4E
-  - satellite
-date: '2025-05-10T00:00:00Z'
+date: '2025-05-10T00:01:00Z'
 created: '2025-05-03T16:55:12.049Z'
-updated: '2025-05-06T01:18:03.718Z'
+updated: '2025-05-07T16:19:10.629Z'
 redirect_from:
   - 2025/05/02/falcon-9-starlink-group-15-3/
   - 2025/05/03/falcon-9-starlink-15-3/
@@ -33,10 +33,7 @@ payload: Starlink Group 15-3
 payload-type: satellite
 payload-description: >-
   The mission will deploy 26 Starlink v2 Mini satellites into a 70° inclined low
-  Earth orbit (Group 15 shell), using Falcon 9 booster B1081 for its 14th
-  flight, with a landing attempt on the droneship 'Of Course I Still Love You'
-  in the Pacific. This launch supports SpaceX's goal of extending Starlink
-  coverage, with a special focus on underserved communities.
+  Earth orbit (Group 15 shell).
 links:
   - title: Falcon 9 | Starlink Group 15-3
     type:
@@ -77,4 +74,4 @@ videos:
     video_id: 3atVfcbnKJA
 images: []
 ---
-Starlink Group 15-3 is scheduled to launch from SLC-4E at Vandenberg Space Force Base on May 9 at 5:00 PM PDT (00:00 UTC May 10), after prior weather delays. The mission uses Falcon 9 booster B1081 on its 14th flight, deploying 26 Starlink v2 Mini satellites to a 70° inclined low Earth orbit, and will attempt a landing on 'Of Course I Still Love You' in the Pacific. This launch contributes to extending Starlink coverage, especially for underserved communities such as East Carroll Parish, Louisiana, under SpaceX's increased FAA permit at Vandenberg. The launch will be webcast live by SpaceX and media outlets.
+Delayed by weather, Starlink Group 15-3 is scheduled for May 10, 2025 from Vandenberg's SLC-4E. The mission will place 26 Starlink v2 Mini satellites—possibly including Direct-to-Cell variants—into a 70° inclined orbit, using Falcon 9 booster B1081 on its 14th flight and landing on the droneship 'Of Course I Still Love You.' This launch expands Starlink's coverage, especially for underserved communities such as East Carroll Parish, Louisiana, with support from SpaceX's increased FAA permit at Vandenberg. Previous missions have mixed satellite types per launch. Webcast coverage will be provided by SpaceX and media outlets.

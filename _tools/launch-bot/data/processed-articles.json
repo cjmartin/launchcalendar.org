@@ -421,19 +421,19 @@
   },
   {
     "link": "https://europeanspaceflight.com/czechia-selects-experiments-for-private-astronaut-mission-to-the-iss/",
-    "hash": "494ebf7d8786565656f6258454d30b684355267b650accb3bcbbc65617577712"
+    "hash": "4914e0e42afda31e08650a21c25df304365566dadce7aa73396a2d3129460c16"
   },
   {
     "link": "https://europeanspaceflight.com/maiaspace-selects-lukasiewicz-ilot-to-develop-kick-stage-engine/",
-    "hash": "2398ef52ffd8fe47d90698924979723db4cadbc159b71c00b7baceeb3b41ffb2"
+    "hash": "8a3069392588e075aa1616480ae2fc9b0f239d236bcdf59ebe838993d1395903"
   },
   {
     "link": "https://europeanspaceflight.com/ariane-6-booster-upgrade-test-set-for-24-april/",
-    "hash": "b90fcc968349139649132245794ad5a74535ba880e4d7bc12fef5651ef764cfd"
+    "hash": "1aca730e7e2b2278a6351cddf88bbe15133f620c1d50377ba4d3177b03aff3e7"
   },
   {
     "link": "https://europeanspaceflight.com/atmos-space-cargo-tentatively-declares-phoenix-1-flight-a-success/",
-    "hash": "302dbc73737504a8fe0dce25f89a173a50f3f5088bea7f0c26e3bdcb403d9834"
+    "hash": "7d245a294b660e18d0f720bce6f860238c2b83cdcf87ac46fedfe526754ecfb5"
   },
   {
     "link": "https://europeanspaceflight.com/atmos-raises-e1m-in-new-funding-as-it-prepares-for-inaugural-flight/",
@@ -453,7 +453,7 @@
   },
   {
     "link": "https://europeanspaceflight.com/successful-vega-c-launch-delivers-esa-biomass-satellite-to-orbit/",
-    "hash": "8afd8ab807aa3d90d0e5b66772aa5b33d79b253e2b64925a1459aa4088d862b2"
+    "hash": "b1e6f26152b103ad258016abc56579b043d77d7f49a7ddf892938b37abc4df97"
   },
   {
     "link": "https://europeanspaceflight.com/spain-approves-e1-billion-loan-to-hisdesat-for-paz-2-satellites/",
@@ -493,7 +493,7 @@
   },
   {
     "link": "https://europeanspaceflight.com/dlr-wraps-up-qualification-of-key-callisto-rocket-element/",
-    "hash": "01eb9b2cd4fa77c97bf3f54fd003bb797532822eaca69ca30e7ebca68fb1d7e4"
+    "hash": "8b6d6f73548c6a9e1ef120a2070efc573ea87b8d45258d3b8322cba1d55e2358"
   },
   {
     "link": "https://arstechnica.com/space/2025/04/after-his-support-for-artemis-senate-committee-advances-isaacman-nomination/",
@@ -537,7 +537,7 @@
   },
   {
     "link": "https://europeanspaceflight.com/new-polish-space-agency-chief-named-after-abrupt-exit-of-predecessor/",
-    "hash": "dbf765f2ce82644a931b15c0ff6a06739efe09a0086f785ddd3b99e3ee122adc"
+    "hash": "f2b9acc8f28d395b820c2e1597d2287d78098eb5d5d2bd2fc3dc4a7c8ed02bda"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-starship-spacecraft-ahead-of-9th-test-flight-photo",
@@ -633,7 +633,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-050525/",
-    "hash": "47f04c21b490696765a8341cef5859264174d90223402cd0d84a865b934d7014"
+    "hash": "b0bbe9a98a3cfb690cc2dca05d5d7995974d2ef657bb14a17e1432c2941bab47"
   },
   {
     "link": "https://news.satnews.com/2025/05/05/northrop-grumman-to-develop-additional-relay-ground-stations-to-support-ussfs-next-generation-opir-program/",
@@ -705,6 +705,10 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-6-93-b1085-ccsfs",
-    "hash": "e85c39d12d12b4c8b36609eb0473319faedc8f0a572007220d9cb172606974e7"
+    "hash": "a2b01fba838a280bda3fac880fad4e011b280322fd85cad0fa90498a14f30cd5"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/05/nasa-scrambles-to-cut-iss-activity-after-trump-budget-its-options-are-not-great/",
+    "hash": "964a68487c2c85b656e556393315be2f6c674fe4fa9fa4f7241aecda8922523a"
   }
 ]
