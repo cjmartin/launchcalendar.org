@@ -685,11 +685,11 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/06/rocket-lab-schedules-next-mission-for-multi-launch-customer-iqps/",
-    "hash": "f7e54ca79330f1de3c0fd20cd7c661887ad1cd735d45be59471091d94ab80ccd"
+    "hash": "80d1ed9c0bb20083634ca06546cbde2ab156413104c0d41afeb8bb1223d94b0a"
   },
   {
     "link": "https://news.satnews.com/2025/05/06/forresters-digest-europe-sets-deadline-for-ses-intelsat-deal/",
-    "hash": "6d02504da2ba0e77b9c09f344563ba28658dbbca37468fdf4b83b652a90736a5"
+    "hash": "ce125ad7a5804b30d19814b278fa85352b0b9a724f278a83eb16943cc36ee903"
   },
   {
     "link": "https://news.satnews.com/2025/05/06/engage-communication-enhances-starlink-network-performance/",
@@ -738,5 +738,9 @@
   {
     "link": "https://news.satnews.com/2025/05/06/leidos-team-completes-reusable-hypersonic-test-launches-for-mach-tb-program-dod-reusability-demo-of-hypersonic-test-vehicle/",
     "hash": "0738b150cf71a43b94419fc9dd67a6b4c4d5955c429fa2b1f6794597c4245cbd"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/06/skydio-delivers-the-1st-systems-for-tranche-2-of-the-u-s-armys-short-range-reconnaissance-program-in-days/",
+    "hash": "91a1076d0e4019a172dcc331783f8b441a29e01747aef3345d6537cc98252187"
   }
 ]
