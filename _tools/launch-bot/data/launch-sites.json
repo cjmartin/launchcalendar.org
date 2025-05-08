@@ -487,5 +487,17 @@
       "Stratolaunch ROC",
       "Talon-A"
     ]
+  },
+  "lc-9a-taiyuan-satellite-launch-center-shanxi-china": {
+    "site_name": "LC-9A",
+    "location": "Taiyuan Satellite Launch Center, Shanxi Province, China",
+    "geo": {
+      "latitude": 38.841944,
+      "longitude": 111.617222
+    },
+    "operator": "CASC",
+    "launch_vehicles": [
+      "Chang Zheng 6A"
+    ]
   }
 }

@@ -108,7 +108,16 @@ async function gptCheckSiteMatch(launchData: LaunchData, fuzzyMatch: MatchResult
     }, {} as Record<string, LaunchSite>);
   }
   
-  const prompt = `
+  const prompt = `You are a launch-site resolver. Your job is to determine if a launch location refers to a known launch site or if it is a new site that needs to be added to the database.
+You will be given the following information:
+
+1. launchData that includes information about a launch event (as JSON)
+2. Launch site candidates from a database of known sites (as JSON)
+
+First determine if the launch location refers to a known site. If it does not then do a bit of extra work to determine if it is a new site that needs to be added to the database, of if the launch data deos not refer to a launch site at all. If it seems that there is a valid site not in the db, use any tools at your disposal to determine the site name, location, and geo coordinates. If you are not sure, it's ok to return no_match.
+
+Detailed instructions about how to respond are at the end.
+
 Launch data:
 "launchData": ${JSON.stringify(launchData, null, 2)}
 
@@ -163,7 +172,7 @@ JSON schema:
 }`;
   
   const gptResponse = await callOpenAI([
-    { role: "system", content: "You are a launch-site resolver.  Reply ONLY with valid JSON matching the schema shown at the end.  No other text." },
+    { role: "system", content: "You are a launch-site resolver. Reply ONLY with valid JSON matching the schema shown at the end. No other text." },
     { role: "user", content: prompt }
   ]);
 

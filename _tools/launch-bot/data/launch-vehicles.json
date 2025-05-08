@@ -167,7 +167,12 @@
   "long-march-6": {
     "vehicle_name": "Long March 6",
     "operator": "CASC",
-    "aliases": ["Chang Zheng 6", "CZ-6", "Chang Zheng 6A", "CZ-6A"]
+    "aliases": ["Chang Zheng 6", "CZ-6"]
+  },
+  "long-march-6a": {
+    "vehicle_name": "Long March 6A",
+    "operator": "CASC",
+    "aliases": ["Chang Zheng 6A", "CZ-6A"]
   },
   "long-march-7": {
     "vehicle_name": "Long March 7",

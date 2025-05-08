@@ -2,11 +2,12 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 15-3"
 description: >-
-  Falcon 9 will launch 26 Starlink v2 Mini smallsats into a 70-degree inclined
-  orbit from SLC-4E at Vandenberg Space Force Base. Booster B1081 will fly for
-  its 14th mission, with a planned droneship landing. The launch, originally set
-  for May 1, was delayed due to weather and operational factors before being
-  rescheduled.
+  Falcon 9 will launch 26 Starlink v2 Mini smallsats, potentially mixed with
+  Direct-to-Cell variants, into a 70-degree inclined orbit from SLC-4E at
+  Vandenberg Space Force Base. Booster B1081 will fly for its 14th mission, with
+  a planned droneship landing on Of Course I Still Love You. The mission,
+  originally scheduled for early May, was delayed due to weather and operational
+  factors before being rescheduled.
 tags:
   - Falcon 9
   - Starlink
@@ -18,7 +19,7 @@ tags:
   - SpaceX
 date: '2025-05-10T00:01:00Z'
 created: '2025-05-03T16:55:12.049Z'
-updated: '2025-05-08T04:09:43.655Z'
+updated: '2025-05-08T17:07:22.195Z'
 redirect_from:
   - 2025/05/02/falcon-9-starlink-group-15-3/
   - 2025/05/03/falcon-9-starlink-15-3/
@@ -33,8 +34,9 @@ vehicle-slug: falcon-9
 payload: Starlink Group 15-3
 payload-type: satellite
 payload-description: >-
-  26 Starlink v2 Mini smallsats for SpaceX's satellite internet constellation,
-  launching into a 70° inclined low Earth orbit (Group 15 shell).
+  Batch of 26 Starlink v2 Mini satellites, potentially mixed with Direct-to-Cell
+  variants, to expand global internet coverage with a 70-degree inclination
+  orbit.
 links:
   - title: Falcon 9 | Starlink Group 15-3
     type:
@@ -42,8 +44,8 @@ links:
       - discussion
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62751.0'
   - title: >-
-      Launch Roundup: Starlink missions fill launch manifest, Biomass and Alpha
-      launch
+      Launch Roundup: Launches Starlink missions fill launch manifest, Biomass
+      and Alpha launch
     type:
       - article
       - source
@@ -73,14 +75,7 @@ links:
       - source
     url: >-
       https://news.satnews.com/2025/05/07/spacex-is-busy-with-two-friday-starlink-launches-from-both-coasts-one-on-saturday/
-videos:
-  - title: Spaceflight Now Starlink 15-3 Launch Coverage
-    type:
-      - youtube
-      - livestream
-    source: youtube
-    url: 'https://www.youtube.com/watch?v=3atVfcbnKJA'
-    video_id: 3atVfcbnKJA
+videos: []
 images: []
 ---
-SpaceX's Starlink Group 15-3 mission, carrying 26 Starlink v2 Mini smallsats, is now scheduled to launch on May 10, 2025 from SLC-4E at Vandenberg Space Force Base after weather and operational delays. Booster B1081 is set for its 14th flight and a droneship landing. The launch supports expansion of the Starlink constellation, which increasingly serves underserved areas and may include Direct-to-Cell variants. The mission was temporarily off launch manifests before being rescheduled, and final timings remain subject to weather and operational changes. Media and SpaceX will provide webcast coverage.
+The Starlink Group 15-3 mission is scheduled to launch from SLC-4E at Vandenberg Space Force Base on May 10, 2025 at 00:01 UTC (5:01 PM PDT, May 9 local). 26 Starlink v2 Mini satellites, potentially featuring a mix of standard and Direct-to-Cell variants, will be delivered to a 70-degree inclined orbit. Booster B1081, on its 14th flight, will attempt a landing on the droneship Of Course I Still Love You. The launch supports the ongoing expansion of the Starlink constellation—aiding connectivity in underserved areas. The mission experienced delays due to weather and operational considerations and was temporarily off launch manifests before being rescheduled. Recent launches from Vandenberg have included mixed payload configurations to support different Starlink orbital shells. Media and SpaceX will provide webcast coverage.
