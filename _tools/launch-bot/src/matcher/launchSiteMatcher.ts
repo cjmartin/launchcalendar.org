@@ -198,7 +198,7 @@ JSON schema:
   // --- End log ---
 
   if (result.decision === "match") {
-    return { id: fuzzyMatch.id, score: 1, verdict: "match" };
+    return { id: result.slug || fuzzyMatch.id, score: 1, verdict: "match" };
   } else if (result.decision === "new_site" && result.proposed) {
     
     // Add new site to lainch-sites.json

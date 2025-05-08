@@ -132,7 +132,7 @@ export interface LaunchMatchResult {
 
 export interface LaunchSiteGPTMatch {
   decision: "match" | "new_site" | "no_match";
-  site_id?: string, // required if decision == match
+  slug?: string, // required if decision == match
   proposed?: {
       slug: string; // format: slugified site_name + location
       site_name: string;
