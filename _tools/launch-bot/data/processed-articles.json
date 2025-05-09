@@ -533,7 +533,7 @@
   },
   {
     "link": "https://arstechnica.com/space/2025/05/rocket-report-starbase-the-city-is-coming-soon-alpha-remains-in-beta/",
-    "hash": "e1b0b7123bb5188a629faa278db9a081f605ff428824fdfad74c04736dcb6787"
+    "hash": "993a7f3baebcd8abe4db68cc5f0d0478e34d116b0988ffe76c6bec2e54e4f4a1"
   },
   {
     "link": "https://europeanspaceflight.com/new-polish-space-agency-chief-named-after-abrupt-exit-of-predecessor/",
@@ -801,7 +801,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/08/forresters-digest-telesat-q1-revenue-down-23/",
-    "hash": "1f16e90d3477dd436c1d2b611ca68f6653916ef6120faff4bfa716340c115d9d"
+    "hash": "daa7fc21f29b686c6ce5b26c7d2b79753b4428779d89fb70a8d23dd7e0d042ef"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/a-failed-soviet-venus-probe-is-falling-to-earth-heres-what-it-might-look-like",
@@ -813,7 +813,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/08/emirates-shipping-congress-and-iec-telecom-drive-maritime-digital-transformation-at-uae-maritime-week/",
-    "hash": "2c6cd7d9af0c4d321edf83ef3790de6118b6807d47761becefed397aeb3b70fe"
+    "hash": "0dbdc95cd830224395315ca8042d3728667358a231ee8a2fa26a0128e07a6327"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/spherex-punch-update/",
@@ -850,5 +850,17 @@
   {
     "link": "https://spaceflightnow.com/2025/05/09/live-coverage-spacex-to-launch-26-starlink-satellites-on-falcon-9-rocket-from-vandenberg-2/",
     "hash": "04bb57222f3ce9185a91f83b84f0087987185e4ebeaa582c375af494b200babe"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/05/rocket-report-rocket-lab-to-demo-cargo-delivery-americas-new-icbm-in-trouble/",
+    "hash": "5b6006f45cdca786dded9e9def49e53c2b2d26603e4562a8d2de6cc61b971b2e"
+  },
+  {
+    "link": "https://europeanspaceflight.com/atmos-to-use-re-entry-tech-to-rapidly-deploy-autonomous-ground-vehicles/",
+    "hash": "1a1827cbd8afc1f8e00a7169814cffe72c94845a611373ec073c0302bdcdbafd"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/08/success-for-esas-biomass-mission-as-forest-satellites-big-antenna-opens-up/",
+    "hash": "cd93cf8fe5654f4e02082e949957671b27718903bb4727eb27c25c4d01ac5594"
   }
 ]

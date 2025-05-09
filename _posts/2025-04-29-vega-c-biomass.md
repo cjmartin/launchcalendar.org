@@ -98,6 +98,14 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/04/launch-roundup-042925/'
+  - title: >-
+      Success for ESA’s Biomass mission as Forest satellite’s big antenna opens
+      up
+    type:
+      - article
+      - source
+    url: >-
+      https://news.satnews.com/2025/05/08/success-for-esas-biomass-mission-as-forest-satellites-big-antenna-opens-up/
 videos:
   - title: Flight VV26 | Biomass | Vega C | Arianespace
     type:
