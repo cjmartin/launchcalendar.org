@@ -254,5 +254,15 @@
     "vehicle_name": "Rockot",
     "operator": "Eurockot Launch Services",
     "aliases": ["Rokot", "Rokot/Briz-KM"]
+  },
+  "eris": {
+    "vehicle_name": "Eris",
+    "operator": "Gilmour Space Technologies",
+    "aliases": ["Gilmour Eris", "Eris Block 1"]
+  },
+  "vanguard": {
+    "vehicle_name": "Vanguard",
+    "operator": "U.S. Navy",
+    "aliases": ["Vanguard TV", "Vanguard Rocket"]
   }
 }

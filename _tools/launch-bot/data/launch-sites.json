@@ -49,6 +49,18 @@
       "minotaur-iv"
     ]
   },
+  "lc-18a-atlantic-missile-range-cape-canaveral-florida-usa": {
+    "site_name": "Launch Complex 18A",
+    "location": "Atlantic Missile Range, Cape Canaveral, Florida, USA",
+    "geo": {
+      "latitude": 28.4672,
+      "longitude": -80.5667
+    },
+    "operator": "U.S. Navy",
+    "launch_vehicles": [
+      "vanguard"
+    ]
+  },
   "lc-39a-kennedy-space-center-florida-usa": {
     "site_name": "LC-39A",
     "location": "Kennedy Space Center, Florida, USA",

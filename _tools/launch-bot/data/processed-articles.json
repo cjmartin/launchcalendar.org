@@ -633,7 +633,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-050525/",
-    "hash": "a7996d101fc0e6a9b082e194e33a15046dba2f0aabd579a0f23be95076a941c4"
+    "hash": "092cf8a3c2cd53c8a6b8735c38b6dcc4b92a402a6b299f123a09e3e3c3267e2b"
   },
   {
     "link": "https://news.satnews.com/2025/05/05/northrop-grumman-to-develop-additional-relay-ground-stations-to-support-ussfs-next-generation-opir-program/",
@@ -753,7 +753,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/08/white-house-taps-former-air-force-colonel-for-nasa-deputy-administrator-role/",
-    "hash": "9458408089b5bfec3600daf447a3285b7cd04abab4f6f4c95505f9d24dbf61e2"
+    "hash": "d1e4767218b2b35fbff33abcca8a2282794a7bf94ac55130c0c8962edc8faafb"
   },
   {
     "link": "https://news.satnews.com/2025/05/07/new-jet-propulsion-laboratory-director-named-by-nasa/",
@@ -809,7 +809,7 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/a-failed-soviet-venus-probe-is-falling-to-earth-and-an-astronomer-will-attempt-to-catch-it-on-camera-on-may-8",
-    "hash": "e5034e99061a18431e63821a7120e09d6244bd44581b9ddf6d7e7c5944885501"
+    "hash": "9f05b51c2a0db1d9d0a3dee6e811a2c3cf40d7616d01ab2d66e95c8b0fe3ba07"
   },
   {
     "link": "https://news.satnews.com/2025/05/08/emirates-shipping-congress-and-iec-telecom-drive-maritime-digital-transformation-at-uae-maritime-week/",
@@ -829,7 +829,7 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/a-failed-soviet-venus-probe-is-expected-to-fall-to-earth-today-but-when-and-where-heres-what-we-know",
-    "hash": "72a7c0269d4f880e67c98ab72eb08c3cf79ab4e146af612099044e7303efc0ff"
+    "hash": "1db0f7cf5550d558dc1ced44f3eb793f7fdf9dfa37f2a244ea54cf4fcca73201"
   },
   {
     "link": "https://news.satnews.com/2025/05/08/spacex-launch-of-starlink-group-15-3-finally-set-to-launch-on-friday/",
@@ -846,5 +846,9 @@
   {
     "link": "https://news.satnews.com/2025/05/08/swissto12s-new-chief-financial-and-strategy-officer-was-chief-strategy-officer-at-inmarsat/",
     "hash": "55a5ec0f330b42d62d5dd2c81f43ec4d1e0c84e127e1cd343b4b56bb137af1fb"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/09/live-coverage-spacex-to-launch-26-starlink-satellites-on-falcon-9-rocket-from-vandenberg-2/",
+    "hash": "04bb57222f3ce9185a91f83b84f0087987185e4ebeaa582c375af494b200babe"
   }
 ]

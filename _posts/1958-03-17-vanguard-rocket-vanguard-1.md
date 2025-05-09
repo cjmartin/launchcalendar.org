@@ -1,24 +1,24 @@
 ---
 layout: launch
-title: "\U0001F680 Vanguard rocket | \U0001F6F0 Vanguard 1"
+title: "\U0001F680 Vanguard Rocket | \U0001F6F0 Vanguard 1"
 description: >-
   Launch of Vanguard 1, America's second satellite, aboard a Vanguard rocket
   from Cape Canaveral.
 tags:
-  - Vanguard rocket
+  - Vanguard Rocket
   - Vanguard 1
   - satellite
   - Cape Canaveral
   - Naval Research Laboratory
-date: '1958-03-17T00:00:00Z'
+date: '1958-03-17T12:15:41Z'
 created: '2025-04-28T20:57:03.182Z'
 updated: '2025-04-28T20:57:03.182Z'
 location: 'Atlantic Missile Range, Cape Canaveral, Florida'
-location-slug: ''
+location-slug: 'lc-18a-atlantic-missile-range-cape-canaveral-florida-usa'
 manned: false
-vehicle: Vanguard rocket
+vehicle: Vanguard Rocket
 vehicle-type: rocket
-vehicle-slug: ''
+vehicle-slug: 'vanguard'
 payload: Vanguard 1
 payload-type: satellite
 links:
