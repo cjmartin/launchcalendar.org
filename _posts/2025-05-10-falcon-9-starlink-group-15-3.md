@@ -2,12 +2,13 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 15-3"
 description: >-
-  Falcon 9 will launch 26 Starlink v2 Mini smallsats, potentially mixed with
-  Direct-to-Cell variants, into a 70-degree inclined orbit from SLC-4E at
-  Vandenberg Space Force Base. Booster B1081 will fly for its 14th mission, with
-  a planned droneship landing on Of Course I Still Love You. The mission,
-  originally scheduled for early May, was delayed due to weather and operational
-  factors before being rescheduled.
+  Falcon 9 will launch 26 Starlink v2 Mini satellites (Starlink Group 15-3),
+  likely including Direct-to-Cell variants, into a 70-degree inclined orbit from
+  SLC-4E at Vandenberg Space Force Base. Booster B1081 will fly for its 14th
+  mission and target a droneship landing on Of Course I Still Love You. The
+  mission, originally scheduled for early May, experienced delays due to weather
+  and operational factors before being rescheduled, and continues SpaceX’s
+  regular Starlink launch cadence from the West Coast.
 tags:
   - Falcon 9
   - Starlink
@@ -19,7 +20,7 @@ tags:
   - SpaceX
 date: '2025-05-10T00:01:00Z'
 created: '2025-05-03T16:55:12.049Z'
-updated: '2025-05-08T17:07:22.195Z'
+updated: '2025-05-09T16:24:38.838Z'
 redirect_from:
   - 2025/05/02/falcon-9-starlink-group-15-3/
   - 2025/05/03/falcon-9-starlink-15-3/
@@ -34,9 +35,9 @@ vehicle-slug: falcon-9
 payload: Starlink Group 15-3
 payload-type: satellite
 payload-description: >-
-  Batch of 26 Starlink v2 Mini satellites, potentially mixed with Direct-to-Cell
-  variants, to expand global internet coverage with a 70-degree inclination
-  orbit.
+  Launch of 26 Starlink v2 Mini satellites to low Earth orbit for Starlink Group
+  15-3, likely including a mix of standard and Direct-to-Cell variants, to
+  expand global internet coverage in a 70-degree inclination orbit.
 links:
   - title: Falcon 9 | Starlink Group 15-3
     type:
@@ -81,7 +82,26 @@ links:
       - source
     url: >-
       https://news.satnews.com/2025/05/08/spacex-launch-of-starlink-group-15-3-finally-set-to-launch-on-friday/
-videos: []
+  - title: Spaceflight Now Article
+    type:
+      - article
+    url: 'http://spaceflightnow.com'
+  - title: >-
+      Live coverage: SpaceX to launch 26 Starlink satellites on Falcon 9 rocket
+      from Vandenberg
+    type:
+      - article
+      - source
+    url: >-
+      https://spaceflightnow.com/2025/05/09/live-coverage-spacex-to-launch-26-starlink-satellites-on-falcon-9-rocket-from-vandenberg-2/
+videos:
+  - title: SpaceX Starlink 15-3 Launch Coverage
+    type:
+      - live stream
+      - youtube
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=3atVfcbnKJA'
+    video_id: 3atVfcbnKJA
 images: []
 ---
-The Starlink Group 15-3 mission is scheduled to launch from SLC-4E at Vandenberg Space Force Base on May 10, 2025 at 00:01 UTC (5:01 PM PDT, May 9 local). 26 Starlink v2 Mini satellites, potentially featuring a mix of standard and Direct-to-Cell variants, will be delivered to a 70-degree inclined orbit. Booster B1081, on its 14th flight, will attempt a landing on the droneship Of Course I Still Love You. The launch supports the ongoing expansion of the Starlink constellation—aiding connectivity in underserved areas. The mission experienced delays due to weather and operational considerations and was temporarily off launch manifests before being rescheduled. Recent launches from Vandenberg have included mixed payload configurations to support different Starlink orbital shells. Media and SpaceX will provide webcast coverage.
+Originally delayed due to weather, Starlink Group 15-3 will launch from SLC-4E at Vandenberg on May 10, 2025 at 00:01 UTC. Carrying 26 Starlink v2 Mini satellites (likely mixed with Direct-to-Cell variants) to a 70-degree orbit, Falcon 9 booster B1081 will fly for its 14th time and target a landing on the droneship 'Of Course I Still Love You' in the Pacific. This continues SpaceX's regular Starlink deployment cadence from the West Coast following recent FAA approvals. The mission supports ongoing expansion of the Starlink satellite constellation and experienced weather and operational delays before being rescheduled. Media and SpaceX webcast coverage are available.
