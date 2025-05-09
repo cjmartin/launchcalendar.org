@@ -2,9 +2,9 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-91"
 description: >-
-  SpaceX Falcon 9 launches Starlink Group 6-91 satellites from SLC-40; marks a
-  milestone 250th Falcon launch from the pad and adds more satellites to the
-  broadband constellation.
+  SpaceX Falcon 9 launches 28 Starlink v2 Mini satellites for Group 6-91 from
+  SLC-40. This mission marks the milestone 250th Falcon launch from the pad and
+  adds more satellites to the Starlink broadband constellation.
 tags:
   - Falcon 9
   - Starlink
@@ -14,11 +14,11 @@ tags:
   - SpaceX
   - Starlink Group 6-91
   - Cape Canaveral
-date: '2025-05-11T06:28:00Z'
+date: '2025-05-10T06:28:00Z'
 created: '2025-05-07T16:19:16.785Z'
-updated: '2025-05-08T04:09:52.355Z'
+updated: '2025-05-09T01:46:21.119Z'
 redirect_from:
-  - 2025/05/10/falcon-9-starlink-group-6-91/
+  - 2025/05/11/falcon-9-starlink-group-6-91/
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
 manned: false
@@ -28,8 +28,8 @@ vehicle-slug: falcon-9
 payload: Starlink Group 6-91
 payload-type: satellite
 payload-description: >-
-  A batch of Starlink smallsats deployed to expand the broadband network in low
-  Earth orbit as part of the Group 6 shell launches.
+  A batch of 28 Starlink v2 Mini satellites deployed to expand the broadband
+  network in low Earth orbit as part of the Group 6 shell launches.
 links:
   - title: Falcon 9 | Starlink Group 6-91
     type:
@@ -48,7 +48,13 @@ links:
       - source
     url: >-
       https://news.satnews.com/2025/05/07/spacex-is-busy-with-two-friday-starlink-launches-from-both-coasts-one-on-saturday/
-videos: []
+videos:
+  - title: "\U0001F680 SpaceX Falcon 9 Launches Starlink 6-91 Mission"
+    type:
+      - youtube
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=cFxXbqDdQnY'
+    video_id: cFxXbqDdQnY
 images: []
 ---
-SpaceX will conduct the Starlink Group 6-91 mission from SLC-40, Cape Canaveral, now scheduled for May 11, 2025. This launch marks the 250th Falcon 9 mission from the pad and will deploy another batch of smallsats to the Starlink broadband constellation. Weather concerns including thunderstorms and cloudy conditions could affect the date. The Falcon 9 booster is expected to attempt an East Coast ASDS landing. As always, scheduling changes are possible for this 78th Starlink launch to the Group 6 shell.
+Scheduled for May 10, 2025, SpaceX's Starlink Group 6-91 mission will be the 250th Falcon launch from SLC-40, deploying 28 v2 Mini satellites to low Earth orbit as part of the Group 6 shell. The Falcon 9 booster is expected to land on A Shortfall of Gravitas on the East Coast. Weather concerns including thunderstorms could affect the schedule, and updates may follow as the date approaches.

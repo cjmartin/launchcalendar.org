@@ -633,7 +633,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-050525/",
-    "hash": "5861f4d1cd69e8b71dee178aa1b5d226bacb1802f81b108156b011d206593506"
+    "hash": "a7996d101fc0e6a9b082e194e33a15046dba2f0aabd579a0f23be95076a941c4"
   },
   {
     "link": "https://news.satnews.com/2025/05/05/northrop-grumman-to-develop-additional-relay-ground-stations-to-support-ussfs-next-generation-opir-program/",
@@ -801,10 +801,30 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/08/forresters-digest-telesat-q1-revenue-down-23/",
-    "hash": "f54e0875ede776fc84bf0c90be4d08ed91821018b97418b265b057f09dc74188"
+    "hash": "1f16e90d3477dd436c1d2b611ca68f6653916ef6120faff4bfa716340c115d9d"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/a-failed-soviet-venus-probe-is-falling-to-earth-heres-what-it-might-look-like",
     "hash": "fc9bc1327ecc3637cbbfbf2a0402a62d03682535dc305096b82af4fc8838c875"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/a-failed-soviet-venus-probe-is-falling-to-earth-and-an-astronomer-will-attempt-to-catch-it-on-camera-on-may-8",
+    "hash": "e5034e99061a18431e63821a7120e09d6244bd44581b9ddf6d7e7c5944885501"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/08/emirates-shipping-congress-and-iec-telecom-drive-maritime-digital-transformation-at-uae-maritime-week/",
+    "hash": "2c6cd7d9af0c4d321edf83ef3790de6118b6807d47761becefed397aeb3b70fe"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/spherex-punch-update/",
+    "hash": "b336ff316fe5e6f3335e90223a58528bc41ccfd4ae74f1986cebe3f7985b454b"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/05/a-soviet-era-spacecraft-built-to-land-on-venus-is-falling-to-earth-instead/",
+    "hash": "7532570259449779374d60f45024f640592025262de8d02328475d7e80b8eb1f"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/08/satellites-tracked-a-volcanos-secret-collapse-for-12-years-then-it-sparked-a-killer-wave/",
+    "hash": "dbe750af218dc7e5f252fda42e5a3f74fc160c5a99578e613a4cd099d1f73533"
   }
 ]
