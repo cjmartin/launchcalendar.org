@@ -13,6 +13,11 @@ BEGIN:VEVENT
 {{ "DTSTART" | ical_property: dtstart_value }}
 DURATION:PT1H
 {% assign summary_value = post.title -%}
+{% if post.videos and post.videos.size > 0 -%}
+{% assign summary_value = post.title | append: " (📽️)" -%}
+{% else -%}
+{% assign summary_value = post.title -%}
+{% endif -%}
 {{ "SUMMARY" | ical_property: summary_value }}
 {% if post.description -%}
 {% assign description_value = post.description -%}
