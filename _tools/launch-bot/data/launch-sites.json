@@ -499,5 +499,17 @@
     "launch_vehicles": [
       "Chang Zheng 6A"
     ]
+  },
+  "eris-pad-bowen-orbital-spaceport-north-queensland-australia": {
+    "site_name": "Eris Pad",
+    "location": "Bowen Orbital Spaceport, North Queensland, Australia",
+    "geo": {
+      "latitude": -19.952,
+      "longitude": 148.277
+    },
+    "operator": "Gilmour Space Technologies",
+    "launch_vehicles": [
+      "eris"
+    ]
   }
 }

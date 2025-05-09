@@ -16,7 +16,7 @@ tags:
   - Cape Canaveral
 date: '2025-05-10T06:28:00Z'
 created: '2025-05-07T16:19:16.785Z'
-updated: '2025-05-09T01:46:21.119Z'
+updated: '2025-05-09T05:43:51.477Z'
 redirect_from:
   - 2025/05/11/falcon-9-starlink-group-6-91/
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
@@ -48,6 +48,12 @@ links:
       - source
     url: >-
       https://news.satnews.com/2025/05/07/spacex-is-busy-with-two-friday-starlink-launches-from-both-coasts-one-on-saturday/
+  - title: SpaceX Starlink Group 6-92 smallsat Friday launch weather is questionable
+    type:
+      - article
+      - source
+    url: >-
+      https://news.satnews.com/2025/05/08/spacex-starlink-group-6-92-smallsat-friday-launch-weather-is-questionable/
 videos:
   - title: "\U0001F680 SpaceX Falcon 9 Launches Starlink 6-91 Mission"
     type:

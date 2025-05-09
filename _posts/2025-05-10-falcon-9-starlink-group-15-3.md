@@ -75,6 +75,12 @@ links:
       - source
     url: >-
       https://news.satnews.com/2025/05/07/spacex-is-busy-with-two-friday-starlink-launches-from-both-coasts-one-on-saturday/
+  - title: SpaceX launch of Starlink Group 15-3 smallsats finally to launch on Friday
+    type:
+      - article
+      - source
+    url: >-
+      https://news.satnews.com/2025/05/08/spacex-launch-of-starlink-group-15-3-finally-set-to-launch-on-friday/
 videos: []
 images: []
 ---
