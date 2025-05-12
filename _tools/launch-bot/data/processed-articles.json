@@ -889,7 +889,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/11/live-coverage-28-starlink-satellites-to-launch-on-falcon-9-booster-making-record-breaking-28th-flight/",
-    "hash": "42aef33a28c46d923add1157454be0bcec97e882a2b7bec7f519351cc932b75b"
+    "hash": "fe7eb80349cb766ca2ef0c78437c262f93fecc1baaf7912ebabbb219dd6fc7cb"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/new-mexicos-spaceport-america-looks-up-and-into-the-future",
@@ -958,5 +958,9 @@
   {
     "link": "https://news.satnews.com/2025/05/12/gilat-esa-has-a-successful-test-flight-on-the-eutelsat-oneweb-network/",
     "hash": "367dc59baa60d73d7ca44aa867930fa8483c749ef3872d6dcf1fa3f7ee37665b"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/12/live-coverage-spacex-to-launch-26-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb/",
+    "hash": "845d4a2ac5a310ed5f70616fa4c504e4d19cfb8e1c9d488de255bcc1197f6345"
   }
 ]
