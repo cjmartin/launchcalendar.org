@@ -535,5 +535,18 @@
     "launch_vehicles": [
       "neutron"
     ]
+  },
+  "central-air-force-training-ground-ustka-poland": {
+    "site_name": "Central Air Force Training Ground",
+    "location": "Ustka, Poland",
+    "geo": {
+      "latitude": 54.5742,
+      "longitude": 16.8446
+    },
+    "operator": "Polish Air Force / Military Institute of Armament Technology (WITU)",
+    "launch_vehicles": [
+      "trs-single-stage-demonstrator",
+      "trs"
+    ]
   }
 }
