@@ -14,7 +14,9 @@ description: >-
   monitoring. The mission was Vega-C's fourth overall flight and its second
   since a 2022 anomaly, maintaining a 100% post-return success rate. This launch
   was one of a record six rocket launches to occur globally within a 24-hour
-  period. Biomass aims for at least five years of operations.
+  period. Biomass aims for at least five years of operations. The satellite's
+  unique P-band SAR provides new capability to monitor the Earth's forests and
+  their role in the carbon cycle.
 tags:
   - Vega C
   - Vega-C
@@ -28,9 +30,10 @@ tags:
   - Arianespace
   - Kourou
   - Earth observation
+  - forest-monitoring
 date: '2025-04-29T09:15:00Z'
 created: '2025-04-28T21:06:53.555Z'
-updated: '2025-05-04T15:15:05.506Z'
+updated: '2025-05-12T17:06:56.562Z'
 redirect_from: []
 location: 'ZLV, Centre Spatial Guyanais (CSG), Kourou, French Guiana'
 location-slug: zlv-guiana-space-centre-kourou-french-guiana
@@ -48,7 +51,8 @@ payload-description: >-
   1,170 kg and is launched into a sun-synchronous orbit, designed for a minimum
   operational life of five years. Biomass will deploy a large unfurling mesh
   antenna to enable its unique radar measurements, advancing global climate and
-  environmental research.
+  environmental research. The mission's radar will provide unprecedented
+  insights into the world's forests and their role in the carbon cycle.
 links:
   - title: ESA’s Biomass mission to launch aboard Vega-C
     type:
@@ -65,12 +69,6 @@ links:
       - mission
       - press kit
     url: 'https://newsroom.arianespace.com/vega-c-flight-vv26'
-  - title: ' Watch Vega-C rocket launch European forest-monitoring satellite to orbit on April 29 '
-    type:
-      - article
-      - source
-    url: >-
-      https://www.space.com/space-exploration/launches-spacecraft/vega-c-rocket-launch-esa-biomass-forest-monitoring-satellite
   - title: Successful Vega C Launch Delivers ESA Biomass Satellite to Orbit
     type:
       - article
@@ -81,6 +79,8 @@ links:
       Vega-C rocket launches European forest-monitoring 'Biomass' satellite to
       orbit (video)
     type:
+      - article
+      - source
       - news
       - video
     url: >-
@@ -106,6 +106,24 @@ links:
       - source
     url: >-
       https://news.satnews.com/2025/05/08/success-for-esas-biomass-mission-as-forest-satellites-big-antenna-opens-up/
+  - title: 'ESA statement: Forest satellite''s big antenna opens up'
+    type:
+      - agency
+      - update
+    url: >-
+      https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass/Forest_satellite_s_big_antenna_opens_up
+  - title: Watch Europe's Vega-C rocket launch
+    type:
+      - launch
+      - video
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/watch-europes-vega-c-rocket-launch-today-on-1st-flight-since-2022-video
+  - title: ' Watch flower-like antenna of European forest-watching satellite ''bloom'' in space (video) '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/watch-flower-like-antenna-of-european-forest-watching-satellite-bloom-in-space-video
 videos:
   - title: Flight VV26 | Biomass | Vega C | Arianespace
     type:
@@ -124,4 +142,4 @@ videos:
     video_id: g0UP77VUpqE
 images: []
 ---
-Arianespace successfully conducted the first Vega-C rocket launch of 2025 on April 29, deploying ESA's Biomass satellite into a sun-synchronous orbit from Kourou, French Guiana. Biomass, weighing about 1,170 kg and built by Airbus Defence and Space, is part of the ESA Earth Explorer program and features the first spaceborne P-band synthetic aperture radar for high-resolution forest and terrain mapping, as well as a large mesh antenna. The launch successfully delivered the satellite, with the mission planned for at least five years of operations. This was Vega-C’s fourth flight, its second since a 2022 anomaly, maintaining post-return success. The mission was one of a record-setting six launches globally within a 24-hour period.
+The European Space Agency's Biomass satellite was launched on April 29, 2025, aboard a Vega-C rocket from French Guiana. Following launch, its large umbrella-like antenna was successfully deployed, marking the completion of its early operations phase. Biomass, weighing about 1,170 kg and built by Airbus Defence and Space as part of the ESA Earth Explorer program, carries the first-ever spaceborne P-band synthetic aperture radar (SAR), allowing it to penetrate forest canopies and measure carbon stocks and fluxes—crucial for understanding Earth's carbon cycle. After successful launch and deployment, the mission entered its commissioning phase with a planned five-year lifespan. This historic mission, Vega-C’s fourth and second since the 2022 anomaly, was also one of a record six global launches within a 24-hour period. The satellite is now commencing science operations, advancing forest and carbon cycle research.
