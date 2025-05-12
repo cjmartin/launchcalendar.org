@@ -21,12 +21,25 @@ export async function findExistingLaunch(
 ): Promise<LaunchMatchResult> {
   const postsDir = path.resolve(__dirname, "../../../../_posts");
   const draftsDir = path.resolve(__dirname, "../../../../_drafts");
+  const draftsFutureDir = path.resolve(draftsDir, "future");
+  const draftsPastDir = path.resolve(draftsDir, "past");
   let files: { file: string; dir: string }[] = [];
   try {
     const postFiles = (await fs.readdir(postsDir)).filter(f => f.endsWith(".md")).map(f => ({ file: f, dir: postsDir }));
     let draftFiles: { file: string; dir: string }[] = [];
     try {
+      // Read _drafts root
       draftFiles = (await fs.readdir(draftsDir)).filter(f => f.endsWith(".md")).map(f => ({ file: f, dir: draftsDir }));
+      // Read _drafts/future
+      try {
+        const futureFiles = (await fs.readdir(draftsFutureDir)).filter(f => f.endsWith(".md")).map(f => ({ file: f, dir: draftsFutureDir }));
+        draftFiles = draftFiles.concat(futureFiles);
+      } catch {}
+      // Read _drafts/past
+      try {
+        const pastFiles = (await fs.readdir(draftsPastDir)).filter(f => f.endsWith(".md")).map(f => ({ file: f, dir: draftsPastDir }));
+        draftFiles = draftFiles.concat(pastFiles);
+      } catch {}
     } catch {}
     // Sort files in reverse chronological order based on filename (assumes YYYY-MM-DD at start)
     files = [...postFiles, ...draftFiles].sort((a, b) => {
