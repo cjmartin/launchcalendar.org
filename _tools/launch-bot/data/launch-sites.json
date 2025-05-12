@@ -545,8 +545,7 @@
     },
     "operator": "Polish Air Force / Military Institute of Armament Technology (WITU)",
     "launch_vehicles": [
-      "trs-single-stage-demonstrator",
-      "trs"
+      "trs-suborbital-demonstrator"
     ]
   }
 }

@@ -633,7 +633,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-050525/",
-    "hash": "99e11677d9de60360a07fd9691d47cb1eb1fc6a89d4ff9e742a7e4c722f082a4"
+    "hash": "6c4c52e979fc7590f5e2bcb59858d5c7098ddc90e1aab9d3ee8298068d857be9"
   },
   {
     "link": "https://news.satnews.com/2025/05/05/northrop-grumman-to-develop-additional-relay-ground-stations-to-support-ussfs-next-generation-opir-program/",
@@ -829,7 +829,7 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/a-failed-soviet-venus-probe-is-expected-to-fall-to-earth-today-but-when-and-where-heres-what-we-know",
-    "hash": "6a779d9fd065125d92dc69eef51342fd1ecbc296d48279ae77272cdd0333010a"
+    "hash": "efb77b82ed438cf6dd4199bf826d57261732a5696261172862dbc329924496df"
   },
   {
     "link": "https://news.satnews.com/2025/05/08/spacex-launch-of-starlink-group-15-3-finally-set-to-launch-on-friday/",
@@ -877,7 +877,7 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-15-3-b1081-vsfb",
-    "hash": "de63b01a2b16a4a1a0c83aaa14eff2c274357c1a60247cb38ef66c438ebc8db2"
+    "hash": "f20a0882c2048fb880bb21bb6c8ab8e6b5cb56bfe1659704ceb56fbb7679cf75"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/us-military-taps-rocket-labs-new-neutron-launcher-for-point-to-point-cargo-test-flight-in-2026",
@@ -889,6 +889,66 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/11/live-coverage-28-starlink-satellites-to-launch-on-falcon-9-booster-making-record-breaking-28th-flight/",
-    "hash": "a465188a7f4e84f1befa68e98dc5922c0e6b6c30907e21a5a00d47be1fb982f8"
+    "hash": "42aef33a28c46d923add1157454be0bcec97e882a2b7bec7f519351cc932b75b"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/new-mexicos-spaceport-america-looks-up-and-into-the-future",
+    "hash": "69da5c6fc7fcd04ba454e024bedf8af8b7b4a0b3623f4df8afd851b4ab3b969a"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/failed-soviet-venus-lander-kosmos-482-crashes-to-earth-after-53-years-in-orbit",
+    "hash": "62391c216c179141f9c1e02df3969254e8edb8a107087ca4d34cdb2819a5c56d"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-28-starlink-satellites-to-orbit-from-florida",
+    "hash": "a2ebe041294a36197e5b88808f354cf6d4f4837cbfb2044861cc997084245a3a"
+  },
+  {
+    "link": "https://europeanspaceflight.com/poland-launches-demonstration-of-suborbital-research-rocket/",
+    "hash": "60e680992b3b49f3101f1cc1d249b19a43f3d1fc80f2d2c7a1488c85e908fe5f"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/12/forresters-digest-echostar-lying-in-wait/",
+    "hash": "ecf8d672023c9cf529b086536d5071381f9a3736b4cb282dc027b9d70f1ca512"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/12/sierra-space-marks-3rd-testing-milestone-with-ussfs-r-gps-satellite-program/",
+    "hash": "e03a5a5f5dcc770b3eaccf3c7eff5421f183d4e1e3b4aa8085a3185bcd505507"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/watch-flower-like-antenna-of-european-forest-watching-satellite-bloom-in-space-video",
+    "hash": "b5443be312bd4aa5eb33524d8ff648b640b39f8bbc39aa4cef6b0acfc0761d6d"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/12/idirect-governments-450-sdr-modem-completes-successful-field-trials-with-airbus-ds-government-solutions-satcom-terminal/",
+    "hash": "c17ba7797d9fe2038367515724d4a619ce82ffd041703bda7567ccf1d6d033ac"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/11/rocket-lab-partners-with-u-s-a-f-afrl-for-neutron-launch-for-rocket-cargo-missions/",
+    "hash": "8e3bce23f4997b6f7d055376f0c793258090f644977f4c40d899a66a76fa5793"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/11/general-atomics-awarded-ussf-contract-for-phase-2-of-the-enterprise-space-terminal-program/",
+    "hash": "c3c4b7536d50974075e56f5ef20aefbc44232a7dcbb3926de5fcb624c8033f94"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/11/spacex-to-launch-starlink-group-15-3-smallsats-on-monday-from-california/",
+    "hash": "472eb3b99f496b28115d7c4e7d91a96ff5d24be18876f55abc33612907077984"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/11/black-hole-that-swallowed-star-600-million-light-years-ago-found-nasa-shares-pic/",
+    "hash": "20b46818e3f4f60471436e4419a609e0ea5761f91d0efb46dca544be9fff5acf"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/11/forresters-digest-india-gives-letter-of-intent-to-starlink/",
+    "hash": "ed53de3e3789479e4d9a03fdc1ff812641a2fa19863de8f3a13bac3ddfee6043"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/11/ast-spacemobile-to-launch-243-satellites/",
+    "hash": "330d2f51fd43199b8b509271548f1690f9d897358959e18676c07b27e95c92e5"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/11/spacexs-saturday-starlink-smallsats-launch/",
+    "hash": "39f248a505cb4d8fd10450ebe6f6cef6f5d1a858a39c70d2fc4ba0e4760a7da3"
   }
 ]

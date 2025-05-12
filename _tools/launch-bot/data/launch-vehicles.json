@@ -139,6 +139,16 @@
     "operator": "CASC",
     "aliases": ["Chang Zheng 3C", "CZ-3C"]
   },
+  "long-march-3c-e": {
+    "vehicle_name": "Long March 3C/E",
+    "operator": "CASC",
+    "aliases": [
+      "CZ-3C/E",
+      "Chang Zheng 3C/E",
+      "LM-3C/E",
+      "Long March 3C Enhanced"
+    ]
+  },
   "long-march-3d": {
     "vehicle_name": "Long March 3D",
     "operator": "CASC",
@@ -264,5 +274,13 @@
     "vehicle_name": "Vanguard",
     "operator": "U.S. Navy",
     "aliases": ["Vanguard TV", "Vanguard Rocket"]
+  },
+  "trs-suborbital-demonstrator": {
+    "vehicle_name": "TRS Suborbital Demonstrator",
+    "operator": "Military Institute of Armament Technology (WITU), Poland",
+    "aliases": [
+      "TRS demonstrator",
+      "TRS single-stage"
+    ]
   }
 }

@@ -119,8 +119,8 @@ Return a single JSON object with the updated launchData, using the same structur
   description?: string, // a very short description of the launch
   tags?: string[], // a list of tags for this launch, new merged with existing
   article_summary?: string, // a short summary of the launch details, updates, etc.
-  links?: LaunchLink[], // links relevant to this launch, new merged with existing
-  videos?: LaunchVideo[], // a list of videos related to the launch, new merged with existing
+  links?: LaunchLink[], // Links relevant to this launch, new merged with existing. Pay close attention to the url field, if it is a new link, add it to the list, if it is an existing link, update the title and type list (keeping types unique as well). If the link is not directly relevant to the launch (mission, payload, etc.), remove it from the list.
+  videos?: LaunchVideo[], // A list of videos related to the launch, new merged with existing. Pay close attention to the url field, if it is a new video, add it to the list, if it is an existing video, update the title and type list (keeping types unique as well).
   images?: LaunchImage[] // a list of images related to the launch, new merged with existing
 }
 
