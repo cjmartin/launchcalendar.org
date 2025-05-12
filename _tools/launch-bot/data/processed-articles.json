@@ -633,7 +633,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-050525/",
-    "hash": "6c4c52e979fc7590f5e2bcb59858d5c7098ddc90e1aab9d3ee8298068d857be9"
+    "hash": "17d6d823186d23c2b0d5d5063ae8ae29a75937883869625a1f5e860f7bc70612"
   },
   {
     "link": "https://news.satnews.com/2025/05/05/northrop-grumman-to-develop-additional-relay-ground-stations-to-support-ussfs-next-generation-opir-program/",
@@ -953,7 +953,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/12/ussfs-ssc-advances-dynamic-satellite-operations-through-joint-antenna-marketplace/",
-    "hash": "1c4823a61f2dc30a8a6df7498ff54d4e197a9f511ef584942269fff2e2eb6db7"
+    "hash": "dc948f751424e0233f4daedfbbf7865c67c5f53379d7baf8790c09256ff3ef3e"
   },
   {
     "link": "https://news.satnews.com/2025/05/12/gilat-esa-has-a-successful-test-flight-on-the-eutelsat-oneweb-network/",
@@ -962,5 +962,9 @@
   {
     "link": "https://spaceflightnow.com/2025/05/12/live-coverage-spacex-to-launch-26-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb/",
     "hash": "845d4a2ac5a310ed5f70616fa4c504e4d19cfb8e1c9d488de255bcc1197f6345"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/12/spacex-starlink-group-15-4-smallsats-launch-moved-to-monday/",
+    "hash": "1e395650f82b6e40c334edd05113f91112cc5289c47415ce05c979793adfc9ce"
   }
 ]
