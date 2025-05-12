@@ -633,7 +633,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-050525/",
-    "hash": "092cf8a3c2cd53c8a6b8735c38b6dcc4b92a402a6b299f123a09e3e3c3267e2b"
+    "hash": "99e11677d9de60360a07fd9691d47cb1eb1fc6a89d4ff9e742a7e4c722f082a4"
   },
   {
     "link": "https://news.satnews.com/2025/05/05/northrop-grumman-to-develop-additional-relay-ground-stations-to-support-ussfs-next-generation-opir-program/",
@@ -753,7 +753,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/08/white-house-taps-former-air-force-colonel-for-nasa-deputy-administrator-role/",
-    "hash": "d1e4767218b2b35fbff33abcca8a2282794a7bf94ac55130c0c8962edc8faafb"
+    "hash": "6f91c11c7e2dfcbd86f5874458994674184bc674ee94e86a29834ea121707831"
   },
   {
     "link": "https://news.satnews.com/2025/05/07/new-jet-propulsion-laboratory-director-named-by-nasa/",
@@ -817,7 +817,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/spherex-punch-update/",
-    "hash": "b336ff316fe5e6f3335e90223a58528bc41ccfd4ae74f1986cebe3f7985b454b"
+    "hash": "af5949d553980f7edbfe0092b5c5dbc314cd1103300f403672aad52e154387bd"
   },
   {
     "link": "https://arstechnica.com/space/2025/05/a-soviet-era-spacecraft-built-to-land-on-venus-is-falling-to-earth-instead/",
@@ -829,11 +829,11 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/a-failed-soviet-venus-probe-is-expected-to-fall-to-earth-today-but-when-and-where-heres-what-we-know",
-    "hash": "1db0f7cf5550d558dc1ced44f3eb793f7fdf9dfa37f2a244ea54cf4fcca73201"
+    "hash": "6a779d9fd065125d92dc69eef51342fd1ecbc296d48279ae77272cdd0333010a"
   },
   {
     "link": "https://news.satnews.com/2025/05/08/spacex-launch-of-starlink-group-15-3-finally-set-to-launch-on-friday/",
-    "hash": "d282954f06ee545fae28eac759f9ac643eadaf250b59ae087d9dbdaac8ef9ec4"
+    "hash": "80062c9e9e75ecb8650d2cf78c51ccd7f55daa004a5eca776a43f9a43d81a27d"
   },
   {
     "link": "https://news.satnews.com/2025/05/08/australias-gilmour-space-technologies-ready-to-launch-maiden-eris-test-flight-the-nations-first-orbital-launch-in-over-50-years/",
@@ -849,7 +849,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/09/live-coverage-spacex-to-launch-26-starlink-satellites-on-falcon-9-rocket-from-vandenberg-2/",
-    "hash": "04bb57222f3ce9185a91f83b84f0087987185e4ebeaa582c375af494b200babe"
+    "hash": "69b1fbc030ee4cdb020db67b2eb734f9633169e0cac91bd0881126f467565e80"
   },
   {
     "link": "https://arstechnica.com/space/2025/05/rocket-report-rocket-lab-to-demo-cargo-delivery-americas-new-icbm-in-trouble/",
@@ -862,5 +862,33 @@
   {
     "link": "https://news.satnews.com/2025/05/08/success-for-esas-biomass-mission-as-forest-satellites-big-antenna-opens-up/",
     "hash": "cd93cf8fe5654f4e02082e949957671b27718903bb4727eb27c25c4d01ac5594"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/10/rocket-lab-to-debut-point-to-point-cargo-transportation-capability-on-2026-air-force-mission/",
+    "hash": "038f8c6dbecee04311374289897ede87d43e2b6373aacdb145955d5efcddcdac"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/10/live-coverage-spacex-to-launch-28-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-5/",
+    "hash": "aa05d06963dee6a5b0d927674be6cb9872dcb07fa33740f9a4012fa2128bac0d"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/extended-astronaut-missions/",
+    "hash": "17d31339eed283da7f4831a46ea917947620da756511ba3528b135bdc47096f4"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-15-3-b1081-vsfb",
+    "hash": "de63b01a2b16a4a1a0c83aaa14eff2c274357c1a60247cb38ef66c438ebc8db2"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/us-military-taps-rocket-labs-new-neutron-launcher-for-point-to-point-cargo-test-flight-in-2026",
+    "hash": "3c83863216f896c4ad9dac9c0a7aa5bdd5ea156a3eaa85c7c725e2abae545ecb"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/09/spacexs-friday-at-the-beach-and-a-launch-of-starlink-group-15-3-smallsats/",
+    "hash": "5bc2efdc88f2c5be53d47e0fe616fa9d5d125b6f684667229d6f1fd079fed9f1"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/11/live-coverage-28-starlink-satellites-to-launch-on-falcon-9-booster-making-record-breaking-28th-flight/",
+    "hash": "a465188a7f4e84f1befa68e98dc5922c0e6b6c30907e21a5a00d47be1fb982f8"
   }
 ]

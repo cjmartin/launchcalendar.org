@@ -523,5 +523,17 @@
     "launch_vehicles": [
       "eris"
     ]
+  },
+  "lc-3-mid-atlantic-regional-spaceport-wallops-island-virginia-usa": {
+    "site_name": "LC-3",
+    "location": "Mid-Atlantic Regional Spaceport (MARS), Wallops Island, Virginia, USA",
+    "geo": {
+      "latitude": 37.8362,
+      "longitude": -75.4869
+    },
+    "operator": "Virginia Space / Rocket Lab",
+    "launch_vehicles": [
+      "neutron"
+    ]
   }
 }
