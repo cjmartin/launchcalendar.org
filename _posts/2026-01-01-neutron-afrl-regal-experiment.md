@@ -2,9 +2,12 @@
 layout: launch
 title: "\U0001F680 Neutron | \U0001F6F0 AFRL REGAL Experiment"
 description: >-
-  Rocket Lab's Neutron rocket will launch a demonstration mission for the AFRL
-  REGAL program, showcasing reusability, point-to-point cargo delivery, and
-  return-to-Earth capability no earlier than 2026.
+  Rocket Lab's Neutron rocket will launch the AFRL Rocket Cargo REGAL
+  survivability experiment, demonstrating rocket-based point-to-point cargo
+  delivery, atmospheric reentry, and return-to-Earth capability. The mission
+  will test Neutron's partially reusable design, supporting rapid global
+  logistics and national security objectives for future government and
+  humanitarian applications.
 tags:
   - Rocket Lab
   - Neutron
@@ -16,9 +19,13 @@ tags:
   - Rocket Cargo
   - reuse
   - point-to-point transportation
+  - cargo mission
+  - DoD
+  - reentry
+  - cargo
 date: '2026-01-01T00:00:00Z'
 created: '2025-05-10T04:01:50.553Z'
-updated: '2025-05-12T01:25:03.385Z'
+updated: '2025-05-12T17:42:49.119Z'
 redirect_from: []
 location: >-
   LC-3, Mid-Atlantic Regional Spaceport (MARS), NASA Wallops Flight Facility,
@@ -31,10 +38,13 @@ vehicle-slug: neutron
 payload: AFRL REGAL Experiment
 payload-type: experiment
 payload-description: >-
-  A multi-manifest demonstration payload for the U.S. Air Force Research
-  Laboratory as part of the REGAL (Rocket Experimentation for Global Agile
-  Logistics) program, intended to prove point-to-point cargo transport and
-  return-to-Earth/re-entry capability with the Neutron rocket.
+  Payload for the U.S. Air Force Research Laboratory's Rocket Experimentation
+  for Global Agile Logistics (REGAL) initiative to test Neutron's reentry
+  capabilities and demonstrate rocket-based point-to-point global cargo
+  transport. This multi-manifest demonstration aims to prove both cargo delivery
+  and return-to-Earth/re-entry capabilities, advancing future military
+  logistics, rapid humanitarian response, and showcasing Neutron’s reusability
+  for the U.S. Air Force Research Laboratory.
 links:
   - title: >-
       Notice of intent to prepare an Environmental Assessment for Rocket Cargo
@@ -53,6 +63,8 @@ links:
     type:
       - social
       - announcement
+      - test
+      - development
     url: 'https://twitter.com/RocketLab/status/1920635208904401405'
   - title: >-
       Rocket Lab to debut point-to-point cargo transportation capability on 2026
@@ -62,7 +74,54 @@ links:
       - source
     url: >-
       https://spaceflightnow.com/2025/05/10/rocket-lab-to-debut-point-to-point-cargo-transportation-capability-on-2026-air-force-mission/
-videos: []
+  - title: >-
+      Rocket Lab partners with U.S.A.F. | AFRL for Neutron launch for rocket
+      cargo missions
+    type:
+      - article
+      - source
+    url: >-
+      https://news.satnews.com/2025/05/11/rocket-lab-partners-with-u-s-a-f-afrl-for-neutron-launch-for-rocket-cargo-missions/
+  - title: Rocket Lab official press release
+    type:
+      - press release
+      - official
+    url: >-
+      https://www.rocketlabusa.com/updates/rocket-lab-partners-with-u-s-air-force-for-neutron-launch-for-re-entry-mission
+  - title: Facts and information about Rocket Lab
+    type:
+      - reference
+      - overview
+    url: 'https://www.space.com/rocket-lab.html'
+  - title: Rocket Lab unveils plan to land Neutron rockets at sea
+    type:
+      - news
+      - mission
+    url: >-
+      https://www.space.com/space-exploration/missions/rocket-lab-unveils-plan-to-land-neutron-rockets-at-sea-1st-launch-in-2025
+  - title: Rocket Lab Neutron Rocket Reusability Development Update
+    type:
+      - news
+      - development
+    url: >-
+      https://www.space.com/rocket-lab-neutron-rocket-reusability-development-update
+  - title: >-
+      US military taps Rocket Lab’s new Neutron launcher for ‘point to point’
+      cargo test flight in 2026
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/us-military-taps-rocket-labs-new-neutron-launcher-for-point-to-point-cargo-test-flight-in-2026
+videos:
+  - title: Rocket Lab Neutron upper-stage qualification test (May 8 update)
+    type:
+      - test
+      - development
+      - social
+      - announcement
+    source: Twitter (X)
+    url: 'https://x.com/RocketLab/status/1920635208904401405'
 images: []
 ---
-Rocket Lab has signed a contract with the U.S. Air Force Research Laboratory to launch a demonstration mission using its reusable Neutron rocket no earlier than 2026 under the REGAL (Rocket Experimentation for Global Agile Logistics) program. The mission, planned from Launch Complex 3 (LC-3) at MARS (Wallops, Virginia), will be a multi-manifest, return-to-Earth demonstration to showcase re-entry and reusability. This launch aims to rapidly advance military logistics and humanitarian assistance via space-based delivery, supporting the DoD's goal for operational rapid logistics with rockets. Neutron's second stage qualification is complete, with final assembly and integration underway for the first launch. The mission is also tied to the U.S. Space Force's NSSL Phase 3 Lane 1 program, with additional context on landing facilities planned for Johnston Atoll and Rocket Lab prioritizing Neutron development over Electron reusability.
+Rocket Lab and the U.S. Air Force Research Laboratory (AFRL) are partnering for a landmark mission using the Neutron rocket to conduct a Rocket Cargo survivability experiment under the REGAL initiative. Scheduled for no earlier than 2026 from LC-3 at Wallops, the demonstration will test Neutron's reentry and rapid point-to-point cargo delivery capabilities. This partially reusable mission aims to provide vital data for U.S. military logistics and supports national security rapid response scenarios, with a potential debut later in 2025. Neutron’s development continues to move quickly, with its reusability and medium-lift profile making it a key contender for both government and commercial launches. For more insights, refer to Rocket Lab's official press release and recent industry news.
