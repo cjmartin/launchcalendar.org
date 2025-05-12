@@ -921,7 +921,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/12/idirect-governments-450-sdr-modem-completes-successful-field-trials-with-airbus-ds-government-solutions-satcom-terminal/",
-    "hash": "c17ba7797d9fe2038367515724d4a619ce82ffd041703bda7567ccf1d6d033ac"
+    "hash": "acfe43907927a20ed4fe55bf89582e8c4c8dd6f9c4dad0cd90853cc4d45fd70d"
   },
   {
     "link": "https://news.satnews.com/2025/05/11/rocket-lab-partners-with-u-s-a-f-afrl-for-neutron-launch-for-rocket-cargo-missions/",
@@ -950,5 +950,13 @@
   {
     "link": "https://news.satnews.com/2025/05/11/spacexs-saturday-starlink-smallsats-launch/",
     "hash": "39f248a505cb4d8fd10450ebe6f6cef6f5d1a858a39c70d2fc4ba0e4760a7da3"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/12/ussfs-ssc-advances-dynamic-satellite-operations-through-joint-antenna-marketplace/",
+    "hash": "1c4823a61f2dc30a8a6df7498ff54d4e197a9f511ef584942269fff2e2eb6db7"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/12/gilat-esa-has-a-successful-test-flight-on-the-eutelsat-oneweb-network/",
+    "hash": "367dc59baa60d73d7ca44aa867930fa8483c749ef3872d6dcf1fa3f7ee37665b"
   }
 ]
