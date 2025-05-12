@@ -2,12 +2,14 @@
 layout: launch
 title: "\U0001F680 Molniya-M | \U0001F6F0 Kosmos 482 (Venera Venus Lander)"
 description: >-
-  Kosmos 482, a Soviet Venus lander launched in 1972 as part of the Venera
-  program, failed to escape Earth orbit due to a rocket anomaly. The spacecraft,
-  built to survive a Venus landing, has remained in space for over 50 years and
-  is anticipated to reenter Earth's atmosphere in May 2025. Risk to the public
-  is considered extremely low, and the reentry is being closely tracked by
-  international agencies.
+  Kosmos 482, a failed Soviet Venus lander launched in 1972 as part of the
+  Venera program aboard a Molniya-M rocket, failed to escape Earth orbit due to
+  a rocket anomaly and was stranded as space debris for over 50 years. The
+  titanium-hulled probe reentered Earth's atmosphere over the Indian Ocean on
+  May 10, 2025, after being tracked by international agencies and astronomers,
+  with imagery captured during its final orbits. The event highlighted renewed
+  discussion of legacy debris, reentry risks, and the historical context of the
+  Venera program.
 tags:
   - Kosmos 482
   - Soviet
@@ -27,9 +29,10 @@ tags:
   - launch failure
   - spacecraft
   - probe
+  - space probe
 date: '1972-03-31T04:02:33Z'
 created: '2025-05-08T18:52:47.065Z'
-updated: '2025-05-10T04:22:27.726Z'
+updated: '2025-05-12T14:52:23.437Z'
 redirect_from: []
 location: 'Baikonur Cosmodrome, Soviet Union'
 location-slug: site-1-baikonur-cosmodrome-kazakhstan
@@ -40,24 +43,18 @@ vehicle-slug: ''
 payload: Kosmos 482 (Venera Venus Lander)
 payload-type: planetary probe
 payload-description: >-
-  Kosmos 482 is a Soviet Venus lander, part of the Venera program, that was
+  Kosmos 482 is a Soviet Venus descent probe, part of the Venera program,
   launched in 1972. Intended to reach and land on Venus, it became stranded in
-  elliptical Earth orbit due to a premature cutoff of its Molniya-M upper stage.
-  The nearly 500 kg, 1-meter-wide probe remains in orbit after more than 50
-  years. Constructed with a titanium shell to withstand Venusian entry, it is
-  expected to reenter Earth's atmosphere in May 2025. International space
-  agencies are closely monitoring its trajectory, given its unique engineering
-  and expected survivability during Earth's reentry.
+  Earth orbit as space debris for 53 years following a premature cutoff of its
+  Molniya-M upper stage. Constructed with a titanium shell to withstand Venusian
+  entry, the nearly 500 kg probe survived decades in orbit before reentering
+  Earth's atmosphere over the Indian Ocean on May 10, 2025. The craft's robust,
+  compact design originally engineered for Venusian survival contributed to the
+  very low public risk upon its reentry. The spacecraft's reentry, monitored by
+  international agencies and satellite watchers, renewed attention to the
+  enduring challenges of legacy space debris and sparked context comparisons to
+  similar events.
 links:
-  - title: Kosmos 482
-    type:
-      - article
-    url: >-
-      https://www.space.com/space-exploration/launches-spacecraft/a-failed-soviet-venus-lander-will-fall-back-to-earth-after-being-stranded-for-53-years
-  - title: Venera program
-    type:
-      - reference
-    url: 'https://www.space.com/soviet-venera-venus-missions-slideshow'
   - title: >-
       New images of Soviet Venus lander falling to Earth suggest its parachute
       may be out
@@ -80,24 +77,12 @@ links:
       - tracking
       - organization
     url: 'https://aerospace.org/reentries/6073'
-  - title: 'Aerospace Corporation: Venus probe will fall to Earth this week'
-    type:
-      - news
-      - organization
-    url: >-
-      https://aerospace.org/kickstage/venus-probe-will-fall-earth-week-heres-how-aerospace-tracking-it#:~:text=While%20the%20risk%20is%20nonzero%2C%20any%20one%20individual%20on%20Earth%20is%20far%20likelier%20to%20be%20struck%20by%20lightning%20than%20to%20be%20injured%20by%20Cosmos%20482.
   - title: Failed Soviet Venus probe might fall within a year (2019)
     type:
       - archive
       - prediction
     url: >-
       https://www.space.com/failed-soviet-venus-spacecraft-falls-to-earth-soon.html
-  - title: 'SatTrackCam: Kosmos 482 descent craft reentry tracking'
-    type:
-      - tracking
-      - blog
-    url: >-
-      https://sattrackcam.blogspot.com/2025/04/kosmos-842-descent-craft-reentry.html
   - title: Venera 13 first color pictures of Venus' surface
     type:
       - reference
@@ -110,7 +95,44 @@ links:
       - live
     url: >-
       https://blogs.esa.int/rocketscience/2025/05/07/reentry-prediction-soviet-era-venera-venus-lander-cosmos-482-descent-craft/
-  - title: ' A failed Soviet Venus probe is expected to fall to Earth today, but when and where? Here''s what we know '
+  - title: Kosmos 482 probe crashes to Earth after 53 years in orbit
+    type:
+      - article
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/a-failed-soviet-venus-lander-will-fall-back-to-earth-after-being-stranded-for-53-years
+  - title: Roscosmos report on Kosmos 482 reentry
+    type:
+      - official
+      - news
+    url: 'https://t.me/roscosmos_gk/17407'
+  - title: 'Kosmos 482 descent craft: an image before its reentry'
+    type:
+      - report
+      - observation
+    url: >-
+      https://www.virtualtelescope.eu/2025/05/10/cosmos-482-descent-craft-an-image-before-its-reentry-10-may-2025/
+  - title: Venera program (Soviet Venus missions) slideshow
+    type:
+      - feature
+      - history
+    url: 'https://www.space.com/soviet-venera-venus-missions-slideshow'
+  - title: ' Failed Soviet Venus lander Kosmos 482 crashes to Earth after 53 years in orbit '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/failed-soviet-venus-lander-kosmos-482-crashes-to-earth-after-53-years-in-orbit
+  - title: SatTrackCam blog tracking Kosmos 482
+    type:
+      - blog
+    url: >-
+      https://sattrackcam.blogspot.com/2025/04/kosmos-842-descent-craft-reentry.html
+  - title: Aerospace Corporation article on Kosmos 482 reentry risk
+    type:
+      - article
+    url: >-
+      https://aerospace.org/kickstage/venus-probe-will-fall-earth-week-heres-how-aerospace-tracking-it#:~:text=While%20the%20risk%20is%20nonzero%2C%20any%20one%20individual%20on%20Earth%20is%20far%20likelier%20to%20be%20struck%20by%20lightning%20than%20to%20be%20injured%20by%20Cosmos%20482.
+  - title: ' Failed Soviet Venus probe Kosmos 482 is expected to fall to Earth  tonight, but when and where? Here''s what we know '
     type:
       - article
       - source
@@ -119,4 +141,4 @@ links:
 videos: []
 images: []
 ---
-Kosmos 482 (also known as Cosmos 482) is a failed Soviet Venus lander launched in March 1972 as part of the Venera program. The probe, with a titanium shell and weighing nearly 500 kg, became stranded in Earth orbit after a premature cutoff of its Molniya-M rocket's upper stage. Forecasts by ESA, Marco Langbroek, and The Aerospace Corporation estimate reentry around May 10, 2025, at 06:26–06:37 UTC (+/- 4.35 hours), with the location predicted anywhere between 52°N and 52°S latitude. Originally engineered to survive a descent through Venus' extreme environment, the spacecraft is expected to remain largely intact as it reenters Earth's atmosphere and poses a very low risk to the public. The event is being closely tracked by international agencies and astronomers, with ongoing live coverage and updates available through multiple articles and blogs providing technical analysis, safety commentary, and historical context.
+Kosmos 482, a Soviet Venus descent probe launched in 1972 as part of the Venera program aboard a Molniya-M rocket from Baikonur, failed to escape Earth orbit due to a rocket anomaly. Predicted and later confirmed to have reentered Earth's atmosphere over the Indian Ocean on May 10, 2025 after 53 years in orbit, the nearly 500 kg, titanium-shelled lander survived as legacy space debris. The reentry, widely tracked and analyzed by international agencies, ESA, and satellite watchers, presented extremely low public risk due to the probe's robust design. The event has prompted renewed discussion of legacy and future space junk, broader reentry environmental issues, and the historical role of the Venera missions, with extensive media coverage, risk assessments, and live tracking.
