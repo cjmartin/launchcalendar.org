@@ -17,9 +17,9 @@ tags:
   - Starlink 6-83
   - B1067
   - Kennedy
-date: '2025-05-12T04:06:00Z'
+date: '2025-05-13T01:15:00Z'
 created: '2025-05-07T16:19:16.803Z'
-updated: '2025-05-12T01:26:48.353Z'
+updated: '2025-05-12T16:57:14.919Z'
 redirect_from:
   - 2025/05/11/falcon-9-starlink-group-6-83/
 location: 'LC-39A, Kennedy Space Center, Florida'
@@ -31,15 +31,16 @@ vehicle-slug: falcon-9
 payload: Starlink Group 6-83
 payload-type: satellite
 payload-description: >-
-  A batch of 28 Starlink v2 Mini internet satellites for the SpaceX Starlink
-  constellation. Falcon 9 booster B1067 makes its record-breaking 28th flight,
-  delivering the payload to low Earth orbit and supporting the expansion of the
-  Starlink network.
+  28 Starlink v2 Mini satellites will be launched for SpaceX's Starlink
+  constellation aboard Falcon 9 booster B1067, making its record-breaking 28th
+  flight. This milestone sets a new mark for rocket reuse and further expands
+  SpaceX’s Starlink broadband constellation in low Earth orbit.
 links:
   - title: Falcon 9 | Starlink Group 6-83
     type:
       - forum
       - mission
+      - info
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62834.0'
   - title: 'Launch Roundup: SpaceX to launch 250th mission from SLC-40'
     type:
@@ -80,6 +81,13 @@ videos:
     source: youtube
     url: 'https://www.youtube.com/watch?v=Uoly7KSyT7k'
     video_id: Uoly7KSyT7k
+  - title: SpaceX Starlink 6-83 Launch Coverage
+    type:
+      - livestream
+      - youtube
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=Db_bMSjNgik'
+    video_id: Db_bMSjNgik
 images: []
 ---
-SpaceX is preparing to launch 28 Starlink v2 Mini satellites (Group 6-83) from LC-39A at Kennedy Space Center on May 12, 2025, with the launch window opening at 04:06 UTC. Using Falcon 9 booster B1067 on its record-breaking 28th flight, the mission aims to further expand SpaceX’s low Earth orbit internet constellation. This launch marks the 100th single-stick Falcon 9 flight from LC-39A. Weather forecasts indicate a 50% chance of favorable conditions, with some clouds and showers possible. Post-launch, SpaceX plans to recover B1067 on the drone ship 'Just Read the Instructions,' which would mark its 120th drone ship landing and SpaceX's 445th overall booster recovery.
+The Starlink Group 6-83 mission, slated to launch 28 v2 Mini satellites from LC-39A at Kennedy Space Center, was rescheduled to May 13, 2025, at 01:15 UTC after a weather-related scrub. Falcon 9 booster B1067 is set to make history as the first to reach 28 launches, delivering another batch for SpaceX’s growing Starlink constellation. This mission marks the 99th orbital launch worldwide in 2025 and includes a planned drone ship landing for B1067, further advancing SpaceX’s reusability milestones.
