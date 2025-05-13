@@ -2,9 +2,10 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-83"
 description: >-
-  SpaceX Falcon 9 launches 28 Starlink v2 Mini satellites (Starlink Group 6-83)
-  from LC-39A at Kennedy Space Center, setting a booster reuse record as B1067
-  achieves its 28th flight to expand the Starlink constellation.
+  SpaceX launches the Starlink Group 6-83 mission from LC-39A at Kennedy Space
+  Center, deploying 28 Starlink v2 Mini satellites for its broadband
+  constellation. Falcon 9 booster B1067 achieves a record 28th flight as SpaceX
+  continues its rapid launch cadence.
 tags:
   - Falcon 9
   - Starlink
@@ -18,9 +19,9 @@ tags:
   - B1067
   - Kennedy
   - satellites
-date: '2025-05-14T03:36:00Z'
+date: '2025-05-14T05:02:00Z'
 created: '2025-05-07T16:19:16.803Z'
-updated: '2025-05-13T05:39:34.442Z'
+updated: '2025-05-13T17:49:23.518Z'
 redirect_from:
   - 2025/05/11/falcon-9-starlink-group-6-83/
 location: 'LC-39A, Kennedy Space Center, Florida'
@@ -110,4 +111,4 @@ videos:
     video_id: Uoly7KSyT7k
 images: []
 ---
-SpaceX's Starlink Group 6-83 mission launched 28 Starlink v2 Mini satellites from Kennedy Space Center LC-39A on May 13, 2025, at 11:36 PM EDT (03:36 UTC May 14), after a weather delay. Falcon 9 booster B1067-28 set a new reuse record with its 28th flight, aiming to land on the 'Just Read the Instructions' droneship. This launch expanded SpaceX’s Starlink broadband constellation, marking the 57th Falcon 9 launch of 2025 and continuing the streak of successful flights. Improved weather conditions enabled the mission after an initial scrub, with the webcast available via SpaceX's official channels including X and the X TV app.
+After a weather-related delay, SpaceX launched the Falcon 9 B1067-28 with Starlink Group 6-83 from Kennedy Space Center LC-39A on May 14, 2025, at 05:02 UTC. The mission deployed 28 Starlink v2 Mini satellites, expanding SpaceX’s broadband constellation and marking the 57th Falcon 9 mission of the year. Falcon 9 set a new reuse record with its 28th flight, targeting booster recovery on 'Just Read the Instructions.'

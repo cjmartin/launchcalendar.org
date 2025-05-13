@@ -2,10 +2,9 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 6-91"
 description: >-
-  Falcon 9 launched 28 Starlink v2 Mini small satellites for Group 6-91 to low
-  Earth orbit from SLC-40, Cape Canaveral, marking the 250th Falcon 9 launch
-  from the pad. The mission included milestones for booster and fairing
-  reusability.
+  SpaceX's 250th Falcon launch from SLC-40 carried 28 Starlink v2 Mini small
+  satellites for Group 6-91 to low Earth orbit. The flight marked ongoing
+  milestones in reusability and expanding the Starlink internet constellation.
 tags:
   - Falcon 9
   - Starlink
@@ -19,7 +18,7 @@ tags:
   - Starlink smallsats
 date: '2025-05-10T06:28:00Z'
 created: '2025-05-07T16:19:16.785Z'
-updated: '2025-05-12T17:08:05.003Z'
+updated: '2025-05-13T17:51:39.152Z'
 redirect_from:
   - 2025/05/11/falcon-9-starlink-group-6-91/
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
@@ -34,7 +33,8 @@ payload-description: >-
   28 Starlink v2 Mini small satellites for SpaceX's Starlink constellation,
   marking the 250th Falcon launch from SLC-40. This launch is part of the
   ongoing Group 6 shell missions to expand low Earth orbit (LEO) broadband
-  coverage and adds 28 satellites to the Starlink internet constellation.
+  coverage. This batch delivered 28 Starlink v2 Mini satellites to the Group 6
+  shell.
 links:
   - title: Falcon 9 | Starlink Group 6-91
     type:
@@ -117,4 +117,4 @@ videos:
     video_id: HCYaW6q_u-Q
 images: []
 ---
-On Saturday, May 10, 2025, at 2:28 a.m. ET, SpaceX launched the 250th Falcon 9 mission from SLC-40, carrying 28 Starlink v2 Mini small satellites to low Earth orbit as part of the Group 6-91 mission. Booster B1083 completed its 11th flight, landing on 'A Shortfall of Gravitas.' The launch featured the first fairing to reach 30 flights and contributed to a constellation of over 7,300 Starlink satellites in orbit. Satellites were deployed about 65 minutes after launch, despite challenging 55% launch weather odds, further underscoring ongoing milestones in reusability and the continuing expansion of the Starlink internet network.
+On May 10, 2025 at 2:28 a.m. ET (06:28 UTC), SpaceX completed its 250th Falcon 9 launch from SLC-40, delivering 28 Starlink v2 Mini satellites to low Earth orbit as part of the Group 6-91 mission. Booster B1083 made its 11th flight, landing on 'A Shortfall of Gravitas,' and the fairing achieved its 30th flight milestone. This was the 78th Starlink launch to the Group 6 shell, increasing the constellation to over 7,300 satellites. Despite 55% launch weather odds, satellites were deployed about 65 minutes after launch, demonstrating ongoing Falcon 9 reusability and further expanding the Starlink internet network.

@@ -633,7 +633,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-050525/",
-    "hash": "17d6d823186d23c2b0d5d5063ae8ae29a75937883869625a1f5e860f7bc70612"
+    "hash": "88d117373d92baff2b26eff1b2df2f9e2cd37df696ef13d025948db34fa47f40"
   },
   {
     "link": "https://news.satnews.com/2025/05/05/northrop-grumman-to-develop-additional-relay-ground-stations-to-support-ussfs-next-generation-opir-program/",
@@ -889,7 +889,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/11/live-coverage-28-starlink-satellites-to-launch-on-falcon-9-booster-making-record-breaking-28th-flight/",
-    "hash": "c7167027ad6dbc459ba567e2e9fba6e265ae35505ddfe670984d2edc459f9355"
+    "hash": "1f49229f231230c5c3796cc49c7e80f722cc4c04ae54a9c4a5f5c3dbba8754d8"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/new-mexicos-spaceport-america-looks-up-and-into-the-future",
@@ -969,7 +969,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/",
-    "hash": "e9b11064ab9b09d4283a7ec2ba45d11c7ec1c2811d945e30d1252aff428187d7"
+    "hash": "e9bb35356322b928e9cf3457edfba3e878f84b19f413b7850f5df48d8144416f"
   },
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-scrubs-florida-launch-of-starlink-group-6-83-smallsats-to-tuesday/",
@@ -986,5 +986,13 @@
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-to-launch-group-6-83-smallsats-from-florida-late-on-monday/",
     "hash": "1703625d27c12c2313f1710ed8dbf4f05f7f9e86d27179e446b7ea784ce92412"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/china-launches-trio-of-yaogan-remote-sensing-satellites-to-orbit-video",
+    "hash": "cedb088d00cf002ea95ac89d066721babceecb6e023516fe7cda9e5c237b44cf"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-26-starlink-satellites-to-orbit-from-california",
+    "hash": "3a91f4f2fcdd7cad948f31de20a5f718ba7e574652e6d066412fb4a680225fb0"
   }
 ]

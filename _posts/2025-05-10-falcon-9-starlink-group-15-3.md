@@ -3,13 +3,13 @@ layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 15-3"
 description: >-
   SpaceX launched a Falcon 9 rocket with 26 Starlink v2 Mini satellites
-  (Starlink Group 15-3), including Direct-to-Cell variants, to a 70-degree
-  inclined orbit from SLC-4E at Vandenberg Space Force Base, California. Booster
-  B1081 completed its 14th flight with a successful landing on the droneship 'Of
-  Course I Still Love You', following several weather and operational delays.
-  This mission adds to the growing Starlink constellation and is part of
-  SpaceX's expanding launch activities from Vandenberg, enabled by recent
-  regulatory approvals for more frequent launches.
+  (Starlink Group 15-3), possibly including Direct-to-Cell variants, to a
+  70-degree inclined orbit from SLC-4E at Vandenberg Space Force Base,
+  California. Booster B1081 completed its 14th flight with a successful landing
+  on the droneship 'Of Course I Still Love You', following delays caused by
+  weather and operations. This flight expands the Starlink network and is part
+  of SpaceX's increased activity from Vandenberg enabled by recent regulatory
+  changes.
 tags:
   - Falcon 9
   - Starlink
@@ -22,7 +22,7 @@ tags:
   - LEO
 date: '2025-05-10T00:19:00Z'
 created: '2025-05-03T16:55:12.049Z'
-updated: '2025-05-12T01:26:22.697Z'
+updated: '2025-05-13T17:51:23.631Z'
 redirect_from:
   - 2025/05/02/falcon-9-starlink-group-15-3/
   - 2025/05/03/falcon-9-starlink-15-3/
@@ -37,12 +37,11 @@ vehicle-slug: falcon-9
 payload: Starlink Group 15-3
 payload-type: satellite
 payload-description: >-
-  SpaceX launched 26 Starlink v2 Mini satellites for Starlink Group 15-3 to low
-  Earth orbit. The Vandenberg mission included both standard v2 Mini and
-  Direct-to-Cell variants for SpaceX's growing broadband constellation in a
-  70-degree inclination orbit, further expanding the Starlink network. This
-  launch reflects the increased cadence at Vandenberg supported by new FAA
-  approvals for more frequent launches.
+  SpaceX launched 26 Starlink v2 Mini satellites, including a mix of standard v2
+  Mini and Direct-to-Cell variants, for Starlink Group 15-3 to low Earth orbit.
+  The Vandenberg mission targeted a 70-degree inclination and further expands
+  the growing Starlink broadband constellation. This launch was enabled by
+  recent regulatory approvals for increased launch cadence at Vandenberg SFB.
 links:
   - title: Falcon 9 | Starlink Group 15-3
     type:
@@ -89,10 +88,6 @@ links:
       - source
     url: >-
       https://news.satnews.com/2025/05/08/spacex-launch-of-starlink-group-15-3-finally-set-to-launch-on-friday/
-  - title: Spaceflight Now Article
-    type:
-      - article
-    url: 'http://spaceflightnow.com'
   - title: SpaceX launches 26 Starlink satellites from Vandenberg
     type:
       - article
@@ -122,9 +117,11 @@ videos:
   - title: "\U0001F680 SpaceX Falcon 9 Launches Starlink 6-91 Mission"
     type:
       - youtube
+      - launch
+      - spaceflight
     source: youtube
     url: 'https://www.youtube.com/watch?v=cFxXbqDdQnY'
     video_id: cFxXbqDdQnY
 images: []
 ---
-Delayed by weather and operational factors, SpaceX successfully launched 26 Starlink v2 Mini satellites (Group 15-3), including standard and Direct-to-Cell variants, aboard a Falcon 9 rocket from SLC-4E at Vandenberg Space Force Base, California, at 00:19 UTC on May 10, 2025. The mission placed the satellites into a 70-degree inclined orbit. Booster B1081 completed its 14th flight, landing on 'Of Course I Still Love You.' This marked the 128th landing on that droneship and SpaceX's 54th Falcon 9 flight in 2025, reflecting a higher launch rate enabled by the recent FAA approvals for up to 50 launches per year from the pad.
+SpaceX conducted the Starlink Group 15-3 mission from SLC-4E, Vandenberg Space Force Base, California, at 00:19 UTC on May 10, 2025, following weather and operational delays. The Falcon 9 deployed 26 Starlink v2 Mini satellites—including Direct-to-Cell variants—into a 70-degree inclined orbit. Booster B1081 made its 14th flight, landing successfully on 'Of Course I Still Love You.' This launch is part of SpaceX's increased cadence from Vandenberg driven by recent FAA approvals, contributing to the growing Starlink constellation.
