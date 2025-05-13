@@ -98,6 +98,14 @@
     "operator": "ISRO",
     "aliases": ["PSLV"]
   },
+  "pslv-xl": {
+    "vehicle_name": "Polar Satellite Launch Vehicle XL",
+    "operator": "ISRO",
+    "aliases": [
+      "PSLV XL",
+      "ISRO PSLV-XL"
+    ]
+  },
   "gslv-mk3": {
     "vehicle_name": "GSLV Mk-III (LVM3)",
     "operator": "ISRO",
@@ -223,6 +231,15 @@
       "CZ-12",
       "Chang Zheng 12",
       "LM-12"
+    ]
+  },
+  "zhuque-2e": {
+    "vehicle_name": "ZhuQue-2E",
+    "operator": "LandSpace",
+    "aliases": [
+      "ZQ-2E",
+      "ZhuQue-2 Enhanced",
+      "ZQ-2 Enhanced"
     ]
   },
   "unha": {

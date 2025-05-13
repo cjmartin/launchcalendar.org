@@ -352,7 +352,8 @@
     },
     "operator": "ISRO",
     "launch_vehicles": [
-      "pslv"
+      "pslv",
+      "pslv-xl"
     ]
   },
   "second-launch-pad-satish-dhawan-space-centre-sriharikota-india": {
@@ -365,7 +366,8 @@
     "operator": "ISRO",
     "launch_vehicles": [
       "gslv-mk3",
-      "pslv"
+      "pslv",
+      "pslv-xl"
     ]
   },
   "launch-area-4-jiuquan-satellite-launch-center-china": {
@@ -570,7 +572,7 @@
     },
     "operator": "Landspace",
     "launch_vehicles": [
-      "ZhuQue-2E"
+      "zhuque-2e"
     ]
   }
 }

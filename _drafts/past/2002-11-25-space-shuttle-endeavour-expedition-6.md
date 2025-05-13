@@ -1,17 +1,23 @@
 ---
 layout: launch
-title: "\U0001F680 Space Shuttle Endeavour (STS-113) | \U0001F6F0 Expedition 6 (Ken Bowersox, Don Pettit, Nikolai Budarin)"
+title: "\U0001F680 Space Shuttle Endeavour (STS-113) | \U0001F6F0 STS-113 (Expedition 6 Crew Transfer)"
 description: >-
-  STS-113 delivered Expedition 6 to the ISS; after Columbia’s loss, they
-  returned home via Soyuz.
+  STS-113 launched Expedition 6 (Ken Bowersox, Don Pettit, Nikolai Budarin) to
+  the ISS; Shuttle grounding after Columbia’s loss led to their extended stay
+  and Soyuz return.
 tags:
   - Space Shuttle
   - Endeavour
   - STS-113
   - Expedition 6
+  - Ken Bowersox
+  - Don Pettit
+  - Nikolai Budarin
+  - ISS
+  - crew capsule
 date: '2002-11-25T00:00:00Z'
 created: '2025-05-10T04:03:24.244Z'
-updated: '2025-05-10T04:03:24.244Z'
+updated: '2025-05-12T23:45:33.731Z'
 redirect_from: []
 location: 'LC-39A, Kennedy Space Center, Florida'
 location-slug: lc-39a-kennedy-space-center-florida-usa
@@ -19,12 +25,12 @@ manned: true
 vehicle: Space Shuttle Endeavour (STS-113)
 vehicle-type: rocket
 vehicle-slug: ''
-payload: 'Expedition 6 (Ken Bowersox, Don Pettit, Nikolai Budarin)'
+payload: STS-113 (Expedition 6 Crew Transfer)
 payload-type: crew capsule
 payload-description: >-
-  Expedition 6 NASA and Russian crew launched on Space Shuttle Endeavour
-  (STS-113) for a planned ISS stay; following the Columbia disaster, they
-  returned in Soyuz TMA-1.
+  Space Shuttle Endeavour carried Ken Bowersox, Don Pettit, and Nikolai Budarin
+  to the ISS for Expedition 6. Following the Columbia disaster, the crew
+  returned to Earth aboard Soyuz TMA-1 after an extended stay.
 links:
   - title: >-
       Butch and Suni weren’t the only ones: the stories of astronauts “stranded”
@@ -33,7 +39,14 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/05/extended-astronaut-missions/'
-videos: []
+videos:
+  - title: The "STRANDED" Astronauts You WEREN’T Told About
+    type:
+      - youtube
+      - video
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=G1Ti0qKv02w'
+    video_id: G1Ti0qKv02w
 images: []
 ---
-Expedition 6, delivered on STS-113 Endeavour (Nov 2002), was originally supposed to return by Shuttle, but the Columbia disaster grounded the fleet. The crew spent extra months on station and returned in Soyuz TMA-1 with a dramatic ballistic reentry.
+Space Shuttle Endeavour's STS-113 mission launched on November 25, 2002, delivering Expedition 6 crew to the ISS. The loss of Shuttle Columbia delayed their return, necessitating a Soyuz return after over four months aboard the ISS. The crew originally intended to return on Shuttle, but were brought home in Soyuz TMA-1 after a dramatic ballistic reentry, highlighting challenges faced during the post-Columbia transition.
