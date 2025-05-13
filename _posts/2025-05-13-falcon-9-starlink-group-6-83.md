@@ -21,7 +21,7 @@ tags:
   - satellites
 date: '2025-05-13T05:02:00Z'
 created: '2025-05-07T16:19:16.803Z'
-updated: '2025-05-13T17:49:23.518Z'
+updated: '2025-05-13T19:39:44.375Z'
 redirect_from:
   - 2025/05/11/falcon-9-starlink-group-6-83/
 location: 'LC-39A, Kennedy Space Center, Florida'
@@ -84,6 +84,20 @@ links:
       - source
     url: >-
       https://news.satnews.com/2025/05/12/spacex-to-launch-group-6-83-smallsats-from-florida-late-on-monday/
+  - title: Falcon 9 overview
+    type:
+      - reference
+    url: 'https://www.space.com/18962-spacex-falcon-9.html'
+  - title: Starlink satellites overview
+    type:
+      - reference
+    url: 'https://www.space.com/spacex-starlink-satellites.html'
+  - title: ' SpaceX Falcon 9 rocket launches 28 Starlink satellites to orbit on record-breaking 28th flight (video) '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-rocket-launches-28-starlink-satellites-to-orbit-on-record-breaking-28th-flight
 videos:
   - title: SpaceX Starlink 6-83 Launch Coverage
     type:
@@ -109,6 +123,16 @@ videos:
     source: youtube
     url: 'https://www.youtube.com/watch?v=Uoly7KSyT7k'
     video_id: Uoly7KSyT7k
+  - title: >-
+      SpaceX Falcon 9 rocket launches 28 Starlink satellites to orbit on
+      record-breaking 28th flight (video)
+    type:
+      - launch
+      - SpaceX
+      - Starlink
+    source: jwplayer
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-rocket-launches-28-starlink-satellites-to-orbit-on-record-breaking-28th-flight-video
 images: []
 ---
-After a weather-related delay, SpaceX launched the Falcon 9 B1067-28 with Starlink Group 6-83 from Kennedy Space Center LC-39A on May 14, 2025, at 05:02 UTC. The mission deployed 28 Starlink v2 Mini satellites, expanding SpaceX’s broadband constellation and marking the 57th Falcon 9 mission of the year. Falcon 9 set a new reuse record with its 28th flight, targeting booster recovery on 'Just Read the Instructions.'
+On May 13, 2025, SpaceX launched the Falcon 9 B1067-28 with Starlink Group 6-83 from Kennedy Space Center LC-39A at 05:02 UTC. The mission deployed 28 Starlink v2 Mini satellites, expanding SpaceX’s Starlink broadband constellation and marking the 57th Falcon 9 mission of the year. Falcon 9 set a new reuse record with its 28th flight, targeting booster recovery on 'Just Read the Instructions' in the Atlantic Ocean. The 28 satellites were to be deployed into low Earth orbit about 65 minutes after liftoff. This launch is part of SpaceX’s ongoing effort to expand the Starlink constellation, which comprises about 7,400 operational satellites.

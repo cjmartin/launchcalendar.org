@@ -709,7 +709,7 @@
   },
   {
     "link": "https://arstechnica.com/space/2025/05/nasa-scrambles-to-cut-iss-activity-after-trump-budget-its-options-are-not-great/",
-    "hash": "2055e7234d5d78d9f04df250f4597b3fedd97364ad99f916bc30298beda8a5d9"
+    "hash": "8f9a7a5178646a5006981ff3c3ac81a0c49fef637ab1a72e75432a67e16e8be8"
   },
   {
     "link": "https://news.satnews.com/2025/05/06/spacex-finally-receives-faa-approval-for-up-to-25-starship-launches-annually/",
@@ -821,7 +821,7 @@
   },
   {
     "link": "https://arstechnica.com/space/2025/05/a-soviet-era-spacecraft-built-to-land-on-venus-is-falling-to-earth-instead/",
-    "hash": "7532570259449779374d60f45024f640592025262de8d02328475d7e80b8eb1f"
+    "hash": "75dc1e4ea0801648e1e0d881db888a70c9cec38f82503c4f30f0d4e05a5631da"
   },
   {
     "link": "https://news.satnews.com/2025/05/08/satellites-tracked-a-volcanos-secret-collapse-for-12-years-then-it-sparked-a-killer-wave/",
@@ -853,7 +853,7 @@
   },
   {
     "link": "https://arstechnica.com/space/2025/05/rocket-report-rocket-lab-to-demo-cargo-delivery-americas-new-icbm-in-trouble/",
-    "hash": "5b6006f45cdca786dded9e9def49e53c2b2d26603e4562a8d2de6cc61b971b2e"
+    "hash": "e64fb35f3c79bd9da25434a7517dd0f18d17e42a37f4b3acc3ebd06f65aa4f5e"
   },
   {
     "link": "https://europeanspaceflight.com/atmos-to-use-re-entry-tech-to-rapidly-deploy-autonomous-ground-vehicles/",
@@ -994,5 +994,13 @@
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-26-starlink-satellites-to-orbit-from-california",
     "hash": "3a91f4f2fcdd7cad948f31de20a5f718ba7e574652e6d066412fb4a680225fb0"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-rocket-launches-28-starlink-satellites-to-orbit-on-record-breaking-28th-flight",
+    "hash": "184b94eaacb5f7dd715693f1e90d599b2251062b04ad478b11857536c8a408aa"
+  },
+  {
+    "link": "https://arstechnica.com/space/2025/05/tuesday-telescope-taking-a-look-at-the-next-generation-of-telescopes/",
+    "hash": "746cd7387e625811a637de691f1f781ece36bec59e4bafbe89432f3e26cd4caa"
   }
 ]
