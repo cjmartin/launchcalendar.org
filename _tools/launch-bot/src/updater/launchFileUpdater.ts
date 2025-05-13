@@ -100,9 +100,17 @@ You will be given two objects:
 1. The existing launchData (as JSON)
 2. New launchData (as JSON)
 
-Update the existing launchData with the new information, merging and deduplicating arrays (tags, links, videos, images), and updating single-value fields (date, time, location, payload, etc.) to the most accurate or recent value.
+Sometimes the new launch data will have more accurate or recent information, and sometimes the existing launch data will have more accurate or recent information. Use your best judgment to determine which value to keep. Use all available information to make the best decision, including reliable data sources like wikipedia or the spaceflight now launch schedule.
 
-For description and article_summary, update the text to reflect any new information, but keep relevant existing details.
+- Update the existing launchData with new information, merging and deduplicating arrays (tags, links, videos, images), and updating single-value fields (date, time, location, payload, etc.) to the most accurate or recent value.
+
+- For description and article_summary, update the text to reflect any new information, but keep relevant existing details.
+
+- For other fields, be light on updates unless the data is signifigantly improved by the change, unless something is "unknown" or similar it has been reviewed and the existing values are correct. For example, payloads like "Starlink group 15-3" should not be updated to "Starlink 15-3" or "Starlink group 15-3 (28 satellites)".
+
+- Keep details to the description, payload description, and article summary fields. If set in the existing data, the location, vehicle, and payload fields have been reviewed and should be correct.
+
+- For updating and deduplicating the links, videos, and images arrays, pay attention to the url values. There should be no more than one entry in the list for a given url. If there are duplicates, merge them into a single entry.
 
 Return a single JSON object with the updated launchData, using the same structure as LaunchData (see below).\n\nLaunchData structure:
 {

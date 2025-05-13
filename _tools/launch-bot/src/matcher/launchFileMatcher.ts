@@ -61,7 +61,7 @@ export async function findExistingLaunch(
   const normLocation = launchData.location_slug || slugify(normalize(launchData.location || ""));
   const normPayload = normalize(launchData.payload || "");
 
-  console.log(`🔍 Normalized vehicle: ${normVehicle}, location: ${normLocation}, payload: ${normPayload}`);
+  console.log(`🔍 Launch date: ${launchData.launch_datetime}, Normalized vehicle: ${normVehicle}, location: ${normLocation}, payload: ${normPayload}`);
 
   for (const { file, dir } of files) {
     const filePath = path.join(dir, file);
@@ -87,48 +87,39 @@ export async function findExistingLaunch(
     if (
       (locationVehicleScore >= 0.8 && sameDay) ||
       (locationVehicleScore >= 0.8 && dateClose) ||
-      (fullScore >= 0.75)
+      (fullScore >= 0.85)
     ) {
       console.log(`📂 Checking file: ${filePath}`);
+      console.log(`   → Launch date: ${fileLaunchData.launch_datetime}, File date: ${launchData.launch_datetime}`);
+      console.log(`   → Dates are same day: ${sameDay}, Dates are close: ${dateClose}`);
       console.log(`   → Normalized vehicle: ${fileVehicle}, location: ${fileLocation}, payload: ${filePayload}`);
       console.log(`   → Vehicle score: ${vehicleScore.toFixed(2)}, Location score: ${locationScore.toFixed(2)}, Payload score: ${payloadScore.toFixed(2)}`);
       console.log(`   → Location+Vehicle avg: ${locationVehicleScore.toFixed(2)}, Full score: ${fullScore.toFixed(2)}`);
     }
 
+    let isUpdate: launchFileGPTMatch | undefined;
     if (locationVehicleScore >= 0.8 && sameDay) {
       console.log(`✅ Strong match (update): ${filePath}`);
       // Get GPT to take a look at the file + new data and confirm that it's an update match.
-      const isUpdate = await gptCheckMatch(fileLaunchData, launchData);
-      if (isUpdate.match) {
-        return {
-          match: true,
-          type: "update",
-          existingPath: filePath,
-          confidence: locationVehicleScore
-        };
-      }
-      continue;
-    }
-    
-    if (locationVehicleScore >= 0.8 && dateClose) {
+      isUpdate = await gptCheckMatch(fileLaunchData, launchData);
+    } else if (locationVehicleScore >= 0.8 && dateClose) {
       console.log(`🔄 Possible reschedule match: ${filePath}`);
       console.log(`   → Launch date: ${launchData.launch_datetime}, File date: ${fileLaunchData.launch_datetime}`);
       // Get GPT to take a look at the file + new data and confirm that it's a reschedule match.
-      const isReschedule = await gptCheckMatch(fileLaunchData, launchData);
-      if (isReschedule.match) {
-        return {
-          match: true,
-          type: "reschedule",
-          existingPath: filePath,
-          confidence: locationVehicleScore
-        };
-      }
-      continue;
+      isUpdate = await gptCheckMatch(fileLaunchData, launchData);
+    } else if (fullScore >= 0.85) {
+      console.log(`🤔 Potential match due to location/vehicle/payload fuzzy match score: ${filePath}`);
+      // Get GPT to take a look at the file + new data and confirm that it's a match.
+      isUpdate = await gptCheckMatch(fileLaunchData, launchData);
     }
 
-    if (fullScore >= 0.75) {
-      console.log(`🤔 Potential match (needs AI check): ${filePath}`);
-      continue;
+    if (isUpdate?.match) {
+      return {
+        match: true,
+        type: isUpdate.type,
+        existingPath: filePath,
+        confidence: locationVehicleScore
+      };
     }
   }
 
