@@ -19,7 +19,7 @@ tags:
   - B1067
   - Kennedy
   - satellites
-date: '2025-05-14T05:02:00Z'
+date: '2025-05-13T05:02:00Z'
 created: '2025-05-07T16:19:16.803Z'
 updated: '2025-05-13T17:49:23.518Z'
 redirect_from:
