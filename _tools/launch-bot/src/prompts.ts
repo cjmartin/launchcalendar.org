@@ -25,7 +25,7 @@ export const EXTRACT_LAUNCH_USER_PROMPT = (article: RSSEntry) => `Analyze this a
 - description: A very short description of the launch
 - tags: A list of tags for this launch. These should be relevant to the launch and could include things like the vehicle name, payload name, etc.
 - article_summary: A summary of the launch details, updates, interesting information, etc. from this article, to be used as the body of the launch file. This shoud be plain text or markdown, if there are relevant links in the article. This should be a summary of the article, not a copy of the article.
-- links: A list of links to other RELEVANT pages or articles, not images or other media, with urls about the launch from the article (e.g. the launch page, or any other relevant pages). These should be in the format [{title:string,type:string[],url:string}].
+- links: A list of links to other RELEVANT pages or articles, not images or other media, with urls about the launch from the article (e.g. the launch page, or any other relevant pages). Only include links directly related to this launch, not reference or general information. These should be in the format [{title:string,type:string[],url:string}].
 - videos: A list of links with urls to videos related to the launch. Look for youtube embeds, etc. These should be in the format [{title:string,type:string[],source:string,url:string,video_id?:string}]. If the video is from youtube (or another well known service), please return the "watch" url, not the embed url, and include the video_id. 
 
 A few extra details about launch_datetime:

@@ -144,7 +144,7 @@ You will be given two objects:
 
 Your task is to determine if the new launch data is an update to the existing launch data.
 
-Responnd with a JSON object with the following keys:
+Respond with a JSON object with the following keys:
 - "match": true if the new launch data is an update to the existing launch data, false otherwise.
 - "type": "update" if the new launch data is an update, "reschedule" if the new launch data is a reschedule, or "no_match" if it is not a match.
 - "reasoning": a short explanation of how you arrived at your decision.
