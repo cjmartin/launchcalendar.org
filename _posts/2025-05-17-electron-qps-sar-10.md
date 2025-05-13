@@ -1,10 +1,11 @@
 ---
 layout: launch
-title: "\U0001F680 Electron | \U0001F6F0 QPS-SAR-10 (WADATSUMI-I)"
+title: "\U0001F680 Electron | \U0001F6F0 The Sea God Sees (QPS-SAR-10/WADATSUMI-I)"
 description: >-
-  Rocket Lab Electron launches QPS-SAR-10 satellite (WADATSUMI-I) for iQPS to
-  Sun-synchronous orbit, delivering high-resolution SAR imagery as part of the
-  expanding iQPS constellation.
+  Rocket Lab Electron launches 'The Sea God Sees' mission, carrying the Japanese
+  QPS-SAR-10 (WADATSUMI-I) SAR satellite for iQPS from New Zealand, delivering
+  high-resolution Earth observation imagery for the expanding iQPS
+  constellation.
 tags:
   - Electron
   - QPS-SAR-10
@@ -13,9 +14,11 @@ tags:
   - Rocket Lab
   - WADATSUMI-I
   - satellite
-date: '2025-05-17T00:00:00Z'
+  - The Sea God Sees
+  - New Zealand
+date: '2025-05-17T08:15:00Z'
 created: '2025-05-06T19:24:33.674Z'
-updated: '2025-05-07T16:56:54.755Z'
+updated: '2025-05-13T04:59:57.065Z'
 redirect_from: []
 location: 'Rocket Lab Launch Complex 1, New Zealand'
 location-slug: lc-1b-mahia-peninsula-new-zealand
@@ -23,12 +26,15 @@ manned: false
 vehicle: Electron
 vehicle-type: rocket
 vehicle-slug: electron
-payload: QPS-SAR-10 (WADATSUMI-I)
+payload: The Sea God Sees (QPS-SAR-10/WADATSUMI-I)
 payload-type: satellite
 payload-description: >-
-  A synthetic aperture radar (SAR) imaging satellite, the 10th in the QPS
-  constellation, nicknamed WADATSUMI-I, providing high-resolution Earth
-  observation imagery and monitoring services globally.
+  QPS-SAR-10 (WADATSUMI-I) is a Japanese commercial synthetic aperture radar
+  (SAR) Earth imaging satellite for iQPS. As the 10th in the QPS constellation,
+  it is capable of high-resolution, all-weather, day-night Earth observation,
+  delivering detailed imagery through clouds and at night. Nicknamed
+  WADATSUMI-I, it provides monitoring services globally and is part of a broader
+  commercial Earth observation campaign by iQPS.
 links:
   - title: Rocket Lab schedules next mission for multi-launch customer iQPS
     type:
@@ -36,7 +42,16 @@ links:
       - source
     url: >-
       https://news.satnews.com/2025/05/06/rocket-lab-schedules-next-mission-for-multi-launch-customer-iqps/
+  - title: Electron | The Sea God Sees Forum Thread
+    type:
+      - forum
+    url: 'https://forum.nasaspaceflight.com/index.php?topic=62833.0'
+  - title: 'Launch Roundup: Orbital launches from five countries planned'
+    type:
+      - article
+      - source
+    url: 'https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/'
 videos: []
 images: []
 ---
-Rocket Lab has scheduled its next Electron mission, 'The Sea God Sees', for May 17, 2025, from Launch Complex 1 in New Zealand. This launch will carry QPS-SAR-10 ('WADATSUMI-I'), a synthetic aperture radar imaging satellite—the 10th in the iQPS constellation—to a 575 km circular Sun-synchronous Earth orbit. The mission is the third overall Electron launch for iQPS as part of a multi-launch contract, and marks Rocket Lab’s sixth mission of 2025 and its 64th Electron launch, bringing their total satellite deployments to 225.
+Rocket Lab's Electron is scheduled to launch the 'The Sea God Sees' mission on May 17, 2025, at 08:15 UTC from Launch Complex 1 in New Zealand. The payload is iQPS's QPS-SAR-10 (WADATSUMI-I) synthetic aperture radar satellite, which can observe the Earth's surface through clouds and at night. This marks the third Electron launch for iQPS in a multi-launch campaign, and is part of Rocket Lab’s continued efforts to deploy Japanese commercial Earth observation satellites as part of an expanding constellation.

@@ -547,5 +547,30 @@
     "launch_vehicles": [
       "trs-suborbital-demonstrator"
     ]
+  },
+  "site-9401-sls-2-jiuquan-satellite-launch-center-inner-mongolia-china": {
+    "site_name": "Site 9401 (SLS-2)",
+    "location": "Jiuquan Satellite Launch Center, Inner Mongolia, China",
+    "geo": {
+      "latitude": 40.96083,
+      "longitude": 100.29583
+    },
+    "operator": "CASC",
+    "launch_vehicles": [
+      "long-march-2d",
+      "chang zheng 2d"
+    ]
+  },
+  "site-96-jiuquan-satellite-launch-center-china": {
+    "site_name": "Site 96",
+    "location": "Jiuquan Satellite Launch Center, China",
+    "geo": {
+      "latitude": 40.8015,
+      "longitude": 99.9045
+    },
+    "operator": "Landspace",
+    "launch_vehicles": [
+      "ZhuQue-2E"
+    ]
   }
 }
