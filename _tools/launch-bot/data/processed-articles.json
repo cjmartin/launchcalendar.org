@@ -969,7 +969,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/",
-    "hash": "b59eeafc275c00430ff3848200d10b8c5b31977a503219779060c24f0aa8027c"
+    "hash": "98551f08a633c6d4ed9e1c64c24edef1ab911a88c7783933e899e19824d1c81e"
   },
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-scrubs-florida-launch-of-starlink-group-6-83-smallsats-to-tuesday/",
@@ -1009,7 +1009,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/13/spacex-to-launch-starlink-group-6-67-smallsats-on-wednesday/",
-    "hash": "c51637d0fa46678c232cc3f13062ddbae1f218f273acece059a816a2546e890c"
+    "hash": "01961b06d582226ed86aaf0603a0d65e1439e66d1b4a3c54a1337ef368c9ad90"
   },
   {
     "link": "https://news.satnews.com/2025/05/13/spacex-launches-starlink-group-6-83-smallsats-on-a-foggy-florida-tuesday-morning/",
@@ -1017,7 +1017,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/14/live-coverage-spacex-to-launch-28-starlink-v2-mini-satellites-on-falcon-9-rocket-from-cape-canaveral-2/",
-    "hash": "1bc8d2304e8f47a3e272a11f430213449b16063ddcc8513d7dea6595cbbb867a"
+    "hash": "19e9541c566950daff9c3f3cd39de8b715356960f29467a9318ea8e6f81566fe"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/14/intuitive-machines-ceo-points-to-issues-that-prevented-upright-touchdown-during-im-2-moon-landing/",
@@ -1038,5 +1038,29 @@
   {
     "link": "https://europeanspaceflight.com/space-forge-secures-22-6m-for-in-space-manufacturing-platform/",
     "hash": "90469eb5d37104bc04eefa699d05aec1a38f028bb0d517df49fa446049bf74aa"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/13/st-engineering-idirect-leads-the-european-protected-waveform-consortium-into-phase-2/",
+    "hash": "b23e3a8fe6bf439013b93575671b95b6678a7b8f03bb1c38c80fe900229122a2"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/13/viasats-jetxp-business-aviation-in-flight-connectivity-service-hits-new-milestone/",
+    "hash": "4216f551082a97f2ad4831e5764acd854c0ee0ba287251a6273441b5de447c05"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/13/forresters-digest-spacex-breaks-another-starlink-record/",
+    "hash": "b625597ebd00f4d10b99dcd5c8e14ae6ac809d1260154684798059639de55f52"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/13/abu-dhabi-clamps-down-on-satellite-tv-users/",
+    "hash": "f337273bc5c4ed8db8fbe2f0e2f24715fed156e702166a9b3af9e55a06fa16b3"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/13/clarus-networks-delivers-1st-rail-certified-leo-satellite-connectivity/",
+    "hash": "3d228058238bc13db390011e2d4e82b84203a8dc037db0908f03fe1983d4608f"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/13/exail-to-equip-airbus-sirtap-tactical-uas-with-advanced-inertial-navigation-technology/",
+    "hash": "622ad8295bdfac77dc1a4fceb69ff4cfda9b6748138026af9fb88f243722796a"
   }
 ]
