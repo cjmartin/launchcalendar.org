@@ -2,20 +2,29 @@
 layout: default
 ---
 
+<div id="map"></div>
 <main class="launch">
   <h1>{{ page.title }}</h1>
-  <p><strong>Launch date:</strong> {{ page.date | date: "%B %-d, %Y %H:%M UTC" }}</p>
+  <p>
+    <strong>Launch date:</strong>
+    {{ page.date | date: "%B %-d, %Y %H:%M UTC" }}</p>
 
   {% if page.payload %}
-    <p><strong>Payload:</strong> {{ page.payload }}</p>
+    <p>
+      <strong>Payload:</strong>
+      {{ page.payload }}</p>
   {% endif %}
 
   {% if page.location %}
-    <p><strong>Location:</strong> {{ page.location }}</p>
+    <p>
+      <strong>Location:</strong>
+      {{ page.location }}</p>
   {% endif %}
 
   {% if page.vehicle %}
-    <p><strong>Vehicle:</strong> {{ page.vehicle }}</p>
+    <p>
+      <strong>Vehicle:</strong>
+      {{ page.vehicle }}</p>
   {% endif %}
 
   {{ content }}
@@ -28,11 +37,78 @@ layout: default
           {% if video.source == 'youtube' and video.video_id %}
             <div class="launch-video">
               {% include youtube.liquid id=video.video_id width=560 height=315 %}
-              {% if video.title %}<p>{{ video.title }}</p>{% endif %}
+              {% if video.title %}
+                <p>{{ video.title }}</p>
+              {% endif %}
             </div>
           {% endif %}
         {% endfor %}
       </div>
     </section>
+  {% endif %}
+
+  {% assign launch_site_match = site.launch_sites | where: "slug", page.location-slug | first %}
+
+  {% if launch_site_match %}
+    <section class="launch-site">
+      <h2>{{ launch_site_match.title }}</h2>
+      {{ launch_site_match.content | markdownify }}
+    </section>
+
+    <script>
+      // Assign lat/lon as strings to avoid Liquid/JS syntax issues
+      var lat = "{{ launch_site_match.geo-lat | escape }}";
+      var lon = "{{ launch_site_match.geo-lon | escape }}";
+
+      lat = lat ? parseFloat(lat) : 0;
+      lon = lon ? parseFloat(lon) : 0;
+
+      const map = new maplibregl.Map({
+        container: 'map',
+        style: {
+          version: 8,
+          name: 'Esri Satellite on Globe',
+          sources: {
+            esri: {
+              type: 'raster',
+              tiles: [
+                'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
+              ],
+              tileSize: 256,
+              attribution:
+                'Tiles © Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community'
+            }
+          },
+          layers: [
+            {
+              id: 'esri-tiles',
+              type: 'raster',
+              source: 'esri',
+              minzoom: 0,
+              maxzoom: 18
+            }
+          ]
+        },
+        center: [lon, lat],
+        zoom: 2,
+        projection: 'globe'
+      });
+
+      map.on('style.load', () => {
+        // Optional atmosphere effect
+        map.setFog({});
+      });
+
+      // Fly to the launch site after 5 seconds
+      setTimeout(() => {
+        map.flyTo({
+          center: [lon, lat],
+          zoom: 16,
+          speed: 0.2, // slow transition
+          curve: 1.5,
+          essential: true
+        });
+      }, 5000);
+    </script>
   {% endif %}
 </main>
