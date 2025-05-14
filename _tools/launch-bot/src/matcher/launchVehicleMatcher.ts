@@ -58,6 +58,22 @@ export function matchVehicle(
     return { id: table[base], score: 0.92, verdict: "match" };
   }
 
+  // Try matching parenthetical content and main part separately
+  const parenMatch = /^(.*?)\s*\(([^)]+)\)\s*$/;
+  const paren = raw.match(parenMatch);
+  if (paren) {
+    const main = normalize(paren[1]);
+    const inside = normalize(paren[2]);
+    if (table[main]) {
+      console.log(`🧐 Matched main part before parenthesis: ${table[main]}`);
+      return { id: table[main], score: 0.95, verdict: "match" };
+    }
+    if (table[inside]) {
+      console.log(`🧐 Matched inside parenthesis: ${table[inside]}`);
+      return { id: table[inside], score: 0.95, verdict: "match" };
+    }
+  }
+
   let best: { id: string; score: number } = {id: "", score: 0 };
   for (const [alias, id] of Object.entries(table)) {
     const sc = tokenSetScore(n, alias);

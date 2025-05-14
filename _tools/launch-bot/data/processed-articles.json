@@ -889,7 +889,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/11/live-coverage-28-starlink-satellites-to-launch-on-falcon-9-booster-making-record-breaking-28th-flight/",
-    "hash": "1f49229f231230c5c3796cc49c7e80f722cc4c04ae54a9c4a5f5c3dbba8754d8"
+    "hash": "671a61dcaa83ccc51a69f9b33dfe16bfe6bdf72f6e70c43f131233a84812d702"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/new-mexicos-spaceport-america-looks-up-and-into-the-future",
@@ -961,7 +961,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/12/live-coverage-spacex-to-launch-26-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb/",
-    "hash": "2ff369b1f2f336d066ccc84e58d3427d98cf0d77ddf1223c58929e5c6ec70067"
+    "hash": "888a2286a6d032a11b2e4bb556a439b9c4b13b0ece6c5d8087e3867cc7f19295"
   },
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-starlink-group-15-4-smallsats-launch-moved-to-monday/",
@@ -969,7 +969,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/",
-    "hash": "e9bb35356322b928e9cf3457edfba3e878f84b19f413b7850f5df48d8144416f"
+    "hash": "f325f7e32f2df2dfd0b34228f8c74c9b09d39017a484b88400c1c2b5dfd60070"
   },
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-scrubs-florida-launch-of-starlink-group-6-83-smallsats-to-tuesday/",
@@ -1014,5 +1014,13 @@
   {
     "link": "https://news.satnews.com/2025/05/13/spacex-launches-starlink-group-6-83-smallsats-on-a-foggy-florida-tuesday-morning/",
     "hash": "17fa6cef922e35372748c333f26b2a9654caf7b9612f4770487c2f4d2e93b9a3"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/14/live-coverage-spacex-to-launch-28-starlink-v2-mini-satellites-on-falcon-9-rocket-from-cape-canaveral-2/",
+    "hash": "1bc8d2304e8f47a3e272a11f430213449b16063ddcc8513d7dea6595cbbb867a"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/14/intuitive-machines-ceo-points-to-issues-that-prevented-upright-touchdown-during-im-2-moon-landing/",
+    "hash": "f7da813b05bca93e47c434529af082c09484ff3f93e2cdcd01bbe936ad64a8b7"
   }
 ]
