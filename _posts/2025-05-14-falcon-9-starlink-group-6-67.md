@@ -10,9 +10,10 @@ tags:
   - Starlink
   - Starlink Group 6-67
   - SpaceX
+  - Starlink 6-67
 date: '2025-05-14T16:38:00Z'
 created: '2025-05-12T23:42:08.467Z'
-updated: '2025-05-14T03:12:26.129Z'
+updated: '2025-05-14T16:28:03.816Z'
 redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida, USA'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
@@ -23,12 +24,14 @@ vehicle-slug: falcon-9
 payload: Starlink Group 6-67
 payload-type: satellite
 payload-description: >-
-  A batch of Starlink v2 Mini satellites—28 smallsats—will be launched to low
-  Earth orbit at 43-degree inclination for SpaceX’s internet constellation. The
-  satellites will support SpaceX’s expanding broadband network.
+  A batch of 28 Starlink v2 Mini satellites will be launched to low Earth orbit
+  at 43-degree inclination for SpaceX’s broadband constellation. These 'V2 Mini
+  Optimized' satellites support SpaceX’s expanding internet network.
 links:
-  - title: Falcon 9 | Starlink Group 6-67 Forum Thread
+  - title: Falcon 9 | Starlink Group 6-67 NSF Forum
     type:
+      - forum
+      - discussion
       - forum
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62842.0'
   - title: 'Launch Roundup: Orbital launches from five countries planned'
@@ -52,7 +55,29 @@ links:
       - social
       - webcast
     url: 'https://twitter.com/SpaceX'
-videos: []
+  - title: >-
+      Live coverage: SpaceX to launch 28 Starlink V2 Mini satellites on Falcon 9
+      rocket from Cape Canaveral
+    type:
+      - article
+    url: >-
+      http://spaceflightnow.com/live-coverage-spacex-to-launch-28-starlink-v2-mini-satellites-on-falcon-9-rocket-from-cape-canaveral
+  - title: >-
+      Live coverage: SpaceX to launch 28 Starlink V2 Mini satellites on Falcon 9
+      rocket from Cape Canaveral
+    type:
+      - article
+      - source
+    url: >-
+      https://spaceflightnow.com/2025/05/14/live-coverage-spacex-to-launch-28-starlink-v2-mini-satellites-on-falcon-9-rocket-from-cape-canaveral-2/
+videos:
+  - title: SpaceX Starlink 6-67 Launch Live Stream
+    type:
+      - launch
+      - livestream
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=KO9CpRkj4yU'
+    video_id: KO9CpRkj4yU
 images: []
 ---
-SpaceX is scheduled to launch the Starlink Group 6-67 mission from SLC-40 at Cape Canaveral on May 14, 2025, at 16:38 UTC (12:38 p.m. ET), carrying 28 Starlink v2 Mini satellites to low Earth orbit at a 43-degree inclination for the company's satellite internet constellation. The Falcon 9 first stage booster, flying for the fourth time, will attempt landing on the 'A Shortfall of Gravitas' droneship. Backup launch windows are available until 2:47 p.m. ET and on May 15 if needed. This is expected to be the 58th Falcon 9 flight of 2025 and the eighth Falcon 9 launch in May. Favorable launch weather is expected, and the webcast will be available via SpaceX’s X (Twitter) social media and X TV app.
+SpaceX is set to launch the Starlink Group 6-67 mission from SLC-40 at Cape Canaveral on May 14, 2025, at 16:38 UTC (12:38 p.m. ET), carrying 28 Starlink v2 Mini Optimized satellites to low Earth orbit at a 43-degree inclination for the satellite internet constellation. The Falcon 9 first stage booster 1090, which previously supported the Crew-10, Bandwagon-3, and SES O3b mPOWER 7/8 missions, will attempt a droneship landing on 'A Shortfall of Gravitas.' This is expected to be the 58th Falcon 9 flight of 2025 and the eighth Falcon 9 launch in May. Favorable launch weather is expected (95% chance), with backup windows available later on May 14 and on May 15 if needed. The webcast will be available via SpaceX’s X (Twitter) and X TV apps.
