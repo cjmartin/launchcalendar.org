@@ -973,7 +973,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-scrubs-florida-launch-of-starlink-group-6-83-smallsats-to-tuesday/",
-    "hash": "7e34b0bedc329f4f7ec8cc046424e13ccd2036f6c3a906ff79f815604bc67a0e"
+    "hash": "dcd49a21f7c042e1314b039605eb1def232c5cdbe76145e77a745d35b0f0f1f3"
   },
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-launches-starlink-group-15-4-smallsats-from-california-beach/",
@@ -1002,5 +1002,17 @@
   {
     "link": "https://arstechnica.com/space/2025/05/tuesday-telescope-taking-a-look-at-the-next-generation-of-telescopes/",
     "hash": "746cd7387e625811a637de691f1f781ece36bec59e4bafbe89432f3e26cd4caa"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-starship-spacecraft-again-ahead-of-9th-test-flight-video-photos",
+    "hash": "19b890a2c14c0564d2b3d3cd369ea718f88d39e49142e642647920b9c02c5662"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/13/spacex-to-launch-starlink-group-6-67-smallsats-on-wednesday/",
+    "hash": "c51637d0fa46678c232cc3f13062ddbae1f218f273acece059a816a2546e890c"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/13/spacex-launches-starlink-group-6-83-smallsats-on-a-foggy-florida-tuesday-morning/",
+    "hash": "17fa6cef922e35372748c333f26b2a9654caf7b9612f4770487c2f4d2e93b9a3"
   }
 ]
