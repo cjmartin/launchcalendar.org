@@ -136,8 +136,8 @@ You will be given two objects:
 Your task is to determine if the new launch data is an update to the existing launch data.
 
 Respond with a JSON object with the following keys:
-- "match": true if the new launch data is an update to the existing launch data, false otherwise.
-- "type": "update" if the new launch data is an update, "reschedule" if the new launch data is a reschedule, or "no_match" if it is not a match.
+- "match": true if the new launch data is an update to the existing launch data, or if it is an exact match (no update needed). False otherwise.
+- "type": "update" if the new launch data is an update, "reschedule" if the new launch data is a reschedule, "no_update" if the new launch data matches the existing launch data but there is no significant update or new information, or "no_match" if it is not a match.
 - "reasoning": a short explanation of how you arrived at your decision.
 
 Here is the existing launch data:
@@ -150,7 +150,7 @@ Return only JSON matching this schema:
 
 {
   "match": boolean,
-  "type": "update" | "reschedule" | "no_match",
+  "type": "update" | "reschedule" | "no_match" | "no_update",
   "reasoning": string
 }
 

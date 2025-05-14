@@ -66,6 +66,13 @@ async function main() {
 
       // Find existing file
       const matchResult = await findExistingLaunch(normalizedLaunch);
+
+      // Only update the launch file if not a 'no_update' match
+      if (matchResult.type === "no_update") {
+        console.log(`🟢 No significant update in launch data for: ${matchResult.existingPath}`);
+        continue;
+      }
+
       let branchBaseName: string;
       if (matchResult.existingPath) {
         branchBaseName = path.basename(matchResult.existingPath, ".md");

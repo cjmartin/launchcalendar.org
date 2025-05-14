@@ -123,7 +123,7 @@ export interface MatchResult {
 
 export interface LaunchMatchResult {
   match: boolean;
-  type: "update" | "reschedule" | "no_match";
+  type: "update" | "reschedule" | "no_match" | "no_update";
   existingPath?: string;
   confidence: number;
 }
@@ -149,6 +149,6 @@ export interface LaunchSiteGPTMatch {
 
 export interface launchFileGPTMatch {
   match: boolean,
-  type: "update" | "reschedule" | "no_match",
+  type: "update" | "reschedule" | "no_match" | "no_update",
   reasoning: string
 }
