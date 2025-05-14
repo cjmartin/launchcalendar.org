@@ -969,7 +969,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/",
-    "hash": "f325f7e32f2df2dfd0b34228f8c74c9b09d39017a484b88400c1c2b5dfd60070"
+    "hash": "b59eeafc275c00430ff3848200d10b8c5b31977a503219779060c24f0aa8027c"
   },
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-scrubs-florida-launch-of-starlink-group-6-83-smallsats-to-tuesday/",
@@ -1022,5 +1022,21 @@
   {
     "link": "https://spaceflightnow.com/2025/05/14/intuitive-machines-ceo-points-to-issues-that-prevented-upright-touchdown-during-im-2-moon-landing/",
     "hash": "f7da813b05bca93e47c434529af082c09484ff3f93e2cdcd01bbe936ad64a8b7"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-6-67-b1090-ccsfs",
+    "hash": "740e75169f62ba156ed6c12469d25b6e46386334395d4649028ac9c6dd9ea52e"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-launch-starships-9th-test-flight-next-week-elon-musk-says",
+    "hash": "b4036a9db57ed07dbbd14b6d901223150c5c444bc5f56c6c301396072f9b671a"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/australias-first-ever-home-grown-orbital-rocket-ready-for-debut-launch-today",
+    "hash": "5ead7692bb8cdee8687692981845bad079876f4aa5add4210dfa1d769ebb9d6d"
+  },
+  {
+    "link": "https://europeanspaceflight.com/space-forge-secures-22-6m-for-in-space-manufacturing-platform/",
+    "hash": "90469eb5d37104bc04eefa699d05aec1a38f028bb0d517df49fa446049bf74aa"
   }
 ]

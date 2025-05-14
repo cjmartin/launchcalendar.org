@@ -4,7 +4,8 @@ title: "\U0001F680 Eris | \U0001F6F0 Test Flight 1"
 description: >-
   Gilmour Space Technologies' Eris Test Flight 1: the maiden orbital launch
   attempt by an Australian-made rocket from Australian soil, carrying a test
-  payload to validate orbital launch capabilities.
+  payload to validate hybrid launch capabilities and gather data on the
+  vehicle's systems.
 tags:
   - Eris
   - Gilmour Space Technologies
@@ -13,11 +14,15 @@ tags:
   - Australia
   - Gilmour Space
   - TestFlight1
+  - Eris-1
+  - Australian space
+  - orbital launch
+  - rocket
 date: '2025-05-14T21:30:00Z'
 created: '2025-05-09T05:43:29.548Z'
-updated: '2025-05-14T16:40:03.367Z'
+updated: '2025-05-14T17:19:20.506Z'
 redirect_from:
- - 2025/05/15/eris-test-flight-1/
+  - 2025/05/15/eris-test-flight-1/
 location: 'Eris Pad, Bowen Orbital Spaceport, North Queensland, Australia'
 location-slug: eris-pad-bowen-orbital-spaceport-north-queensland-australia
 manned: false
@@ -29,8 +34,10 @@ payload-type: satellite
 payload-description: >-
   The maiden test flight of Gilmour Space Technologies' Eris rocket, carrying a
   test payload for the company's micro-satellite bus to demonstrate orbital
-  launch capability. A successful mission would mark the first Australian-made
-  rocket to reach orbit.
+  launch capability. This milestone mission will also be the first attempt at an
+  orbital hybrid-powered rocket flight from Australia. The flight aims to
+  deliver the unnamed test payload to a sun-synchronous orbit, qualifying rocket
+  systems and hybrid propulsion technology.
 links:
   - title: >-
       Australia’s Gilmour Space Technologies ready to launch maiden Eris Test
@@ -50,7 +57,34 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/'
+  - title: Eris-1 rocket passes launch readiness review for debut
+    type:
+      - article
+    url: >-
+      https://www.space.com/gilmour-space-eris-rocket-1st-orbital-launch-australian-soil
+  - title: Gilmour Space gets country's 1st orbital launch license
+    type:
+      - article
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/australian-company-gilmour-space-gets-countrys-1st-orbital-launch-license
+  - title: Gilmour Space official press release on launch window announcement
+    type:
+      - press release
+    url: >-
+      https://www.gspace.com/post/gilmour-space-announces-launch-window-for-australia-s-first-sovereign-orbital-rocket
+  - title: Gilmour Space mission page
+    type:
+      - mission
+    url: 'https://www.gspace.com/missions'
+  - title: >-
+      Australia's first ever home-grown orbital rocket ready for debut launch
+      today
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/australias-first-ever-home-grown-orbital-rocket-ready-for-debut-launch-today
 videos: []
 images: []
 ---
-Gilmour Space Technologies is set for the maiden test flight of its Eris rocket, scheduled for 21:30 UTC on May 14, 2025, from the Eris Pad at Bowen Orbital Spaceport in North Queensland, Australia. This Test Flight 1 mission will carry a test payload for Gilmour Space's micro-satellite bus and aims to demonstrate Australia's sovereign orbital launch capability. The flight marks the first orbital launch attempt by an Australian-made rocket in over 50 years and represents a significant milestone for the Australian space industry.
+Gilmour Space Technologies is set for the historic maiden test flight of its Eris rocket—Australia's first sovereign orbital launch attempt in over 50 years—slated for May 14, 2025 from the Eris Pad at Bowen Orbital Spaceport in North Queensland. The Test Flight 1 mission will carry a test payload for Gilmour Space's micro-satellite bus, aiming to validate hybrid rocket orbital launch capabilities, rocket systems, and propulsion technology by reaching sun-synchronous orbit. This represents a significant milestone as Australia's first domestically designed and manufactured orbital rocket and as the first orbital hybrid-powered rocket flight attempt from Australia.

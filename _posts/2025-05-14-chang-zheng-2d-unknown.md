@@ -14,7 +14,7 @@ tags:
   - ADASPACE
 date: '2025-05-14T04:12:00Z'
 created: '2025-05-13T04:59:30.779Z'
-updated: '2025-05-14T16:59:08.330Z'
+updated: '2025-05-14T17:17:33.793Z'
 redirect_from: []
 location: 'Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China'
 location-slug: site-9401-sls-2-jiuquan-satellite-launch-center-inner-mongolia-china
@@ -43,4 +43,4 @@ links:
 videos: []
 images: []
 ---
-A Chang Zheng 2D launched 12 ADASPACE satellites for the Space Computing Constellation at 04:12 UTC on May 14, 2025 from Jiuquan. The mission tests inter-satellite laser links and AI-powered in-orbit data processing for an Earth observation data network. This was the fourth CZ-2D launch of the year.
+A Chang Zheng 2D launched 12 ADASPACE satellites for the Space Computing Constellation at 04:12 UTC on May 14, 2025 from Jiuquan. The mission tests inter-satellite laser links and AI-powered in-orbit data processing for an Earth observation data network. This was the fourth CZ-2D launch of the year. The satellites were intended for Sun-synchronous orbit, supporting the creation of an Earth image data network.
