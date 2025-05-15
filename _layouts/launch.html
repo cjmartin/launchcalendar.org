@@ -56,84 +56,17 @@ layout: default
     </section>
 
     <script>
-      // Assign lat/lon as strings to avoid Liquid/JS syntax issues
+      // Extract latitude and longitude
       var lat = "{{ launch_site_match.geo-lat | escape }}";
       var lon = "{{ launch_site_match.geo-lon | escape }}";
 
       lat = lat ? parseFloat(lat) : 0;
       lon = lon ? parseFloat(lon) : 0;
-
-      // Create the map with globe projection based on the working example
-      const map = new maplibregl.Map({
-        container: 'map',
-        zoom: 0,
-        center: [0, 0], // Start at the center of the Earth
-        style: {
-          'version': 8,
-          'projection': {
-            'type': 'globe'  // This is the critical part for globe view
-          },
-          'sources': {
-            'satellite': {
-              'type': 'raster',
-              'tiles': [
-                'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
-              ],
-              'tileSize': 256,
-              'attribution': 'Tiles © Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community'
-            },
-          },
-          'layers': [
-            {
-              'id': 'Satellite',
-              'type': 'raster',
-              'source': 'satellite',
-            },
-          ],
-          // Atmosphere configuration
-          'sky': {
-            'atmosphere-blend': [
-              'interpolate',
-              ['linear'],
-              ['zoom'],
-              0, 1,
-              5, 1,
-              7, 0
-            ]
-          },
-          // Lighting for the globe
-          'light': {
-            'anchor': 'map',
-            'position': [1.5, 90, 80]
-          }
-        }
-      });
-
-      // Add atmosphere/fog effect when style loads
-      map.on('style.load', () => {
-        map.setFog({
-          'color': 'rgb(186, 210, 235)', // Light blue
-          'high-color': 'rgb(36, 92, 223)', // Bluish
-          'horizon-blend': 0.1,
-          'space-color': 'rgb(11, 11, 25)', // Dark space
-          'star-intensity': 0.8 // Adds stars in the background
-        });
-      });
-
-      // Wait for the map to fully load before starting the animation sequence
-      map.on('load', () => {
-        // First, let the user see the globe for a few seconds
-        setTimeout(() => {
-          // Then fly to the launch site location
-          map.flyTo({
-            center: [lon, lat],
-            zoom: 16, // Zoom in close to the launch site
-            speed: 0.5, // Slow transition for a smooth experience
-            curve: 1.5,
-            essential: true
-          });
-        }, 5000); // 5-second delay before flying to the site
-      });
     </script>
+
+    <script
+      defer
+      type="module"
+      src="{{ '/assets/js/launch-map.js' | relative_url }}"></script>
   {% endif %}
 </main>
