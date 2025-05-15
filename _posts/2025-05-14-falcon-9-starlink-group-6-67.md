@@ -15,9 +15,10 @@ tags:
   - Starlink 6-67
   - satellite
   - satellite launch
+  - SLC-40
 date: '2025-05-14T16:38:00Z'
 created: '2025-05-12T23:42:08.467Z'
-updated: '2025-05-14T18:00:37.079Z'
+updated: '2025-05-15T04:14:49.525Z'
 redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida, USA'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
@@ -67,9 +68,7 @@ links:
       - article
     url: >-
       http://spaceflightnow.com/live-coverage-spacex-to-launch-28-starlink-v2-mini-satellites-on-falcon-9-rocket-from-cape-canaveral
-  - title: >-
-      Live coverage: SpaceX to launch 28 Starlink V2 Mini satellites on Falcon 9
-      rocket from Cape Canaveral
+  - title: SpaceX launches 475th Falcon 9 rocket to date on afternoon Starlink flight
     type:
       - article
       - source
@@ -129,4 +128,4 @@ videos:
     video_id: KO9CpRkj4yU
 images: []
 ---
-On May 14, 2025, SpaceX’s Falcon 9 rocket (B1090-4) launched the Starlink Group 6-67 mission from SLC-40, Cape Canaveral at 16:38 UTC (12:38 p.m. ET), deploying 28 Starlink v2 Mini Optimized satellites to a 43-degree-inclined orbit. The booster, previously used on Crew-10, Bandwagon-3, and SES’s O3b mPOWER 7/8 missions, completed its fourth flight and landed on the droneship 'A Shortfall of Gravitas' in the Atlantic Ocean about 8.5 minutes after liftoff. This marked the 58th Falcon 9 launch of 2025 and raised the total number of active Starlink satellites to over 7,400 as SpaceX continues expanding its global broadband constellation. The SpaceX webcast was available via X (Twitter) and X TV. Backup opportunities were available later the same day and the following day if needed.
+On May 14, 2025, at 16:38 UTC (12:38 p.m. ET), SpaceX’s Falcon 9 rocket (B1090-4) launched the Starlink Group 6-67 mission from SLC-40, Cape Canaveral, deploying 28 Starlink v2 Mini Optimized satellites into a 43-degree-inclined orbit. The booster, previously used on Crew-10, Bandwagon-3, and SES’s O3b mPOWER 7/8 missions, completed its fourth flight and landed on the droneship 'A Shortfall of Gravitas' in the Atlantic Ocean about 8.5 minutes after liftoff. This mission marked the 58th Falcon 9 launch of 2025, the 450th successful SpaceX booster landing, and raised the total number of active Starlink satellites to over 7,400 as SpaceX continues expanding its global broadband constellation. Favorable weather supported a smooth afternoon liftoff, and backup opportunities were available later the same day and the following day if needed.

@@ -4,10 +4,11 @@ title: "\U0001F680 Eris | \U0001F6F0 Test Flight 1"
 description: >-
   Gilmour Space Technologies' Eris Test Flight 1: the maiden orbital launch
   attempt by an Australian-made rocket from Australian soil, carrying a test
-  payload to validate hybrid launch capabilities and gather data on the
-  vehicle's systems. The mission is Australia's first sovereign commercial
-  orbital launch attempt with a hybrid-powered rocket, lifting off from Bowen
-  Orbital Spaceport.
+  payload for the company's micro-satellite bus to validate hybrid launch
+  capabilities, gather data on the vehicle's systems, and demonstrate the Eris
+  hybrid rocket's ability to reach orbit. The mission is Australia's first
+  sovereign commercial orbital launch attempt with a hybrid-powered rocket,
+  lifting off from Bowen Orbital Spaceport.
 tags:
   - Eris
   - Gilmour Space Technologies
@@ -20,11 +21,12 @@ tags:
   - Australian space
   - orbital launch
   - rocket
-date: '2025-05-14T21:30:00Z'
+  - TestFlight 1
+date: '2025-05-15T21:30:00Z'
 created: '2025-05-09T05:43:29.548Z'
-updated: '2025-05-14T17:28:27.336Z'
+updated: '2025-05-15T04:15:01.916Z'
 redirect_from:
-  - 2025/05/15/eris-test-flight-1/
+  - 2025/05/14/eris-test-flight-1/
 location: 'Eris Pad, Bowen Orbital Spaceport, North Queensland, Australia'
 location-slug: eris-pad-bowen-orbital-spaceport-north-queensland-australia
 manned: false
@@ -39,8 +41,8 @@ payload-description: >-
   launch capability. This milestone mission marks Australia's first sovereign
   commercial orbital launch and the nation’s first attempt at an orbital
   hybrid-powered rocket flight. The flight aims to deliver the unnamed test
-  payload to a sun-synchronous orbit, qualifying rocket systems and hybrid
-  propulsion technology.
+  payload to a sun-synchronous or low Earth orbit (LEO), qualifying rocket
+  systems and hybrid propulsion technology.
 links:
   - title: >-
       Australia’s Gilmour Space Technologies ready to launch maiden Eris Test
@@ -54,6 +56,7 @@ links:
     type:
       - forum
       - discussion
+      - forum
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62831.0'
   - title: 'Launch Roundup: Orbital launches from five countries planned'
     type:
@@ -87,7 +90,19 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/australias-first-ever-home-grown-orbital-rocket-ready-for-debut-launch-today
+  - title: Eris TestFlight 1 Updates
+    type:
+      - forum
+      - updates
+    url: 'https://forum.nasaspaceflight.com/index.php?topic=60477.0'
+  - title: >-
+      Gilmour Space’s Eris rocket set for Australia’s first homegrown orbital
+      launch
+    type:
+      - article
+      - source
+    url: 'https://www.nasaspaceflight.com/2025/05/eris-testflight1/'
 videos: []
 images: []
 ---
-Gilmour Space Technologies is set for the historic maiden test flight of its Eris rocket—Australia's first sovereign orbital launch attempt in over 50 years—slated for May 14, 2025 from the Eris Pad at Bowen Orbital Spaceport in North Queensland. The Test Flight 1 mission will carry a test payload for Gilmour Space's micro-satellite bus, aiming to validate hybrid rocket orbital launch capabilities, rocket systems, and propulsion technology by reaching sun-synchronous orbit. This inaugural mission marks a significant milestone for Australia as its first domestically designed and manufactured commercial orbital rocket and the first orbital hybrid-powered rocket flight attempt from Australian soil.
+Gilmour Space Technologies is preparing for the historic maiden launch of its Eris rocket—Australia's first sovereign-built vehicle to attempt an orbital mission—scheduled for May 15, 2025 at 21:30 UTC (May 16 local time) from the Eris Pad at Bowen Orbital Spaceport in North Queensland. After a short delay to address a ground support issue, the Test Flight 1 mission will proceed, carrying a test payload for Gilmour Space's micro-satellite bus. The Eris rocket, a three-stage hybrid-propulsion vehicle with significant 3D-printed components, will attempt to reach a sun-synchronous or low Earth orbit (LEO), aiming to validate hybrid rocket orbital launch capabilities and rocket systems. This inaugural mission is a major milestone for the Australian space sector as its first domestically designed and manufactured commercial orbital rocket, marking Australia's entry into the club of sovereign orbital launch nations and paving the way for future missions. No livestream is planned, but launch video will be released after the attempt.

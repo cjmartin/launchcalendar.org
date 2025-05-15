@@ -969,7 +969,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/",
-    "hash": "98551f08a633c6d4ed9e1c64c24edef1ab911a88c7783933e899e19824d1c81e"
+    "hash": "b19fd8d87f23abe393db0a79712ef468404c5ad01cc5b46f1d7aecbaec81213b"
   },
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-scrubs-florida-launch-of-starlink-group-6-83-smallsats-to-tuesday/",
@@ -1017,11 +1017,11 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/14/live-coverage-spacex-to-launch-28-starlink-v2-mini-satellites-on-falcon-9-rocket-from-cape-canaveral-2/",
-    "hash": "19e9541c566950daff9c3f3cd39de8b715356960f29467a9318ea8e6f81566fe"
+    "hash": "6b266c2a91dd07c83b26849ae1ba6e5ffbfcbe4dbac1666f8a298ca0afdd8740"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/14/intuitive-machines-ceo-points-to-issues-that-prevented-upright-touchdown-during-im-2-moon-landing/",
-    "hash": "f7da813b05bca93e47c434529af082c09484ff3f93e2cdcd01bbe936ad64a8b7"
+    "hash": "12a07ec140f554c0d4cefcdefaf26a2c920af15ea57ec1fd4dfed38a2992d975"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-6-67-b1090-ccsfs",
@@ -1062,5 +1062,13 @@
   {
     "link": "https://news.satnews.com/2025/05/13/exail-to-equip-airbus-sirtap-tactical-uas-with-advanced-inertial-navigation-technology/",
     "hash": "622ad8295bdfac77dc1a4fceb69ff4cfda9b6748138026af9fb88f243722796a"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/14/axiom-mission-4-delayed-due-to-dragon-capsule-readiness/",
+    "hash": "28218bb0f5996b002c018e31fb20230c04976f254e9a43853794abdfabd41d6b"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/eris-testflight1/",
+    "hash": "07dc3fdde5b716515e559cb380d87ad8f21d74cd36b8fdbc0e6b4345b6859c86"
   }
 ]
