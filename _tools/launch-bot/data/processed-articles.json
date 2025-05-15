@@ -1033,7 +1033,7 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/australias-first-ever-home-grown-orbital-rocket-ready-for-debut-launch-today",
-    "hash": "5ead7692bb8cdee8687692981845bad079876f4aa5add4210dfa1d769ebb9d6d"
+    "hash": "fd96cec897de1341f3617598e74bd26312d71513244aee41e059e4bf7755aa21"
   },
   {
     "link": "https://europeanspaceflight.com/space-forge-secures-22-6m-for-in-space-manufacturing-platform/",
@@ -1070,5 +1070,53 @@
   {
     "link": "https://www.nasaspaceflight.com/2025/05/eris-testflight1/",
     "hash": "07dc3fdde5b716515e559cb380d87ad8f21d74cd36b8fdbc0e6b4345b6859c86"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/nasas-punch-spacecraft-sees-a-cosmic-rainbow-in-the-zodiacal-light",
+    "hash": "b9ffb64d3e397525c2886e467cf191c4baa0688ed79cbac8c1abeb222b26b6ed"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/thats-a-hat-trick-varda-successfully-returns-3rd-space-capsule-from-orbit",
+    "hash": "d1d837dd98f7f53769fc34002819c993d9a11874ace711dbf4ab8ccfa4196f82"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/15/defense-intelligence-agency-releases-golden-dome-missile-threat-assessment/",
+    "hash": "b6968937772bdd8b94e842e5c9c240f05b2e0e7c7ad5f12861692958ccc71783"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/15/recom-insite-debuts-time-based-mobility-of-rf-systems-lunar-propagation-wideband-ray-tracing/",
+    "hash": "d8e7957ef15848aeaf0098258d6060ba6d659f212cc041eff1dbcc7d4433430b"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/14/telefonica-reports-e1-3bn-loss-in-q1/",
+    "hash": "3751107dce7118e8e07f3f02e72ab378796b84d3aeb3cc0d6dbcfec450174796"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/14/echostar-in-trouble-with-fcc/",
+    "hash": "1a80cd7e02f662843c750d0e9ccd426127b6065b5e05dab51bce73f6717b25d8"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/14/quadsat-and-arabsat-sign-mou-for-spectrum-management-and-antenna-qualification/",
+    "hash": "396c753c79bff0d48973e88abed4b44904279cc41bc84e4532fafcffe3161913"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/14/spacex-wednesday-launch-of-starlink-group-6-67-smallsats/",
+    "hash": "387cd14c0dc475113f8698fc2c6240302820ac10124ea0b8e786b084368e4c56"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/14/eutelsat-and-bhs-renew-partnership-for-satellite-contribution-services-across-the-middle-east-and-north-africa/",
+    "hash": "06997700c215babbda5c45aab8ab56dbc1af6e45a77a4540e26ed16fb00366ca"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/14/innospace-signs-strategic-mou-with-saturn-satellite-networks-to-develop-smallsats/",
+    "hash": "4822cda0fddb33f2dc6a0fb6d6e41878ba6064c7aa50b052c4559104581bf22d"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/14/av-dutch-mod-expand-puma-uas-fleet-partnership/",
+    "hash": "cba0ed1b115aa1c37ca0f4df9ccacd3ab36dbd486262cbcc6239e24a255042b4"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/14/a-duo-of-rocket-lab-earth-return-missions-for-two-varda-spacecraft/",
+    "hash": "1e72010eb97a3861b66f4f66150a687d2f7908cd4b7235761fa220e456d7abe5"
   }
 ]
