@@ -111,7 +111,7 @@ window.onload = async function() {
         lat, 
         10000000 // Maintain high altitude during rotation
       ),
-      duration: 2, // Shorter duration for each rotation step
+      duration: 3, // Shorter duration for each rotation step
       easingFunction: Cesium.EasingFunction.CUBIC_IN_OUT,
       complete: () => {
         zoomInToLaunchSite();
