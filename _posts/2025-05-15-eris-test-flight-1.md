@@ -3,12 +3,14 @@ layout: launch
 title: "\U0001F680 Eris | \U0001F6F0 Test Flight 1"
 description: >-
   Gilmour Space Technologies' Eris Test Flight 1: the maiden orbital launch
-  attempt by an Australian-made rocket from Australian soil, carrying a test
-  payload for the company's micro-satellite bus to validate hybrid launch
-  capabilities, gather data on the vehicle's three-stage hybrid-propulsion
-  systems, and demonstrate the Eris rocket’s ability to reach orbit. The mission
-  is Australia’s first sovereign commercial orbital launch attempt, lifting off
-  from Bowen Orbital Spaceport.
+  attempt by an Australian-made rocket from Australian soil, carrying a
+  demonstration payload (including symbolic Vegemite) for the company's
+  micro-satellite bus to validate hybrid launch capabilities, gather data on the
+  vehicle's three-stage hybrid-propulsion systems, and demonstrate the Eris
+  rocket’s ability to reach orbit. The mission is Australia’s first sovereign
+  commercial orbital launch attempt, lifting off from Bowen Orbital Spaceport.
+  The initial attempt on May 15, 2025 was scrubbed due to a payload fairing
+  issue, with a new launch to be scheduled after resolution.
 tags:
   - Eris
   - Gilmour Space Technologies
@@ -25,7 +27,7 @@ tags:
   - maiden flight
 date: '2025-05-15T21:30:00Z'
 created: '2025-05-09T05:43:29.548Z'
-updated: '2025-05-15T16:26:48.983Z'
+updated: '2025-05-16T16:18:00.865Z'
 redirect_from:
   - 2025/05/14/eris-test-flight-1/
 location: 'Eris Pad, Bowen Orbital Spaceport, North Queensland, Australia'
@@ -38,13 +40,16 @@ payload: Test Flight 1
 payload-type: satellite
 payload-description: >-
   The maiden test flight of Gilmour Space Technologies' three-stage
-  hybrid-propulsion Eris rocket, carrying a test payload for the company's
-  micro-satellite bus to demonstrate orbital launch capability. This milestone
-  mission marks Australia's first sovereign commercial orbital launch and the
-  nation’s first attempt at an orbital hybrid-powered rocket flight. The flight
-  aims to deliver the unnamed test payload to a sun-synchronous or low Earth
-  orbit (LEO), qualifying rocket systems and hybrid propulsion technology, and
-  gathering critical data for future missions.
+  hybrid-propulsion Eris rocket, carrying a demonstration payload—featuring a
+  symbolic Vegemite can—for the company's micro-satellite bus to demonstrate
+  orbital launch capability. This milestone mission marks Australia's first
+  sovereign commercial orbital launch and the nation’s first attempt at an
+  orbital hybrid-powered rocket flight. The flight aims to deliver the unnamed
+  test payload to a sun-synchronous or low Earth orbit (LEO), qualifying rocket
+  systems and hybrid propulsion technology, and gathering critical data for
+  future missions. The first launch attempt was scrubbed after a payload fairing
+  issue was detected during final checks, with no damage to the rocket or pad.
+  The launch will be rescheduled once the fairing anomaly is rectified.
 links:
   - title: >-
       Australia’s Gilmour Space Technologies ready to launch maiden Eris Test
@@ -112,7 +117,30 @@ links:
       - announcement
       - social
     url: 'https://x.com/GilmourSpace/status/1922753542529441994'
+  - title: Gilmour Space statement announcing the launch window
+    type:
+      - official
+      - company
+      - statement
+    url: >-
+      https://www.gspace.com/post/gilmour-space-announces-launch-window-for-australia-s-first-sovereign-orbital-rocket
+  - title: Gilmour Space update on X (payload fairing issue)
+    type:
+      - social
+      - update
+    url: 'https://x.com/GilmourSpace/status/1923121138198069511'
+  - title: Gilmour Space update on X (launch update and Vegemite payload)
+    type:
+      - social
+      - update
+    url: 'https://x.com/GilmourSpace/status/1923121500392944074'
+  - title: ' Launch of Australia''s 1st homegrown orbital rocket delayed indefinitely due to payload fairing issue '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/launch-of-australias-1st-homegrown-orbital-rocket-delayed-indefinitely-due-to-payload-fairing-issue
 videos: []
 images: []
 ---
-Gilmour Space Technologies is preparing for the historic maiden launch of its Eris rocket—Australia's first sovereign-built vehicle to attempt an orbital mission—scheduled for May 15, 2025 at 21:30 UTC (May 16 local time) from the Eris Pad at Bowen Orbital Spaceport in North Queensland. After a short delay from May 14 to address a ground support issue, the Test Flight 1 mission will proceed, carrying a test payload for Gilmour Space's micro-satellite bus. The three-stage Eris rocket, a hybrid-propulsion vehicle with significant 3D-printed components, will attempt to reach a sun-synchronous or low Earth orbit (LEO), aiming to validate hybrid rocket orbital launch capabilities and rocket systems. This inaugural mission is a major milestone for the Australian space sector as its first domestically designed and manufactured commercial orbital rocket, marking Australia's entry into the club of sovereign orbital launch nations and gathering critical data for future launches. No livestream is planned, but launch video will be released after the attempt, and the rocket aims to deliver up to 215 kg to SSO.
+Gilmour Space Technologies prepared for the historic maiden launch of its Eris rocket—Australia's first sovereign-built vehicle to attempt an orbital mission—scheduled for May 15, 2025 at 21:30 UTC (May 16 local time) from the Eris Pad at Bowen Orbital Spaceport in North Queensland. The launch, designated Test Flight 1, was scrubbed after a payload fairing anomaly was detected during final system checks, before the vehicle was fueled. No damage to the rocket or pad occurred. The three-stage Eris rocket, a hybrid-propulsion vehicle with significant 3D-printed components, was aiming to deliver a demonstration payload, including a symbolic Vegemite can, for Gilmour Space's micro-satellite bus to a sun-synchronous or low Earth orbit (LEO). This would qualify rocket systems and gather critical data for future launches. The inaugural mission represents a major milestone for the Australian space sector as its first domestically designed and manufactured commercial orbital rocket. No livestream was planned, but a launch video will be released after a future attempt. The new launch date will be set following resolution of the fairing issue.

@@ -13,9 +13,11 @@ tags:
   - Long March 2D
   - Space Computing Constellation
   - ADASPACE
+  - JSLC
+  - satellite
 date: '2025-05-14T04:12:00Z'
 created: '2025-05-13T04:59:30.779Z'
-updated: '2025-05-15T04:14:34.739Z'
+updated: '2025-05-16T16:16:00.350Z'
 redirect_from: []
 location: 'Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China'
 location-slug: site-9401-sls-2-jiuquan-satellite-launch-center-inner-mongolia-china
@@ -45,4 +47,4 @@ links:
 videos: []
 images: []
 ---
-A Chang Zheng 2D (CZ-2D) rocket launched 12 ADASPACE-built satellites as part of the Space Computing Constellation at 04:12 UTC on May 14, 2025 from Jiuquan. The mission demonstrates laser inter-satellite communications and AI-based in-orbit data processing to enhance China's Earth observation capabilities. It was the fourth CZ-2D launch of the year, with the satellites likely headed to Sun-synchronous orbit to support an Earth image data network.
+On May 14, 2025 at 04:12 UTC, a Chang Zheng 2D (CZ-2D) rocket launched 12 ADASPACE-built satellites as part of the Space Computing Constellation from Site 9401 (SLS-2), Jiuquan. The satellites are testing laser inter-satellite communications and AI-driven in-orbit data processing to help form an Earth image data network. It was the fourth CZ-2D launch of the year, with the spacecraft likely destined for Sun-synchronous orbit to support China's growing Earth observation capabilities.

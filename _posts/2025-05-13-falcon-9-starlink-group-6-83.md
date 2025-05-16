@@ -21,7 +21,7 @@ tags:
   - satellites
 date: '2025-05-13T05:02:00Z'
 created: '2025-05-07T16:19:16.803Z'
-updated: '2025-05-14T03:13:18.580Z'
+updated: '2025-05-16T16:15:50.549Z'
 redirect_from:
   - 2025/05/11/falcon-9-starlink-group-6-83/
 location: 'LC-39A, Kennedy Space Center, Florida'
@@ -155,4 +155,4 @@ videos:
       https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-rocket-launches-28-starlink-satellites-to-orbit-on-record-breaking-28th-flight-video
 images: []
 ---
-After a weather delay, SpaceX launched the Starlink Group 6-83 mission on Tuesday, May 13, 2025 at 05:02 UTC from Kennedy Space Center LC-39A. Falcon 9 booster B1067 flew for a record 28th time and landed on 'Just Read the Instructions' in the Atlantic Ocean. The payload consisted of 28 Starlink v2 Mini satellites added to SpaceX's growing broadband constellation, which now comprises around 7,400 operational satellites. The launch was delayed from the originally planned May 12 liftoff due to adverse weather. Live coverage was available via SpaceX's X (Twitter) account and X TV app, highlighting both the company's fast launch cadence and ongoing Starlink expansion.
+After a weather-related scrub, SpaceX launched the Starlink Group 6-83 mission on Tuesday, May 13, 2025 at 05:02 UTC (1:02 AM EDT) from Kennedy Space Center LC-39A. Falcon 9 booster B1067 flew for a record 28th time and landed on 'Just Read the Instructions' in the Atlantic Ocean. The payload consisted of 28 Starlink v2 Mini satellites added to SpaceX's growing broadband constellation, which now comprises around 7,400 operational satellites. The launch was delayed from the originally planned May 12 liftoff due to adverse weather. Live coverage was available via SpaceX's X (Twitter) account and X TV app, highlighting both the company's fast launch cadence and ongoing Starlink expansion.

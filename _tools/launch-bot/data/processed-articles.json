@@ -969,7 +969,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/",
-    "hash": "b19fd8d87f23abe393db0a79712ef468404c5ad01cc5b46f1d7aecbaec81213b"
+    "hash": "19c3bac92aec08ccb49c0282748549d66e93e49df5e52528b2374c3b8b711837"
   },
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-scrubs-florida-launch-of-starlink-group-6-83-smallsats-to-tuesday/",
@@ -1017,7 +1017,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/14/live-coverage-spacex-to-launch-28-starlink-v2-mini-satellites-on-falcon-9-rocket-from-cape-canaveral-2/",
-    "hash": "6b266c2a91dd07c83b26849ae1ba6e5ffbfcbe4dbac1666f8a298ca0afdd8740"
+    "hash": "7a6f8da178c628c7e439e0b7396971f18d0089bbf14b61edc381e781050f1277"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/14/intuitive-machines-ceo-points-to-issues-that-prevented-upright-touchdown-during-im-2-moon-landing/",
@@ -1065,11 +1065,11 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/14/axiom-mission-4-delayed-due-to-dragon-capsule-readiness/",
-    "hash": "28218bb0f5996b002c018e31fb20230c04976f254e9a43853794abdfabd41d6b"
+    "hash": "5bc77ec9274502241917365f50604fed589678b4993e3ce543248bbc32745d24"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/eris-testflight1/",
-    "hash": "07dc3fdde5b716515e559cb380d87ad8f21d74cd36b8fdbc0e6b4345b6859c86"
+    "hash": "6d58a93395931b7b0a455df8ff47caa816fb0580f70c243557a146d287c23bdc"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/nasas-punch-spacecraft-sees-a-cosmic-rainbow-in-the-zodiacal-light",
@@ -1081,7 +1081,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/15/defense-intelligence-agency-releases-golden-dome-missile-threat-assessment/",
-    "hash": "b6968937772bdd8b94e842e5c9c240f05b2e0e7c7ad5f12861692958ccc71783"
+    "hash": "d3a3be8238d50c5202229c8867c9b5a1608636e9355a90ae9fe388a32595f538"
   },
   {
     "link": "https://news.satnews.com/2025/05/15/recom-insite-debuts-time-based-mobility-of-rf-systems-lunar-propagation-wideband-ray-tracing/",
@@ -1122,5 +1122,65 @@
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/eight-feet-keep-pace-space-photo-of-the-day-for-may-15-2025",
     "hash": "4fd21cbdc40d4e6b198e7eea50465121642efc50da7a7ce8ae838cf423069a68"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/artemis-ii-update-3/",
+    "hash": "ad774db443b7f6e5064038905a0772408afa8005e916f869a9d1c909cf3131ee"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/16/live-coverage-spacex-plans-morning-launch-of-starlink-satellites-from-california/",
+    "hash": "7db8e9f550231c838620825c7140d92e93e29c800f46eaea7156010e5493d023"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-26-starlink-satellites-to-orbit-from-california-video",
+    "hash": "fade7a160357e28606d7e4d3c7a798418235fa815cebbe8f1cf743ef6ca07a12"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/us-and-china-need-a-space-hotline-for-orbital-emergencies-experts-say",
+    "hash": "749ddb99eea1bc5361b019e0b89e671d45c7bbca9e42fc30019516fab242877e"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/launch-of-australias-1st-homegrown-orbital-rocket-delayed-indefinitely-due-to-payload-fairing-issue",
+    "hash": "7f86c9997080d765b029ef3097eaa54d9da45949977250e972e4361f63e83128"
+  },
+  {
+    "link": "https://europeanspaceflight.com/esa-launches-phase-2-of-reusable-upper-stage-demonstrator-project/",
+    "hash": "3d17b5acad8a2936433fdc50419f527b747778964bdf29517fa2e32ef95cdd45"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/16/forresters-digest-ast-spacemobile-looks-to-raise-500m/",
+    "hash": "bcda2b891e2488278a9754d7ec47dc8b5d17018ba745b37c2692fe97c2ae99de"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/15/nasa-awards-launch-service-task-order-for-asperas-galaxy-mission-to-rocket-lab/",
+    "hash": "01ace2637a2877db9ab84023e785f2a4c7414d35e5f03db3a1b6ea246bf057ee"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/15/aac-clyde-space-wins-814000-euros-order-for-power-systems-in-an-eo-program/",
+    "hash": "e80b124226085aaed76a415e42fed89f44b19ffaecfb877281885c3b38d2e286"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/15/spacex-plans-friday-launch-of-starlink-group-15-5-smallsats/",
+    "hash": "f9a84a396ba37e32ce9d89aee799d53fed7b0192a31e67dd0a37bf7aecaae794"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/15/poland-acquires-sar-satellites-from-iceye-to-strengthen-defence-capabilities/",
+    "hash": "7a55ecbc4440f2e066f1e91adc3c3ef42f8b3b7648b082c3f7151966fed57623"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/15/arabsat-selects-telesat-lightspeed-low-earth-orbit-leo-services-for-its-multi-orbit-connectivity-portfolio/",
+    "hash": "898300d8d2305c786e16b03e45f3230b36c8d409183bb2e9c206db63a86b0faf"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/15/solestial-receives-17-million-in-series-a-funding-round-to-scale-space-solar-manufacturing/",
+    "hash": "41246c95b83e721f396e4638f12f7bf408f83697bb13497bc8a7da759e268c65"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/15/viasat-blue-origin-to-partner-on-launch-telemetry-demo-for-nasa-communications-services-project/",
+    "hash": "3af3875b3195ee5066834b2472251c377fed711f1273e387c085ec3abcee0552"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/15/honeywell-aerospaces-high-speed-satcom-system-selected-for-advanced-u-s-army-aircraft/",
+    "hash": "ad0744d9f95f3aaa78f2d13505ec14096c4f0ef6694b13736e4338e5c62e56a4"
   }
 ]
