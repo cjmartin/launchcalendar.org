@@ -20,7 +20,7 @@ tags:
   - booster 1090
 date: '2025-05-14T16:38:00Z'
 created: '2025-05-12T23:42:08.467Z'
-updated: '2025-05-16T16:16:12.712Z'
+updated: '2025-05-18T05:30:34.773Z'
 redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida, USA'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
@@ -40,6 +40,7 @@ links:
     type:
       - forum
       - discussion
+      - launch page
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62842.0'
   - title: 'Launch Roundup: Orbital launches from five countries planned'
     type:
@@ -87,10 +88,15 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-6-67-b1090-ccsfs
-  - title: Spaceflight Now launch article
+  - title: >-
+      SpaceX Falcon 9 rocket launches Starlink satellites from Cape Canaveral,
+      lands at sea (video)
     type:
-      - article
-    url: 'http://spaceflightnow.com/'
+      - launch
+      - video
+      - source
+    url: >-
+      https://www.space.com/spacex-falcon-9-rocket-launches-starlink-satellites-cape-canaveral-video
   - title: Falcon 9 rocket facts
     type:
       - reference
@@ -116,15 +122,6 @@ links:
       - reference
       - landing
     url: 'https://www.space.com/spacex-drone-ship-a-shortfall-of-gravitas'
-  - title: >-
-      SpaceX Falcon 9 rocket launches Starlink satellites from Cape Canaveral,
-      lands at sea (video)
-    type:
-      - launch
-      - video
-      - source
-    url: >-
-      https://www.space.com/spacex-falcon-9-rocket-launches-starlink-satellites-cape-canaveral-video
 videos:
   - title: SpaceX Starlink 6-67 Launch
     type:
@@ -135,6 +132,15 @@ videos:
     source: youtube
     url: 'https://www.youtube.com/watch?v=KO9CpRkj4yU'
     video_id: KO9CpRkj4yU
+  - title: >-
+      Falcon Heavy Gets Weird, Neutron Advances, and NASA Faces Major Cuts |
+      This Week in Spaceflight
+    type:
+      - youtube
+      - news
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=Uoly7KSyT7k'
+    video_id: Uoly7KSyT7k
 images: []
 ---
-On May 14, 2025, at 16:38 UTC (12:38 p.m. ET), SpaceX’s Falcon 9 (B1090-4) launched the Starlink Group 6-67 mission from SLC-40, Cape Canaveral, deploying 28 Starlink v2 Mini Optimized satellites into a 43-degree-inclined orbit. Booster B1090, previously used for Crew-10, Bandwagon-3, and SES O3b mPOWER 7/8, completed its fourth flight and landed on 'A Shortfall of Gravitas' in the Atlantic about 8.5 minutes after liftoff—marking its 109th landing on this drone ship. This was the 58th Falcon 9 launch of 2025, the 450th successful SpaceX booster landing, and the 475th Falcon 9 flight overall, raising the active Starlink satellite count to over 7,400. Favorable weather supported a smooth afternoon liftoff, with backup windows available if needed.
+On May 14, 2025, at 16:38 UTC (12:38 p.m. ET), SpaceX’s Falcon 9 (B1090-4) launched the Starlink Group 6-67 mission from SLC-40, Cape Canaveral, deploying 28 Starlink v2 Mini Optimized satellites into a 43-degree-inclined orbit. Booster B1090, previously used for Crew-10, Bandwagon-3, and SES O3b mPOWER 7/8, completed its fourth flight and landed on 'A Shortfall of Gravitas' in the Atlantic about 8.5 minutes after liftoff—marking its 109th landing on this drone ship. This was the 58th Falcon 9 launch of 2025, the 450th successful SpaceX booster landing, and the 475th Falcon 9 flight overall, raising the active Starlink satellite count to over 7,400. Favorable weather supported a smooth afternoon liftoff, with backup windows available if needed. SpaceX continued its rapid launch cadence with this mission, adding more v2 Mini satellites to its growing broadband constellation.

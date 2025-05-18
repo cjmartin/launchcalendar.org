@@ -18,7 +18,7 @@ tags:
   - Group 15-4
 date: '2025-05-13T01:15:00Z'
 created: '2025-05-12T18:39:54.208Z'
-updated: '2025-05-16T16:15:36.317Z'
+updated: '2025-05-18T05:29:57.324Z'
 redirect_from: []
 location: 'SLC-4E, Vandenberg Space Force Base, California'
 location-slug: slc-4e-vandenberg-space-force-base-california-usa
@@ -29,10 +29,10 @@ vehicle-slug: falcon-9
 payload: Starlink Group 15-4
 payload-type: satellite
 payload-description: >-
-  26 Starlink V2 Mini Optimized satellites were launched to low Earth orbit
-  (LEO) to expand SpaceX's Starlink broadband megaconstellation. This deployment
-  from Vandenberg featured V2 Mini Optimized smallsats, continuing the rollout
-  of Starlink internet coverage worldwide.
+  26 Starlink V2 Mini Optimized satellites were launched to a 267 x 279 km low
+  Earth orbit (LEO) with an inclination of 70.01°, expanding SpaceX's Starlink
+  broadband megaconstellation. This Vandenberg deployment utilized V2 Mini
+  Optimized smallsats to further global Starlink internet coverage.
 links:
   - title: >-
       SpaceX launches 26 Starlink satellites on Falcon 9 rocket from Vandenberg
@@ -61,10 +61,11 @@ links:
       - source
     url: >-
       https://news.satnews.com/2025/05/12/spacex-launches-starlink-group-15-4-smallsats-from-california-beach/
-  - title: Falcon 9 | Starlink Group 15-4 - NSF Forum
+  - title: Falcon 9 | Starlink Group 15-4 Forum Discussion
     type:
       - forum
       - discussion
+      - launch page
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62814.0'
   - title: 'Launch Roundup: Orbital launches from five countries planned'
     type:
@@ -109,9 +110,10 @@ videos:
     type:
       - youtube
       - video
+      - news
     source: youtube
     url: 'https://www.youtube.com/watch?v=Uoly7KSyT7k'
     video_id: Uoly7KSyT7k
 images: []
 ---
-SpaceX launched the Falcon 9 Starlink Group 15-4 mission from SLC-4E at Vandenberg Space Force Base on May 13, 2025 at 01:15 UTC (6:15 p.m. PDT, May 12). The launch deployed 26 Starlink satellites to low-Earth orbit using Falcon 9 booster B1088-6, which successfully landed on the 'Of Course I Still Love You' droneship. This marked the booster’s sixth flight after supporting missions such as NROL-126 and SPHEREx. It was the 56th Falcon 9 flight of 2025, with 39 dedicated to Starlink launches. Residents in the region may have heard sonic booms as the rocket launched. Coverage was available via official SpaceX channels and media outlets.
+SpaceX completed the Starlink Group 15-4 mission with Falcon 9 from Vandenberg SFB on May 13, 2025 at 01:15 UTC (6:15 p.m. PDT, May 12), deploying 26 satellites into a 267 x 279 km low-Earth orbit inclined at 70.01°. The rocket flew a southeast trajectory and booster B1088-6 landed on 'Of Course I Still Love You.' This was the 56th Falcon 9 flight of 2025 and the third Starlink Group 15 launch from Vandenberg, with extensive media and SpaceX coverage of the event.
