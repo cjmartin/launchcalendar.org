@@ -969,7 +969,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/",
-    "hash": "19c3bac92aec08ccb49c0282748549d66e93e49df5e52528b2374c3b8b711837"
+    "hash": "0f81560763ee4157dafde413808e8348be8115feec5349e303d53e5ef0611d52"
   },
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-scrubs-florida-launch-of-starlink-group-6-83-smallsats-to-tuesday/",
@@ -1125,7 +1125,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/artemis-ii-update-3/",
-    "hash": "ad774db443b7f6e5064038905a0772408afa8005e916f869a9d1c909cf3131ee"
+    "hash": "9192e2b26f0c93bd61378e26ec8ca48a0b42e7565ee13ef101311479683fde28"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/16/live-coverage-spacex-plans-morning-launch-of-starlink-satellites-from-california/",
@@ -1182,5 +1182,25 @@
   {
     "link": "https://news.satnews.com/2025/05/15/honeywell-aerospaces-high-speed-satcom-system-selected-for-advanced-u-s-army-aircraft/",
     "hash": "ad0744d9f95f3aaa78f2d13505ec14096c4f0ef6694b13736e4338e5c62e56a4"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/watch-rocket-lab-launch-private-japanese-earth-observing-satellite-early-may-17",
+    "hash": "881898ca321c2e5f8a0cef3b417538ca6d8748d70d5d5514ddd1a1e79d72982f"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/watch-india-launch-its-2nd-space-mission-of-the-year-tonight",
+    "hash": "5bd31a27f8073f1facebf1ad703d0ba4de81ab7ab7af3c97cf4deb10ccd9c609"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/neutron-update-051625/",
+    "hash": "2f7f937ca63c0c9c63709854231a1bbfd5b5c7a03b261c90794df44e664c4f76"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/indian-rocket-launch-fails-earth-observation-satellite-lost",
+    "hash": "9c73d363fa8fbac0329f1223692fe49556bfea35464a49c43785f30a28b82700"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/17/rocket-lab-launches-the-sea-god-sees-iqps-launch-2/",
+    "hash": "20238558d034e660a27c1cca632b355c942f9116f404d67336fb32a306c8adb2"
   }
 ]
