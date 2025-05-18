@@ -969,7 +969,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/",
-    "hash": "0f81560763ee4157dafde413808e8348be8115feec5349e303d53e5ef0611d52"
+    "hash": "46a28a9a288901f26e8912b92a94e611b7a413daf1ff84aa074f5b4acd9c33de"
   },
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-scrubs-florida-launch-of-starlink-group-6-83-smallsats-to-tuesday/",
@@ -1149,7 +1149,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/16/forresters-digest-ast-spacemobile-looks-to-raise-500m/",
-    "hash": "bcda2b891e2488278a9754d7ec47dc8b5d17018ba745b37c2692fe97c2ae99de"
+    "hash": "4b2beed1d8cbe520f810ce8881377c7f1d955e2e30b038df6819753ec2c350a5"
   },
   {
     "link": "https://news.satnews.com/2025/05/15/nasa-awards-launch-service-task-order-for-asperas-galaxy-mission-to-rocket-lab/",
@@ -1197,10 +1197,18 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/indian-rocket-launch-fails-earth-observation-satellite-lost",
-    "hash": "9c73d363fa8fbac0329f1223692fe49556bfea35464a49c43785f30a28b82700"
+    "hash": "46f3da392519411ca20aa10081e3012cb94260b5495b83ce5ae01b9e7b842fe9"
   },
   {
     "link": "https://news.satnews.com/2025/05/17/rocket-lab-launches-the-sea-god-sees-iqps-launch-2/",
-    "hash": "20238558d034e660a27c1cca632b355c942f9116f404d67336fb32a306c8adb2"
+    "hash": "87f97b1efa0e4d4e3ecb58d466b705f8026b9df7703cec96ef57eb95530a2e6c"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/18/space-systems-command-advances-the-space-c2-data-platform-program/",
+    "hash": "dd7a7cdddf548109e3101277ceb3ab84bb0745c232473d8679d2fb6768a07ccc"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/18/vpt-has-released-their-new-quad-output-low-noise-slnp17-100cq-for-space-applications/",
+    "hash": "5e88331d551d3ce2b5541b613d00f5d3dd5a209f28f94d687f0734660ce7848f"
   }
 ]
