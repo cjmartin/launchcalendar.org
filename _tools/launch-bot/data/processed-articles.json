@@ -969,7 +969,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/",
-    "hash": "46a28a9a288901f26e8912b92a94e611b7a413daf1ff84aa074f5b4acd9c33de"
+    "hash": "f6bb77e2ef7d01c82d386cacef97c81f34cf595833c41847c1bc0ab5a89c4fe1"
   },
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-scrubs-florida-launch-of-starlink-group-6-83-smallsats-to-tuesday/",
@@ -1129,7 +1129,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/16/live-coverage-spacex-plans-morning-launch-of-starlink-satellites-from-california/",
-    "hash": "7db8e9f550231c838620825c7140d92e93e29c800f46eaea7156010e5493d023"
+    "hash": "cd35baee4bb9a5fae09c10013992bb7c6b47cd89f11ba7939e55af874ea1c913"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-26-starlink-satellites-to-orbit-from-california-video",
@@ -1193,7 +1193,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/neutron-update-051625/",
-    "hash": "2f7f937ca63c0c9c63709854231a1bbfd5b5c7a03b261c90794df44e664c4f76"
+    "hash": "eedeb095ba609f8d8c870d00b36526a3e906bbc2652e2d6f03f7f334003daa0c"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/indian-rocket-launch-fails-earth-observation-satellite-lost",
@@ -1205,10 +1205,50 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/18/space-systems-command-advances-the-space-c2-data-platform-program/",
-    "hash": "dd7a7cdddf548109e3101277ceb3ab84bb0745c232473d8679d2fb6768a07ccc"
+    "hash": "6bd86683034eb79d7a0dc0d9ba2ac18855655946587b420ada0d1a8dbeac9603"
   },
   {
     "link": "https://news.satnews.com/2025/05/18/vpt-has-released-their-new-quad-output-low-noise-slnp17-100cq-for-space-applications/",
     "hash": "5e88331d551d3ce2b5541b613d00f5d3dd5a209f28f94d687f0734660ce7848f"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/webb-keck-titan/",
+    "hash": "9c1d98da8c461336c570bae8f085f3294b325e45cf6e8c921b092db9bb6d54da"
+  },
+  {
+    "link": "https://europeanspaceflight.com/cnes-awards-contract-to-french-spaceplane-startup/",
+    "hash": "0f79bdd260924a010d25a3d4a187f353b26c0392fc1ad7685502172150dfa4f0"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/18/spacex-plans-for-monday-launch-of-starlink-group-12-15-smallsats/",
+    "hash": "9e4e7493fdf913e530600fa0afa6cfebb9cc81c2da276ac5cb951d129558f19e"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/18/isros-eos-09-risat-1b-launch-failure-during-3rd-stage/",
+    "hash": "ab71b42b94123756cc9d671ca84713ef36a35e13163c7b9cc50dff6127dbd493"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/18/rocket-lab-launches-the-sea-god-sees-iqps-launch-2/",
+    "hash": "08f894af8be4e823c630e3418d27d33d5be972d46a3226864c43e10480cb0707"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/18/forresters-digest-eutelsat-q3-financially-stretched/",
+    "hash": "2210bc05de65e8d4510b1f759579047ee4ba7ca91cd3ab9f869a8f6e867416ef"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/18/aiko-avio-renew-partnership-to-advance-ai-in-launcher-ops/",
+    "hash": "3d843df0deacc6bcdd8edd03956fe9164cd490c28b35466592cfe829d2959d05"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/18/5gaa-presents-1st-satellite-5g-v2x-direct-vehicle-connectivity/",
+    "hash": "78931e30cddf8f7efe396b5cfa4592cbb65c7bdc53bcce18c4b31cf174bf5384"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/18/successful-on-orbit-operation-of-sidus-spaces-featheredge-gen-2/",
+    "hash": "3aa2ff21808e46fb261c8dcbf0c4aed175c513d331fd9dd7e939fe983326b016"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/18/uavionix-debuts-trakr-drone-monitoring-low-altitude-airspace-awareness-in-flightline/",
+    "hash": "dbee962065499867a7fe333829c020e4e52e16d7ac0f54714d1e86deaac92b07"
   }
 ]
