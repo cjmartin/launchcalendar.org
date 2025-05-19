@@ -299,5 +299,14 @@
       "TRS demonstrator",
       "TRS single-stage"
     ]
+  },
+  "gushenxing-1s": {
+    "vehicle_name": "Gushenxing-1S",
+    "operator": "Galactic Energy",
+    "aliases": [
+      "Ceres-1S",
+      "Ceres 1S",
+      "Gushenxing 1S"
+    ]
   }
 }

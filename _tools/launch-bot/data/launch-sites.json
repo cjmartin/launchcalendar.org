@@ -574,5 +574,17 @@
     "launch_vehicles": [
       "zhuque-2e"
     ]
+  },
+  "dong-fang-hang-tian-gang-oriental-spaceport-launch-ship-chinese-coastal-waters": {
+    "site_name": "Dong Fang Hang Tian Gang (Oriental Spaceport Launch Ship)",
+    "location": "Chinese coastal waters",
+    "geo": {
+      "latitude": 32,
+      "longitude": 125
+    },
+    "operator": "Galactic Energy",
+    "launch_vehicles": [
+      "Gushenxing-1S (Ceres-1S)"
+    ]
   }
 }
