@@ -969,7 +969,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/",
-    "hash": "f6bb77e2ef7d01c82d386cacef97c81f34cf595833c41847c1bc0ab5a89c4fe1"
+    "hash": "409f42bd0e47e1c3e4458944afb83d14a26bab3012695e06e869f08c0d5341e9"
   },
   {
     "link": "https://news.satnews.com/2025/05/12/spacex-scrubs-florida-launch-of-starlink-group-6-83-smallsats-to-tuesday/",
@@ -1253,7 +1253,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/19/live-coverage-spacex-to-launch-23-starlink-satellites-on-falcon-9-launch-from-cape-canaveral/",
-    "hash": "cca16a6b258017f693a1f5170fb7d00d7b17c53c3e4721359af4c885d305e3ba"
+    "hash": "4dc54633c05cb89b7d925c47da2313be8b6f3d0b8915f7e02bb2e661b1f2adb9"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/19/department-of-the-air-force-issues-draft-documents-for-new-spacex-launch-site-at-vandenberg-space-force-base/",
@@ -1261,7 +1261,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051925/",
-    "hash": "477e205a1feec721fd37d2d81c66cd030781a6c9bb022de5c06e287a03f2040c"
+    "hash": "a59720076a3d2c9915b4f89f2c4c81e49fd81325442eac6d6909b25f2656178f"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-gets-updated-starship-launch-license-but-still-awaits-flight-9-approval",
@@ -1273,7 +1273,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/19/nasas-webb-reveals-new-details-mysteries-in-jupiters-aurora/",
-    "hash": "42cb6c19fecba983dab7be628ef0ce30165d5db07d31efedc23d391ddee31853"
+    "hash": "debd7ee6c983caaeb0767c6f3ffe90017ecb5a898f1f1a886896969fa602f925"
   },
   {
     "link": "https://news.satnews.com/2025/05/19/ssc-selects-caci-general-atomics-and-viasat-to-develop-est-phase-2-prototypes-providing-on-orbit-crosslink-compatibility-among-future-dod-space-systems/",
@@ -1290,5 +1290,25 @@
   {
     "link": "https://news.satnews.com/2025/05/19/synspective-satim-launch-object-detection-and-classification-odc-solution/",
     "hash": "49a83d8665755127bb8210d947082e41bd841ee12b71e52fd21db37a9a91c4cd"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/starfish-plans-first-commercial-satellite-docking/",
+    "hash": "38b7e4ee94c4630c52bb06d9e06b53abc049cda53f6db273303e8e3517a32566"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/20/diu-solicitation-cuas-low-cost-sensing-challenge/",
+    "hash": "a66abcaa21325d0f6a7bf1582969f42a2dbd7f12c113efe3d6604c60bc1a9540"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/19/__trashed-8/",
+    "hash": "186ebda985608fd38988b75510f0cceffcc8ec4b24da0b453b202d29d4c12cab"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/19/eutelsat-oneweb-kymeta-debut-multi-orbit-satcom-offering-to-strengthen-global-governments-defense-infrastructures/",
+    "hash": "ee34003d1666f556f69ea838bc3eb0d7f3c6825a350781292365d187cfd34842"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/19/ses-space-defense-to-provide-hybrid-space-based-architecture-to-u-s-department-of-defense/",
+    "hash": "e68d959819791988426cf4a16e7ea289b3788323dc73f51d9f83fd2f303f5bab"
   }
 ]
