@@ -1065,7 +1065,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/14/axiom-mission-4-delayed-due-to-dragon-capsule-readiness/",
-    "hash": "5bc77ec9274502241917365f50604fed589678b4993e3ce543248bbc32745d24"
+    "hash": "05a5e39e01fd7c0828318cb16c4e0dab0b71009448ce87df51c807066ef0291d"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/eris-testflight1/",
@@ -1129,7 +1129,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/16/live-coverage-spacex-plans-morning-launch-of-starlink-satellites-from-california/",
-    "hash": "cd35baee4bb9a5fae09c10013992bb7c6b47cd89f11ba7939e55af874ea1c913"
+    "hash": "6a0c9a61549ed4a465d5e3d29f29901d8e7579befa80501985357bba62c7f673"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-26-starlink-satellites-to-orbit-from-california-video",
@@ -1213,7 +1213,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/webb-keck-titan/",
-    "hash": "9c1d98da8c461336c570bae8f085f3294b325e45cf6e8c921b092db9bb6d54da"
+    "hash": "c81e07949be015b095686bac728a67e11c86006bb22c1cd90be116244d447961"
   },
   {
     "link": "https://europeanspaceflight.com/cnes-awards-contract-to-french-spaceplane-startup/",
@@ -1221,7 +1221,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/18/spacex-plans-for-monday-launch-of-starlink-group-12-15-smallsats/",
-    "hash": "9e4e7493fdf913e530600fa0afa6cfebb9cc81c2da276ac5cb951d129558f19e"
+    "hash": "bb3785ef1e2e100449cc458a654c92001d287f8c7100629d0bab2b373ca49a1a"
   },
   {
     "link": "https://news.satnews.com/2025/05/18/isros-eos-09-risat-1b-launch-failure-during-3rd-stage/",
@@ -1233,7 +1233,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/18/forresters-digest-eutelsat-q3-financially-stretched/",
-    "hash": "2210bc05de65e8d4510b1f759579047ee4ba7ca91cd3ab9f869a8f6e867416ef"
+    "hash": "dcaa4471fc3779e545ea07dea0f0048a0cafd1afb8862281c9bc9f10af7f292c"
   },
   {
     "link": "https://news.satnews.com/2025/05/18/aiko-avio-renew-partnership-to-advance-ai-in-launcher-ops/",
@@ -1250,5 +1250,45 @@
   {
     "link": "https://news.satnews.com/2025/05/18/uavionix-debuts-trakr-drone-monitoring-low-altitude-airspace-awareness-in-flightline/",
     "hash": "dbee962065499867a7fe333829c020e4e52e16d7ac0f54714d1e86deaac92b07"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/19/live-coverage-spacex-to-launch-23-starlink-satellites-on-falcon-9-launch-from-cape-canaveral/",
+    "hash": "cca16a6b258017f693a1f5170fb7d00d7b17c53c3e4721359af4c885d305e3ba"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/19/department-of-the-air-force-issues-draft-documents-for-new-spacex-launch-site-at-vandenberg-space-force-base/",
+    "hash": "ae19d33a8f14a2fe65891f4c1843ee95925acfc0e21c61c4da599f5bd591bdb1"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051925/",
+    "hash": "477e205a1feec721fd37d2d81c66cd030781a6c9bb022de5c06e287a03f2040c"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-gets-updated-starship-launch-license-but-still-awaits-flight-9-approval",
+    "hash": "cc57887d83c4b35b6f1c8309d90751c02c5fc015337bed705b1353a0915731c9"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/watch-chinas-private-ceres-1-rocket-launch-4-satellites-from-a-ship-at-sea-video",
+    "hash": "2ac655390393a936a068aedf89d96f62d5d92cd8d4ba8e6ccf312f29c6237a91"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/19/nasas-webb-reveals-new-details-mysteries-in-jupiters-aurora/",
+    "hash": "42cb6c19fecba983dab7be628ef0ce30165d5db07d31efedc23d391ddee31853"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/19/ssc-selects-caci-general-atomics-and-viasat-to-develop-est-phase-2-prototypes-providing-on-orbit-crosslink-compatibility-among-future-dod-space-systems/",
+    "hash": "48cfb9420f114f480100212d474c791d520d6c37e2a55404af2c27c140da11fd"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/19/ga-asi-is-entering-the-ground-testing-phase-for-their-yfq-42a-cca/",
+    "hash": "3b55142e1610e779c4f296580930411ce79657ff65f0c9be84d906f9b7a329ef"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/19/forresters-digest-spacex-buys-akoustis-out-of-bankruptcy/",
+    "hash": "5447cb9c61f67ef7138cc36c7182d3f46413f1737b26eb6f6fbca558da1b181b"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/19/synspective-satim-launch-object-detection-and-classification-odc-solution/",
+    "hash": "49a83d8665755127bb8210d947082e41bd841ee12b71e52fd21db37a9a91c4cd"
   }
 ]

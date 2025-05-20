@@ -584,7 +584,21 @@
     },
     "operator": "Galactic Energy",
     "launch_vehicles": [
-      "Gushenxing-1S (Ceres-1S)"
+      "Gushenxing-1S",
+      "Ceres-1S"
+    ]
+  },
+  "lc-201-wenchang-space-launch-site-china": {
+    "site_name": "LC-201",
+    "location": "Wenchang Space Launch Site, China",
+    "geo": {
+      "latitude": 19.6144,
+      "longitude": 110.9515
+    },
+    "operator": "CASC",
+    "launch_vehicles": [
+      "long-march-7",
+      "long-march-7a"
     ]
   }
 }

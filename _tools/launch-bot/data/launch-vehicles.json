@@ -78,6 +78,11 @@
     "operator": "Roscosmos",
     "aliases": ["Soyuz", "Soyuz ST-A", "Soyuz ST-B"]
   },
+  "soyuz-2-1a": {
+    "vehicle_name": "Soyuz-2.1a",
+    "operator": "Roscosmos",
+    "aliases": ["Soyuz 2.1a"]
+  },
   "minotaur-iv": {
     "vehicle_name": "Minotaur IV",
     "operator": "Northrop Grumman",
@@ -300,13 +305,23 @@
       "TRS single-stage"
     ]
   },
-  "gushenxing-1s": {
-    "vehicle_name": "Gushenxing-1S",
+  "ceres-1": {
+    "vehicle_name": "Ceres-1",
     "operator": "Galactic Energy",
     "aliases": [
+      "Ceres-1",
+      "Ceres 1",
       "Ceres-1S",
       "Ceres 1S",
+      "Gushenxing-1",
+      "Gushenxing 1",
+      "Gushenxing-1S",
       "Gushenxing 1S"
     ]
+  },
+  "kinetica-1": {
+    "vehicle_name": "Kinetica 1",
+    "operator": "CAS Space",
+    "aliases": ["Lijian-1", "Lijian 1", "Kinetica-1"]
   }
 }
