@@ -323,5 +323,10 @@
     "vehicle_name": "Kinetica 1",
     "operator": "CAS Space",
     "aliases": ["Lijian-1", "Lijian 1", "Kinetica-1"]
+  },
+  "minuteman-iii": {
+    "vehicle_name": "Minuteman III",
+    "operator": "United States Air Force",
+    "aliases": ["LGM-30G", "Minuteman 3", "Minuteman-3"]
   }
 }

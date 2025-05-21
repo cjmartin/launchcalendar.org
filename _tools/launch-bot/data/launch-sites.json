@@ -149,6 +149,17 @@
       "minotaur-c"
     ]
   },
+  "minuteman-launch-area-vandenberg-space-force-base-ca-usa": {
+    "site_name": "Minuteman Launch Area",
+    "location": "Vandenberg Space Force Base, California, USA",
+    "geo": {
+      "latitude": 34.742,
+      "longitude": -120.572
+    },
+    "operator": "United States Air Force",
+    "launch_vehicles": ["minuteman-iii"],
+    "notes": "Generic launch area used for Minuteman III ICBM test launches from Vandenberg. Used when the specific silo or pad (LF-04, LF-09, etc.) is not known."
+  },
   "pad-0a-wallops-island-virginia-usa": {
     "site_name": "Pad 0A",
     "location": "Wallops Island, Virginia, USA",
