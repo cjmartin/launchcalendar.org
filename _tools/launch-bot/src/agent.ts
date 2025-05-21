@@ -33,16 +33,22 @@ async function main() {
   // Use consolidated logic to get new or updated articles (fetches feeds internally)
   const newOrUpdatedArticles = await getNewOrUpdatedArticles();
 
+  // Count new and updated articles
+  const newCount = newOrUpdatedArticles.filter(a => a.status === 'new').length;
+  const updateCount = newOrUpdatedArticles.filter(a => a.status === 'update').length;
+
   // limit articles to 5 for testing
   const limitedArticles = LIMIT_ARTICLES ? newOrUpdatedArticles.slice(0, LIMIT_ARTICLES) : newOrUpdatedArticles;
   console.log(`📥 Fetched ${limitedArticles.length} new or updated articles from RSS feed.`);
+  console.log(`🆕 New articles: ${newCount}, 🔄 Updated articles: ${updateCount}`);
+  
 
   const processedArticles: ProcessedArticle[] = [];
 
   for (const { article, hash, status } of limitedArticles) {
     console.log(`🔍 Checking article: ${article.title}`);
     console.log(`🔗 Link: ${article.link}`);
-    console.log(`📰 Status: ${status}`);
+    console.log(`${status === "new" ? "🆕" : "🔄"} Article status: ${status}`);
     // Analyze whether it's a launch
     const isLaunch = await detectLaunch(article);
     if (!isLaunch) {
