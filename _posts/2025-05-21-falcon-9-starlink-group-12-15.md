@@ -2,12 +2,11 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink Group 12-15"
 description: >-
-  Falcon 9 will launch Starlink Group 12-15, deploying 23 Starlink V2 Mini
-  satellites (13 with Direct to Cell capabilities) into low Earth orbit. The
-  first flight of booster B1095 was planned, with a landing attempt on 'Just
-  Read The Instructions.' The initial launch attempt on May 20, 2025, was
-  scrubbed minutes before liftoff; the second attempt is scheduled
-  for May 21, 2025 at 03:18 UTC.
+  SpaceX launched Falcon 9 carrying Starlink Group 12-15, deploying 23 Starlink
+  V2 Mini satellites (13 with Direct to Cell capabilities) into low Earth orbit.
+  The debut flight of booster B1095 concluded with a successful droneship
+  landing on 'Just Read The Instructions.' After an initial scrub minutes before
+  liftoff on May 20, 2025, the launch succeeded on May 21, 2025 at 03:18 UTC.
 tags:
   - Falcon 9
   - Starlink
@@ -20,9 +19,13 @@ tags:
   - B1095
   - Florida
   - SLC-40
+  - Starlink V2 Mini
+  - launch scrub
+  - LEO
+  - Direct to Cell
 date: '2025-05-21T03:18:00Z'
 created: '2025-05-19T16:05:19.579Z'
-updated: '2025-05-20T16:32:30.673Z'
+updated: '2025-05-21T17:10:36.928Z'
 redirect_from:
   - 2025/05/20/falcon-9-starlink-group-12-15/
 location: 'Space Launch Complex 40, Cape Canaveral SFS, Florida'
@@ -36,10 +39,11 @@ payload-type: satellite
 payload-description: >-
   A batch of 23 Starlink V2 Mini satellites for the Starlink mega-constellation,
   SpaceX's space-based Internet communication system. Thirteen of the satellites
-  feature Direct to Cell capabilities. The mission delivers both v2 Mini and
-  Direct-to-Cell variants to low Earth orbit (LEO). The Falcon 9 booster B1095
-  was scheduled to make its first flight and land on the droneship 'Just Read
-  The Instructions.'
+  are equipped for Direct to Cell capabilities, enabling connectivity directly
+  to smartphones. The mission delivers both v2 Mini and Direct-to-Cell variants
+  to low Earth orbit (LEO). The Falcon 9 booster B1095 debuted on this flight,
+  with a successful landing on the droneship 'Just Read The Instructions.'
+  Satellite deployment was confirmed about an hour after launch.
 links:
   - title: SpaceX plans for Monday launch of Starlink Group 12-15 smallsats
     type:
@@ -81,12 +85,66 @@ links:
       - article
     url: >-
       http://spaceflightnow.com/2025/05/19/spacex-scrubs-monday-night-falcon-9-launch-minutes-before-liftoff/
+  - title: New Falcon 9 booster makes its debut on Starlink delivery mission
+    type:
+      - article
+      - source
+    url: >-
+      https://spaceflightnow.com/2025/05/20/live-coverage-new-falcon-9-booster-to-make-second-attempt-at-debut-on-starlink-delivery-mission/
+  - title: SpaceX mission description
+    type:
+      - launch
+      - reference
+    url: 'https://www.spacex.com/launches/mission/?missionId=sl-12-15'
+  - title: 'Starlink satellites: Facts, tracking and impact on astronomy'
+    type:
+      - reference
+      - payload
+    url: 'https://www.space.com/spacex-starlink-satellites.html'
+  - title: About SpaceX Falcon 9 Rocket
+    type:
+      - reference
+      - vehicle
+    url: 'https://www.space.com/18962-spacex-falcon-9.html'
+  - title: SpaceX abort tweet
+    type:
+      - update
+    url: 'https://x.com/SpaceX/status/1924679677169565758'
+  - title: Starlink satellite deployment tweet
+    type:
+      - update
+    url: 'https://x.com/SpaceX/status/1925045393307627815'
+  - title: >-
+      SpaceX launches 23 Starlink satellites to orbit on brand-new Falcon 9
+      rocket after abort (video, photos)
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-23-starlink-satellites-to-orbit-on-brand-new-falcon-9-rocket-after-abort-photos
+  - title: >-
+      SpaceX launches from the Cape Starlink Group 12-15 including 13 Direct to
+      Cell
+    type:
+      - article
+      - source
+    url: >-
+      https://news.satnews.com/2025/05/20/spacex-launches-from-the-cape-starlink-group-12-15-including-13-direct-to-cell/
+  - title: Starlink
+    type:
+      - payload
+    url: 'https://www.starlink.com/'
+  - title: Direct to Cell
+    type:
+      - payload
+    url: 'https://www.starlink.com/us/business/direct-to-cell'
 videos:
   - title: SpaceX Falcon 9 Starlink 12-15 Launch
     type:
       - video
       - livestream
       - launch
+      - launch webcast
     source: youtube
     url: 'https://www.youtube.com/watch?v=99vau5hlJdQ'
     video_id: 99vau5hlJdQ
@@ -105,6 +163,19 @@ videos:
     source: youtube
     url: 'https://www.youtube.com/watch?v=AuKRsw56NL0'
     video_id: AuKRsw56NL0
+  - title: SpaceX Starlink 12-15 Launch
+    type:
+      - launch
+      - youtube
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=CkCxJUzHWN4'
+    video_id: CkCxJUzHWN4
+  - title: 'SpaceX Falcon 9 launches 23 Starlink satellites to orbit (May 20, 2025)'
+    type:
+      - launch
+      - event
+    source: jwplayer
+    url: 'https://www.space.com/space-x-starlink-launch-may-20-2025-video'
 images: []
 ---
-The second attempt to launch SpaceX's Falcon 9 mission carrying Starlink Group 12-15 (23 satellites: v2 Mini and 13 with Direct to Cell capability) is set for May 21, 2025, at 03:18 UTC from SLC-40, Cape Canaveral SFS, Florida. The initial launch attempt was scrubbed minutes before liftoff with no issues reported for the vehicle or payload. The Falcon 9 booster B1095 will make its first flight and attempt a droneship landing on 'Just Read The Instructions.' The mission delivers both v2 Mini and Direct-to-Cell variants to low Earth orbit.
+SpaceX's Starlink Group 12-15 mission launched 23 Starlink V2 Mini satellites—13 with Direct to Cell capabilities—using debut Falcon 9 booster B1095 from SLC-40, Cape Canaveral SFS, Florida, on May 21, 2025 at 03:18 UTC. An initial launch attempt on May 20 was scrubbed minutes before liftoff. The first stage booster then landed successfully on the droneship 'Just Read The Instructions,' marking its 121st booster recovery. This flight was SpaceX's 60th Falcon 9 launch and 43rd Starlink mission of 2025. The payload emphasized Direct to Cell communication, supporting SpaceX's satellite internet constellation. Satellite deployment was confirmed about an hour after launch.
