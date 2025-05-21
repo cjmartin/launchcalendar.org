@@ -2,6 +2,9 @@ import fs from "fs/promises";
 import path from "path";
 import { createLaunchSiteFile } from "../updater/launchSiteFileUpdater";
 import { LaunchSite } from "../types";
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 async function main() {
   // Parse optional limit param from command line
