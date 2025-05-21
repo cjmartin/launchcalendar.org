@@ -24,6 +24,8 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+const LIMIT_ARTICLES: false | number = false; // Limit for testing
+
 async function main() {
   console.log("🚀 LaunchCalendar Agent starting...");
   await checkoutMainBranch();
@@ -32,14 +34,15 @@ async function main() {
   const newOrUpdatedArticles = await getNewOrUpdatedArticles();
 
   // limit articles to 5 for testing
-  const limitedArticles = newOrUpdatedArticles.slice(0, 5);
+  const limitedArticles = LIMIT_ARTICLES ? newOrUpdatedArticles.slice(0, LIMIT_ARTICLES) : newOrUpdatedArticles;
   console.log(`📥 Fetched ${limitedArticles.length} new or updated articles from RSS feed.`);
 
   const processedArticles: ProcessedArticle[] = [];
 
-  for (const { article, hash } of limitedArticles) {
+  for (const { article, hash, status } of limitedArticles) {
     console.log(`🔍 Checking article: ${article.title}`);
     console.log(`🔗 Link: ${article.link}`);
+    console.log(`📰 Status: ${status}`);
     // Analyze whether it's a launch
     const isLaunch = await detectLaunch(article);
     if (!isLaunch) {
@@ -65,7 +68,7 @@ async function main() {
       const normalizedLaunch = await normalizeLaunchData(launch);
 
       // Find existing file
-      const matchResult = await findExistingLaunch(normalizedLaunch);
+      const matchResult = await findExistingLaunch(normalizedLaunch, status);
 
       // Only update the launch file if not a 'no_update' match
       if (matchResult.type === "no_update") {

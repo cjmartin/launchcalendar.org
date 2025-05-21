@@ -34,24 +34,25 @@ export function hashContent(content: string): string {
 }
 
 /**
- * Loads feeds, fetches all entries, and returns an array of { entry, hash } for new or updated articles.
+ * Loads feeds, fetches all entries, and returns an array of { article, hash, status } for new or updated articles.
  * Compares the hash of each entry's content to the stored hash.
+ * status: 'new' if the article is not in processed, 'update' if hash changed.
  */
-export async function getNewOrUpdatedArticles(): Promise<{ article: RSSEntry; hash: string }[]> {
+export async function getNewOrUpdatedArticles(): Promise<{ article: RSSEntry; hash: string; status: 'new' | 'update' }[]> {
   const allEntries = await fetchAllFeedsEntries();
   const processedPath = PROCESSED_ARTICLES_PATH;
   const processedArr: ProcessedArticle[] = JSON.parse(await fs.readFile(processedPath, 'utf8'));
   const processedMap = new Map(processedArr.map(a => [a.link, a]));
-  const result: { article: RSSEntry; hash: string }[] = [];
+  const result: { article: RSSEntry; hash: string; status: 'new' | 'update' }[] = [];
   for (const entry of allEntries) {
     const contentHash = hashContent(entry.content || "");
     const processed = processedMap.get(entry.link);
     if (processed) {
       if (processed.hash !== contentHash) {
-        result.push({ article: entry, hash: contentHash });
+        result.push({ article: entry, hash: contentHash, status: 'update' });
       }
     } else {
-      result.push({ article: entry, hash: contentHash });
+      result.push({ article: entry, hash: contentHash, status: 'new' });
     }
   }
   return result;

@@ -17,7 +17,8 @@ import { callOpenAI } from "../utils/openai";
 // Compares vehicle, payload, and location using token set overlap, and checks date proximity.
 // Returns a match result with confidence score and file path if found.
 export async function findExistingLaunch(
-  launchData: LaunchData
+  launchData: LaunchData,
+  status: 'update' | 'new'
 ): Promise<LaunchMatchResult> {
   const postsDir = path.resolve(__dirname, "../../../../_posts");
   const draftsDir = path.resolve(__dirname, "../../../../_drafts");
@@ -101,16 +102,16 @@ export async function findExistingLaunch(
     if (locationVehicleScore >= 0.8 && sameDay) {
       console.log(`✅ Strong match (update): ${filePath}`);
       // Get GPT to take a look at the file + new data and confirm that it's an update match.
-      isUpdate = await gptCheckMatch(fileLaunchData, launchData);
+      isUpdate = await gptCheckMatch(fileLaunchData, launchData, status);
     } else if (locationVehicleScore >= 0.8 && dateClose) {
       console.log(`🔄 Possible reschedule match: ${filePath}`);
       console.log(`   → Launch date: ${launchData.launch_datetime}, File date: ${fileLaunchData.launch_datetime}`);
       // Get GPT to take a look at the file + new data and confirm that it's a reschedule match.
-      isUpdate = await gptCheckMatch(fileLaunchData, launchData);
+      isUpdate = await gptCheckMatch(fileLaunchData, launchData, status);
     } else if (fullScore >= 0.85) {
       console.log(`🤔 Potential match due to location/vehicle/payload fuzzy match score: ${filePath}`);
       // Get GPT to take a look at the file + new data and confirm that it's a match.
-      isUpdate = await gptCheckMatch(fileLaunchData, launchData);
+      isUpdate = await gptCheckMatch(fileLaunchData, launchData, status);
     }
 
     if (isUpdate?.match) {
@@ -127,18 +128,23 @@ export async function findExistingLaunch(
   return { match: false, type: "no_match", confidence: 0 };
 }
 
-async function gptCheckMatch(fileLaunchData: LaunchData, launchData: LaunchData): Promise<launchFileGPTMatch> {
+async function gptCheckMatch(fileLaunchData: LaunchData, launchData: LaunchData, articleStatus: 'update' | 'new'): Promise<launchFileGPTMatch> {
   const prompt = `You are a helpful assistant for verifying launch data matches.
 You will be given two objects:
 1. The existing launch data (as JSON)
 2. The new launch data (as JSON)
 
-Your task is to determine if the new launch data is an update to the existing launch data.
-
 Respond with a JSON object with the following keys:
 - "match": true if the new launch data is an update to the existing launch data, or if it is an exact match (no update needed). False otherwise.
 - "type": "update" if the new launch data is an update, "reschedule" if the new launch data is a reschedule, "no_update" if the new launch data matches the existing launch data but there is no significant update or new information, or "no_match" if it is not a match.
 - "reasoning": a short explanation of how you arrived at your decision.
+
+This launch data came from an article. The article is either new, or being reprocessed because it has changed in some way.
+
+The source article status for this launch is: "${articleStatus}"
+
+If the article status is "update", there must be significant new updates in the launch data to warrant an "update" or "reschedule" type. If it seems like the article might have been updated but not this specific launch (very common), the type should be "no_update".
+If the article status is "new", the type should "update" if there is new information about the launch, or "reschedule" if the launch data is a reschedule.
 
 Here is the existing launch data:
 ${JSON.stringify(fileLaunchData, null, 2)}
@@ -147,7 +153,6 @@ Here is the new launch data:
 ${JSON.stringify(launchData, null, 2)}
 
 Return only JSON matching this schema:
-
 {
   "match": boolean,
   "type": "update" | "reschedule" | "no_match" | "no_update",
