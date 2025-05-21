@@ -600,5 +600,20 @@
       "long-march-7",
       "long-march-7a"
     ]
+  },
+  "spaceport-america-new-mexico-usa": {
+    "site_name": "Spaceport America",
+    "location": "New Mexico, USA",
+    "geo": {
+      "latitude": 32.9904,
+      "longitude": -106.9746
+    },
+    "operator": "Spaceport America",
+    "launch_vehicles": [
+      "Venus Aerospace RDRE Demonstrator",
+      "SpaceShipTwo",
+      "UP Aerospace SpaceLoft",
+      "SpinLaunch"
+    ]
   }
 }
