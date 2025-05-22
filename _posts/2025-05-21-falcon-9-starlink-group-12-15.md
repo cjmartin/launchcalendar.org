@@ -6,7 +6,7 @@ description: >-
   V2 Mini satellites (13 with Direct to Cell capabilities) into low Earth orbit.
   The debut flight of booster B1095 concluded with a successful droneship
   landing on 'Just Read The Instructions.' After an initial scrub minutes before
-  liftoff on May 20, 2025, the launch succeeded on May 21, 2025 at 03:18 UTC.
+  liftoff on May 20, 2025, the launch succeeded on May 21, 2025 at 03:18:10 UTC.
 tags:
   - Falcon 9
   - Starlink
@@ -23,9 +23,9 @@ tags:
   - launch scrub
   - LEO
   - Direct to Cell
-date: '2025-05-21T03:18:00Z'
+date: '2025-05-21T03:18:10Z'
 created: '2025-05-19T16:05:19.579Z'
-updated: '2025-05-21T17:10:36.928Z'
+updated: '2025-05-22T15:41:08.972Z'
 redirect_from:
   - 2025/05/20/falcon-9-starlink-group-12-15/
 location: 'Space Launch Complex 40, Cape Canaveral SFS, Florida'
@@ -160,6 +160,7 @@ videos:
       - launch
       - live stream
       - event
+      - livestream
     source: youtube
     url: 'https://www.youtube.com/watch?v=AuKRsw56NL0'
     video_id: AuKRsw56NL0
@@ -178,4 +179,4 @@ videos:
     url: 'https://www.space.com/space-x-starlink-launch-may-20-2025-video'
 images: []
 ---
-SpaceX's Starlink Group 12-15 mission launched 23 Starlink V2 Mini satellites—13 with Direct to Cell capabilities—using debut Falcon 9 booster B1095 from SLC-40, Cape Canaveral SFS, Florida, on May 21, 2025 at 03:18 UTC. An initial launch attempt on May 20 was scrubbed minutes before liftoff. The first stage booster then landed successfully on the droneship 'Just Read The Instructions,' marking its 121st booster recovery. This flight was SpaceX's 60th Falcon 9 launch and 43rd Starlink mission of 2025. The payload emphasized Direct to Cell communication, supporting SpaceX's satellite internet constellation. Satellite deployment was confirmed about an hour after launch.
+SpaceX's Starlink Group 12-15 mission launched 23 Starlink V2 Mini satellites—13 with Direct to Cell capabilities—using debut Falcon 9 booster B1095 from SLC-40, Cape Canaveral SFS, Florida, on May 21, 2025 at 03:18:10 UTC. An initial launch attempt on May 20 was scrubbed minutes before liftoff. The first stage booster then landed successfully on the droneship 'Just Read The Instructions,' marking its 121st booster recovery. This flight was SpaceX's 60th Falcon 9 launch and 43rd Starlink mission of 2025. The payload emphasized Direct to Cell communication, supporting SpaceX's satellite internet constellation. Satellite deployment was confirmed about an hour after launch.
