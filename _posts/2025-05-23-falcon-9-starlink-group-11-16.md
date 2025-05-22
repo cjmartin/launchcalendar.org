@@ -15,9 +15,11 @@ tags:
   - Starlink 11-16
   - Group 11-16
   - satellite launch
-date: '2025-05-23T03:19:00Z'
+  - smallsats
+  - Space Launch Complex 4E
+date: '2025-05-23T20:36:00Z'
 created: '2025-05-20T02:12:19.136Z'
-updated: '2025-05-22T15:42:12.813Z'
+updated: '2025-05-22T19:32:21.272Z'
 redirect_from:
   - 2025/05/21/falcon-9-starlink-group-11-16/
   - 2025/05/22/falcon-9-starlink-group-11-16/
@@ -30,10 +32,10 @@ vehicle-slug: falcon-9
 payload: Starlink Group 11-16
 payload-type: satellite
 payload-description: >-
-  A batch of 27 Starlink v2 Mini satellites destined for low-Earth orbit to
-  expand SpaceX's Starlink constellation, providing global internet coverage.
-  The satellites, designated as Starlink v2 Mini, will launch from California on
-  Falcon 9.
+  A batch of 27 Starlink v2 Mini satellites will be deployed to low-Earth orbit
+  on this mission, expanding SpaceX's Starlink constellation for global internet
+  coverage. Booster B1075 will be used for this flight, targeting its 18th
+  launch and landing from SLC-4E, Vandenberg SFB.
 links:
   - title: Falcon 9 | Starlink Group 11-16 - NSF Forum
     type:
@@ -41,8 +43,8 @@ links:
       - discussion
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62890.0'
   - title: >-
-      Launch Roundup: SpaceX to start new Starlink shell; China, Russia to
-      launch unknown payloads
+      Launch Roundup: SpaceX to start new Starlink shell; China, Russia also
+      launch
     type:
       - article
       - source
@@ -58,6 +60,8 @@ links:
       - payload
       - mission
       - info
+      - official
+      - reference
     url: 'https://www.starlink.com/'
   - title: SpaceX to launch Starlink Group 11-16 smallsats hours earlier on Thursday
     type:
@@ -67,6 +71,19 @@ links:
       - source
     url: >-
       https://news.satnews.com/2025/05/21/spacex-to-launch-starlink-group-11-16-smallsats-hours-earlier-on-thursday/
+  - title: Original article
+    type:
+      - news
+      - primary
+      - article
+      - source
+    url: >-
+      https://news.satnews.com/2025/05/22/spacex-moves-starlink-group-11-16-smallsats-launch-to-friday-due-to-various-factors/
+  - title: SpaceX Twitter account (webcast link)
+    type:
+      - webcast
+      - official
+    url: 'https://twitter.com/SpaceX'
 videos:
   - title: SpaceX Starlink Group 11-16 Launch Webcast
     type:
@@ -75,6 +92,13 @@ videos:
       - social media
     source: X
     url: 'https://twitter.com/SpaceX'
+  - title: "\U0001F680 SpaceX Falcon 9 Launches Starlink 12-22 Mission"
+    type:
+      - recap
+      - youtube
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=eOrOul28sGI'
+    video_id: eOrOul28sGI
 images: []
 ---
-SpaceX is targeting Thursday, May 22 for the launch of Falcon 9 carrying the Starlink Group 11-16 small satellites to low-Earth orbit from SLC-4E, Vandenberg Space Force Base, California. The primary launch window is set for 11:19 p.m. ET (03:19 UTC on May 23), with backup options available shortly after. The mission will place 27 Starlink v2 Mini smallsats into a new polar low-Earth orbit shell as part of the expanding Starlink constellation, providing global internet coverage. The booster, B1075, will attempt a droneship landing on 'Of Course I Still Love You' after its 18th mission. Weather is expected to be favorable. Live streaming will be available on SpaceX's X account and X TV app.
+SpaceX is now targeting Friday, May 23, 2025, at 20:36 UTC (1:36 p.m. PDT) for the launch of Starlink Group 11-16 from SLC-4E, Vandenberg SFB, California, after a delay from the originally planned Thursday launch. The Falcon 9 will carry 27 Starlink v2 Mini smallsats for expansion of the constellation's polar shell. Booster B1075 will be making its 18th flight, with landing targeted on the droneship 'Of Course I Still Love You' in the Pacific. Favorable weather is expected and live streaming will be available via SpaceX's X (formerly Twitter) profile and the X TV app. This mission expands Starlink’s global internet coverage.

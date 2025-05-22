@@ -1261,7 +1261,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051925/",
-    "hash": "fdadf0ceab4bd86defa2f9eb7c62d623b3ef9353bdb1eb16c5f6962feac7076f"
+    "hash": "a28cb8573fc16acc89d8ed17d46a43145d6ef8143fb72942d422fa75c4e30114"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-gets-updated-starship-launch-license-but-still-awaits-flight-9-approval",
@@ -1385,6 +1385,18 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/21/spacex-to-launch-starlink-group-11-16-smallsats-hours-earlier-on-thursday/",
-    "hash": "cb606641f54e11ae5adfead505bcfa18c56d4ebc8ab8fb4f1061d60441c6b833"
+    "hash": "aec9020d45131df23684a2bca35d33252d6eb3f085bb033b0fc2028d349b2acb"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-gets-faa-approval-for-flight-9-of-starship-megarocket",
+    "hash": "2f53ad7010935ef141ebce4b90e627ce380c4a99a3b32eace7e892eec9c98e7b"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/22/spacex-moves-starlink-group-11-16-smallsats-launch-to-friday-due-to-various-factors/",
+    "hash": "24acaedc36bb0ef53e7d6978b58999f488932ada22e41aac5f67b0057b771442"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/22/approved-by-nsa-the-curtiss-wright-10-gbe-cots-network-attached-storage-solution/",
+    "hash": "6c100d26d7e3e244d1c14c3243cd9472ffc4a7ea115e258b8f10a2e74646b845"
   }
 ]
