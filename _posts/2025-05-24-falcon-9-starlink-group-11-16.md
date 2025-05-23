@@ -17,12 +17,14 @@ tags:
   - satellite launch
   - smallsats
   - Space Launch Complex 4E
-date: '2025-05-23T20:36:00Z'
+  - Vandenberg SFB
+date: '2025-05-24T03:19:00Z'
 created: '2025-05-20T02:12:19.136Z'
-updated: '2025-05-22T19:32:21.272Z'
+updated: '2025-05-23T15:58:31.403Z'
 redirect_from:
   - 2025/05/21/falcon-9-starlink-group-11-16/
   - 2025/05/22/falcon-9-starlink-group-11-16/
+  - 2025/05/23/falcon-9-starlink-group-11-16/
 location: 'SLC-4E, Vandenberg Space Force Base, California'
 location-slug: slc-4e-vandenberg-space-force-base-california-usa
 manned: false
@@ -62,6 +64,7 @@ links:
       - info
       - official
       - reference
+      - information
     url: 'https://www.starlink.com/'
   - title: SpaceX to launch Starlink Group 11-16 smallsats hours earlier on Thursday
     type:
@@ -83,6 +86,7 @@ links:
     type:
       - webcast
       - official
+      - social
     url: 'https://twitter.com/SpaceX'
 videos:
   - title: SpaceX Starlink Group 11-16 Launch Webcast
@@ -101,4 +105,4 @@ videos:
     video_id: eOrOul28sGI
 images: []
 ---
-SpaceX is now targeting Friday, May 23, 2025, at 20:36 UTC (1:36 p.m. PDT) for the launch of Starlink Group 11-16 from SLC-4E, Vandenberg SFB, California, after a delay from the originally planned Thursday launch. The Falcon 9 will carry 27 Starlink v2 Mini smallsats for expansion of the constellation's polar shell. Booster B1075 will be making its 18th flight, with landing targeted on the droneship 'Of Course I Still Love You' in the Pacific. Favorable weather is expected and live streaming will be available via SpaceX's X (formerly Twitter) profile and the X TV app. This mission expands Starlink’s global internet coverage.
+SpaceX has rescheduled the Starlink Group 11-16 launch to Friday, May 23 (local PDT date, May 24 UTC) at 03:19 UTC, following a delay to optimize launch conditions. A Falcon 9 with booster B1075, aiming for its 18th flight, will deploy 27 Starlink v2 Mini satellites to expand the constellation's polar shell from SLC-4E, Vandenberg SFB, California. Landing is planned on the droneship 'Of Course I Still Love You' (OCISLY) in the Pacific. Weather is favorable and live coverage will be available on SpaceX's X (formerly Twitter) and X TV. This mission continues the buildout of Starlink’s global internet network, with scheduling driven by orbital, weather, and launcher alignment considerations.

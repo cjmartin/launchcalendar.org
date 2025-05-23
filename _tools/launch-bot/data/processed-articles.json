@@ -1261,7 +1261,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051925/",
-    "hash": "a28cb8573fc16acc89d8ed17d46a43145d6ef8143fb72942d422fa75c4e30114"
+    "hash": "65c507d822159825c2071fded120f4630388f2df84da3ae61db3a06e1510c9cc"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-gets-updated-starship-launch-license-but-still-awaits-flight-9-approval",
@@ -1293,7 +1293,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/starfish-plans-first-commercial-satellite-docking/",
-    "hash": "38b7e4ee94c4630c52bb06d9e06b53abc049cda53f6db273303e8e3517a32566"
+    "hash": "f50b36650ae8e63b0232fd94ee45277320d5bdd743f854f8f0749e0a4f0eb3ae"
   },
   {
     "link": "https://news.satnews.com/2025/05/20/diu-solicitation-cuas-low-cost-sensing-challenge/",
@@ -1393,10 +1393,50 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/22/spacex-moves-starlink-group-11-16-smallsats-launch-to-friday-due-to-various-factors/",
-    "hash": "24acaedc36bb0ef53e7d6978b58999f488932ada22e41aac5f67b0057b771442"
+    "hash": "95e1cac2eb9835ef6f1c69e52d0b9373ee256dc3250b29aad1413001b51a236f"
   },
   {
     "link": "https://news.satnews.com/2025/05/22/approved-by-nsa-the-curtiss-wright-10-gbe-cots-network-attached-storage-solution/",
     "hash": "6c100d26d7e3e244d1c14c3243cd9472ffc4a7ea115e258b8f10a2e74646b845"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/starship-flight-9-infrastructure/",
+    "hash": "5f42c965de3021ad8ab737715acc62ece9b3fa8713c7a1730fbc03d0506c4b3d"
+  },
+  {
+    "link": "https://europeanspaceflight.com/arianegroup-completes-hot-fire-tests-of-3d-printed-thruster/",
+    "hash": "45d905ec2db71e6369bec6b57cc1f119068d45483452d9200434ee50339b49a6"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/22/forresters-digest-mda-ups-bid-for-satixfy-by-massive-43/",
+    "hash": "9b54469a47d77e267853b6a95a4c801a1dcc2bbba7b6312959da38009e125808"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/22/in-their-honor-lest-we-forget-2/",
+    "hash": "c31d715caa48e14dedede4a9c7c82463a246ddc0270f7e4f3db70089df4b8c88"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/22/infostellar-contracted-by-the-japan-mod-for-satellite-frequency-analysis-technology-demonstration-project/",
+    "hash": "5fd6cc8ac39defa52fb9005e69240532da5bb305ea8c0d16a5b361956fae2612"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/22/nokia-selected-by-three-sweden-to-offer-fixed-wireless-access-to-households-and-b2b-customers/",
+    "hash": "5b4006481d136a57bf0958b6920acadfccd0e39452c6902b0112d5b3df32d057"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/22/spacex-plans-saturday-launch-of-starlink-group-12-22-smallsats-including-direct-to-cell/",
+    "hash": "ae68bbac973dfd77dd442c0a90fd553116f21b44e3804c276842ecd6041ea1a4"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/22/second-cubesat-to-join-esas-ramses-mission-to-the-asteroid-apophis/",
+    "hash": "2f18519aea47e771e7f8dcbae23b48205a4645b19c8cfe0ba6f77a51fd4b3139"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/22/airbus-next-generation-skynet-satellite-recently-attained-a-major-milestone/",
+    "hash": "a76223480db6209857b6f9c0508ae4fe6570315c91bb46c6c2db2c0ab3bc8ad8"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/22/banks-enthusiastic-for-ast-spacemobile/",
+    "hash": "7a3fa5eb536edc806567322dcc630ebbf046d8d30d244452ca24cd9a379be760"
   }
 ]

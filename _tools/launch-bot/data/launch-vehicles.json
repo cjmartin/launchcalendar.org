@@ -83,6 +83,11 @@
     "operator": "Roscosmos",
     "aliases": ["Soyuz 2.1a"]
   },
+  "soyuz-2-1b": {
+    "vehicle_name": "Soyuz-2.1b",
+    "operator": "Roscosmos",
+    "aliases": ["Soyuz 2.1b"]
+  },
   "minotaur-iv": {
     "vehicle_name": "Minotaur IV",
     "operator": "Northrop Grumman",
