@@ -5,7 +5,7 @@ description: >-
   On May 11, 2025, a Chang Zheng 6A (Long March 6A) rocket launched three Yaogan
   40 Group 02 Earth observation satellites from LC-9A at Taiyuan, developed by
   CAST for electromagnetic environment detection, technical tests, and probing
-  in polar orbit.
+  in polar orbit as part of China's classified Yaogan remote sensing series.
 tags:
   - Chang Zheng 6A
   - CZ-6A
@@ -18,9 +18,13 @@ tags:
   - Earth observation
   - Chinese launch
   - satellites
+  - Yaogan 40
+  - Yaogan
+  - TSLC
+  - satellite
 date: '2025-05-11T13:27:00Z'
 created: '2025-05-08T17:07:43.327Z'
-updated: '2025-05-13T17:52:21.750Z'
+updated: '2025-05-24T15:59:17.436Z'
 redirect_from: []
 location: 'LC-9A, Taiyuan Satellite Launch Center, Shanxi Province, China'
 location-slug: lc-9a-taiyuan-satellite-launch-center-shanxi-china
@@ -33,8 +37,9 @@ payload-type: satellite
 payload-description: >-
   A trio of Earth surveillance satellites for electromagnetic environment
   detection and related technical tests. Developed by CAST, the Yaogan 40 Group
-  02 satellites are designed for electromagnetic environment probing in polar
-  orbit and for additional technical tests.
+  02 satellites are part of China's classified Yaogan series and are designed
+  for electromagnetic environment probing in polar orbit and additional
+  technical demonstrations.
 links:
   - title: Chang Zheng 6A | Yaogan 40 Group 02
     type:
@@ -62,7 +67,12 @@ links:
     type:
       - reference
     url: 'https://www.space.com/china-long-march-rockets-family'
+  - title: 'Chinese launch cadence accelerates, Tianwen-2 prepares for launch'
+    type:
+      - article
+      - source
+    url: 'https://www.nasaspaceflight.com/2025/05/china-roundup-05232025/'
 videos: []
 images: []
 ---
-China successfully launched the Yaogan 40 Group 02, a trio of CAST-developed and classified Earth observation satellites, aboard a Chang Zheng 6A (Long March 6A) rocket from LC-9A at Taiyuan Satellite Launch Center on May 11, 2025. The satellites are designed for electromagnetic environment detection, technical tests, and probing in polar orbit, with few public details released due to their military nature. The mission featured an extended fairing and upgraded second stage, marking the 574th mission of the Long March rocket series and the 99th orbital launch of 2025, further demonstrating China's growing presence in low-Earth orbit.
+China successfully launched the Yaogan 40 Group 02, a trio of CAST-developed and classified Earth observation satellites, aboard a Chang Zheng 6A (Long March 6A) rocket from LC-9A at Taiyuan Satellite Launch Center on May 11, 2025. The satellites are designed for electromagnetic environment detection, technical tests, and probing in polar orbit as part of China's secretive Yaogan series. The mission featured an extended fairing and upgraded second stage, marked the 574th mission of the Long March rocket series, and set a new pad turnaround record. It was the 99th orbital launch of 2025, further demonstrating China's growing presence in low-Earth orbit and capability for rapid, high-cadence launch campaigns.

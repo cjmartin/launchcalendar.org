@@ -2,19 +2,25 @@
 layout: launch
 title: "\U0001F680 Kinetica 1 | \U0001F6F0 Six satellites (including Taijing-3-04 and Taijing-4-02A)"
 description: >-
-  Chinese Kinetica 1 rocket launched six satellites, including Taijing-3-04 and
-  Taijing-4-02A, to orbit from Jiuquan.
+  Chinese Kinetica 1 (Lijian-1) rocket launched six satellites, including
+  Taijing-3-04 and Taijing-4-02A, to orbit from Jiuquan, returning to flight
+  after a previous failure. The satellites support Earth observation and feature
+  multispectral and sub-meter imaging capabilities.
 tags:
   - Kinetica 1
+  - Lijian-1
+  - Kinetica-1
   - Taijing-3-04
   - Taijing-4-02A
   - Jiuquan
   - China
   - unknown payload
   - satellite
+  - CAS Space
+  - Earth observation
 date: '2025-05-21T04:05:00Z'
 created: '2025-05-20T02:12:17.153Z'
-updated: '2025-05-21T16:56:16.159Z'
+updated: '2025-05-24T15:59:07.094Z'
 redirect_from: []
 location: 'Site 130, Jiuquan Satellite Launch Center, China'
 location-slug: site-96-jiuquan-satellite-launch-center-china
@@ -25,7 +31,8 @@ vehicle-slug: kinetica-1
 payload: Six satellites (including Taijing-3-04 and Taijing-4-02A)
 payload-type: satellite
 payload-description: >-
-  Launch of six satellites including two Earth observation satellites
+  Launch of six satellites featuring multispectral imaging and sub-meter remote
+  sensing capabilities, including two Earth observation satellites
   (Taijing-3-04, Taijing-4-02A); other payloads not specified. This is the first
   Kinetica 1 mission of 2025 and the seventh overall. The mission trajectory is
   expected to be southwesterly.
@@ -43,6 +50,11 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/05/launch-roundup-051925/'
+  - title: 'Chinese launch cadence accelerates, Tianwen-2 prepares for launch'
+    type:
+      - article
+      - source
+    url: 'https://www.nasaspaceflight.com/2025/05/china-roundup-05232025/'
 videos:
   - title: >-
       Altimeter Failure, Fairing Pop, and Starlink Madness | This Week in
@@ -56,4 +68,4 @@ videos:
     video_id: sV9tiAt4kHw
 images: []
 ---
-On May 21, 2025 at 04:05 UTC, China's Kinetica 1 solid-fueled rocket launched six satellites into orbit from Site 130 at Jiuquan, with two being Earth observation satellites (Taijing-3-04, Taijing-4-02A). This was the first Kinetica 1 flight of the year and the rocket's seventh mission overall. The specific identities of the other satellites remain undisclosed, and the mission trajectory is believed to be southwesterly.
+On May 21, 2025 at 04:05 UTC, CAS Space returned its Kinetica 1 (Lijian-1) rocket to flight from Site 130 at Jiuquan after a previous failure in December. The mission launched six satellites, including two Earth observation satellites (Taijing-3-04 and Taijing-4-02A), featuring multispectral and sub-meter imaging capabilities. Other payload identities were not disclosed, and the mission trajectory is believed to be southwesterly. This marked the first Kinetica 1 flight of 2025 and the seventh mission of the rocket, as CAS Space continued its healthy launch cadence.

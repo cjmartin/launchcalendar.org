@@ -157,7 +157,9 @@
       "longitude": -120.572
     },
     "operator": "United States Air Force",
-    "launch_vehicles": ["minuteman-iii"],
+    "launch_vehicles": [
+      "minuteman-iii"
+    ],
     "notes": "Generic launch area used for Minuteman III ICBM test launches from Vandenberg. Used when the specific silo or pad (LF-04, LF-09, etc.) is not known."
   },
   "pad-0a-wallops-island-virginia-usa": {
@@ -625,6 +627,32 @@
       "SpaceShipTwo",
       "UP Aerospace SpaceLoft",
       "SpinLaunch"
+    ]
+  },
+  "site-130-jiuquan-satellite-launch-center-china": {
+    "site_name": "Site 130",
+    "location": "Jiuquan Satellite Launch Center, China",
+    "geo": {
+      "latitude": 40.8536,
+      "longitude": 100.3508
+    },
+    "operator": "CAS Space",
+    "launch_vehicles": [
+      "Lijian-1"
+    ]
+  },
+  "launch-complex-2-xichang-satellite-launch-center-china": {
+    "site_name": "Launch Complex 2",
+    "location": "Xichang Satellite Launch Center, China",
+    "geo": {
+      "latitude": 28.2457,
+      "longitude": 102.0274
+    },
+    "operator": "CASC",
+    "launch_vehicles": [
+      "long-march-3b",
+      "long-march-3b/e",
+      "long-march-2c"
     ]
   }
 }

@@ -1253,7 +1253,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/19/live-coverage-spacex-to-launch-23-starlink-satellites-on-falcon-9-launch-from-cape-canaveral/",
-    "hash": "395600d01511d111b3f4df31cd1403b2c6ea1dcda9fa696675c84edd91eb4a60"
+    "hash": "555023d5fe70e77bbdab98d2afa48beeef2cde66cbf53aa0b39c12bcbea8074c"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/19/department-of-the-air-force-issues-draft-documents-for-new-spacex-launch-site-at-vandenberg-space-force-base/",
@@ -1261,7 +1261,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051925/",
-    "hash": "65c507d822159825c2071fded120f4630388f2df84da3ae61db3a06e1510c9cc"
+    "hash": "da1e60cc90c550462548c0b09dad181278587108a4e6186526d1222d85499357"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-gets-updated-starship-launch-license-but-still-awaits-flight-9-approval",
@@ -1313,7 +1313,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/20/live-coverage-new-falcon-9-booster-to-make-second-attempt-at-debut-on-starlink-delivery-mission/",
-    "hash": "0f52d7199b1a8d2704e5d8dfea60f66e7bc2e77365b28be8624af9c8ba082c88"
+    "hash": "6a27ec5e05123f770b8acc4b04ec15fcae298ed6f1f08357f03b5ce7bbd241b5"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/starfish-spaces-otter-satellite-will-attempt-1st-ever-commercial-docking-in-low-earth-orbit-this-year",
@@ -1401,7 +1401,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/starship-flight-9-infrastructure/",
-    "hash": "5f42c965de3021ad8ab737715acc62ece9b3fa8713c7a1730fbc03d0506c4b3d"
+    "hash": "f2a53adc1c7ebd2d7e84539fe59a5073ba7dcb4a175ab35379a7d150851c67c4"
   },
   {
     "link": "https://europeanspaceflight.com/arianegroup-completes-hot-fire-tests-of-3d-printed-thruster/",
@@ -1438,5 +1438,29 @@
   {
     "link": "https://news.satnews.com/2025/05/22/banks-enthusiastic-for-ast-spacemobile/",
     "hash": "7a3fa5eb536edc806567322dcc630ebbf046d8d30d244452ca24cd9a379be760"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/24/live-coverage-spacex-to-launch-23-starlink-satellites-on-falcon-9-launch-from-cape-canaveral-2/",
+    "hash": "b5395e67b51a611388661620202af31ee376c4683f9a135b664a9f15ae404d13"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/23/faa-clears-spacex-to-launch-its-9th-starship-super-heavy-rocket-while-flight-8-mishap-investigation-continues/",
+    "hash": "5dee647e6f8b3574c614ba3b6f28d00f376cd65e40f7f1fdb598512b49a46545"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/23/live-coverage-spacex-to-launch-west-coast-falcon-9-with-starlink-satellites/",
+    "hash": "3cc2ed4ac2db92ac3503ca5f5f11cd2d66283c31cd98989333dce897ecddf377"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/china-roundup-05232025/",
+    "hash": "ae0f82a84409ab4d8f0275f3d19f79fba3565bfda80b669c9d014ea30d02f06d"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-11-16-b1075-vsfb-ocisly",
+    "hash": "9749c0e17fbb4d8d43b46d8c82ce1152ee215d21dd829cb56d2fec6923acf64c"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-9-launch-what-time",
+    "hash": "73483367a610ebcbe33ccb50b4e04e8cf46112438b74ab73190d804d17b34099"
   }
 ]
