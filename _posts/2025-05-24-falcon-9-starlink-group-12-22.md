@@ -18,7 +18,7 @@ tags:
   - Starlink V2 Mini
 date: '2025-05-24T17:19:00Z'
 created: '2025-05-20T02:12:24.767Z'
-updated: '2025-05-24T15:56:39.311Z'
+updated: '2025-05-27T19:43:59.846Z'
 redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Flight Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
@@ -84,4 +84,4 @@ videos:
     video_id: wycSeKTEe50
 images: []
 ---
-SpaceX is set to launch Starlink Group 12-22 with a Falcon 9 from SLC-40, Cape Canaveral, on May 24, 2025 at 17:19 UTC (1:19 p.m. EDT). The mission features 23 Starlink v2 Mini satellites, 13 with Direct to Cell technology, to expand SpaceX’s LEO internet constellation and enable enhanced connectivity. The Falcon 9 booster B1069 will make its 24th flight and is targeting a landing on the droneship 'A Shortfall of Gravitas.' Weather conditions are favorable at the start of the launch window, with an 80% chance of good weather.
+SpaceX’s Falcon 9 (B1069) launched Starlink Group 12-22 from SLC-40, Cape Canaveral, on May 24, 2025 at 17:19 UTC (1:19 p.m. EDT), carrying 23 Starlink v2 Mini satellites, including 13 with Direct to Cell technology. The mission expands SpaceX’s LEO internet constellation and supports enhanced connectivity. The Falcon 9 booster B1069 completed its 24th flight, landing successfully on the droneship 'A Shortfall of Gravitas.' Weather conditions were favorable at the start of the launch window, with an 80% chance of good weather.

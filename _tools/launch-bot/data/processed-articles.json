@@ -1261,7 +1261,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051925/",
-    "hash": "da1e60cc90c550462548c0b09dad181278587108a4e6186526d1222d85499357"
+    "hash": "35d318ece3642d8adc025c46cab2b48fb5a0d998b11ee58fd082bdc1627dab75"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-gets-updated-starship-launch-license-but-still-awaits-flight-9-approval",
@@ -1441,11 +1441,11 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/24/live-coverage-spacex-to-launch-23-starlink-satellites-on-falcon-9-launch-from-cape-canaveral-2/",
-    "hash": "b5395e67b51a611388661620202af31ee376c4683f9a135b664a9f15ae404d13"
+    "hash": "f52f658f19912a673d178202b95f6d68acb2b2fb1f9e5fdb27a91f5b32e9f032"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/23/faa-clears-spacex-to-launch-its-9th-starship-super-heavy-rocket-while-flight-8-mishap-investigation-continues/",
-    "hash": "5dee647e6f8b3574c614ba3b6f28d00f376cd65e40f7f1fdb598512b49a46545"
+    "hash": "a83d7e69fb0530132cd787a5313f0d78b5874de7b701e18d865637378c12625c"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/23/live-coverage-spacex-to-launch-west-coast-falcon-9-with-starlink-satellites/",
@@ -1453,7 +1453,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/china-roundup-05232025/",
-    "hash": "ae0f82a84409ab4d8f0275f3d19f79fba3565bfda80b669c9d014ea30d02f06d"
+    "hash": "7bb4eb4957cfa3cf61e8be0822462797d1a0f54b97a19069211c5344f606cda8"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-11-16-b1075-vsfb-ocisly",
@@ -1461,6 +1461,70 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-9-launch-what-time",
-    "hash": "73483367a610ebcbe33ccb50b4e04e8cf46112438b74ab73190d804d17b34099"
+    "hash": "a331d222dff3bc54a07239c3c19bd283e5b39e6473645ebc4460ea5dccb4c644"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/26/live-coverage-spacex-to-launch-its-starship-super-heavy-rocket-on-its-9th-test-flight/",
+    "hash": "a394b14aa9d714417265c125a29b110444eb884b31f9f53569dfd27dead2ed6d"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/26/live-coverage-spacex-to-launch-24-starlink-satellites-to-polar-orbit-from-california/",
+    "hash": "01fa6ab7a425b55bb095eb5ee3aff5fd3a1be9897da06db5b33af516c660fac0"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/starship-flight-9/",
+    "hash": "71d5f5fa6ec9881143e7a637bb3e7bd4b21e3e2ab4fb1611b370704bda48bc51"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/magellan-venus-coronae/",
+    "hash": "7d3e42b6fa71c4397d58ef3f51d53c7df399201b7b349ae79f718bac84fb598f"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-17-1-b1082-vsfb-ocisly",
+    "hash": "68ead97ccb4214459da72af4100966070dad343eb5a99ccad3054a663ff54f10"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/how-to-watch-spacexs-starship-flight-9-launch-and-elon-musks-mars-update-today",
+    "hash": "9d6389be8ef8fbf562e91db1982fccb2ecf44ff5073cacbb5f131d186f834ab9"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/blue-origins-next-crewed-mission-is-targeted-for-liftoff-on-may-31st/",
+    "hash": "f99dff8bb34e107920e7ce0adcc62478ff2e10712cd93825500afa17c57b2cdf"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/integrasys-orbisat-wins-the-broadcastpro-middle-east-manufacturer-award-during-satexpo-2025/",
+    "hash": "11975a36efa6ac90c3675bec0b25a914a8793578048bdc346868885ddbda390d"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/gilat-receives-more-than-25-million-in-orders-for-the-companys-multi-orbit-satellite-solutions/",
+    "hash": "80136071324c2303d850e449be54270b7c2cf62452b05345badcd33a4d1a684d"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/simon-mokster-shipping-boosts-fleet-efficiency-with-pooled-starlink-bandwidth-from-marlink/",
+    "hash": "3d2b5913be75f09183e217d7eadcfd89d9ed234ecd63e48bd7fa4aec12a62d3f"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/sodern-announces-the-commercial-launch-of-their-astradia-star-tracker/",
+    "hash": "9dfa05c6bb5e9ee575dbe1f76117c671a7b9d075f86c466ea94535c5c1ce4a41"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/inauguration-of-the-european-space-deep-tech-innovation-centre-esdi-the-1st-esa-presence-in-switzerland/",
+    "hash": "56be9761eed989e16f04fa091df72f58a2baa236da138a87d6bf3171f7d5f9a8"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/europes-small-satellite-industry/",
+    "hash": "f4cb815d2fb9711f38f48ac82354a87720aecd1e55ed1f56057afee8ffaa6a9b"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/upcoming-wta-research-report-from-teleport-to-network-service-providerthe-search-for-tomorrows-business-model/",
+    "hash": "43942217206dac3e1f7f5d834a9449a97074386f5e3d0d27fb6305bffb712809"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/firefly-aerospace-adds-uaes-rashid-2-rover-to-blue-ghost-mission-to-the-far-side-of-the-moon/",
+    "hash": "3265387e75d4ad63e87e90ce031e6d38581a66af5a8b49754dcd7e800dcb4c86"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/new-satellite-to-make-detailed-survey-of-greenhouse-gas-emissions-across-globe-in-3-days/",
+    "hash": "8e1b76f9e55e27e0419e781096056be042c5ea463ffb4514eb622d3e07d6a108"
   }
 ]
