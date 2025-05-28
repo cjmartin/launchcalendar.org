@@ -21,9 +21,12 @@ tags:
   - space probe
   - CNSA
   - Kamo’oalewa
-date: '2025-05-28T17:30:00Z'
+  - asteroid sampling
+  - spacecraft
+  - planetary mission
+date: '2025-05-28T17:31:00Z'
 created: '2025-05-24T15:59:37.114Z'
-updated: '2025-05-28T18:54:24.679Z'
+updated: '2025-05-28T19:16:13.282Z'
 redirect_from: []
 location: 'Launch Complex 2 (LC-2), Xichang Satellite Launch Center (XSLC), China'
 location-slug: launch-complex-2-xichang-satellite-launch-center-china
@@ -51,6 +54,7 @@ links:
   - title: Long March Rocket Family (space.com)
     type:
       - reference
+      - information
     url: 'https://www.space.com/china-long-march-rockets-family'
   - title: 'CNSA Tianwen 2 Announcement (May 26, 2025)'
     type:
@@ -60,6 +64,7 @@ links:
   - title: Tianwen 2 Asteroid Mission Details (space.com)
     type:
       - feature
+      - article
     url: 'https://www.space.com/china-tianwen2-asteroid-sampling-mission-2025-launch'
   - title: ' China launching Tianwen-2 mission today to snag samples of a near-Earth asteroid '
     type:
@@ -82,7 +87,20 @@ links:
       - forum
       - discussion
     url: 'https://forum.nasaspaceflight.com/index.php?topic=56552.0'
+  - title: CASC launch announcement
+    type:
+      - press release
+    url: >-
+      https://mp.weixin.qq.com/s/x6d2VTdHQMXOr8OzTlj5cA?poc_token=HHtbN2ijBH4axkYfRFO-QyAb064-zSTCaHjC5VP7
+  - title: About Kamo'oalewa
+    type:
+      - information
+    url: 'https://www.space.com/near-earth-space-rock-made-of-moon-material'
+  - title: Near-Earth asteroids
+    type:
+      - information
+    url: 'https://www.space.com/near-earth-asteroids-approaching-encounters-tracking'
 videos: []
 images: []
 ---
-Tianwen-2, China's second interplanetary mission, is scheduled to launch May 28, 2025, at 17:30 UTC aboard a Chang Zheng 3B/E from Launch Complex 2 at Xichang Satellite Launch Center. The spacecraft aims to collect and return over 100g of samples from the near-Earth asteroid 469219 Kamo‘oalewa (2016 HO3) using touch-and-go and anchor-drilling methods, then return them to Earth. Afterward, the mission will continue with an extended flyby to study comet 311P/PANSTARRS. Tianwen-2 will demonstrate advanced autonomous navigation and sample acquisition techniques, carries eight scientific instruments and a sample return capsule, and marks another advance in Chinese deep-space capabilities and international collaboration.
+Tianwen-2, China's second interplanetary mission, is scheduled to launch May 28, 2025, at 17:31 UTC aboard a Chang Zheng 3B/E from Launch Complex 2 at Xichang Satellite Launch Center. The spacecraft aims to collect and return over 100g of samples from the near-Earth asteroid 469219 Kamo‘oalewa (2016 HO3) using touch-and-go and anchor-drilling methods, with a return to Earth planned by 2027. After sample return, Tianwen-2 will use Earth's gravity for a transfer to study comet 311P/PANSTARRS. The mission demonstrates advanced autonomous navigation and sample acquisition techniques, carries eight scientific instruments and a sample return capsule, and aims to study both the asteroid's lunar origins and provide data on solar system evolution and planetary defense. This effort builds on Tianwen-1 and marks another advance in Chinese deep-space capabilities and international collaboration.
