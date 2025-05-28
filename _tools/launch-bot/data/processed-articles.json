@@ -1261,7 +1261,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051925/",
-    "hash": "35d318ece3642d8adc025c46cab2b48fb5a0d998b11ee58fd082bdc1627dab75"
+    "hash": "9794690b2dedac14f4843fa126ed89b64b08879b4e1f5b8f5dd05268880cf959"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-gets-updated-starship-launch-license-but-still-awaits-flight-9-approval",
@@ -1461,11 +1461,11 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-9-launch-what-time",
-    "hash": "a331d222dff3bc54a07239c3c19bd283e5b39e6473645ebc4460ea5dccb4c644"
+    "hash": "8000aa87573345d21fb6802dc26b42b60890c845d51a25b655f6565706f725eb"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/26/live-coverage-spacex-to-launch-its-starship-super-heavy-rocket-on-its-9th-test-flight/",
-    "hash": "a394b14aa9d714417265c125a29b110444eb884b31f9f53569dfd27dead2ed6d"
+    "hash": "ebb95c48b32074b93a864d48091d91118426ee5f01984f2e29b8f48983da3dda"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/26/live-coverage-spacex-to-launch-24-starlink-satellites-to-polar-orbit-from-california/",
@@ -1473,7 +1473,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/starship-flight-9/",
-    "hash": "71d5f5fa6ec9881143e7a637bb3e7bd4b21e3e2ab4fb1611b370704bda48bc51"
+    "hash": "8e902d001576c60a23e75032338f99c28f1a238dac4273e444ef1a6cce007b46"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/magellan-venus-coronae/",
@@ -1485,7 +1485,7 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/how-to-watch-spacexs-starship-flight-9-launch-and-elon-musks-mars-update-today",
-    "hash": "9d6389be8ef8fbf562e91db1982fccb2ecf44ff5073cacbb5f131d186f834ab9"
+    "hash": "0459f7266aa2c6e14f30ee25721db0bf66a36f3f07e9eb9a7b5db6a8e04966e1"
   },
   {
     "link": "https://news.satnews.com/2025/05/27/blue-origins-next-crewed-mission-is-targeted-for-liftoff-on-may-31st/",
@@ -1526,5 +1526,77 @@
   {
     "link": "https://news.satnews.com/2025/05/27/new-satellite-to-make-detailed-survey-of-greenhouse-gas-emissions-across-globe-in-3-days/",
     "hash": "8e1b76f9e55e27e0419e781096056be042c5ea463ffb4514eb622d3e07d6a108"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/28/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-launch-from-nasas-kennedy-space-center/",
+    "hash": "5b9420c148054a07463712df6da84b60759178031f4a855b8f6d7c46e54fc388"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/28/spacex-launches-first-flight-proven-super-heavy-booster-loses-control-of-starship-mid-flight/",
+    "hash": "fd07ffb50e279fd28fb10fbc48789c191e47fb9729c49939625d6bf640e84c4c"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/tianwen-2-launch/",
+    "hash": "15f3f32fbaa2f8d6b05cbbd733328d685fa4c29d6908e81a4e1fb2a57934066a"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-10-32-b1080-ksc-jrti",
+    "hash": "c20c458930aba654309228af91bbd42d7bf8f7947038b167f31b6d4b563e9fa7"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/watch-rocket-lab-launch-private-earth-observing-satellite-to-orbit-tonight",
+    "hash": "a625cf080b6876cb410a8553f3ca6438be2a90f22425a719f42ec7b128b7f4fd"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/china-launching-tianwen-2-mission-today-to-snag-samples-of-a-near-earth-asteroid",
+    "hash": "c64502d2023aaba30517a6e83ee09301eb97cce4b1cabc6fb9ceb162cbcb59f1"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-starship-flight-9-to-space-in-historic-reuse-of-giant-megarocket-video",
+    "hash": "f18f8e14662d836acd6e1494f70c0b5b6d8830d67acd3d7f467793632165de1c"
+  },
+  {
+    "link": "https://europeanspaceflight.com/francois-jacq-appointed-as-new-president-and-ceo-of-cnes/",
+    "hash": "58fe97cabed88a07b5f957fcc87963707ddb878aed1c1ff79e99fbeca4b186d3"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/vc-pe-and-other-funding-opportunities/",
+    "hash": "c4d01255703e2c80aae92e5685702fe49f19cd47a0d856d7aa917b39c08ba54d"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/finding-your-projects-cash/",
+    "hash": "e9f9e1692596e7210b3807f839356048cc0a7d85cdeb8c315c02878f27a52b59"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/ai-and-the-explosion-in-data-handling/",
+    "hash": "3f2b341fb6e694225c58b45e3bc59cd0498228d051a16d1adfd5ae0d1d9b1197"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/market-brief-europe-must-make-iris2-a-success/",
+    "hash": "711180fc74af72244b119126cb6a2238fe6b78614fc6f1485448ae53dfbe626b"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/eutelsat-oneweb-and-beyond/",
+    "hash": "a01f107de0b1c11604375f8e8d4728459a9aa5d5519ec2d0b03149ee80539e5e"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/optical-communications-for-the-next-generation-of-space-networks/",
+    "hash": "a27c91334e74395b85e2f7c4216e147221ed143ca5ed2b69bffd139956ea7ccc"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/eo-and-climate-change-from-deep-space-to-mission-impossible/",
+    "hash": "00934ed5e0a4612817c81983cc5083ef507d692a66ec6b17ea63728fb168093c"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/smaller-faster-and-cheaper-says-swissto12/",
+    "hash": "5bf232b32661c5b74efd428eaa5a7ce98053b3cc4da7a336e8335c332319b059"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/european-space-sovereignty-and-autonomy/",
+    "hash": "7a0794b5d5f91a27265181cfce0353c9bde616ead899e730546976b386bdfb3c"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/27/spacex-plans-wednesday-launch-of-starlink-group-10-32-smallsats/",
+    "hash": "221ba942468f89cc1325642f3c3ee0e3f2d8716a46c717744cc9e27a7ec01172"
   }
 ]

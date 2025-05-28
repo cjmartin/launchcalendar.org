@@ -2,12 +2,16 @@
 layout: launch
 title: "\U0001F680 Starship | \U0001F6F0 Starship Flight 9 Test Flight"
 description: >-
-  SpaceX is preparing Ship 35 (Block 2) and Booster 14-2 for Starship's ninth
-  test flight from Starbase, Texas, currently targeted for May 27, 2025. This
-  mission marks the first reuse of a Super Heavy booster and features the
-  demonstration deployment of Starlink satellite simulators, in-space engine
-  relight, and reusability objectives with a planned water landing for the
-  booster.
+  SpaceX launched Ship 35 (Block 2) and Booster 14-2 for Starship's ninth
+  integrated test flight from Starbase, Texas, on May 27, 2025. The mission
+  featured eight Version 3 Starlink satellite simulators, the first booster
+  reflight, Block 2 upgrades, heat shield and reentry experiments, an in-space
+  Raptor engine relight, and a planned water landing. The payload bay door
+  malfunctioned, preventing deployment. Ship 35 lost attitude control during the
+  coast phase due to fuel leaks and was lost over the Indian Ocean, while the
+  booster was lost following an explosion during its relight and water landing
+  attempt. Both stages failed to complete their full objectives, but the flight
+  yielded valuable engineering data for rapid Starship program development.
 tags:
   - Starship
   - SpaceX
@@ -19,13 +23,22 @@ tags:
   - Super Heavy
   - Booster 14-2
   - Starlink simulator
-date: '2025-05-27T23:30:00Z'
+  - Starlink simulators
+  - Starship Flight 9
+  - Starlink
+  - B14 booster
+  - S35 Ship
+  - Block 2
+  - dummy Starlink satellites
+  - satellite simulators
+  - Pad A
+date: '2025-05-27T23:36:30Z'
 created: '2025-05-14T17:19:01.435Z'
-updated: '2025-05-24T16:01:30.426Z'
+updated: '2025-05-28T18:50:29.372Z'
 redirect_from:
   - 2025/05/21/starship-starship-flight-9-test-flight/
-location: 'Starbase, Texas'
-location-slug: starbase-boca-chica-texas-usa
+location: 'Orbital Launch Pad A (OLP-A), Starbase, Texas'
+location-slug: olp-a-starbase-boca-chica-texas-usa
 manned: false
 vehicle: Starship
 vehicle-type: rocket
@@ -34,16 +47,20 @@ payload: Starship Flight 9 Test Flight
 payload-type: test vehicle
 payload-description: >-
   SpaceX's Ship 35 (Block 2) and Booster 14-2 (first reflight of a Super Heavy
-  booster, previously known as Booster 14) will conduct Starship's 9th uncrewed
-  test flight. Objectives include demonstrating vehicle reusability, payload
-  deployment demonstration (using eight Starlink satellite simulators, which
-  will be deployed on a suborbital trajectory and demise upon entry), in-space
-  Raptor engine relight, and reentry tests. Ship 35 has completed static fire
-  tests after engine swaps and anomalies which delayed the targeted launch
-  window. The booster is planned for a water landing, not a catch attempt, to
-  test reentry capabilities. The mission gathers data for further development
-  toward Mars exploration and system improvements following previous Starship
-  anomalies.
+  booster, previously known as Booster 14) conducted Starship's 9th uncrewed
+  test flight, carrying eight Starlink satellite simulators (dummy
+  satellites)—large panels simulating the size and mass of Version 3 Starlink
+  satellites—along with a suite of heat shield, engine relight, and reentry
+  experiment payloads. Objectives included demonstrating vehicle reusability
+  with major Block 2 upgrades, testing in-space Raptor engine relight, deploying
+  the simulators (ultimately not deployed due to a payload bay door malfunction
+  after Ship 35 lost attitude control during coast), and gathering data from
+  reentry and hardware improvements. The booster was intended for a soft water
+  landing (not a catch attempt) in the Gulf of Mexico to test reentry and
+  relight, but was lost after an explosion during engine relight. Ship 35
+  suffered fuel leaks and lost control and was lost over the Indian Ocean. The
+  flight lasted just over an hour, yielded important data for future flights,
+  and advanced reusability and heat shield development for the Starship program.
 links:
   - title: Elon Musk X Post (May 13)
     type:
@@ -123,6 +140,7 @@ links:
     type:
       - public advisory
       - road closure
+      - advisory
     url: >-
       https://www.cameroncountytx.gov/flight-order-closing-boca-chica-beach-and-state-hwy-4-may-27-2025-with-alternative-dates-of-may-28-2025-or-may-29-2025/
   - title: ' What time is SpaceX''s Starship Flight 9 launch on May 27? '
@@ -131,6 +149,86 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-9-launch-what-time
+  - title: 'Ship 35 makes it past SECO, but Tumbles in Coast Phase'
+    type:
+      - article
+      - source
+      - details
+    url: 'https://www.nasaspaceflight.com/2025/05/starship-flight-9/'
+  - title: ' SpaceX reached space with Starship Flight 9 launch, then lost control of its giant spaceship (video) '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-starship-flight-9-to-space-in-historic-reuse-of-giant-megarocket-video
+  - title: Starship Flight 9 mission preview
+    type:
+      - official
+      - mission
+    url: 'https://www.spacex.com/launches/mission/?missionId=starship-flight-9'
+  - title: SpaceX
+    type:
+      - company
+    url: 'https://www.space.com/18853-spacex.html'
+  - title: SpaceX Starship Program (Forum)
+    type:
+      - forum
+    url: 'https://forum.nasaspaceflight.com/index.php?board=72.0'
+  - title: >-
+      Ars Technica: Elon Musk turns his focus back to space, says Starship and
+      Mars matter most
+    type:
+      - article
+    url: >-
+      https://arstechnica.com/space/2025/05/elon-musk-turns-his-focus-back-to-space-says-starship-and-mars-matter-most/
+  - title: >-
+      SpaceX launches first flight-proven Super Heavy booster, loses control of
+      Starship mid-flight
+    type:
+      - article
+      - source
+    url: >-
+      https://spaceflightnow.com/2025/05/28/spacex-launches-first-flight-proven-super-heavy-booster-loses-control-of-starship-mid-flight/
+  - title: Starship Flight 9 cleared for launch
+    type:
+      - news
+      - launch
+    url: >-
+      https://spaceflightnow.com/2025/05/23/faa-clears-spacex-to-launch-its-9th-starship-super-heavy-rocket-while-flight-8-mishap-investigation-continues/
+  - title: 'Elon Musk company talk: ''The Road to Making Life Multiplanetary'''
+    type:
+      - event
+      - company
+      - talk
+    url: 'https://x.com/i/broadcasts/1rmxPyOEBWXKN'
+  - title: >-
+      Live coverage: SpaceX to launch its Starship-Super Heavy rocket on its 9th
+      test flight
+    type:
+      - article
+      - source
+    url: >-
+      https://spaceflightnow.com/2025/05/26/live-coverage-spacex-to-launch-its-starship-super-heavy-rocket-on-its-9th-test-flight/
+  - title: >-
+      How to watch SpaceX's Starship Flight 9 launch and Elon Musk's Mars update
+      today
+    type:
+      - article
+      - source
+      - guide
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/how-to-watch-spacexs-starship-flight-9-launch-and-elon-musks-mars-update-today
+  - title: Starship-Super Heavy Flight 9 - NASASpaceflight Forum Thread
+    type:
+      - forum
+    url: 'https://forum.nasaspaceflight.com/index.php?topic=62494.0'
+  - title: >-
+      Launch Roundup: Starship Flight 9; SpaceX starts new Starlink shell;
+      China, Russia also launch
+    type:
+      - article
+      - source
+    url: 'https://www.nasaspaceflight.com/2025/05/launch-roundup-051925/'
 videos:
   - title: "\U0001F525 Wait that's Ship 36 | Starbase Update"
     type:
@@ -152,6 +250,11 @@ videos:
     type:
       - official
       - livestream
+      - launch
+      - live
+      - youtube
+      - webcast
+      - launch video
     source: youtube
     url: 'https://www.youtube.com/watch?v=0_z8ZjExrVI'
     video_id: 0_z8ZjExrVI
@@ -159,9 +262,43 @@ videos:
     type:
       - livestream
       - prelaunch show
+      - video
+      - youtube
+      - webcast
+      - prelaunch
+      - commentary
     source: youtube
     url: 'https://www.youtube.com/watch?v=hAdLlG9Rfd4'
     video_id: hAdLlG9Rfd4
+  - title: SpaceX Starship Flight 9 - Stakeout Stream
+    type:
+      - video
+      - youtube
+      - livestream
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=uiCgZrc51i4'
+    video_id: uiCgZrc51i4
+  - title: Starship Flight 9 launch highlights
+    type:
+      - launch
+      - highlights
+    source: jwplayer
+    url: 'https://www.space.com/spacex-starship-flight-9-video'
+  - title: 'Starship Flight 9 Live Coverage (Spaceflight Now, LabPadre, SpaceX)'
+    type:
+      - live
+      - launch
+      - coverage
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=okOzxHN9NOA'
+    video_id: okOzxHN9NOA
+  - title: 'Elon Musk: The Road to Making Life Multiplanetary (Mars Plan Update)'
+    type:
+      - event
+      - presentation
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=MbPmTQUvZto'
+    video_id: MbPmTQUvZto
 images: []
 ---
-SpaceX will attempt its ninth Starship test flight (Flight 9) no earlier than May 27, 2025, at 23:30 UTC (7:30 p.m. EDT) from Starbase, Texas, after receiving FAA approval. Ship 35 (Block 2) and Booster 14-2 (first-ever Super Heavy booster reflight) are set for final testing and integration. The mission features a demonstration deployment of eight Starlink satellite simulators and an in-space Raptor engine relight test, with Ship 35 expected to follow a suborbital trajectory and Booster 14-2 targeting a soft water landing and recovery. The flight duration should be just over an hour. This test advances Starship system development as SpaceX prepares for Mars exploration, alongside ongoing Block 3 infrastructure upgrades. Backup launch dates are May 28 and 29, with live coverage planned on SpaceX's official channels.
+SpaceX conducted the Starship Flight 9 test mission on May 27, 2025, launching Ship 35 (Block 2) and Booster 14-2 (the first flight-proven Super Heavy booster) from Starbase, Texas at 23:36:30 UTC, following FAA approval. This test flight demonstrated the first reuse of a Super Heavy booster, major Block 2 hardware upgrades, attempted demonstration of in-space Raptor engine relight, and planned deployment of eight Version 3 Starlink satellite simulators. The mission sequence proceeded through hot-staging, separation, and scheduled engine cutoff, but the payload bay door malfunctioned, preventing the simulator deployment. Ship 35 suffered fuel leaks, lost control during the coast phase, and was lost over the Indian Ocean, while the booster broke up after an explosion during its planned water landing attempt in the Gulf of Mexico. The flight lasted just over an hour, included important demonstration milestones, and provided valuable engineering and flight data to accelerate SpaceX's Starship program advancements, with road closures and backup launch dates scheduled for May 28 and 29.

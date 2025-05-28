@@ -99,6 +99,18 @@
       "starship"
     ]
   },
+  "olp-a-starbase-boca-chica-texas-usa": {
+    "site_name": "Orbital Launch Pad A (OLP-A)",
+    "location": "Starbase, Boca Chica, Texas, USA",
+    "geo": {
+      "latitude": 25.9964,
+      "longitude": -97.1576
+    },
+    "operator": "SpaceX",
+    "launch_vehicles": [
+      "starship"
+    ]
+  },
   "slc-2-vandenberg-space-force-base-california-usa": {
     "site_name": "SLC-2",
     "location": "Vandenberg Space Force Base, California, USA",
