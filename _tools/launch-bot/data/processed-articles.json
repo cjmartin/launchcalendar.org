@@ -1469,7 +1469,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/26/live-coverage-spacex-to-launch-24-starlink-satellites-to-polar-orbit-from-california/",
-    "hash": "01fa6ab7a425b55bb095eb5ee3aff5fd3a1be9897da06db5b33af516c660fac0"
+    "hash": "9723b67f8910b2b4b37f02fcc1a3273b7ba56b253db917ed8f60660ba22028b5"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/starship-flight-9/",
@@ -1537,7 +1537,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/tianwen-2-launch/",
-    "hash": "15f3f32fbaa2f8d6b05cbbd733328d685fa4c29d6908e81a4e1fb2a57934066a"
+    "hash": "faba677b408a1931680612eba483435bf3bf056c5cdf6ff131f909a64fd06a79"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-10-32-b1080-ksc-jrti",
@@ -1545,11 +1545,11 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/watch-rocket-lab-launch-private-earth-observing-satellite-to-orbit-tonight",
-    "hash": "a625cf080b6876cb410a8553f3ca6438be2a90f22425a719f42ec7b128b7f4fd"
+    "hash": "3a1b0ce07b9686bc3d4b6c69cf5af9ac954f3171ad5751dcf2965fcacc7dfc4c"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/china-launching-tianwen-2-mission-today-to-snag-samples-of-a-near-earth-asteroid",
-    "hash": "f7ab0ab8be0f908db8378c2533333a33bb63c29901073ba02d93aca8e330809e"
+    "hash": "2d1dc5d42d9f24c452abcbdd9a2efd630b7f95de93dd8eb21ddb02c6b83d5b1b"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-starship-flight-9-to-space-in-historic-reuse-of-giant-megarocket-video",
@@ -1598,5 +1598,53 @@
   {
     "link": "https://news.satnews.com/2025/05/27/spacex-plans-wednesday-launch-of-starlink-group-10-32-smallsats/",
     "hash": "221ba942468f89cc1325642f3c3ee0e3f2d8716a46c717744cc9e27a7ec01172"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-052825/",
+    "hash": "25007267a31d643e3ed8b3d99ff308f988b56b9a1c782060624f6ddef19c10b8"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/sampling-a-quasi-moon-whats-next-for-chinas-newly-launched-tianwen-2-mission",
+    "hash": "767b7975be7746e9690861eeed8e1e95efc254c8575e65c684b40347175335d5"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/29/northrop-grumman-invests-50-million-in-firefly-aerospace-to-advance-eclipse-medium-launch-vehicle/",
+    "hash": "1cc6ccc754832bcfc6dca0b354f455b629e74816d019fa3fb44787837913d9c7"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/29/ground-stations-owned-or-rent-capacity/",
+    "hash": "9d4bca7ea06c2a29a7b9bc720e286a8eb6b2e85c8c1594c82673b9b3afe3814d"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/29/can-europe-fund-mega-constellations/",
+    "hash": "6aabdbc43653dc723b1c56da725e31e7c32a10e7e138a7ee3674fdab1de82ef3"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/29/finding-the-next-niche-for-smallsats/",
+    "hash": "9e13ddbd905d7d6e43a69303b37613a6aa7bfcc38ee876c8e05f66bd701413b4"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/29/ma-activity-in-european-markets/",
+    "hash": "1fb82a3ccae3ace5df842e0984105c649f1a9b7bcdfb79bf1a46c1eab48ea788"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/29/fireside-chat-with-sir-peter-beck/",
+    "hash": "efe0053e2ed7f89d8c5d07a201a41bca4ae22be2610076ee234be098c92c45ea"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/29/winning-orders-raising-cash-and-the-oval-office/",
+    "hash": "36d28ea975908f711315881028082f726086de48673f9f26dc38c7c1253fa001"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/29/small-satellite-builders-want-a-larger-slice-of-the-cake/",
+    "hash": "453676638ed9bd94a8aaff5079fcce8281c3ca97c50b84b26c6a4ffd5f32be98"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/29/space-debris-and-the-eus-space-act/",
+    "hash": "19b7c9811f48ede8e697b6b1754fe86dfb09c68cd91545803b8af152ed60035b"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/29/identifying-satellites-at-leo-for-interference/",
+    "hash": "dba1e862dae67bb835b3dc1db08ecae4f43f1d3560bee545d62badd70e23ee4f"
   }
 ]
