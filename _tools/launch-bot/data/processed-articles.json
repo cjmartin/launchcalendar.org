@@ -1705,7 +1705,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/06/01/sierra-space-awarded-lunar-logistics-xontract-by-nasa/",
-    "hash": "5e060e0112c3b1e87c186ce40b6c712fae5992db964d3da604c9f32294ca74b6"
+    "hash": "c2c6255791c3c3e3ea2686dbe955423eac104628380a727f3971ebf3a7daa384"
   },
   {
     "link": "https://news.satnews.com/2025/06/01/spacexs-sunday-night-launch-of-starlink-group-12-19-smallsats-including-13-direct-to-cell/",
@@ -1738,5 +1738,9 @@
   {
     "link": "https://news.satnews.com/2025/05/30/spacex-launches-u-s-space-forces-secret-gps-iii-7-to-stand-against-increasing-threats/",
     "hash": "62cc5d1066ee564f6e452b8f3a51e1a40b70ad3fb458e25d44ce19275e00ec62"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/01/spacex-scrubs-sunday-night-launch-of-starlink-group-12-19-smallsats-including-13-direct-to-cell-due-to-coronal-mass-ejection/",
+    "hash": "8509b90e2c7be37eb43336085ccf6e2f38e07c82c2f5e445e8465be6da34b1a3"
   }
 ]
