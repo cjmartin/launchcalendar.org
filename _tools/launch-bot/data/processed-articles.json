@@ -1681,7 +1681,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/06/01/live-coverage-spacex-to-launch-23-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-11/",
-    "hash": "3a8446f4c02bac3ae79fb26fb764da5799ce70bb90a9aae76683a873dedf9265"
+    "hash": "1044e4f363c797c210a2f805e6eca6fe4d4e084bd91d72eb8597832955508794"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/31/president-trump-withdraws-isaacman-nomination-for-nasa-administrator-days-before-senate-confirmation-vote/",
@@ -1693,7 +1693,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/06/dragonfly-titan-science/",
-    "hash": "491d94fad1a2c13c34a36dd67633fc5a2af4733b4f867468abba5fda12fc6820"
+    "hash": "b36ac3c46d2337ede67f7e07da9cbec664a97a985b8ac600dd294f9f8b4163a7"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/future-starship-block-3-mars/",
@@ -1741,6 +1741,18 @@
   },
   {
     "link": "https://news.satnews.com/2025/06/01/spacex-scrubs-sunday-night-launch-of-starlink-group-12-19-smallsats-including-13-direct-to-cell-due-to-coronal-mass-ejection/",
-    "hash": "8509b90e2c7be37eb43336085ccf6e2f38e07c82c2f5e445e8465be6da34b1a3"
+    "hash": "519159865a344f846eba3891abeaf9519268c4902d89a3ae1f439708aad77f7e"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/06/02/live-coverage-spacex-reschedules-starlink-delivery-mission-for-midnight-hour-tuesday/",
+    "hash": "18eea833fb8dc5e0b016d634db1c0a02aeaef0bf4718bcca33f9e1c6245de4f8"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/02/iridium-syniverse-partner-to-deliver-d2d-satellite-connectivity-to-global-mnos/",
+    "hash": "15c10b2e149ece3245327c23aaa52e3c283b006295bab946d83e768abed1affd"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/02/canadensys-is-working-with-ksat-in-support-of-canadas-first-lunar-rover/",
+    "hash": "17d12102d8294c723910b29b0159cb253f076f558785f0a9a4aa6c92aed425b6"
   }
 ]
