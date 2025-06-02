@@ -34,7 +34,7 @@ tags:
   - Pad A
 date: '2025-05-27T23:36:30Z'
 created: '2025-05-14T17:19:01.435Z'
-updated: '2025-05-28T18:50:29.372Z'
+updated: '2025-06-02T05:58:59.631Z'
 redirect_from:
   - 2025/05/21/starship-starship-flight-9-test-flight/
 location: 'Orbital Launch Pad A (OLP-A), Starbase, Texas'
@@ -46,21 +46,22 @@ vehicle-slug: starship
 payload: Starship Flight 9 Test Flight
 payload-type: test vehicle
 payload-description: >-
-  SpaceX's Ship 35 (Block 2) and Booster 14-2 (first reflight of a Super Heavy
-  booster, previously known as Booster 14) conducted Starship's 9th uncrewed
-  test flight, carrying eight Starlink satellite simulators (dummy
+  SpaceX's Ship 35 (Block 2) and Booster 14-2 (the first reflight of a Super
+  Heavy booster, previously known as Booster 14) conducted Starship's 9th
+  uncrewed test flight, carrying eight Starlink satellite simulators (dummy
   satellites)—large panels simulating the size and mass of Version 3 Starlink
   satellites—along with a suite of heat shield, engine relight, and reentry
-  experiment payloads. Objectives included demonstrating vehicle reusability
-  with major Block 2 upgrades, testing in-space Raptor engine relight, deploying
-  the simulators (ultimately not deployed due to a payload bay door malfunction
-  after Ship 35 lost attitude control during coast), and gathering data from
-  reentry and hardware improvements. The booster was intended for a soft water
-  landing (not a catch attempt) in the Gulf of Mexico to test reentry and
-  relight, but was lost after an explosion during engine relight. Ship 35
-  suffered fuel leaks and lost control and was lost over the Indian Ocean. The
-  flight lasted just over an hour, yielded important data for future flights,
-  and advanced reusability and heat shield development for the Starship program.
+  experiment payloads. The main objectives included demonstrating vehicle
+  reusability with major Block 2 upgrades, testing in-space Raptor engine
+  relight, and using the 'PEZ' payload dispenser for attempted deployment of the
+  simulators (ultimately not deployed due to a payload bay door malfunction
+  after Ship 35 lost attitude control during coast). The booster was intended
+  for a soft water landing (not a catch attempt) in the Gulf of Mexico to test
+  reentry and relight, but was lost after an explosion during engine relight.
+  Ship 35 suffered fuel leaks and lost control, and was lost over the Indian
+  Ocean. The flight lasted just over an hour and provided important data for
+  future flights, advancing reusability and heat shield development for the
+  Starship program.
 links:
   - title: Elon Musk X Post (May 13)
     type:
@@ -135,6 +136,7 @@ links:
     type:
       - official
       - launch info
+      - recap
     url: 'https://www.spacex.com/launches/mission/?missionId=starship-flight-9'
   - title: 'Cameron County launch advisory and road closure order for May 27-29, 2025'
     type:
@@ -229,6 +231,31 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/05/launch-roundup-051925/'
+  - title: >-
+      SpaceX launches Starship Flight 9 to space in historic reuse of giant
+      megarocket (video)
+    type:
+      - article
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-starship-flight-9-to-space-in-historic-reuse-of-giant-megarocket-video
+  - title: ' FAA requires SpaceX to investigate Starship Flight 9 mishap  '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/faa-requires-spacex-to-investigate-starship-flight-9-mishap
+  - title: Starship | Flight 9 - Discussion at NASASpaceFlight.com
+    type:
+      - forum
+      - reference
+    url: 'https://forum.nasaspaceflight.com/index.php?topic=62494.0'
+  - title: Starship Flight 9 Launch Article - NASASpaceflight.com
+    type:
+      - news
+      - reference
+      - source
+      - details
+    url: 'https://www.nasaspaceflight.com/2025/05/starship-flight-9/'
 videos:
   - title: "\U0001F525 Wait that's Ship 36 | Starbase Update"
     type:
@@ -267,6 +294,8 @@ videos:
       - webcast
       - prelaunch
       - commentary
+      - launch
+      - spaceflight
     source: youtube
     url: 'https://www.youtube.com/watch?v=hAdLlG9Rfd4'
     video_id: hAdLlG9Rfd4
@@ -301,4 +330,4 @@ videos:
     video_id: MbPmTQUvZto
 images: []
 ---
-SpaceX conducted the Starship Flight 9 test mission on May 27, 2025, launching Ship 35 (Block 2) and Booster 14-2 (the first flight-proven Super Heavy booster) from Starbase, Texas at 23:36:30 UTC, following FAA approval. This test flight demonstrated the first reuse of a Super Heavy booster, major Block 2 hardware upgrades, attempted demonstration of in-space Raptor engine relight, and planned deployment of eight Version 3 Starlink satellite simulators. The mission sequence proceeded through hot-staging, separation, and scheduled engine cutoff, but the payload bay door malfunctioned, preventing the simulator deployment. Ship 35 suffered fuel leaks, lost control during the coast phase, and was lost over the Indian Ocean, while the booster broke up after an explosion during its planned water landing attempt in the Gulf of Mexico. The flight lasted just over an hour, included important demonstration milestones, and provided valuable engineering and flight data to accelerate SpaceX's Starship program advancements, with road closures and backup launch dates scheduled for May 28 and 29.
+On May 27, 2025, at 23:36:30 UTC, SpaceX launched Starship Flight 9 from Starbase, Texas, marking the first reflight of a Super Heavy booster (Booster 14-2) and Block 2 Starship (Ship 35). The mission tested new vehicle reusability, Block 2 upgrades, in-space Raptor engine relight, and attempted to deploy eight Version 3 Starlink satellite simulators using the new 'PEZ dispenser' payload bay, though the door failed to open. Ship 35 reached engine cutoff and coast phase but suffered fuel leaks and lost attitude control, while the booster was lost after an explosion following a water landing attempt. Both stages were lost, yet the hour-long test delivered valuable data for flight dynamics, control, heatshield improvements, and future reusability. The FAA is investigating the mishap; backup launch windows had been set for May 28 and 29.

@@ -2,9 +2,10 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 Starlink 10-32"
 description: >-
-  SpaceX Falcon 9 launches 27 Starlink V2 Mini satellites (Starlink 10-32) from
+  SpaceX Falcon 9 launched 27 Starlink V2 Mini satellites (Starlink 10-32) from
   Kennedy Space Center, delivering them to low Earth orbit for the Starlink
-  constellation.
+  constellation. The mission utilized booster B1080, which landed successfully
+  on 'Just Read the Instructions' in the Atlantic.
 tags:
   - Falcon 9
   - Starlink 10-32
@@ -16,7 +17,7 @@ tags:
   - LC-39A
 date: '2025-05-28T13:30:00Z'
 created: '2025-05-28T18:25:13.192Z'
-updated: '2025-05-29T18:28:45.334Z'
+updated: '2025-05-30T05:57:03.683Z'
 redirect_from: []
 location: 'Launch Complex 39A, NASA’s Kennedy Space Center, Florida'
 location-slug: lc-39a-kennedy-space-center-florida-usa
@@ -88,6 +89,7 @@ videos:
     type:
       - launch
       - youtube
+      - livestream
     source: youtube
     url: 'https://www.youtube.com/watch?v=reGCcC41K4A'
     video_id: reGCcC41K4A
@@ -109,4 +111,4 @@ videos:
     video_id: '1927719294923583703'
 images: []
 ---
-SpaceX launched the Starlink 10-32 (Starlink Group 10-32) mission on May 28, 2025, from Launch Complex 39A at NASA’s Kennedy Space Center using Falcon 9. The launch delivered 27 Starlink V2 Mini satellites to a 279 km, 53° orbit for SpaceX's broadband constellation. Booster B1080 completed its 19th flight, landing on the droneship 'Just Read the Instructions' in the Atlantic. This marked the 64th Falcon 9 flight of 2025 and the 48th dedicated Starlink mission. The satellites deployed about 64 minutes after liftoff, with mostly favorable weather at launch and a live webcast available ahead of liftoff.
+SpaceX launched the Starlink 10-32 (Starlink Group 10-32) mission on May 28, 2025, from Launch Complex 39A at NASA’s Kennedy Space Center using Falcon 9. The launch delivered 27 Starlink V2 Mini satellites to a 279 km, 53° orbit for SpaceX's broadband constellation. Booster B1080 completed its 19th flight, landing on the droneship 'Just Read the Instructions' in the Atlantic. This launch marked the company’s 420th re-flown booster flight and contributed to the expansion of the Starlink internet constellation. Favorable weather conditions were expected for the morning launch, and a live webcast was available. The satellites deployed about 64 minutes after liftoff.

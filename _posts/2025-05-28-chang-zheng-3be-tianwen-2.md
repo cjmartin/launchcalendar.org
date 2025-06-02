@@ -2,10 +2,9 @@
 layout: launch
 title: "\U0001F680 Chang Zheng 3B/E (CZ-3B/E) | \U0001F6F0 Tianwen-2"
 description: >-
-  China's Chang Zheng 3B/E will launch the Tianwen-2 asteroid sample return
-  mission from Xichang. The spacecraft will collect and return samples from the
-  near-Earth asteroid Kamo‘oalewa before continuing on to study comet
-  311P/PANSTARRS.
+  China's Chang Zheng 3B/E will launch the Tianwen-2 asteroid sample-return
+  mission from Xichang to collect and return samples from the near-Earth
+  asteroid Kamo‘oalewa, before continuing on to study comet 311P/PANSTARRS.
 tags:
   - Chang Zheng 3B/E
   - Tianwen-2
@@ -30,9 +29,11 @@ tags:
   - LC-2
   - deep space
   - asteroid sample-return
+  - Xichang
+  - CASC
 date: '2025-05-28T17:31:00Z'
 created: '2025-05-24T15:59:37.114Z'
-updated: '2025-05-29T18:32:39.243Z'
+updated: '2025-06-02T06:03:34.292Z'
 redirect_from: []
 location: 'Launch Complex 2 (LC-2), Xichang Satellite Launch Center (XSLC), China'
 location-slug: launch-complex-2-xichang-satellite-launch-center-china
@@ -43,14 +44,16 @@ vehicle-slug: long-march-3b
 payload: Tianwen-2
 payload-type: interplanetary probe
 payload-description: >-
-  Tianwen-2 is China's second interplanetary mission. It is an asteroid
-  sample-return spacecraft targeting the near-Earth asteroid 469219 Kamo‘oalewa
-  (2016 HO3), aiming to collect and return over 100g of material to Earth by
-  2027 using touch-and-go and anchor-drilling techniques. After sample return,
-  Tianwen-2 will use Earth gravity to continue to a flyby of comet
-  311P/PANSTARRS, around 2035, for further studies. The mission will demonstrate
-  autonomous navigation, advanced sample acquisition, and test new sampling
-  techniques, carrying eight scientific instruments and a sample return capsule.
+  Tianwen-2 is China's second interplanetary mission and the country's first
+  asteroid sample-return attempt. The spacecraft will target the near-Earth
+  asteroid 469219 Kamo‘oalewa (2016 HO3), collecting and returning up to 1,000g
+  of material to Earth by 2027 using both touch-and-go and anchor-drilling
+  sampling techniques. After the sample return, Tianwen-2 will use Earth's
+  gravity to continue to a flyby of comet 311P/PANSTARRS around 2035 for further
+  studies. The mission aims to study the formation and evolution of asteroids
+  and the early solar system and will demonstrate autonomous navigation,
+  advanced sample acquisition, and new sampling techniques, carrying eight
+  scientific instruments and a sample return capsule.
 links:
   - title: 'Chinese launch cadence accelerates, Tianwen-2 prepares for launch'
     type:
@@ -86,11 +89,13 @@ links:
     type:
       - article
       - source
+      - news
     url: 'https://www.nasaspaceflight.com/2025/05/tianwen-2-launch/'
   - title: Tianwen-2 launch Thread
     type:
       - forum
       - discussion
+      - forum
     url: 'https://forum.nasaspaceflight.com/index.php?topic=58408.0'
   - title: Tianwen-2 science Thread
     type:
@@ -131,6 +136,24 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/sampling-a-quasi-moon-whats-next-for-chinas-newly-launched-tianwen-2-mission
+  - title: 'ChinaDaily: China launches the Tianwen 2 mission'
+    type:
+      - article
+      - source
+    url: >-
+      https://news.satnews.com/2025/06/01/chinadaily-china-launches-the-tianwen-2-mission/
+  - title: China National Space Administration (CNSA)
+    type:
+      - official site
+    url: 'https://www.cnsa.gov.cn/english/'
+  - title: China Daily News infosite link
+    type:
+      - article
+    url: 'https://www.chinadaily.com.cn/a/202505/29/WS683823eea310a04af22c24b7.html'
+  - title: China Aerospace Science and Technology Corporation (CASC)
+    type:
+      - official site
+    url: 'https://english.spacechina.com/'
 videos:
   - title: China launches Tianwen 2 mission to snag samples of a near-Earth asteroid
     type:
@@ -141,4 +164,4 @@ videos:
     video_id: awTon7UA
 images: []
 ---
-China successfully launched the Tianwen-2 mission aboard a Chang Zheng 3B/E (Long March 3B/E) rocket from Launch Complex 2 at Xichang Satellite Launch Center on May 28, 2025, at 17:31 UTC. Tianwen-2 will rendezvous with the near-Earth asteroid 469219 Kamo‘oalewa (2016 HO3), conduct close observations, and collect and return over 100g of samples using touch-and-go and anchor-drilling methods by 2027. After returning the samples to Earth, the spacecraft will use Earth's gravity for a slingshot maneuver to reach comet 311P/PANSTARRS for a flyby around 2035. The mission tests new sampling methods, demonstrates advanced autonomous navigation, and carries eight scientific instruments and a sample return capsule. CASC confirmed mission success shortly after launch. This mission represents a significant step in China's planetary exploration program and scientific collaboration.
+China successfully launched the Tianwen-2 mission aboard a Chang Zheng 3B/E (Long March 3B/E) rocket from Launch Complex 2 at Xichang Satellite Launch Center on May 28, 2025, at 17:31 UTC. This landmark mission—China's first asteroid sample-return and the 168th CZ-3B/E flight—will rendezvous with the near-Earth asteroid 469219 Kamo‘oalewa (2016 HO3), conduct close observations, and collect and return up to 1,000g of samples using touch-and-go and anchor-drilling methods by 2027. Following the sample return, the spacecraft will use Earth's gravity for a slingshot maneuver to reach comet 311P/PANSTARRS for a flyby around 2035. The mission is designed to study the formation and evolution of asteroids and the early solar system, carrying eight scientific instruments and a sample return capsule. CASC confirmed mission success soon after launch. This marks the first time the Long March 3B series has been used for a launch to escape Earth's orbit and highlights a significant step in China's planetary exploration program and international scientific collaboration.

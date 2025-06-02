@@ -2,8 +2,8 @@
 layout: launch
 title: "\U0001F680 New Shepard | \U0001F6F0 NS-32"
 description: >-
-  Blue Origin will launch the twelfth crewed New Shepard mission, NS-32,
-  carrying six people on a suborbital flight from West Texas.
+  Blue Origin launched the twelfth crewed New Shepard mission, NS-32, carrying
+  six people on a suborbital flight from West Texas to the edge of space.
 tags:
   - Blue Origin
   - New Shepard
@@ -12,9 +12,10 @@ tags:
   - suborbital
   - manned
   - West Texas
-date: '2025-05-31T13:30:00Z'
+  - human spaceflight
+date: '2025-05-31T13:39:00Z'
 created: '2025-05-27T19:46:27.286Z'
-updated: '2025-05-29T18:29:33.667Z'
+updated: '2025-06-02T05:44:34.587Z'
 redirect_from: []
 location: 'Launch Site One, West Texas'
 location-slug: launch-site-one-corn-ranch-texas-usa
@@ -25,10 +26,14 @@ vehicle-slug: new-shepard
 payload: NS-32
 payload-type: crew capsule
 payload-description: >-
-  NS-32 is a crewed suborbital flight carrying six private citizens to the edge
-  of space onboard Blue Origin's New Shepard vehicle. Passengers will briefly
-  travel above the Kármán Line to experience microgravity before capsule
-  recovery. Notable crew members include Amy Medina Jorge and Mark Rocket.
+  NS-32 is a crewed suborbital flight carrying six private citizens—Aymette
+  (Amy) Medina Jorge, Dr. Gretchen Green, Jaime Alemán, Jesse Williams, Mark
+  Rocket, and Paul Jeris—to the edge of space onboard Blue Origin's New Shepard
+  vehicle. Passengers briefly traveled above the Kármán Line onboard Blue
+  Origin's reusable rocket, marking the 12th human spaceflight for the program
+  and the 32nd New Shepard launch. The reusable BE-3PM engine and capsule
+  emphasize Blue Origin's commitment to environmentally responsible, frequent
+  suborbital missions.
 links:
   - title: Blue Origin’s next crewed mission is targeted for liftoff on May 31st
     type:
@@ -58,7 +63,20 @@ links:
       - article
       - source
     url: 'https://www.nasaspaceflight.com/2025/05/launch-roundup-052825/'
-videos: []
+  - title: Blue Origin’s New Shepard completes 32nd flight + 12th human spaceflight
+    type:
+      - article
+      - source
+    url: >-
+      https://news.satnews.com/2025/06/01/blue-origins-new-shepard-completes-32nd-flight-12th-human-spaceflight/
+videos:
+  - title: NS-32 flight full replay
+    type:
+      - webcast
+      - replay
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=SNfUra5FBaA'
+    video_id: SNfUra5FBaA
 images: []
 ---
-Blue Origin's New Shepard NS-32 mission, scheduled for May 31, 2025, will carry six people above the Kármán Line to experience microgravity before returning to Earth. Notable crew members include Amy Medina Jorge and Mark Rocket, reflecting the mission’s diverse crew. The mission, launching from West Texas, highlights the reuse and continued operation of Blue Origin's suborbital system. The webcast will begin 30 minutes prior to liftoff on BlueOrigin.com and the mission features a symbolic mission patch.
+Blue Origin's twelfth crewed NS-32 flight launched six people above the Kármán Line on May 31, 2025, from West Texas. Notable crew members included Aymette (Amy) Medina Jorge, Dr. Gretchen Green, Jaime Alemán, Jesse Williams, Mark Rocket, and Paul Jeris. The NS-32 mission marked the 12th human spaceflight and 32nd overall flight of New Shepard, with a cumulative total of 64 people flown by the program. The launch highlighted Blue Origin’s ongoing progress with routine crewed suborbital flights, environmentally responsible BE-3PM engine operations, and autonomous boost-back and recovery of both booster and capsule. A replay of the mission is available online.

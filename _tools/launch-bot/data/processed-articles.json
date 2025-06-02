@@ -1261,7 +1261,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051925/",
-    "hash": "9794690b2dedac14f4843fa126ed89b64b08879b4e1f5b8f5dd05268880cf959"
+    "hash": "4c0639c81c10d29630919f385ae7187556a5aad4105217515a7999ca17ff32c8"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-gets-updated-starship-launch-license-but-still-awaits-flight-9-approval",
@@ -1529,11 +1529,11 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/05/28/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-launch-from-nasas-kennedy-space-center/",
-    "hash": "5b9420c148054a07463712df6da84b60759178031f4a855b8f6d7c46e54fc388"
+    "hash": "0b402a1e4471ac264481b43e08e138cf3635d439aa981dc02049d9ed6d842a45"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/28/spacex-launches-first-flight-proven-super-heavy-booster-loses-control-of-starship-mid-flight/",
-    "hash": "fd07ffb50e279fd28fb10fbc48789c191e47fb9729c49939625d6bf640e84c4c"
+    "hash": "e44fd9eeb09610040ebb3fd69696f2119cd30165afe1fd116d5244add08c729d"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/tianwen-2-launch/",
@@ -1601,7 +1601,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/launch-roundup-052825/",
-    "hash": "25007267a31d643e3ed8b3d99ff308f988b56b9a1c782060624f6ddef19c10b8"
+    "hash": "50fa6e86e0e9f52b282306b9a6f32435098d19b72e0bcd2a08e6a4c7bfb18e99"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/sampling-a-quasi-moon-whats-next-for-chinas-newly-launched-tianwen-2-mission",
@@ -1609,7 +1609,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/05/29/northrop-grumman-invests-50-million-in-firefly-aerospace-to-advance-eclipse-medium-launch-vehicle/",
-    "hash": "1cc6ccc754832bcfc6dca0b354f455b629e74816d019fa3fb44787837913d9c7"
+    "hash": "273c455bd5a346550b601fb7131db572aab078a50d1aed0ff256d898703eff12"
   },
   {
     "link": "https://news.satnews.com/2025/05/29/ground-stations-owned-or-rent-capacity/",
@@ -1646,5 +1646,97 @@
   {
     "link": "https://news.satnews.com/2025/05/29/identifying-satellites-at-leo-for-interference/",
     "hash": "dba1e862dae67bb835b3dc1db08ecae4f43f1d3560bee545d62badd70e23ee4f"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/30/live-coverage-spacex-to-launch-gps-iii-7-mission-on-falcon-9-rocket-from-cape-canaveral/",
+    "hash": "5151ad4f5f524f3eb2ce0429e73a2b5200690ef6d458a2b51961914496b78f5d"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/29/cape-canaveral-spaceport-master-plan-work-to-ramp-up-in-summer-2025/",
+    "hash": "b3c0cee2a22a0d896e5ad6727e9ef7125e5c9f85f565842cf3be110c4711f7b8"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-aiming-for-record-breaking-170-orbital-launches-in-2025",
+    "hash": "f2d88178e6fbd950ff94591df530b3b04ed9b72e679b9a95b4ee394b057aad06"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/29/infineon-launches-new-radiation-hardened-gan-transistors-including-one-of-the-first-dla-jans-certified-gan-device/",
+    "hash": "996d6d66f142d82e949e0f04d2eecf7555e93d0b7a186d4ccab7b64037dc6a90"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/faa-requires-spacex-to-investigate-starship-flight-9-mishap",
+    "hash": "5789aa60913904ee27f2421157d627b0ef0ec4a017ebca0959cc889eff6421fe"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/watch-spacex-launch-advanced-gps-satellite-for-us-space-force-today-in-record-short-turnaround",
+    "hash": "5cb93d7f5c600f3d5b0665fb6f0ab45ce147d5da29dd2a0342fa1df6cbacb86a"
+  },
+  {
+    "link": "https://europeanspaceflight.com/cnes-issues-call-for-in-orbit-refuelling-services-demonstration/",
+    "hash": "d0e961ef9ca2db96518069e38e5e5ffdd47600ceca309674c1acd9009c5888c4"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/30/spacexs-friday-launches-starlink-group-11-18-and-gps-iii-sv08-still-on-schedule/",
+    "hash": "703f85819bac839eea37cd118a33429086046adecf2215d726a273e3f96c4e7a"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/06/01/live-coverage-spacex-to-launch-23-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-11/",
+    "hash": "3a8446f4c02bac3ae79fb26fb764da5799ce70bb90a9aae76683a873dedf9265"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/31/president-trump-withdraws-isaacman-nomination-for-nasa-administrator-days-before-senate-confirmation-vote/",
+    "hash": "451432e4a46759aa334adf4131d11866fdbac55b7440bf37e325698a5d03d14e"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/05/31/live-coverage-west-coast-falcon-9-to-launch-27-satellites-for-spacexs-starlink-internet-service/",
+    "hash": "bf835382a0a8a4721fc6a94e4a0f2ef3309a5ecafce185c934205746961a7e0f"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/06/dragonfly-titan-science/",
+    "hash": "491d94fad1a2c13c34a36dd67633fc5a2af4733b4f867468abba5fda12fc6820"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/05/future-starship-block-3-mars/",
+    "hash": "e08c91fdc6e3a49de4021bc0db1b32eaa42d4653085253de262b2d7362cb8a89"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-adds-27-starlink-satellites-to-constellation-after-successful-launch-from-california",
+    "hash": "ee34880b1a5dd0e7eab249a38d112634ac52db9aeeb26dd13fe82351853cca6f"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/01/sierra-space-awarded-lunar-logistics-xontract-by-nasa/",
+    "hash": "5e060e0112c3b1e87c186ce40b6c712fae5992db964d3da604c9f32294ca74b6"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/01/spacexs-sunday-night-launch-of-starlink-group-12-19-smallsats-including-13-direct-to-cell/",
+    "hash": "f366ae4717f2c57017b1bbf89a5f91fd1ce98674c250fb3ad954f4f7f3c1f1c2"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/01/successful-completion-of-joeysat-testing-demonstrates-1st-reliable-multi-beam-ka-band-gateway/",
+    "hash": "0345483711fb4159bca3cf8698e62b1096ad34fa7a82748f5f0dd13e7c62752d"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/01/forresters-digest-cma-clears-ses-intelsat-merger/",
+    "hash": "6ac985d1573e76993e7df1df7f760420207d3d1a94dee221a9b621587e452430"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/01/forresters-digest-south-africas-icasa-warns-starlink-users/",
+    "hash": "7f05aaec70314e82e9bb00ff10247bbe16f437d26c426a3d08655a32a277acca"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/01/blue-origins-new-shepard-completes-32nd-flight-12th-human-spaceflight/",
+    "hash": "69aa24117191ac53cc81bab619396e82f38d617f8f05c5b1076e56afd44090d5"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/01/chinadaily-china-launches-the-tianwen-2-mission/",
+    "hash": "52a1ad2f00d3f645aaa559ce858e7c128b4a8318f1f998eb905be3727b1d5914"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/31/spacexs-foggy-saturday-launch-of-starlink-group-11-18-smallsats-from-vandenberg/",
+    "hash": "e2dc71013904595ae1f1ecb7224f303d605407b9e3698c21084cc4368f7afd71"
+  },
+  {
+    "link": "https://news.satnews.com/2025/05/30/spacex-launches-u-s-space-forces-secret-gps-iii-7-to-stand-against-increasing-threats/",
+    "hash": "62cc5d1066ee564f6e452b8f3a51e1a40b70ad3fb458e25d44ce19275e00ec62"
   }
 ]
