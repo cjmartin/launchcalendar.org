@@ -2,10 +2,10 @@
 layout: launch
 title: "\U0001F680 Falcon 9 | \U0001F6F0 GPS III SV08"
 description: >-
-  SpaceX successfully launched the U.S. Space Force's GPS III SV08 ("Katherine
-  Johnson"), also known as GPS III-7 and GPS 3 SV-08, on a Falcon 9 rocket from
-  Cape Canaveral to medium Earth orbit on May 30, 2025, continuing U.S. national
-  security modernization.
+  A SpaceX Falcon 9 rocket successfully launched the U.S. Space Force's GPS III
+  SV08 ("Katherine Johnson"), also known as GPS III-7 and GPS 3 SV-08, from Cape
+  Canaveral to medium Earth orbit on May 30, 2025, further advancing national
+  security modernization and resilient navigation capabilities.
 tags:
   - Falcon 9
   - GPS III SV08
@@ -24,9 +24,10 @@ tags:
   - Space Force
   - Cape Canaveral
   - US Space Force
+  - GPS III
 date: '2025-05-30T17:37:00Z'
 created: '2025-05-29T18:29:14.300Z'
-updated: '2025-06-02T06:20:23.234Z'
+updated: '2025-06-03T17:38:57.653Z'
 redirect_from: []
 location: 'SLC-40, Cape Canaveral Space Force Station, Florida'
 location-slug: slc-40-cape-canaveral-space-force-station-florida-usa
@@ -37,14 +38,15 @@ vehicle-slug: falcon-9
 payload: GPS III SV08
 payload-type: satellite
 payload-description: >-
-  The GPS III SV08 satellite, also known as GPS 3 Space Vehicle 08 (SV-08) and
-  nicknamed "Katherine Johnson," is a third-generation navigation satellite
-  built by Lockheed Martin for the U.S. Space Force. It features advanced M-code
-  military anti-jamming capabilities, improved accuracy, and increased
-  resistance to jamming and spoofing. Named in honor of NASA mathematician
-  Katherine Johnson, it is targeted for precise injection into Plane E Slot 3F
-  of the GPS constellation and enables simultaneous system-wide updates,
-  supporting the ongoing modernization of resilient global positioning services.
+  The GPS III SV08 satellite, also known as GPS 3 Space Vehicle 08 (SV-08), GPS
+  III-7, and nicknamed "Katherine Johnson" or "Ms. Creola Katherine Johnson," is
+  a third-generation navigation satellite built by Lockheed Martin for the U.S.
+  Space Force. Equipped with advanced M-code military anti-jamming technology,
+  the satellite provides more accurate and resilient Precision, Navigation, and
+  Timing (PNT) capabilities, enabling simultaneous system-wide constellation
+  updates and enhanced protection against jamming and spoofing. Named in honor
+  of NASA mathematician Katherine Johnson, GPS III SV08 is part of ongoing
+  efforts to modernize and enhance the resilience of the global GPS network.
 links:
   - title: Falcon 9 | GPS III SV08 (NASASpaceflight Forum Thread)
     type:
@@ -140,6 +142,14 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/spacex-aiming-for-record-breaking-170-orbital-launches-in-2025
+  - title: >-
+      Statement: U. S. Space Force Field Commands successfully launch GPS III,
+      demonstrating expedited launch capabilities
+    type:
+      - article
+      - source
+    url: >-
+      https://news.satnews.com/2025/06/02/statement-u-s-space-force-field-commands-successfully-launch-gps-iii-demonstrating-expedited-launch-capabilities/
 videos:
   - title: >-
       Blue Moon Mars Mission? | PSLV Failure | Starship Launch Closer Than Ever
@@ -161,4 +171,4 @@ videos:
     video_id: 1Juq-FD6cRA
 images: []
 ---
-On May 30, 2025, SpaceX successfully launched the U.S. Space Force’s GPS III SV08 satellite, also known as GPS III-7 and "Katherine Johnson," aboard a Falcon 9 rocket from SLC-40, Cape Canaveral, at 17:37 UTC. The launch occurred during a 15-minute window amid a 45% chance of favorable weather. The advanced satellite, built by Lockheed Martin and named after NASA mathematician Katherine Johnson, is equipped with enhanced M-code technology, improving accuracy, resilience, and resistance to jamming and spoofing. The Falcon 9 booster B1092 landed successfully on 'A Shortfall of Gravitas.' This mission, completed on an accelerated three-month schedule after reassignment from ULA Vulcan, is part of ongoing efforts to bolster the GPS network against growing threats and enables simultaneous constellation-wide GPS system updates. It further highlights SpaceX’s rapid turnaround capability, contributing to the company’s 2025 record-setting launch cadence, and supports constellation modernization with two more GPS III satellites planned.
+On May 30, 2025, SpaceX successfully launched the U.S. Space Force’s GPS III SV08 satellite, also known as GPS III-7 and nicknamed "Ms. Creola Katherine Johnson," aboard a Falcon 9 rocket from SLC-40, Cape Canaveral, at 17:37 UTC. The expedited National Security Space Launch compressed integration and launch timelines to just three months, 40% faster than the previous rapid launch (RRT-1), highlighting SpaceX’s rapid turnaround capability and the U.S. Space Force's ability to accelerate critical missions. The advanced GPS III SV08 satellite, built by Lockheed Martin and named after NASA mathematician Katherine Johnson, features enhanced M-code technology, supporting improved accuracy, resilience, and resistance to jamming and spoofing. The Falcon 9 booster B1092 landed successfully on 'A Shortfall of Gravitas.' This mission advances modernization of the GPS constellation, bolstering U.S. navigation and timing services for military and civilian users and enabling simultaneous system-wide updates, with two more GPS III satellites to follow.

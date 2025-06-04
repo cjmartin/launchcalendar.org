@@ -34,7 +34,7 @@ tags:
   - Pad A
 date: '2025-05-27T23:36:30Z'
 created: '2025-05-14T17:19:01.435Z'
-updated: '2025-06-02T05:58:59.631Z'
+updated: '2025-06-04T04:42:33.454Z'
 redirect_from:
   - 2025/05/21/starship-starship-flight-9-test-flight/
 location: 'Orbital Launch Pad A (OLP-A), Starbase, Texas'
@@ -138,6 +138,11 @@ links:
       - launch info
       - recap
     url: 'https://www.spacex.com/launches/mission/?missionId=starship-flight-9'
+  - title: Flight 9 recap
+    type:
+      - official
+      - recap
+    url: 'https://www.spacex.com/launches/mission/?missionId=starship-flight-9'
   - title: 'Cameron County launch advisory and road closure order for May 27-29, 2025'
     type:
       - public advisory
@@ -161,6 +166,8 @@ links:
     type:
       - article
       - source
+      - news
+      - video
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-starship-flight-9-to-space-in-historic-reuse-of-giant-megarocket-video
   - title: Starship Flight 9 mission preview
@@ -256,6 +263,12 @@ links:
       - source
       - details
     url: 'https://www.nasaspaceflight.com/2025/05/starship-flight-9/'
+  - title: ' ''Starship in space'': See amazing photos from SpaceX megarocket''s Flight 9 test mission '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/starship-in-space-see-amazing-photos-from-spacex-megarockets-flight-9-test-mission
 videos:
   - title: "\U0001F525 Wait that's Ship 36 | Starbase Update"
     type:
@@ -328,6 +341,12 @@ videos:
     source: youtube
     url: 'https://www.youtube.com/watch?v=MbPmTQUvZto'
     video_id: MbPmTQUvZto
+  - title: SpaceX Starship Flight 9 Launch Webcast
+    type:
+      - launch webcast
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=bQHItauA'
+    video_id: bQHItauA
 images: []
 ---
-On May 27, 2025, at 23:36:30 UTC, SpaceX launched Starship Flight 9 from Starbase, Texas, marking the first reflight of a Super Heavy booster (Booster 14-2) and Block 2 Starship (Ship 35). The mission tested new vehicle reusability, Block 2 upgrades, in-space Raptor engine relight, and attempted to deploy eight Version 3 Starlink satellite simulators using the new 'PEZ dispenser' payload bay, though the door failed to open. Ship 35 reached engine cutoff and coast phase but suffered fuel leaks and lost attitude control, while the booster was lost after an explosion following a water landing attempt. Both stages were lost, yet the hour-long test delivered valuable data for flight dynamics, control, heatshield improvements, and future reusability. The FAA is investigating the mishap; backup launch windows had been set for May 28 and 29.
+On May 27, 2025, at 23:36:30 UTC, SpaceX launched Starship Flight 9 from Starbase, Texas, marking the first reflight of a Super Heavy booster (Booster 14-2) and Block 2 Starship (Ship 35). The mission tested new vehicle reusability, Block 2 upgrades, in-space Raptor engine relight, and attempted deployment of eight Version 3 Starlink satellite simulators using the new 'PEZ dispenser' payload bay, though the bay door failed due to Ship 35 losing attitude control during coast from a propellant leak. Ship 35 passed SECO but lost control and was lost over the Indian Ocean; the booster was lost in the Gulf of Mexico after an explosion during engine relight for soft splashdown. Both stages were lost, but the hour-long test delivered valuable engineering and in-flight data for SpaceX's Starship development. The FAA is investigating the mishap; backup launch windows had been set for May 28 and 29. The mission included spectacular imagery as SpaceX advances toward operational Starship flights for Mars and beyond.

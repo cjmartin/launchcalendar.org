@@ -16,7 +16,7 @@ tags:
   - SLC-4E
 date: '2025-05-31T20:10:00Z'
 created: '2025-05-29T18:29:20.381Z'
-updated: '2025-06-02T05:52:12.075Z'
+updated: '2025-06-03T17:35:58.154Z'
 redirect_from: []
 location: 'SLC-4E, Vandenberg Space Force Base, California'
 location-slug: slc-4e-vandenberg-space-force-base-california-usa
@@ -28,9 +28,9 @@ payload: Starlink Group 11-18
 payload-type: satellite
 payload-description: >-
   A batch of 27 Starlink V2 Mini communications satellites for SpaceX's Starlink
-  broadband constellation, to be deployed from Vandenberg into low Earth orbit.
-  These smallsats were launched on a Falcon 9 during a foggy Saturday, expanding
-  the growing Starlink constellation.
+  broadband constellation, deployed from Vandenberg into low Earth orbit on a
+  southern trajectory to 53 degree inclination, launched during a foggy
+  Saturday. These smallsats expand the growing Starlink constellation.
 links:
   - title: Falcon 9 | Starlink Group 11-18 Launch Discussion
     type:
@@ -124,4 +124,4 @@ videos:
       https://www.space.com/space-exploration/rockets/spacex-starlink-launch-may-31-2025-video
 images: []
 ---
-On May 31, 2025, at 1:10 p.m. PT (20:10 UTC), SpaceX successfully launched 27 Starlink V2 Mini satellites for Group 11-18 from SLC-4E at Vandenberg Space Force Base, California, despite foggy weather. The booster B1071 flew for its 25th mission, landing on the droneship 'Of Course I Still Love You' in the Pacific Ocean, marking the 133rd landing on that vessel. This was SpaceX's 500th overall flight and the 16th Falcon 9 launch of May 2025, tying the company's monthly launch record. The 27 satellites further expand the Starlink constellation, now comprising over 7,600 active satellites, supporting SpaceX's mission to provide global broadband internet coverage.
+On May 31, 2025, at 1:10 p.m. PT (20:10 UTC), SpaceX successfully launched 27 Starlink V2 Mini satellites for Group 11-18 from SLC-4E at Vandenberg Space Force Base, California, despite foggy weather. The booster B1071 flew for its 25th mission, landing on the droneship 'Of Course I Still Love You' in the Pacific Ocean, marking the 133rd landing on that vessel. This was SpaceX's 500th overall flight and the 16th Falcon 9 launch of May 2025, tying the company's monthly launch record. The 27 satellites, launched on a southern trajectory into a 53° inclination orbit, further expand the Starlink constellation, now comprising over 7,600 active satellites, supporting SpaceX's mission to provide global broadband internet coverage.

@@ -1545,7 +1545,7 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/watch-rocket-lab-launch-private-earth-observing-satellite-to-orbit-tonight",
-    "hash": "3a1b0ce07b9686bc3d4b6c69cf5af9ac954f3171ad5751dcf2965fcacc7dfc4c"
+    "hash": "e929f6c13152b5f423327d73dd1539c68a033fcffab42f38a4ccde5f35e080fe"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/china-launching-tianwen-2-mission-today-to-snag-samples-of-a-near-earth-asteroid",
@@ -1681,7 +1681,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/06/01/live-coverage-spacex-to-launch-23-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-11/",
-    "hash": "1044e4f363c797c210a2f805e6eca6fe4d4e084bd91d72eb8597832955508794"
+    "hash": "003321c92345c38fda953de9ae49bb7eb5a158511bf86095796fe8ca6b9cd6ba"
   },
   {
     "link": "https://spaceflightnow.com/2025/05/31/president-trump-withdraws-isaacman-nomination-for-nasa-administrator-days-before-senate-confirmation-vote/",
@@ -1693,7 +1693,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/06/dragonfly-titan-science/",
-    "hash": "b36ac3c46d2337ede67f7e07da9cbec664a97a985b8ac600dd294f9f8b4163a7"
+    "hash": "84d0ae3148487cf41fe6da72e966d4653e86e78e6998adb6eeb63e790555fe6b"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/05/future-starship-block-3-mars/",
@@ -1745,14 +1745,102 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/06/02/live-coverage-spacex-reschedules-starlink-delivery-mission-for-midnight-hour-tuesday/",
-    "hash": "18eea833fb8dc5e0b016d634db1c0a02aeaef0bf4718bcca33f9e1c6245de4f8"
+    "hash": "55440e23af15f98db339ff8ff18da7f833bbe745495aeafe15621b5a00a09cdc"
   },
   {
     "link": "https://news.satnews.com/2025/06/02/iridium-syniverse-partner-to-deliver-d2d-satellite-connectivity-to-global-mnos/",
-    "hash": "15c10b2e149ece3245327c23aaa52e3c283b006295bab946d83e768abed1affd"
+    "hash": "d22310814ae8c297a21ec6b6ab0ff0f8d056613d8176db34259ae730a4270fe5"
   },
   {
     "link": "https://news.satnews.com/2025/06/02/canadensys-is-working-with-ksat-in-support-of-canadas-first-lunar-rover/",
     "hash": "17d12102d8294c723910b29b0159cb253f076f558785f0a9a4aa6c92aed425b6"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/06/02/rocket-lab-to-launch-blackskys-next-gen-3-satellite-on-electron-rocket-from-new-zealand/",
+    "hash": "75f875514000db8fcab2ce5a03b8f04e995cb8df60631882a5d1b331589b0c69"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/06/launch-roundup-060225/",
+    "hash": "25cc6d9f7e4dc3b483181146b9061a0f79c67ed81cdbaf56acd688af3bee3fad"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-23-more-starlink-satellites-from-florida",
+    "hash": "af5929fd280f176a7fbc3fb667295278149ada9c06e54ed1b2e8eea8a230d09c"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/02/spacex-launches-starlink-group-12-19-smallsats-including-13-direct-to-cell/",
+    "hash": "a563ad8c13cec3407066501e71407438abc1ccfda4da0d8ee8ed796f8eb78bca"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/02/rocket-lab-launches-blackskys-full-stream-ahead-earth-observing-gen-3-satellite-mission/",
+    "hash": "322225d502f21c667b00bd651632ba1b4405788c54ac6753442d4270046f77d3"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/02/statement-u-s-space-force-field-commands-successfully-launch-gps-iii-demonstrating-expedited-launch-capabilities/",
+    "hash": "0a347fb0fa1e84247810c50b03a15d0d8732489c521043116e4acc7432e3c171"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/02/eutelsat-seeks-e1-5bn-funding/",
+    "hash": "7f672ff845c93a8793281c6a73d88fac2b7b2688974c473acdc173ce24839023"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/02/trai-satellite-spectrum-charges-unfair-cellular-operators-association-of-india-coai/",
+    "hash": "e331c7a8108ffc1d83ec9a054a13efe36edb03beee40437526bf29c53e96e1ed"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/02/silicon-sensing-and-kongsberg-discovery-enter-a-co-operation-agreement-to-develop-a-new-generation-of-inertial-products/",
+    "hash": "037c703d5b1f1d94e55d9668ab47ec698233094fc47a45c9c8021d3e1e7eb240"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/02/space-norway-launches-global-leo-satellite-services-as-an-authorized-starlink-reseller/",
+    "hash": "26104aa9db0268d45a00675d10080b6d5a50758ae3b3414b7adfe4b71c8e9edf"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/02/spacex-plans-monday-starlink-group-12-19-smallsats-launch-including-13-direct-to-cell-with-challenge-of-heavy-cloud-cover/",
+    "hash": "8d3955ac7798f5b0f2acc021492ce9414631acce9a27b3ec561731c5e7af502c"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/06/04/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-4/",
+    "hash": "36d365a02cb5f8c0c9c433d5f3d6ff0e40b9c644a83906f863b9eb341d1e6380"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/starship-in-space-see-amazing-photos-from-spacex-megarockets-flight-9-test-mission",
+    "hash": "957231da79ddd10d8edc551fbb8e5ce6fcf6d70e84b09f5d7e94636ac5280903"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/03/mount-etna-erupts/",
+    "hash": "cb572b7bb061554f6a7dab2393a11cdbe1fb1d3e0bcc4e340bd0374f95060403"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/03/spacex-plans-wednesday-launch-in-california-of-starlink-group-11-22-smallsats/",
+    "hash": "f2aca3a91aa4888f7fe6fb1aae8e995a61512abb2919ce90306524253be2e1c8"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/03/sess-7th-and-8th-o3b-mpower-satellites-to-start-delivering-connectivity-services/",
+    "hash": "01c06687369d2d8ec5912007234b4ea357048a5c388f2942e664357783863c05"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/03/maxar-space-systems-selected-to-build-high-power-echostar-xxvi-satellite/",
+    "hash": "10f404eb4456c9aa1bf59154423b4bafb2a88356d23d00694c347f10030b17d5"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/03/a-first-for-south-koreas-intellian-technologies-and-eutelsat-oneweb-leo-services-granted-regulatory-license-by-south-korea/",
+    "hash": "6a76e032dec9115f38c7d03e0e27dad9246ea039e5b253d883c0132ae63a2173"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/03/exolaunch-innospace-sign-strategic-partnership-agreement-for-global-smallsat-launch-services/",
+    "hash": "e01ee2486fb031df8a699947f072bebb75b4ccaecc35184d06b32b66548cf925"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/03/space-systems-command-award-advances-eastern-western-range-capability/",
+    "hash": "3a736cfdb4e7057f828311e8a8c75da0752268e4aee7e801ba5bde49b3065010"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/03/colt-honeywell-nokia-join-forces-to-trial-space-based-quantum-safe-cryptography/",
+    "hash": "24a513e38fe5982d32fa9b9845b1e71a33c756c9ba9931f7023ffd1c20b95d2d"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/03/airbus-cnes-vast-reaffirm-commitment-to-strengthening-eo-capabilities-in-vietnam/",
+    "hash": "e36d59d765436c1cf372a60e7643fec20c5d852e9835bb3b0e973a6ab2e7a457"
   }
 ]
