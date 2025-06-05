@@ -666,5 +666,18 @@
       "long-march-3b/e",
       "long-march-2c"
     ]
+  },
+  "spaceport-nova-scotia-canada": {
+    "site_name": "Spaceport Nova Scotia",
+    "location": "Canso, Nova Scotia, Canada",
+    "geo": {
+      "latitude": 45.3298,
+      "longitude": -61.0093
+    },
+    "operator": "Maritime Launch Services",
+    "launch_vehicles": [
+      "Barracuda",
+      "Cyclone-4M"
+    ]
   }
 }

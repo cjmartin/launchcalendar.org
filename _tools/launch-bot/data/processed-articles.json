@@ -1757,11 +1757,11 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/06/02/rocket-lab-to-launch-blackskys-next-gen-3-satellite-on-electron-rocket-from-new-zealand/",
-    "hash": "75f875514000db8fcab2ce5a03b8f04e995cb8df60631882a5d1b331589b0c69"
+    "hash": "f1110f487aa8bbc8a6a2c261313f90fa151407350e09709df6405743d531d742"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/06/launch-roundup-060225/",
-    "hash": "25cc6d9f7e4dc3b483181146b9061a0f79c67ed81cdbaf56acd688af3bee3fad"
+    "hash": "75b7f064108bb68db0e7e4e7b78aaa5a35fb737ef881db4835cb09442b546c26"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-23-more-starlink-satellites-from-florida",
@@ -1801,7 +1801,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/06/04/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-4/",
-    "hash": "36d365a02cb5f8c0c9c433d5f3d6ff0e40b9c644a83906f863b9eb341d1e6380"
+    "hash": "88c499a10f0566a14c11aad7eb969c6e9bdd395e43ab2ce5eff429c69fc7ee5c"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/starship-in-space-see-amazing-photos-from-spacex-megarockets-flight-9-test-mission",
@@ -1842,5 +1842,65 @@
   {
     "link": "https://news.satnews.com/2025/06/03/airbus-cnes-vast-reaffirm-commitment-to-strengthening-eo-capabilities-in-vietnam/",
     "hash": "e36d59d765436c1cf372a60e7643fec20c5d852e9835bb3b0e973a6ab2e7a457"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/06/05/live-coverage-ispace-makes-second-attempt-at-historic-moon-landing/",
+    "hash": "315d9ed9e3c82be68ce279944becb6d1c6da5170b3927bee7d16433ea47d320b"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/06/hakuto-r-m2-landing/",
+    "hash": "3d5c3b4a9be95ba138e7999c4fba033cfc04b57f8a9fa957c3979d0b1a720b5c"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-11-22-b1063-vsfb-ocisly",
+    "hash": "1b69829149981270ef1012bf4eede44fdac1041a788d9ef946783624866c4a1e"
+  },
+  {
+    "link": "https://europeanspaceflight.com/esa-awards-ispace-new-contract-for-magpie-moon-mission/",
+    "hash": "8458e28f21a33a12268f69727723845c35f39ff442a036e362c75b459d33ec73"
+  },
+  {
+    "link": "https://europeanspaceflight.com/t-minus-to-launch-a-pair-of-barracuda-rockets-from-nova-scotia/",
+    "hash": "be43ac9306c2113c289607be5b27c88c1e5c5c5ad1ff98f4ab7dec91c8198434"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/05/eutelsat-orange-reinforce-partnership-with-new-multi-year-leo-agreement/",
+    "hash": "eb0e887483e0231dbfbc6f03db76f9c3a5cec76628425a1a647cdfc3c40a2f79"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/04/spacex-launches-starlink-group-11-22-smallsats-from-foggy-california/",
+    "hash": "4e9a57aa6f6525959fab38d7640833e92ea72d05ee1d6bccc84435a80398292b"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/04/gilats-40-million-contract-for-virtualized-skyedge-iv-platform/",
+    "hash": "c9f74ceb6ecace913588d003154832d3c0ac5c4a23f75da03322aaf1dc18bf3e"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/04/bae-systems-awarded-30-million-from-u-s-navy-for-identification-friend-or-foe-an-apx-123av-common-transponder/",
+    "hash": "c4a1d6f427577e96300153701d5cf1bd366b3aa5a1ffa11124ece7366391eb5d"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/04/ess-virtual-reverse-industry-day-whitepaper-submission-request/",
+    "hash": "61a13728f636d17f5ca52dd767d1822f9ea8bbf21943323f4bbc36c72a52ff1f"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/04/bigbear-ai-now-a-new-member-of-space-isac/",
+    "hash": "476bd47864742a86e1603b7f8c7004c7d9bf047392a2525bc15f9cac012463ec"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/04/report-smartphone-market-downgraded-on-us-tariffs/",
+    "hash": "380ffc2823446ca46d55e7b94f83c2ee7135793106bc8e7d45c624e032a479c8"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/04/mmtron-announces-up-down-converter-for-25-29-ghz-band/",
+    "hash": "52d0a930e12278d390f46e9e44a471490a86fb20a348b0c805579edaeb9e0388"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/04/softbank-corp-cubic3-announce-strategic-partnership-to-advance-satellite-based-ntn-with-tn-to-create-a-ubiquitous-network/",
+    "hash": "f1f2005298e26d801bffce9285770e7633b5bc44a86d691eec398c367f9a5606"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/04/seventh-eighth-o3b-mpower-satellites-to-start-delivering-connectivity-services/",
+    "hash": "edf34eaf40e72cccf191873761dcde446b7e5763c7a12a09965f2dce7a0d020e"
   }
 ]

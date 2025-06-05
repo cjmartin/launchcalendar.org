@@ -333,5 +333,10 @@
     "vehicle_name": "Minuteman III",
     "operator": "United States Air Force",
     "aliases": ["LGM-30G", "Minuteman 3", "Minuteman-3"]
+  },
+  "barracuda": {
+    "vehicle_name": "Barracuda",
+    "operator": "Vaya Space",
+    "aliases": []
   }
 }
