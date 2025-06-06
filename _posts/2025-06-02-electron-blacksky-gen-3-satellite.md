@@ -18,13 +18,15 @@ tags:
   - satellite
   - BlackSky Gen-3
   - Earth Observation
+  - BlackSky Generation 3
+  - LC-1B
 date: '2025-06-02T23:57:00Z'
 created: '2025-05-28T18:33:54.973Z'
-updated: '2025-06-04T05:52:40.094Z'
+updated: '2025-06-06T16:35:11.182Z'
 redirect_from:
   - 2025/06/03/electron-blacksky-gen-3-satellite/
 location: Rocket Lab's New Zealand site
-location-slug: lc-1a-mahia-peninsula-new-zealand
+location-slug: lc-1b-mahia-peninsula-new-zealand
 manned: false
 vehicle: Electron
 vehicle-type: rocket
@@ -88,6 +90,7 @@ links:
     type:
       - forum
       - discussion
+      - reference
     url: 'https://forum.nasaspaceflight.com/index.php?topic=62900.0'
   - title: >-
       Launch Roundup: Falcon 9 to launch crewed mission, Rocket Lab launches

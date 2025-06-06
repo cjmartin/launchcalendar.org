@@ -1761,7 +1761,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/06/launch-roundup-060225/",
-    "hash": "8e9b8d7999c06a761840198f42065096ee3cc24f419a1c8239071b5effe66119"
+    "hash": "a22da5ad6e222a4a2d1d120a14c8dc8e6bd797b34b93138d005bc4f799e5b1cc"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-23-more-starlink-satellites-from-florida",
@@ -1801,7 +1801,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/06/04/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-4/",
-    "hash": "88c499a10f0566a14c11aad7eb969c6e9bdd395e43ab2ce5eff429c69fc7ee5c"
+    "hash": "914a00923057efcf3ddd215d35f39e41451dba49634800d06b22550d1f204f5d"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/starship-in-space-see-amazing-photos-from-spacex-megarockets-flight-9-test-mission",
@@ -1845,11 +1845,11 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/06/05/live-coverage-ispace-makes-second-attempt-at-historic-moon-landing/",
-    "hash": "315d9ed9e3c82be68ce279944becb6d1c6da5170b3927bee7d16433ea47d320b"
+    "hash": "e3ea322b88f11cbe34c3a13bddfb335ff304bc6e424a703bc9523d71a50c45e6"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/06/hakuto-r-m2-landing/",
-    "hash": "3d5c3b4a9be95ba138e7999c4fba033cfc04b57f8a9fa957c3979d0b1a720b5c"
+    "hash": "5b39b9bd71d72cfdb7b0aea5a5ecabeb59741abd09f1d28155052b01138182d8"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-11-22-b1063-vsfb-ocisly",
@@ -1865,7 +1865,7 @@
   },
   {
     "link": "https://news.satnews.com/2025/06/05/eutelsat-orange-reinforce-partnership-with-new-multi-year-leo-agreement/",
-    "hash": "eb0e887483e0231dbfbc6f03db76f9c3a5cec76628425a1a647cdfc3c40a2f79"
+    "hash": "2db4a34f0a4897fb82866e47a75e721d8efd30d4cd69e25764c5a64cfb4af5d9"
   },
   {
     "link": "https://news.satnews.com/2025/06/04/spacex-launches-starlink-group-11-22-smallsats-from-foggy-california/",
@@ -1902,5 +1902,57 @@
   {
     "link": "https://news.satnews.com/2025/06/04/seventh-eighth-o3b-mpower-satellites-to-start-delivering-connectivity-services/",
     "hash": "edf34eaf40e72cccf191873761dcde446b7e5763c7a12a09965f2dce7a0d020e"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/06/06/live-coverage-spacex-to-launch-sxm-10-satellite-for-siriusxm-on-falcon-9-rocket-from-cape-canaveral/",
+    "hash": "5715d0791d3ff9985d3acd62343029f4f68b2fe03fceb7829fb71ea904145205"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/06/06/ispaces-resilience-lander-crash-lands-on-the-moon/",
+    "hash": "500c5d91079c482c0f5b62b7d1cb973925df64b18a9a6dff13593c3017143394"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/atlas-v-rocket-to-launch-amazons-2nd-batch-of-kuiper-internet-satellites-on-june-13",
+    "hash": "ac5bb5003b732f069d180e1ced099505a06b980f2f7250c6df337db71883351e"
+  },
+  {
+    "link": "https://europeanspaceflight.com/first-themis-test-flight-likely-to-slip-to-2026/",
+    "hash": "9cea8eda34b0596ddb9098c18cb8c6083befed812e3bc4bb914a714097f4296a"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/06/wta-certification-program-renews-tier-3-certification-of-stns-teleport-in-slovenia/",
+    "hash": "8c1c60cfcc9489152fa8e96982f92f61a53a26637a4937d51c403320ac277845"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/05/spacex-plans-friday-launch-of-siriusxm-sxm-10-mission/",
+    "hash": "64138fe66d9e563a513c15f0883714c334cd92944f40ef39073001833d05806f"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/05/enpulsion-unveils-their-nexus-electric-propulsion-system/",
+    "hash": "cb8d3568b6587c6f72d019ee96e262748026109f5dfba119ef0023e008128dc9"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/05/northrop-grumman-successfully-integrates-spacecraft-for-next-generation-space-robotic-servicing-system/",
+    "hash": "78c2d0ece37af3110c5ccc26cc631050aa02ad8043a013957c510bf1803ea009"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/05/bae-systems-1-2-billion-contract-for-u-s-space-force-missile-warning-and-tracking-satellite-system/",
+    "hash": "a740fe540a78814441a3116a0de3bd254975bbc203d60d5a2621b5a409e89fd9"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/05/alghanim-industries-signs-starlinks-satellite-internet-to-global-markets/",
+    "hash": "8f13ff41c2bf15dc800530a21def50544c1a0c0f42f3383b2b4b2ba7c4309101"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/05/freeview-satellite-tv-provides-more-new-zealanders-with-free-hd-viewing/",
+    "hash": "aa127217f4867d2f614970bd4458cbe83e0b4aec60c5a5a0bb7cbe49fe743f4b"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/05/ovzon-receives-1-04-billion-swedish-kronor-order-from-the-swedish-defence-materiel-administration-fmv/",
+    "hash": "5c94cd7e4ec1d7487ac631e0b7468b900237cd00c773ae64896c739168594156"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/05/l3harris-provides-next-generation-eo-ir-sensor-systems-to-airbus-helicopters-for-canadian-police-support/",
+    "hash": "de2642315752e7729b1fa567b5e54bcc451508ebf7681131cefcdc84cdc072ce"
   }
 ]
