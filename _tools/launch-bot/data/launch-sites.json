@@ -49,6 +49,18 @@
       "minotaur-iv"
     ]
   },
+  "slc-36-cape-canaveral-space-force-station-florida-usa": {
+    "site_name": "SLC-36",
+    "location": "Cape Canaveral Space Force Station, Florida, USA",
+    "geo": {
+      "latitude": 28.6102,
+      "longitude": -80.6011
+    },
+    "operator": "Blue Origin",
+    "launch_vehicles": [
+      "New Glenn"
+    ]
+  },
   "lc-18a-atlantic-missile-range-cape-canaveral-florida-usa": {
     "site_name": "Launch Complex 18A",
     "location": "Atlantic Missile Range, Cape Canaveral, Florida, USA",

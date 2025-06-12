@@ -3,15 +3,11 @@ layout: launch
 title: "\U0001F680 Starship | \U0001F6F0 Starship Flight 9 Test Flight"
 description: >-
   SpaceX launched Ship 35 (Block 2) and Booster 14-2 for Starship's ninth
-  integrated test flight from Starbase, Texas, on May 27, 2025. The mission
-  featured eight Version 3 Starlink satellite simulators, the first booster
-  reflight, Block 2 upgrades, heat shield and reentry experiments, an in-space
-  Raptor engine relight, and a planned water landing. The payload bay door
-  malfunctioned, preventing deployment. Ship 35 lost attitude control during the
-  coast phase due to fuel leaks and was lost over the Indian Ocean, while the
-  booster was lost following an explosion during its relight and water landing
-  attempt. Both stages failed to complete their full objectives, but the flight
-  yielded valuable engineering data for rapid Starship program development.
+  integrated test flight from Starbase, Texas, on May 27, 2025. The test marked
+  the first reflight of a Super Heavy booster and Block 2 upgrades, tested
+  in-space Raptor relight, and carried eight Version 3 Starlink satellite
+  simulators, which could not be deployed due to a payload bay door malfunction
+  following loss of vehicle control.
 tags:
   - Starship
   - SpaceX
@@ -34,7 +30,7 @@ tags:
   - Pad A
 date: '2025-05-27T23:36:30Z'
 created: '2025-05-14T17:19:01.435Z'
-updated: '2025-06-04T04:42:33.454Z'
+updated: '2025-06-11T16:11:44.905Z'
 redirect_from:
   - 2025/05/21/starship-starship-flight-9-test-flight/
 location: 'Orbital Launch Pad A (OLP-A), Starbase, Texas'
@@ -47,21 +43,18 @@ payload: Starship Flight 9 Test Flight
 payload-type: test vehicle
 payload-description: >-
   SpaceX's Ship 35 (Block 2) and Booster 14-2 (the first reflight of a Super
-  Heavy booster, previously known as Booster 14) conducted Starship's 9th
-  uncrewed test flight, carrying eight Starlink satellite simulators (dummy
-  satellites)—large panels simulating the size and mass of Version 3 Starlink
-  satellites—along with a suite of heat shield, engine relight, and reentry
-  experiment payloads. The main objectives included demonstrating vehicle
-  reusability with major Block 2 upgrades, testing in-space Raptor engine
-  relight, and using the 'PEZ' payload dispenser for attempted deployment of the
-  simulators (ultimately not deployed due to a payload bay door malfunction
-  after Ship 35 lost attitude control during coast). The booster was intended
-  for a soft water landing (not a catch attempt) in the Gulf of Mexico to test
-  reentry and relight, but was lost after an explosion during engine relight.
-  Ship 35 suffered fuel leaks and lost control, and was lost over the Indian
-  Ocean. The flight lasted just over an hour and provided important data for
-  future flights, advancing reusability and heat shield development for the
-  Starship program.
+  Heavy booster, previously known as Booster 14) performed Starship's 9th
+  uncrewed test flight, carrying eight Starlink satellite simulators—large
+  panels simulating Version 3 Starlink satellites—and a suite of heat shield,
+  engine relight, and reentry experiment payloads. Key objectives included
+  demonstrating the reusability of a Super Heavy booster, in-space Raptor engine
+  relight, and the use of the new 'PEZ' payload dispenser. While the booster
+  (B14-2) performed a successful ascent and boostback, it suffered a rapid
+  unscheduled disassembly (RUD) during its landing attempt in the Gulf of
+  Mexico. Ship 35 passed SECO but lost attitude control due to a fuel leak and
+  RCS issues, leading to an uncontrolled reentry and loss over the Indian Ocean.
+  The flight yielded significant reentry and heat shield data to advance future
+  Starship flights.
 links:
   - title: Elon Musk X Post (May 13)
     type:
@@ -269,6 +262,20 @@ links:
       - source
     url: >-
       https://www.space.com/space-exploration/launches-spacecraft/starship-in-space-see-amazing-photos-from-spacex-megarockets-flight-9-test-mission
+  - title: >-
+      Booster 14 Reflies, SpaceX already preparing next vehicle for Primary
+      Objectives
+    type:
+      - article
+      - source
+    url: >-
+      https://www.nasaspaceflight.com/2025/06/booster-14-reflies-next-primary-objectives/
+  - title: ' SpaceX fires up Super Heavy booster ahead of Starship''s 10th test flight (video) '
+    type:
+      - article
+      - source
+    url: >-
+      https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-super-heavy-booster-ahead-of-starships-10th-test-flight-video
 videos:
   - title: "\U0001F525 Wait that's Ship 36 | Starbase Update"
     type:
@@ -347,6 +354,13 @@ videos:
     source: youtube
     url: 'https://www.youtube.com/watch?v=bQHItauA'
     video_id: bQHItauA
+  - title: Starship Flight 9 - Watch this one twice
+    type:
+      - launch
+      - recap
+    source: youtube
+    url: 'https://www.youtube.com/watch?v=MTf8NJr1x1M'
+    video_id: MTf8NJr1x1M
 images: []
 ---
-On May 27, 2025, at 23:36:30 UTC, SpaceX launched Starship Flight 9 from Starbase, Texas, marking the first reflight of a Super Heavy booster (Booster 14-2) and Block 2 Starship (Ship 35). The mission tested new vehicle reusability, Block 2 upgrades, in-space Raptor engine relight, and attempted deployment of eight Version 3 Starlink satellite simulators using the new 'PEZ dispenser' payload bay, though the bay door failed due to Ship 35 losing attitude control during coast from a propellant leak. Ship 35 passed SECO but lost control and was lost over the Indian Ocean; the booster was lost in the Gulf of Mexico after an explosion during engine relight for soft splashdown. Both stages were lost, but the hour-long test delivered valuable engineering and in-flight data for SpaceX's Starship development. The FAA is investigating the mishap; backup launch windows had been set for May 28 and 29. The mission included spectacular imagery as SpaceX advances toward operational Starship flights for Mars and beyond.
+On May 27, 2025, SpaceX launched Starship Flight 9 from Starbase, Texas, marking the world’s first reflight of a Super Heavy booster (Booster 14-2) with Block 2 Starship (Ship 35). This mission, flying from OLP-A, included major Block 2 upgrades and eight Version 3 Starlink satellite simulators inside the new 'PEZ dispenser' bay. Although the simulators could not be deployed due to a payload door malfunction after Ship 35 lost attitude control, the Super Heavy booster performed nominal ascent and boostback before breaking apart during its Gulf of Mexico landing attempt. Ship 35 reached space, passed SECO, but then tumbled and was lost over the Indian Ocean after 46 minutes due to a fuel leak and RCS issues. The FAA opened a mishap investigation, and backup launch dates were set for May 28 and 29. Despite loss of both stages, the nearly hour-long flight returned crucial heat shield, relight, reentry, and Block 2 data for SpaceX’s Starship program ahead of Flight 10.

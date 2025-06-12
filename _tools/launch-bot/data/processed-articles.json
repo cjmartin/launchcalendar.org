@@ -1761,7 +1761,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/06/launch-roundup-060225/",
-    "hash": "a22da5ad6e222a4a2d1d120a14c8dc8e6bd797b34b93138d005bc4f799e5b1cc"
+    "hash": "03cbc6057628cdfa6d6870bebf43bcc8012e72d743f937e75cadf8f113b93c80"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-23-more-starlink-satellites-from-florida",
@@ -1849,7 +1849,7 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/06/hakuto-r-m2-landing/",
-    "hash": "5b39b9bd71d72cfdb7b0aea5a5ecabeb59741abd09f1d28155052b01138182d8"
+    "hash": "062673ee4590911559e381d22950d0be018532ad4ccf7805d62d7250c31c496e"
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-11-22-b1063-vsfb-ocisly",
@@ -1905,7 +1905,7 @@
   },
   {
     "link": "https://spaceflightnow.com/2025/06/06/live-coverage-spacex-to-launch-sxm-10-satellite-for-siriusxm-on-falcon-9-rocket-from-cape-canaveral/",
-    "hash": "5715d0791d3ff9985d3acd62343029f4f68b2fe03fceb7829fb71ea904145205"
+    "hash": "dcddab9a87ae89f8dcb2677717302d66af3f37a2958895efccbffbf88426ede2"
   },
   {
     "link": "https://spaceflightnow.com/2025/06/06/ispaces-resilience-lander-crash-lands-on-the-moon/",
@@ -1913,7 +1913,7 @@
   },
   {
     "link": "https://www.space.com/space-exploration/launches-spacecraft/atlas-v-rocket-to-launch-amazons-2nd-batch-of-kuiper-internet-satellites-on-june-13",
-    "hash": "ac5bb5003b732f069d180e1ced099505a06b980f2f7250c6df337db71883351e"
+    "hash": "a590ffbee9e9bfa57cb9bc1eb52594b87cd06a6e1c36b0e71e4cfe6c8d0fcb9b"
   },
   {
     "link": "https://europeanspaceflight.com/first-themis-test-flight-likely-to-slip-to-2026/",
@@ -1954,5 +1954,153 @@
   {
     "link": "https://news.satnews.com/2025/06/05/l3harris-provides-next-generation-eo-ir-sensor-systems-to-airbus-helicopters-for-canadian-police-support/",
     "hash": "de2642315752e7729b1fa567b5e54bcc451508ebf7681131cefcdc84cdc072ce"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/06/10/spacex-to-debut-its-fifth-and-final-crew-dragon-spacecraft-on-axiom-mission-4/",
+    "hash": "abd31a4b520502b85a49c18ee26bdd5e39e141ab520a670b1b9782e1e9c3d204"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/06/10/live-coverage-spacex-to-launch-23-starlink-satellites-on-a-falcon-9-rocket-from-cape-canaveral-2/",
+    "hash": "2df3bb68f1c939e7df93fd5b43f7e04bf560a25aa8adfdb47615afcb7eafeb75"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/06/09/live-coverage-spacex-to-launch-fourth-commercial-axiom-mission-to-the-space-station/",
+    "hash": "582f1a35c8ed6ad993a089c773e38d7debaaf7fee1085e7e3cc1f4c5ace99cb1"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/06/07/live-coverage-spacex-to-launch-26-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-2/",
+    "hash": "101abda19fa5dffc47dd0c7b3b499328d1d003e4ec375c166ae34c4c21465c8b"
+  },
+  {
+    "link": "https://spaceflightnow.com/2025/06/07/further-delays-of-starliners-next-flight-mark-anniversary-of-its-first-crewed-space-station-docking/",
+    "hash": "c0111e89499bec43f85c2e1cabffc74f34bd5e2e5ee75ae8de98c730a1cf665c"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/06/launch-roundup-061025/",
+    "hash": "0325b297e49ac7f2968b6cd27f61e7995c63345165a0b49624abe158467804cf"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/06/ax-4-launch/",
+    "hash": "97a894e088ffa9ceb635b4d9270f7855051cd2c1c3264e713c5dcb2ea10723b3"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/06/booster-14-reflies-next-primary-objectives/",
+    "hash": "63ddf44de3891df5f06493a1773530012453e5990de497cd612f325403a48fd3"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-launches-japanese-earth-observing-radar-satellite-to-orbit",
+    "hash": "57ef5579ef8b21eb0c7c5917733379b9cef44dfa73ea9ce4fbf0b0bb4d7ff678"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/2nd-launch-of-blue-origins-powerful-new-glenn-rocket-delayed-to-aug-15-at-the-earliest",
+    "hash": "fa5bb323ece0601c19eda85d47e12589c469202e8b01d3461d8ae3585e1a5a2f"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-12-24-b1083-ccsfs-jrti",
+    "hash": "3a83f849f8d6f376da49285d2ed48ab777187561f7fe69d9cb9faddeabc4859f"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-starlink-satellites-to-orbit-on-70th-falcon-9-flight-of-the-year-photos",
+    "hash": "6c08cecd6e2f5d84c8af480c259ba2cee3fbdbbee811a1a6d59394cd31ab3b29"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-super-heavy-booster-ahead-of-starships-10th-test-flight-video",
+    "hash": "157948c95d36a0e07a84e0d491430e0ad6016a2bc70959316c9762e6c215f3b3"
+  },
+  {
+    "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-sirius-xm-radio-satellite-to-orbit-lands-rocket-on-ship-at-sea-photos",
+    "hash": "808a94ca491770004b6f0fe8ae9442ec057650a83ed05a62ba252f8ff2975d5c"
+  },
+  {
+    "link": "https://europeanspaceflight.com/alpha-impulsion-tests-autophage-engine-prototype-for-grenat-rocket/",
+    "hash": "e0e97a235ddcba6bc579d4809bd10baa98bcd65433bfa6e3ab4d18b75353c9a6"
+  },
+  {
+    "link": "https://europeanspaceflight.com/olm-plans-to-offer-commercial-launch-services-from-sardinia/",
+    "hash": "f00c9cbbc4e455f64cec04b9f7373e7a6c0717d50e5e8a2b33a27db87cb38d59"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/10/vocus-telesat-announce-multi-year-telesat-lightspeed-terrestrial-infrastructure-services-contract/",
+    "hash": "72ed5d9ab975adab757257d7afe7cb2a91efb8e7b2b281d990f67a7a7ad80c45"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/10/new-iridium-chat-app-enables-unlimited-global-messaging-via-iridium-go-exec/",
+    "hash": "bf68d4c5b241612e12b0d7cf4591a3dd1bb66e961d50049384b3a132416174a6"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/10/spacex-standing-down-from-axiom-mission-4-with-four-astronauts-for-repairs-awaiting-new-launch-date/",
+    "hash": "d8196a50b99b0680c9523b89cc286dfbcb6200d0934433f6d5be1653e7a913ea"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/10/update-no-delivery-for-amazons-project-kuiper-2-as-ula-calls-no-go-for-weather-delay/",
+    "hash": "03d9aa0e6ef8bc29f383273a886994c64f4d978ea2d5ac63ff7686a19a2f2a07"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/10/algerias-el-ikhbariya-channel-joins-eshailsats-video-hotspot/",
+    "hash": "d26dbe8db54952a654f255dd5531e8632ce95b0958018d21bd8a90684894ef57"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/10/spacexs-starlink-gets-shutdown-on-some-united-airlines-causing-problems-for-pilots/",
+    "hash": "7db3e2e0a520faea9957c25ed0e1a5eea6c2a7ded2aea552268287a3b6e2cceb"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/10/spacex-sends-off-23-starlink-group-12-24-smallsats-including-13-direct-to-cell-from-sunny-florida/",
+    "hash": "484878efa787a2af6510ef306087816f1dfaa528eae8f68efd9ad1aadf024880"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/10/inmarsat-nexuswave-to-support-sustainable-scallop-harvesting-for-new-ava-ocean-vessel/",
+    "hash": "8229a0fb59c6414fa66bf8002fff8bf3e388941954897962f33959f1abf905a5"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/09/leidos-using-quantum-technology-to-thwart-gps-jamming/",
+    "hash": "4347273320fa7ff97c29c2e7e380ccbafd21d6036dec0ed3b95b69538a18a63c"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/09/spacex-to-launch-axiom-mission-4-with-four-astronauts-to-iss-on-wednesday/",
+    "hash": "fe36ef071ad6a69f91848c4498bcf5acf61ffe83b6842f7ebf3360c21e676f35"
+  },
+  {
+    "link": "https://www.nasaspaceflight.com/2025/06/slc-37-starship-draft-eis/",
+    "hash": "ba003b622458351ef68173e99cee29e4a36ef7952477a336aa33a598c9afc872"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/11/warpspace-combines-space-digital-twin-expertise-with-gmo-cybersecurity-by-ierae/",
+    "hash": "c274d00f15f3bdbcc4ba79cd0fb9599169f52b5bf0aaefab9651e8979f5ef609"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/11/spacexs-thursday-plans-for-starlink-group-15-6-smallsats-still-go/",
+    "hash": "014980777274487085681763014ba7f12ed7ddd1b1a5f989fdc06a3f6b053bb9"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/11/eutelsats-efforts-to-obtain-funding-to-save-oneweb/",
+    "hash": "8bbccd487d8fbdf4b5d83370d6b2ebcafb4026571ecde815588ed1018a65c196"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/11/rocket-labs-electron-sends-the-mountain-god-guards-iqps-launch-3-soaring/",
+    "hash": "63da6de52c98380492bbdd48a1449983e2d3ea3d6361406cf9a39d0eed0308c5"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/11/viasats-digital-bus-solution-is-in-trials-with-brazils-satelite-norte/",
+    "hash": "5caf9f201255842689a2c76c1691d9a674685cc2000988be69db964d22274fad"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/11/forresters-digest-european-union-approves-the-ses-purchase-of-intelsat/",
+    "hash": "49f76242335b2b71d626c662fa340effb5228bd3e9cb8ddd062b894d45943bad"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/11/pixxel-signs-idex-spark-grant-agreement-to-develop-hyperspectral-mwir-payloads-for-the-indian-air-force/",
+    "hash": "9e1504062976bdae77afc205f13d57203e249ad44d57d0e3ad2ee05430f5bcfd"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/11/new-wta-report-explores-the-growing-shift-toward-teleport-operators-providing-managed-network-services/",
+    "hash": "f3c0c6dc93eafca9680d8d773f4c3a2a483abe3f9983f9a225c3c021f33061e3"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/11/ussf-awards-a-25-million-contract-to-integrate-for-program-execution-modernization/",
+    "hash": "5934c77a88389e6875a5634f25208d8748587526a46964da8ea1748a37b6f705"
+  },
+  {
+    "link": "https://news.satnews.com/2025/06/11/hungary-intelsat-renews-dth-deal-with-hdt/",
+    "hash": "adfe1945130c703ad365f40259638c1f31e50027a7a8890e78bcfc982ddd95bc"
   }
 ]
