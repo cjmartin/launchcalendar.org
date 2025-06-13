@@ -1977,11 +1977,11 @@
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/06/launch-roundup-061025/",
-    "hash": "0325b297e49ac7f2968b6cd27f61e7995c63345165a0b49624abe158467804cf"
+    "hash": "c7464cf335fd57b911eccc35814b7ca8668bd228bee6d751774dad1b1a2f6476"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/06/ax-4-launch/",
-    "hash": "97a894e088ffa9ceb635b4d9270f7855051cd2c1c3264e713c5dcb2ea10723b3"
+    "hash": "4a4feaa03a457acead6978bdcd669b24c5c380fec6bef4e88b03ba4c18d8644c"
   },
   {
     "link": "https://www.nasaspaceflight.com/2025/06/booster-14-reflies-next-primary-objectives/",
@@ -2102,5 +2102,9 @@
   {
     "link": "https://news.satnews.com/2025/06/11/hungary-intelsat-renews-dth-deal-with-hdt/",
     "hash": "adfe1945130c703ad365f40259638c1f31e50027a7a8890e78bcfc982ddd95bc"
+  },
+  {
+    "link": "https://europeanspaceflight.com/the-exploration-company-launches-mission-possible-recovery-vessel/",
+    "hash": "c86737526909fd061549bd458126ebda10eaed117742fafdd89fd3bade298d87"
   }
 ]
